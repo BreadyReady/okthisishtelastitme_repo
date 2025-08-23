@@ -1,0 +1,19 @@
+﻿set_research_slots = 1
+
+capital = 22
+
+set_stability = 0.40
+set_war_support = 35
+
+set_politics = {
+	ruling_party = neutrality
+}
+set_popularities = {
+	neutrality = 65
+	fascism = 17
+	democratic = 18
+}
+
+load_oob = MEW
+
+recruit_character = MEW_eclipsa_butterfly

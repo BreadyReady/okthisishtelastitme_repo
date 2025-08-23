@@ -1,0 +1,20 @@
+state={
+	id=86
+	name="STATE_86"
+	history = {
+		owner = MON
+		add_core_of = MON
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		219 255 954 992 1504 1930 3000 3886 3905 4371 5981 6806 8473 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

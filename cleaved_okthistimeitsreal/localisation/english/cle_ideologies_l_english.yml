@@ -1,0 +1,26 @@
+﻿l_english:
+
+ neutrality:0 "Mewman Monarchy"
+ neutrality_desc:0 "Mewman Monarchy"
+ neutrality_noun:0 "Mewman Monarchy"
+ sparkle_monarchy:0 "Sparkle Monarchy"
+ sparkle_monarchy_desc:0 "Sparkle Monarchy is the unique way of ruling of Star Butterfly. Narwhal blast!"
+ 
+ fascism:0 "Authoritarianism"
+ fascism_desc:0 "Authoritarian Regime"
+ fascism_noun:0 "Authoritarianism"
+ gen_nazism:0 "Authoritarianism is a form of government where strict obedience to a central authority is enforced at the expense of personal freedom."
+ mewman_authoritarianism:0 "Mewman Absolutism"
+ mewman_authoritarianism_desc:0 "Opposed to regular Mewman monarchy where the Monarch of Mewni must maintain appeasement between the people, various lords, and other powerful factions, Mewman Absolutism gives the Monarch of Mewni absolute power. Under Mewman absolutism, dissent is harshly punished.\n\nNaturally, this style of Government requires a strong and competent leader."
+ solarianism:0 "Solarianism"
+ solarianism_desc:0 "Solarianism is the political philosophy of Queen Solaria Butterfly, the 28th Queen of Mewni who reigned 300 years ago. This involves extreme militarism, Mewman expansionism, and extreme anti-monster policies."
+ cle_knightly_supremacy:0 "Kngihtly Supremacy"
+ cle_knightly_supremacy_desc:0 "Knightly Supremacy is a form of despotism that enshrines the traditions of, and empowers, the warrior-class knighthood."
+ 
+ #modifiers:
+ fascism_drift:0 "Daily $fascism$ Support"
+ fascism_drift_tt: " $fascism_drift$: $RIGHT|+=2$"
+ neutrality_drift:0 "Daily Support for $neutrality$"
+ neutrality_drift_tt: " $neutrality_drift$: $RIGHT|+=2$"
+ fascism_acceptance:0 "Acceptance of $fascism$ Diplomacy"
+ neutrality_acceptance:0 "Acceptance of $neutrality$ Diplomacy"

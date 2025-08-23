@@ -1,0 +1,14 @@
+state={
+	id=76
+	name="STATE_76"
+	history = {
+		owner = LUC
+		add_core_of = LUC
+	}
+	provinces={
+		873 1135 2454 3543 3885 4532 5038 6216 6233 6444 8937 8960 8996 9039 9152 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

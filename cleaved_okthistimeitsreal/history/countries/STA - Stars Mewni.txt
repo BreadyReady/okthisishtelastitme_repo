@@ -1,0 +1,22 @@
+﻿set_research_slots = 1
+
+capital = 25
+
+set_stability = 0.40
+set_war_support = 35
+
+MON = {
+	puppet = STA
+}
+
+set_politics = {
+	ruling_party = neutrality
+}
+set_popularities = {
+	neutrality = 80
+	democratic = 20
+}
+
+load_oob = STA
+
+recruit_character = STA_star_butterfly

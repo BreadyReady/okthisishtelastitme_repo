@@ -1,0 +1,30 @@
+state={
+	id=71
+	name="STATE_71"
+	history = {
+		owner = MON
+		add_core_of = MON
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 2
+		}
+		
+		victory_points = {
+			2981 25
+		}
+	}
+	
+	resources = {
+		tungsten = 4
+	}
+	provinces={
+		2074 2445 2981 3639 3660 3991 8147 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

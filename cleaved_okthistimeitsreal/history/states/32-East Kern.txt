@@ -1,0 +1,21 @@
+state={
+	id=32
+	name="STATE_32"
+	history = {
+		owner = MAR
+		add_core_of = MAR
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	provinces={
+		1851 2195 4226 4265 4854 6667 8736 8776 8802 
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

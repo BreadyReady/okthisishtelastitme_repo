@@ -1,0 +1,45 @@
+state={
+	id=22
+	name="STATE_22"
+	history = {
+		owner = MEW
+		add_core_of = MEW
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		
+		victory_points = {
+			2441 30
+		}
+		
+		victory_points = {
+			8954 10
+		}
+		
+		victory_points = {
+			2701 1
+		}
+		
+		victory_points = {
+			5864 1
+		}
+		
+		victory_points = {
+			2990 1
+		}
+	}
+	
+	resources = {
+		steel = 14
+	}
+	provinces={
+		2441 2645 2701 2990 5864 6596 8944 8952 8954 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

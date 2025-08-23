@@ -1,0 +1,30 @@
+state={
+	id=27
+	name="STATE_27"
+	history = {
+		owner = MEW
+		add_core_of = MEW
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 4
+			10398 = {
+				naval_base = 2
+			}
+			10396 = {
+				naval_base = 2
+			}
+		}
+	}
+	
+	resources = {
+		oil = 42
+	}
+	provinces={
+		10394 10395 10396 10397 10398 10399 
+	}
+	manpower=3500
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,30 @@
+state={
+	id=80
+	name="STATE_80"
+	history = {
+		owner = MEW
+		add_core_of = MEW
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		
+		victory_points = {
+			9268 20
+		}
+	}
+	
+	resources = {
+		steel = 26
+		aluminium = 8
+	}
+	provinces={
+		728 1876 5028 6609 9268 9273 9333 9340 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

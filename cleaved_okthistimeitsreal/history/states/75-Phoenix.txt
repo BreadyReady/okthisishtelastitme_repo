@@ -1,0 +1,14 @@
+state={
+	id=75
+	name="STATE_75"
+	history = {
+		owner = LUC
+		add_core_of = LUC
+	}
+	provinces={
+		1692 2387 3832 6132 9245 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

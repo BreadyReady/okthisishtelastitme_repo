@@ -1,0 +1,20 @@
+state={
+	id=37
+	name="STATE_37"
+	history = {
+		owner = MEW
+		add_core_of = MEW
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1316 2175 2466 2738 3161 3834 4025 4236 5217 6603 8781 8865 8935 8948 
+	}
+	manpower=75000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,17 @@
+characters={
+	MON_moon_butterfly = {
+		name = MON_moon_butterfly
+		portraits={
+			civilian={
+				large = GFX_portrait_MON_moon_butterfly
+			}
+		}
+		country_leader={
+			ideology = oligarchism
+			desc = MON_moon_butterfly_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,30 @@
+state={
+	id=72
+	name="STATE_72"
+	history = {
+		owner = JAN
+		add_core_of = JAN
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		
+		victory_points = {
+			6583 30
+		}
+	}
+	
+	resources = {
+		steel = 26
+		aluminium = 8
+	}
+	provinces={
+		238 603 749 1968 6385 6583 8702 8741 13042 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

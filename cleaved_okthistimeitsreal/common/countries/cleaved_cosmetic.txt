@@ -1,0 +1,4 @@
+STA_MON = {
+	color = rgb { 50 150 150 }
+	color_ui = rgb { 50 150 150 }
+}

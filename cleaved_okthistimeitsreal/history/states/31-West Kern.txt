@@ -1,0 +1,21 @@
+state={
+	id=31
+	name="STATE_31"
+	history = {
+		owner = HIG
+		add_core_of = HIG
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	provinces={
+		230 3126 8662 
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

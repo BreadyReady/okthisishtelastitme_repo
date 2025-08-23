@@ -1,0 +1,14 @@
+state={
+	id=51
+	name="STATE_51"
+	history = {
+		owner = JOH
+		add_core_of = JOH
+	}
+	provinces={
+		2616 3053 3393 3726 4699 6159 6282 6512 7656 7701 7780 7815 7861 7920 7943 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

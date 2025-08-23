@@ -1,0 +1,16 @@
+characters={
+	MEW_eclipsa_butterfly = {
+		name = MEW_eclipsa_butterfly
+		portraits={
+			civilian={
+				large = GFX_portrait_MEW_eclipsa_butterfly
+			}
+		}
+		country_leader={
+			ideology = oligarchism
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

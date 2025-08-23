@@ -1,0 +1,31 @@
+state={
+	id=88
+	name="STATE_88"
+	history = {
+		owner = STA
+		add_core_of = STA
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+
+		}
+		
+		victory_points = {
+			8214 10
+		}
+	}
+	
+	resources = {
+		steel = 14
+		aluminium = 4
+	}
+	provinces={
+		2146 6548 8214 8215 8231 8236 8237 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

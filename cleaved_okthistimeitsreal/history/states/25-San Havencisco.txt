@@ -1,0 +1,40 @@
+state={
+	id=25
+	name="STATE_25"
+	history = {
+		owner = STA
+		add_core_of = STA
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 3
+			air_base = 2
+			8224 = {
+				naval_base = 7
+
+			}
+
+		}
+		
+		victory_points = {
+			8224 40
+		}
+	}
+	
+	resources = {
+		steel = 15
+		aluminium = 10
+		tungsten = 6
+		chromium = 3
+		oil = 8
+	}
+	provinces={
+		4722 8224 8247 8258 8309 8318 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

@@ -1,0 +1,84 @@
+MEW_pre_civil_war_advisors_moon = {
+    name = "Pre Civil War Advisors Moon"
+    desc = "Ensure that MEW AI spends PP on democratic reformer advisor to get past the final pre-civil war focus for moon"
+    allowed = {
+        tag = MEW
+    }
+	enable = {
+		has_completed_focus = MEW_moon_butterfly_rightful_throne
+	}
+	abort = {
+		has_completed_focus = MEW_eclipsa_unity_decree
+	}
+	
+    ideas = {
+        MEW_democracy_char = 999
+    }
+}
+
+MEW_pre_civil_war_advisors_eclipsa = {
+    name = "Pre Civil War Advisors Eclipsa"
+    desc = "Ensure that MEW AI spends PP on stability advisor to get past the final pre-civil war focus for moon"
+    allowed = {
+        tag = MEW
+    }
+	enable = {
+		has_completed_focus = MEW_maintain_eclipsa_rule
+	}
+	abort = {
+		has_completed_focus = MEW_eclipsa_unity_decree
+	}
+	
+    ideas = {
+        MEW_stability_char = 999
+    }
+}
+
+MEW_pre_civil_war_advisors_moon = {
+    name = "Pre Civil War Advisors MArco"
+    desc = "Ensure that MEW AI spends PP on marco advisor to get past the final pre-civil war focus for nobles"
+    allowed = {
+        tag = MEW
+    }
+	enable = {
+		AND = {
+			has_completed_focus = MEW_power_to_the_nobles
+		}
+	}
+	abort = {
+		has_completed_focus = MEW_eclipsa_unity_decree
+	}
+	
+    ideas = {
+        MEW_marco_diaz = 999
+    }
+}
+
+MEW_deployment_1 = {
+	enable = {
+		original_tag = MEW
+		always = yes
+	}
+	abort = {
+		always = no
+	}
+
+	ai_strategy = { type = build_army id = infantry 			value = 100 }
+	ai_strategy = { type = build_army id = heavy_armor 	value = 5 }
+	ai_strategy = { type = build_army id = medium_armor 	value = 10 } #idk if this actually works
+	ai_strategy = { type = build_army id = light_armor 	value = 5 } #idk if this actually works
+	
+	ai_strategy = { type = role_ratio id = infantry 	value = 100 }	
+	ai_strategy = { type = role_ratio id = mountaineers	value = 5	}	
+	ai_strategy = { type = role_ratio id = marines 		value = 0 	}		
+	ai_strategy = { type = role_ratio id = motorized 	value = 10 	}	
+	ai_strategy = { type = role_ratio id = mechanized 	value = 0   }		
+	ai_strategy = { type = role_ratio id = garrison	 	value = 0 	}
+	ai_strategy = { type = role_ratio id = militia 		value = 0 	}
+
+	ai_strategy = { type = role_ratio id = light_armor 	value = 5 	}
+	ai_strategy = { type = role_ratio id = medium_armor value = 0 	}
+	ai_strategy = { type = role_ratio id = heavy_armor 	value = 5 	}
+
+	ai_strategy = { type = dockyard_to_military_factory_ratio value = -100 }
+}

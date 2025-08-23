@@ -1,0 +1,29 @@
+state={
+	id=89
+	name="STATE_89"
+	history = {
+		owner = STA
+		add_core_of = STA
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		
+		victory_points = {
+			8146 10
+		}
+	}
+	
+	resources = {
+		steel = 16
+	}
+	provinces={
+		649 1444 4876 8113 8146 8159 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,39 @@
+state={
+	id=38
+	name="STATE_38"
+	history = {
+		owner = HIG
+		add_core_of = HIG
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			
+			6221 = {
+				naval_base = 3
+			}
+		}
+		
+		victory_points = {
+			6221 10
+		}
+		
+		victory_points = {
+			8422 10
+		}
+	}
+	
+	resources = {
+		steel = 15
+		aluminium = 5
+	}
+	
+	provinces={
+		3381 5187 5336 5351 6221 8422 8452 8483 8516 8587 
+	}
+	manpower=430000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+﻿set_research_slots = 1
+
+capital = 24
+
+set_stability = 0.40
+set_war_support = 35
+
+set_politics = {
+	ruling_party = neutrality
+}
+set_popularities = {
+	neutrality = 65
+	democratic = 35
+}
+
+load_oob = MAR
+
+recruit_character = MAR_marco_diaz

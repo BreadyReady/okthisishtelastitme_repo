@@ -1,0 +1,17 @@
+characters={
+	JAN_janna_ordonia = {
+		name = JAN_janna_ordonia
+		portraits={
+			civilian={
+				large = GFX_portrait_JAN_janna_ordonia
+			}
+		}
+		country_leader={
+			ideology = gen_nazism
+			desc = JAN_janna_ordonia_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

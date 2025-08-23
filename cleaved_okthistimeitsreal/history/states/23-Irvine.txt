@@ -1,0 +1,26 @@
+state={
+	id=23
+	name="STATE_23"
+	history = {
+		owner = MEW
+		add_core_of = MEW
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	
+	resources = {
+		aluminium = 8
+	}
+	
+	provinces={
+		179 1613 2380 8991 9037 9051 9062 9091 
+	}
+	manpower=3000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

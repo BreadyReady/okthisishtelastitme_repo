@@ -1,0 +1,31 @@
+state={
+	id=43
+	name="STATE_43"
+	history = {
+		owner = MAR
+		add_core_of = MAR
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+		}
+		
+		victory_points = {
+			1715 10
+		}
+	}
+	
+	resources = {
+		aluminium = 8
+		oil = 4
+	}
+	provinces={
+		915 918 1664 1715 3017 3232 3754 4291 4391 4537 4724 5331 5401 5485 6176 8509 8512 8513 8527 8544 8595 8604 8615 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

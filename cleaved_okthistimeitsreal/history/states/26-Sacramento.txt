@@ -1,0 +1,32 @@
+state={
+	id=26
+	name="STATE_26"
+	history = {
+		owner = MON
+		add_core_of = MON
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 2
+
+		}
+		
+		victory_points = {
+			5120 40
+		}
+	}
+	
+	resources = {
+		steel = 30
+		tungsten = 6
+	}
+	provinces={
+		984 2199 5120 6833 8118 
+	}
+	manpower=1500000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

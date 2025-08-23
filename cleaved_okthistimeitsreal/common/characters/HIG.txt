@@ -1,0 +1,17 @@
+characters={
+	HIG_higgs = {
+		name = HIG_higgs
+		portraits={
+			civilian={
+				large = GFX_portrait_HIG_higgs
+			}
+		}
+		country_leader={
+			ideology = cle_knightly_supremacy
+			desc = HIG_higgs_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,36 @@
+state={
+	id=40
+	name="STATE_40"
+	history = {
+		owner = MON
+		add_core_of = MON
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		
+		victory_points = {
+			8235 20
+		}
+		
+		victory_points = {
+			8256 20
+		}
+	}
+	
+	resources = {
+		aluminium = 5
+		oil = 4
+	}
+	
+	provinces={
+		2293 3712 5776 5786 8235 8256 
+	}
+	manpower=750000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

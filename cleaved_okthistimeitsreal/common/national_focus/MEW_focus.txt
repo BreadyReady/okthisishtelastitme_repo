@@ -1,0 +1,41 @@
+focus_tree = {
+
+	id = MEW_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = MEW
+		}
+	}
+	
+	shared_focus = MEWNI_VASSAL_CIVWAR_keep_neutral
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = {
+		id = MEW_test_focus
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 10
+		y = 0
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+}

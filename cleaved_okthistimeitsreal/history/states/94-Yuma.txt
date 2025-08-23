@@ -1,0 +1,14 @@
+state={
+	id=94
+	name="STATE_94"
+	history = {
+		owner = LUC
+		add_core_of = LUC
+	}
+	provinces={
+		233 487 781 1294 1535 1948 1950 2036 2527 2628 2849 4021 4060 4137 4503 4675 4822 6075 9137 9214 9262 9289 9299 9302 9377 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

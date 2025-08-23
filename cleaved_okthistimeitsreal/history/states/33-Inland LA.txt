@@ -1,0 +1,29 @@
+state={
+	id=33
+	name="STATE_33"
+	history = {
+		owner = MEW
+		add_core_of = MEW
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		
+		victory_points = {
+			8954 10
+		}
+	}
+	
+	resources = {
+		steel = 22
+	}
+	provinces={
+		387 2336 2496 2539 3485 3720 3779 5222 5820 6644 6737 6810 8843 8863 8894 8895 8921 8925 
+	}
+	manpower=175000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

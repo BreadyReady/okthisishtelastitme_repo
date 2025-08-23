@@ -1,0 +1,31 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_STA_star_butterfly"
+		texturefile = "gfx/leaders/STA/STA_star_butterfly.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_MON_moon_butterfly"
+		texturefile = "gfx/leaders/MON/MON_moon_butterfly.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_MEW_eclipsa_butterfly"
+		texturefile = "gfx/leaders/MEW/portrait_MEW_eclipsa_butterfly.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_MAR_marco_diaz"
+		texturefile = "gfx/leaders/MAR/MAR_marco_diaz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_HIG_higgs"
+		texturefile = "gfx/leaders/HIG/HIG_higgs.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_JAN_janna_ordonia"
+		texturefile = "gfx/leaders/JAN/JAN_janna_ordonia.dds"
+	}
+}

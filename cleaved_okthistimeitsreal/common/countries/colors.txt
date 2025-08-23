@@ -1,0 +1,55 @@
+MEW = {
+	color = rgb { 170 0 130 }
+	color_ui = rgb { 170 0 130 }
+}
+
+SPI = {
+	color = rgb { 100 180 90 }
+	color_ui = rgb { 100 180 90 }
+}
+
+TST = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
+MON = {
+	color = rgb { 50 150 150 }
+	color_ui = rgb { 50 150 150 }
+}
+
+STA = {
+	color = rgb { 50 150 150 }
+	color_ui = rgb { 50 150 150 }
+}
+
+#Preserved to be cosmetic
+#STA = {
+#	color = rgb { 148 220 184 }
+#	color_ui = rgb { 148 220 184 }
+#}
+
+HIG = {
+	color = rgb { 190 110 50 }
+	color_ui = rgb { 190 110 50 }
+}
+
+JAN = {
+	color = rgb { 40 40 100 }
+	color_ui = rgb { 40 40 100 }
+}
+
+MAR = {
+	color = rgb { 255 100 100 }
+	color_ui = rgb { 255 100 100 }
+}
+
+LUC = {
+	color = rgb { 150 30 30 }
+	color_ui = rgb { 150 30 30 }
+}
+
+JOH = {
+	color = rgb { 60 100 100 }
+	color_ui = rgb { 60 100 100 }
+}

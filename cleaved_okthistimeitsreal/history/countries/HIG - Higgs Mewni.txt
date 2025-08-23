@@ -1,0 +1,18 @@
+﻿set_research_slots = 1
+
+capital = 28
+
+set_stability = 0.40
+set_war_support = 35
+
+set_politics = {
+	ruling_party = fascism
+}
+set_popularities = {
+	neutrality = 60
+	fascism = 40
+}
+
+load_oob = HIG
+
+recruit_character = HIG_higgs

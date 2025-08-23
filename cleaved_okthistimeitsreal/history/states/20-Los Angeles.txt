@@ -1,0 +1,44 @@
+state={
+	id=20
+	name="STATE_20"
+	history = {
+		owner = MEW
+		add_core_of = MEW
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 3
+			air_base = 2
+			8965 = {
+				naval_base = 7
+
+			}
+		}
+		
+		victory_points = {
+			5548 40
+		}
+		
+		victory_points = {
+			8965 10
+		}
+	}
+	
+	resources = {
+		steel = 20
+		aluminium = 15
+		tungsten = 8
+		chromium = 6
+		oil = 6
+	}
+	
+	provinces={
+		5046 5548 8934 8943 8965 8974 8995 
+	}
+	manpower=4500000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

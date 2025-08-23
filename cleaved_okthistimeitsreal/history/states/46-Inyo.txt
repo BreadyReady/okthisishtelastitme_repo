@@ -1,0 +1,20 @@
+state={
+	id=46
+	name="STATE_46"
+	history = {
+		owner = MON
+		add_core_of = MON
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1470 2124 2476 8464 
+	}
+	manpower=35000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

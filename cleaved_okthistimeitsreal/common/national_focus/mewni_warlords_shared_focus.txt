@@ -1,0 +1,18 @@
+shared_focus = {
+    id = MEWNI_VASSAL_CIVWAR_keep_neutral
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 4
+    y = 0
+	
+	available = {
+	}
+	
+	cost = 3
+
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward = {
+        add_political_power = 100
+    }
+}

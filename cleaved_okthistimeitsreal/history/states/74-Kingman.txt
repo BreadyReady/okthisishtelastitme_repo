@@ -1,0 +1,20 @@
+state={
+	id=74
+	name="STATE_74"
+	history = {
+		owner = JAN
+		add_core_of = JAN
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		318 809 890 1242 1483 2113 4042 4955 5263 6343 8794 13038 13040 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

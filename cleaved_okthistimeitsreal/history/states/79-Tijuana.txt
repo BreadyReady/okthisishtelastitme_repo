@@ -1,0 +1,29 @@
+state={
+	id=79
+	name="STATE_79"
+	history = {
+		owner = MEW
+		add_core_of = MEW
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		
+		victory_points = {
+			4631 15
+		}
+	}
+	
+	resources = {
+		steel = 22
+	}
+	provinces={
+		4631 5559 5581 6434 6827 9255 9271 9295 
+	}
+	manpower=2200000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

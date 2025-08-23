@@ -1,0 +1,17 @@
+characters={
+	STA_star_butterfly = {
+		name = STA_star_butterfly
+		portraits={
+			civilian={
+				large = GFX_portrait_STA_star_butterfly
+			}
+		}
+		country_leader={
+			ideology = sparkle_monarchy
+			desc = STA_star_butterfly_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

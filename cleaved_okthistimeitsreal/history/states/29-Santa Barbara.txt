@@ -1,0 +1,30 @@
+state={
+	id=29
+	name="STATE_29"
+	history = {
+		owner = HIG
+		add_core_of = HIG
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+		}
+		
+		victory_points = {
+			123 10
+		}
+	}
+	
+	resources = {
+		steel = 25
+	}
+	provinces={
+		123 1463 5601 6151 8829 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}
