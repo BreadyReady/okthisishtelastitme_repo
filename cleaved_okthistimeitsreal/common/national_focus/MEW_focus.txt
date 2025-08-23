@@ -11,6 +11,7 @@ focus_tree = {
 	}
 	
 	shared_focus = MEWNI_VASSAL_CIVWAR_keep_neutral
+	shared_focus = MEWNI_SHARED_army_effort
 	
 	default = no # This is not a default generic tree
 	
