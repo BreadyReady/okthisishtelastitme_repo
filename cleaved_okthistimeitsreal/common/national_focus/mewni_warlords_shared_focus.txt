@@ -81,6 +81,54 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = MEWNI_SHARED_mountaineers
+	icon = GFX_goal_generic_small_arms
+	prerequisite = { focus = MEWNI_SHARED_temporary_draft }
+	x = -1
+	y = 2
+	relative_position_id = MEWNI_SHARED_temporary_draft
+	cost = 10
+
+	search_filters = { FOCUS_FILTER_MANPOWER }
+	
+	available_if_capitulated = yes
+#		cancel_if_invalid = no
+#		continue_if_invalid = yes
+
+	ai_will_do = {
+		factor = 1
+		
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}
+
+	completion_reward = {
+		custom_effect_tooltip = MEWNI_SHARED_mountaineers_tt #specify that if you have researched the tech youll get free divisions
+		if = {
+			limit = {
+				has_tech = tech_mountaineers
+			}
+			capital_scope = {
+				create_unit = {
+					division = "name = \"Mountaineer-Division\" division_template = \"Mountaineer-Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
+					owner = ROOT
+					count = 2
+				}
+			}
+		}
+		else = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = mountaineers_tech
+			}
+		}
+	}
+}
+
+shared_focus = {
 	id = MEWNI_SHARED_swell_ranks
 	icon = GFX_goal_generic_small_arms
 	prerequisite = { focus = MEWNI_SHARED_temporary_draft }
@@ -212,6 +260,83 @@ shared_focus = {
 		}
 	}
 }
+
+shared_focus = {
+	id = MEWNI_SHARED_equipment_effort_2
+	icon = GFX_goal_generic_army_artillery
+	prerequisite = { focus = MEWNI_SHARED_equipment_effort }
+	x = 0
+	y = 2
+	relative_position_id = MEWNI_SHARED_equipment_effort
+	cost = 10
+
+	search_filters = {  FOCUS_FILTER_RESEARCH }
+	
+	available_if_capitulated = yes
+#		cancel_if_invalid = no
+#		continue_if_invalid = yes
+
+	ai_will_do = {
+		factor = 1
+		
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = tech_bonus_equipment_effort
+			bonus = 1.0
+			uses = 1
+			category = support_tech
+			category = artillery
+		}
+		add_tech_bonus = {
+			name = tech_bonus_infantry_advances
+			bonus = 1.0
+			ahead_reduction = 2
+			uses = 1
+			category = infantry_weapons
+		}
+	} # End Reward Bloc
+} # End Focus
+
+shared_focus = {
+	id = MEWNI_SHARED_equipment_effort_3
+	icon = GFX_goal_generic_army_artillery2
+	prerequisite = { focus = MEWNI_SHARED_equipment_effort_2 }
+	x = 0
+	y = 2
+	relative_position_id = MEWNI_SHARED_equipment_effort_2
+	cost = 10
+
+	search_filters = {  FOCUS_FILTER_RESEARCH }
+	
+	available_if_capitulated = yes
+#		cancel_if_invalid = no
+#		continue_if_invalid = yes
+
+	ai_will_do = {
+		factor = 1
+		
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}
+
+	completion_reward = {
+		add_tech_bonus = {
+			name = tech_bonus_artillery_effort
+			bonus = 1.0
+			ahead_reduction = 2
+			uses = 2
+			category = artillery
+		}
+	} # End Rewards
+} # End Focus
 
 shared_focus = {
 	id = MEWNI_SHARED_equipment_import
@@ -614,7 +739,7 @@ shared_focus = {
 	}
 }
 
-focus = {
+shared_focus = {
 	id = MEWNI_SHARED_doctrine_effort_3
 	icon = GFX_goal_generic_army_doctrines
 	prerequisite = { focus = MEWNI_SHARED_bgf_citizen_readiness }
@@ -674,7 +799,10 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		add_ideas = XXX
+		add_timed_idea = {
+			idea = shared_mewman_crisis_military_funding
+			days = 730 
+		}
 		#Event after uniting mewni to remove it or keep it for temporary economic debuff
 	} # End Rewards Bloc
 }
@@ -705,4 +833,32 @@ shared_focus = {
 	completion_reward = {
 		add_ideas = XXX
 	} #End Rewards Bloc
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_bgf_swiss_model
+	icon = GFX_goal_generic_occupy_states_ongoing_war
+	prerequisite = { focus = MEWNI_SHARED_bgf_citizen_readiness }
+	x = 0
+	y = 2
+	relative_position_id = MEWNI_SHARED_bgf_citizen_readiness
+	cost = 10
+	search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
+
+	available_if_capitulated = yes
+#		cancel_if_invalid = no
+#		continue_if_invalid = yes
+
+	ai_will_do = {
+		factor = 1
+		
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}
+
+	completion_reward = {
+		add_ideas = xxx
+	}
 }

@@ -8,6 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology = oligarchism
+			desc = MEW_eclipsa_butterfly_desc
 			traits= { }
 			expire="2040.1.1.1"
 			id=-1

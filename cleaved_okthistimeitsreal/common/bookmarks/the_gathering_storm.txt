@@ -7,8 +7,32 @@ bookmarks = {
 		default_country = "---"
 		default = yes
 		
+		"MEW"={
+			history = "MEW_CALM_BEFORE_THE_STORM_DESC"
+		}
+		
+		"MON"={
+			history = "MON_CALM_BEFORE_THE_STORM_DESC"
+		}
+		
+		"STA"={
+			history = "STA_CALM_BEFORE_THE_STORM_DESC"
+		}
+		
+		"MAR"={
+			history = "MAR_CALM_BEFORE_THE_STORM_DESC"
+		}
+		
+		"HIG"={
+			history = "HIG_CALM_BEFORE_THE_STORM_DESC"
+		}
+		
+		"JAN"={
+			history = "JAN_CALM_BEFORE_THE_STORM_DESC"
+		}
+		
 		"---"={
-			history = "OTHER_BLITZKRIEG_DESC"
+			history = "OTHER_CALM_BEFORE_THE_STORM_DESC"
 		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

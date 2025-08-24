@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		shared_mewman_crisis_military_funding = {
+			name = shared_mewman_crisis_military_funding
+			picture = generic_war_preparation
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				training_time_army_factor = -0.10
+				resistance_damage_to_garrison = -0.10
+				land_reinforce_rate = 0.02
+			}
+		}
+	} # End Country Bloc
+} # End Ideas Bloc
