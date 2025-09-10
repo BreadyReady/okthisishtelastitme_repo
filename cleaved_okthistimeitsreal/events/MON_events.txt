@@ -1,0 +1,22 @@
+﻿###########################
+# Moons mewnie events
+###########################
+
+add_namespace = MON_event
+
+country_event = {
+	id = MON_event.1 #Invitation to the Mewman commonwealth (For other nations)
+	title = MON_event.1.t
+	desc = MON_event.1.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_event.1.a
+		ai_chance = {
+			factor = 1
+		}
+		STA = { add_to_faction = ROOT }
+	}
+}

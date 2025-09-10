@@ -17,7 +17,52 @@ ideas = {
 			modifier = {
 				training_time_army_factor = -0.10
 				resistance_damage_to_garrison = -0.10
-				land_reinforce_rate = 0.02
+				land_reinforce_rate = 0.02 	
+				conscription_factor = 0.1
+			}
+		}
+		
+		shared_mewman_crisis_citizen_readiness_idea = {
+			name = shared_mewman_crisis_citizen_readiness_idea
+			picture = generic_war_preparation
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				training_time_army_factor = -0.05
+				resistance_damage_to_garrison = -0.05
+				land_reinforce_rate = 0.01
+				conscription_factor = 0.05
+			}
+		}
+		
+		shared_mewman_crisis_citizen_readiness_idea_2 = {
+			name = shared_mewman_crisis_citizen_readiness_idea
+			picture = generic_war_preparation
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				training_time_army_factor = -0.15
+				resistance_damage_to_garrison = -0.15
+				land_reinforce_rate = 0.03
+				conscription_factor = 0.15
 			}
 		}
 	} # End Country Bloc

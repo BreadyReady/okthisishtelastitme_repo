@@ -3,7 +3,7 @@
 capital = 22
 
 set_stability = 0.40
-set_war_support = 35
+set_war_support = 0.12
 
 set_politics = {
 	ruling_party = neutrality
@@ -15,5 +15,7 @@ set_popularities = {
 }
 
 load_oob = MEW
+
+add_ideas = shared_mewman_matriarchy_idea
 
 recruit_character = MEW_eclipsa_butterfly

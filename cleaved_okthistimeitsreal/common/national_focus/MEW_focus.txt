@@ -9,34 +9,97 @@ focus_tree = {
 			original_tag = MEW
 		}
 	}
-	
-	shared_focus = MEWNI_VASSAL_CIVWAR_keep_neutral
 	shared_focus = MEWNI_SHARED_army_effort
+	shared_focus = MEWNI_SHARED_aviation_effort
+	shared_focus = MEWNI_SHARED_industrial_effort
+	shared_focus = MEWNI_SHARED_uniting_mewni_branch_start
+	shared_focus = MEWNI_SHARED_forward_operating_bases_las_vegas
+	shared_focus = MEWNI_SHARED_forward_operating_bases_mojave
+	shared_focus = MEWNI_SHARED_forward_operating_bases_san_joaquin
+	shared_focus = MEWNI_SHARED_forward_operating_bases_sierra
 	
 	default = no # This is not a default generic tree
 	
 	continuous_focus_position = { x = 4000	y = 0 } 
 	# Change as needed as more focus are added - orginally {x=50 y=1000}
+}
 
-	focus = {
-		id = MEW_test_focus
-		icon = GFX_goal_focus_mewmans_take_shelter
-		x = 10
-		y = 0
-		
-		bypass = {} 
-		cost = 5
+#FOR TEST
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+focus_tree = {
 
-		completion_reward = {
-		}
-
-		ai_will_do = {
-			factor = 1
-			#modifier = {}
+	id = MAR_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = MAR
 		}
 	}
+	shared_focus = MEWNI_SHARED_army_effort
+	shared_focus = MEWNI_SHARED_aviation_effort
+	shared_focus = MEWNI_SHARED_industrial_effort
+	shared_focus = MEWNI_SHARED_uniting_mewni_branch_start
+	shared_focus = MEWNI_SHARED_forward_operating_bases_las_vegas
+	shared_focus = MEWNI_SHARED_forward_operating_bases_mojave
+	shared_focus = MEWNI_SHARED_forward_operating_bases_san_joaquin
+	shared_focus = MEWNI_SHARED_forward_operating_bases_sierra
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+}
+
+focus_tree = {
+
+	id = HIG_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = HIG
+		}
+	}
+	shared_focus = MEWNI_SHARED_army_effort
+	shared_focus = MEWNI_SHARED_aviation_effort
+	shared_focus = MEWNI_SHARED_industrial_effort
+	shared_focus = MEWNI_SHARED_uniting_mewni_branch_start
+	shared_focus = MEWNI_SHARED_forward_operating_bases_las_vegas
+	shared_focus = MEWNI_SHARED_forward_operating_bases_mojave
+	shared_focus = MEWNI_SHARED_forward_operating_bases_san_joaquin
+	shared_focus = MEWNI_SHARED_forward_operating_bases_sierra
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+}
+
+focus_tree = {
+
+	id = JAN_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = JAN
+		}
+	}
+	shared_focus = MEWNI_SHARED_army_effort
+	shared_focus = MEWNI_SHARED_aviation_effort
+	shared_focus = MEWNI_SHARED_industrial_effort
+	shared_focus = MEWNI_SHARED_uniting_mewni_branch_start
+	shared_focus = MEWNI_SHARED_forward_operating_bases_las_vegas
+	shared_focus = MEWNI_SHARED_forward_operating_bases_mojave
+	shared_focus = MEWNI_SHARED_forward_operating_bases_san_joaquin
+	shared_focus = MEWNI_SHARED_forward_operating_bases_sierra
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
 }

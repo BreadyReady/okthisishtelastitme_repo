@@ -1,6 +1,121 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			MAR = {
+				set_power_balance = {
+					id = SWI_centralization_bop
+				}
+			}
+			MEW = {
+				every_owned_state = {
+					add_to_array = {
+						array = global.mewman_crownlands_states
+						value = THIS.id
+					}
+               }
+			}
+			MON = {
+				every_owned_state = {
+					add_to_array = {
+						array = global.mewman_crownlands_states
+						value = THIS.id
+					}
+                }
+			}
+			STA = {
+				every_owned_state = {
+					add_to_array = {
+						array = global.mewman_crownlands_states
+						value = THIS.id
+					}
+                }
+			}
+			HIG = {
+				every_owned_state = {
+					add_to_array = {
+						array = global.mewman_crownlands_states
+						value = THIS.id
+					}
+                }
+			}
+			MAR = {
+				every_owned_state = {
+					add_to_array = {
+						array = global.mewman_crownlands_states
+						value = THIS.id
+					}
+                }
+			}
+			JAN = {
+				every_owned_state = {
+					add_to_array = {
+						array = global.mewman_crownlands_states
+						value = THIS.id
+					}
+                }
+			}
+		}
+	}
+	on_peace = {
+		effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_global_flag = mewman_crownlands_united
+					}
+					all_of_scopes = {
+						array = global.mewman_crownlands_states
+						owns_or_subject_of = yes
+					}
+				}
+				ROOT = {
+					news_event = mewni_warlords_news_event.7
+					set_country_flag = uniter_of_mewman_crownlands
+				}
+				set_global_flag = mewman_crownlands_united
+			}
+		}
+	}
+	on_monthly = {
+		effect = {
+			IF = {
+				limit = {
+					NOT = {
+						has_global_flag = mewman_crownlands_united
+					}
+					all_of_scopes = {
+						array = global.mewman_crownlands_states
+						owns_or_subject_of = yes
+					}
+				}
+				ROOT = {
+					news_event = mewni_warlords_news_event.7
+					set_country_flag = uniter_of_mewman_crownlands
+				}
+				set_global_flag = mewman_crownlands_united
+			}
+		}
+	}
+	on_subject_free = {
+		effect = {
+			IF = {
+				limit = {
+					ROOT = STA
+					FROM = MON
+				}
+				news_event = mewni_warlords_news_event.5 #DOESNT WORK WHEN SUBJECT BECOMES FREE THROUGH FOCUS
+			}
+		}
+	}
+	on_subject_annexed = {
+		effect = {
+			IF = {
+				limit = {
+					ROOT = STA
+					FROM = MON
+				}
+				news_event = mewni_warlords_news_event.6
+			}
 		}
 	}
 }

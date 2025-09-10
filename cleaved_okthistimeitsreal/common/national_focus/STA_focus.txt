@@ -1,0 +1,1027 @@
+focus_tree = {
+
+	id = STA_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = STA
+		}
+	}
+	shared_focus = MEWNI_SHARED_army_effort
+	shared_focus = MEWNI_SHARED_aviation_effort
+	shared_focus = MEWNI_SHARED_industrial_effort
+	shared_focus = MEWNI_SHARED_uniting_mewni_branch_start
+	shared_focus = MEWNI_SHARED_forward_operating_bases_las_vegas
+	shared_focus = MEWNI_SHARED_forward_operating_bases_mojave
+	shared_focus = MEWNI_SHARED_forward_operating_bases_san_joaquin
+	shared_focus = MEWNI_SHARED_forward_operating_bases_sierra
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = {
+		id = STA_give_peace_a_chance
+		icon = xxx
+		x = 10
+		y = 6
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 10000 #We want her to take this first
+		}
+		
+		select_effect = {
+			news_event = {
+				id = mewni_warlords_news_event.1
+				days = 1
+				random_days = 14
+			}
+			news_event = {
+				id = mewni_warlords_news_event.2
+				days = 28
+				random_days = 14
+			}
+			MON = {
+				country_event = {
+					id = STA_event.2
+					days = 14
+					random_days = 14
+				}
+			}
+			MAR = {
+				country_event = {
+					id = STA_event.2
+					days = 14
+					random_days = 14
+				}
+			}
+			JAN = {
+				country_event = {
+					id = STA_event.2
+					days = 14
+					random_days = 14
+				}
+			}
+			HIG = {
+				country_event = {
+					id = STA_event.2
+					days = 14
+					random_days = 14
+				}
+			}
+			MEW = {
+				country_event = {
+					id = STA_event.2
+					days = 14
+					random_days = 14
+				}
+			}
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = STA_give_peace_a_chance_tt
+			hidden_effect = {
+				country_event = mewni_warlords_news_event.3
+			}
+		}
+	}
+
+	focus = {
+		id = STA_stay_loyal
+		icon = xxx
+		prerequisite = { focus = STA_give_peace_a_chance }
+		mutually_exclusive = { focus = STA_rebel }
+		x = -4
+		y = 1
+		relative_position_id = STA_give_peace_a_chance
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes #will not do if historical focus is on
+			}
+		}
+
+		completion_reward = {
+			add_trait = {
+				 character = STA_star_butterfly
+				 ideology = sparkle_monarchy
+				 trait = cleaved_loyal_to_moon
+			}
+		}
+	}
+	
+	focus = {
+		id = STA_helping_out_moon
+		icon = xxx
+		prerequisite = { focus = STA_stay_loyal }
+		x = 3
+		y = 1
+		relative_position_id = STA_stay_loyal
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		available = {
+			MON = {
+				has_completed_focus = MON_guiding_hand_over_san_havensisco
+			}
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			MON = {
+				add_political_power = 50
+				country_event = xxx
+			}
+		}
+	}
+	
+	focus = {
+		id = STA_technological_talents
+		icon = xxx
+		prerequisite = { focus = STA_helping_out_moon }
+		x = -2
+		y = 3
+		relative_position_id = STA_helping_out_moon
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+			has_completed_focus = STA_network_with_tech_oligarchs
+		}
+
+		completion_reward = {
+			MON = {
+				add_research_slot = 1
+				country_event = xxx
+			}
+			add_autonomy_score = {
+				value = -150
+			}
+		}
+	}
+	
+	focus = {
+		id = STA_gifts_of_production
+		icon = xxx
+		prerequisite = { focus = STA_helping_out_moon }
+		x = 0
+		y = 3
+		relative_position_id = STA_helping_out_moon
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+			OR = {
+				has_completed_focus = STA_industrial_contracts
+				has_completed_focus = STA_production_contracts
+			}
+		}
+
+		completion_reward = {
+			add_ideas = STA_gifts
+			add_autonomy_score = {
+				value = -150
+			}
+			MON = {
+				country_event = xxx
+			}
+		}
+	}
+	
+	focus = {
+		id = STA_positive_image
+		icon = xxx
+		prerequisite = { focus = STA_helping_out_moon }
+		x = 2
+		y = 3
+		relative_position_id = STA_helping_out_moon
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+			OR = {
+				has_completed_focus = STA_visit_victims_of_war
+				has_completed_focus = STA_parades_and_ballrooms
+			}
+		}
+
+		completion_reward = {
+			MON = {
+				add_war_support = 0.08
+				country_event = xxx
+			}
+			add_autonomy_score = {
+				value = -150
+			}
+		}
+	}
+	
+	focus = {
+		id = STA_local_politics
+		icon = xxx
+		prerequisite = { focus = STA_stay_loyal }
+		x = -4
+		y = 1
+		relative_position_id = STA_stay_loyal
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_stability = 0.025
+			add_political_power = 25
+		}
+	}
+	
+	focus = {
+		id = STA_kiss_babies
+		icon = xxx
+		prerequisite = { focus = STA_local_politics }
+		x = 3
+		y = 1
+		relative_position_id = STA_local_politics
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = STA_parades_and_ballrooms
+		icon = xxx
+		prerequisite = { focus = STA_kiss_babies }
+		x = 1
+		y = 1
+		relative_position_id = STA_kiss_babies
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	
+	focus = {
+		id = STA_visit_victims_of_war
+		icon = xxx
+		prerequisite = { focus = STA_kiss_babies }
+		x = -1
+		y = 1
+		relative_position_id = STA_kiss_babies
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = -0.15
+		}
+	}
+	
+	focus = {
+		id = STA_network_with_tech_oligarchs
+		icon = xxx
+		prerequisite = { focus = STA_local_politics }
+		x = -3
+		y = 1
+		relative_position_id = STA_local_politics
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_ideas = STA_tech_connections
+		}
+	}
+	
+	focus = {
+		id = STA_industrial_contracts
+		icon = xxx
+		prerequisite = { focus = STA_network_with_tech_oligarchs }
+		x = -1
+		y = 1
+		relative_position_id = STA_network_with_tech_oligarchs
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = STA_production_contracts
+		icon = xxx
+		prerequisite = { focus = STA_network_with_tech_oligarchs }
+		x = 1
+		y = 1
+		relative_position_id = STA_network_with_tech_oligarchs
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = STA_adopt_local_customs
+		icon = xxx
+		prerequisite = { focus = STA_local_politics }
+		x = 0
+		y = 1
+		relative_position_id = STA_local_politics
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_stability = 0.075
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = STA_grant_human_autonomy
+		icon = xxx
+		prerequisite = { focus = STA_adopt_local_customs }
+		x = 0
+		y = 1
+		relative_position_id = STA_adopt_local_customs
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_ideas = STA_human_autonomy
+		}
+	}
+	
+	focus = {
+		id = STA_pragmatic_star
+		icon = xxx
+		prerequisite = { focus = STA_grant_human_autonomy }
+		prerequisite = { focus = STA_production_contracts }
+		prerequisite = { focus = STA_industrial_contracts }
+		x = -1
+		y = 1
+		relative_position_id = STA_grant_human_autonomy
+		mutually_exclusive = { focus = STA_idealist_star }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = STA_pragmatic_star_tt
+		}
+	}
+	
+	focus = {
+		id = STA_idealist_star
+		icon = xxx
+		prerequisite = { focus = STA_grant_human_autonomy }
+		prerequisite = { focus = STA_visit_victims_of_war }
+		prerequisite = { focus = STA_parades_and_ballrooms }
+		x = 1
+		y = 1
+		relative_position_id = STA_grant_human_autonomy
+		mutually_exclusive = { focus = STA_idealist_star }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = STA_idealist_star_tt
+		}
+	}
+	
+	focus = {
+		id = STA_taking_on_greater_responsibilities
+		icon = xxx
+		prerequisite = { focus = STA_idealist_star focus = STA_pragmatic_star }
+		prerequisite = { focus = STA_positive_image }
+		prerequisite = { focus = STA_gifts_of_production }
+		prerequisite = { focus = STA_technological_talents }
+		x = 2
+		y = 1
+		relative_position_id = STA_idealist_star
+		cost = 10
+
+		available = {
+			has_autonomy_state = autonomy_integrated_puppet
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			MON = {
+				annex_country = {
+					target = STA
+					transfer_troops = yes
+				}
+				change_tag_from = STA
+			}
+		}
+	}
+
+	focus = {
+		id = STA_rebel
+		icon = xxx
+		prerequisite = { focus = STA_give_peace_a_chance }
+		mutually_exclusive = { focus = STA_stay_loyal }
+		x = 4
+		y = 1
+		relative_position_id = STA_give_peace_a_chance
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 50
+				is_historical_focus_on = yes #will do if historical focus is on
+			}
+			modifier = {
+				factor = 50
+				MON = {
+					has_completed_focus = MON_iron_fist_over_san_havensisco
+				}
+			}
+		}
+
+		completion_reward = {
+			add_trait = {
+				 character = STA_star_butterfly
+				 ideology = sparkle_monarchy
+				 trait = cleaved_rebel_princess
+			}
+			news_event = mewni_warlords_news_event.4
+		}
+	}
+
+	focus = {
+		id = STA_resist_mandates
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = STA_rebel }
+		x = -2
+		y = 1
+		relative_position_id = STA_rebel
+		cost = 10
+
+		available = {
+			MON = {
+				has_completed_focus = MON_iron_fist_over_san_havensisco
+			}
+			OR = {
+				has_autonomy_state = autonomy_colony
+				has_autonomy_state = autonomy_dominion
+			}
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = STA_resist_mandates_tt
+		}
+	}
+
+	focus = {
+		id = STA_independence
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = STA_rebel }
+		x = 4
+		y = 1
+		relative_position_id = STA_rebel
+		cost = 5
+
+		available = {
+			has_autonomy_state = autonomy_dominion
+		}
+		
+		bypass = {
+			STA = {
+				is_subject = no
+			}
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			MON = {
+				end_puppet = STA
+			}
+			news_event = mewni_warlords_news_event.5
+		}
+	}
+
+	focus = {
+		id = STA_mewman_commonwealth
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = STA_rebel }
+		x = 0
+		y = 1
+		relative_position_id = STA_rebel
+		cost = 5
+
+		available = {
+			is_subject = no
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			create_faction = "Mewman Commonwealth"
+		}
+	}
+
+	focus = {
+		id = STA_offer_HIG
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = STA_mewman_commonwealth }
+		x = 0
+		y = 1
+		relative_position_id = STA_mewman_commonwealth
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.2
+				HIG = {
+					has_war = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			HIG = {
+				country_event = STA_event.1
+			}
+		}
+	}
+
+	focus = {
+		id = STA_offer_MAR
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = STA_mewman_commonwealth }
+		x = -2
+		y = 1
+		relative_position_id = STA_mewman_commonwealth
+		cost = 5
+		
+		available = {
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.2
+				MAR = {
+					has_war = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			MAR = {
+				country_event = STA_event.1
+			}
+		}
+	}
+
+	focus = {
+		id = STA_offer_JAN
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = STA_mewman_commonwealth }
+		x = 2
+		y = 1
+		relative_position_id = STA_mewman_commonwealth
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.2
+				JAN = {
+					has_war = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			JAN = {
+				country_event = STA_event.1
+			}
+		}
+	}
+
+	focus = {
+		id = STA_offer_MEW
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = STA_mewman_commonwealth }
+		x = -1
+		y = 2
+		relative_position_id = STA_mewman_commonwealth
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.2
+				MEW = {
+					has_war = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			MEW = {
+				country_event = STA_event.1
+			}
+		}
+	}
+
+	focus = {
+		id = STA_offer_MON
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = STA_mewman_commonwealth }
+		x = 1
+		y = 2
+		relative_position_id = STA_mewman_commonwealth
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.2
+				MON = {
+					has_war = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			MON = {
+				country_event = STA_event.1
+			}
+		}
+	}
+
+	focus = {
+		id = STA_form_mewman_commonwealth
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = STA_offer_MON }
+		prerequisite = { focus = STA_offer_MEW }
+		prerequisite = { focus = STA_offer_HIG }
+		prerequisite = { focus = STA_offer_MAR }
+		prerequisite = { focus = STA_offer_JAN }
+		x = -1
+		y = 1
+		relative_position_id = STA_offer_MON
+		cost = 5
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+			all_of_scopes = {
+				array = global.mewman_crownlands_states
+				is_controlled_by_ROOT_or_ally = yes
+				tooltip = STA_form_mewman_commonwealth_requirement_tt
+			}
+			num_faction_members > 1
+		}
+
+		ai_will_do = {
+			factor = 10000
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = STA_form_mewman_commonwealth_tt
+			hidden_effect = {
+				IF = {
+					limit = {
+						num_faction_members > 1 #WILL CRASH WHEN HOVERING OVER FOCUS IF STAR DOES NOT HAVE A FACTION, UNLESS THIS IF STATEMENT IS IN PLACE
+					}
+					every_allied_country = {
+						STA = {
+							annex_country = {
+								target = PREV
+								transfer_troops = yes
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = STA_fortify_east
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = STA_rebel }
+		x = 2
+		y = 1
+		relative_position_id = STA_rebel
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			89 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+			88 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+			39 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
+			89 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+			88 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+			39 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point = yes
+					}
+				}
+			}
+		}
+	}
+}

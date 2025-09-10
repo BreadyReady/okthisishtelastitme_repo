@@ -1,0 +1,457 @@
+focus_tree = {
+
+	id = MON_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = MON
+		}
+	}
+	shared_focus = MEWNI_SHARED_army_effort
+	shared_focus = MEWNI_SHARED_aviation_effort
+	shared_focus = MEWNI_SHARED_industrial_effort
+	shared_focus = MEWNI_SHARED_uniting_mewni_branch_start
+	shared_focus = MEWNI_SHARED_forward_operating_bases_las_vegas
+	shared_focus = MEWNI_SHARED_forward_operating_bases_mojave
+	shared_focus = MEWNI_SHARED_forward_operating_bases_san_joaquin
+	shared_focus = MEWNI_SHARED_forward_operating_bases_sierra
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = {
+		id = MON_empowering_moon
+		icon = xxx
+		x = 5
+		y = 8
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			add_timed_idea = {
+				idea = MON_empowering_moon
+				days = 730
+			}
+		}
+	}
+
+	focus = {
+		id = MON_cult_of_personality
+		icon = xxx
+		prerequisite = { focus = MON_empowering_moon }
+		x = 0
+		y = 1
+		relative_position_id = MON_empowering_moon
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_trait = {
+				 character = MON_moon_butterfly
+				 ideology = oligarchism
+				 trait = cleaved_cult_of_personality
+			}
+		}
+	}
+
+	focus = {
+		id = MON_law_enforcement_loyalty
+		icon = xxx
+		prerequisite = { focus = MON_empowering_moon }
+		x = -2
+		y = 1
+		relative_position_id = MON_empowering_moon
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_ideas = MON_loyal_law_enforcement
+		}
+	}
+
+	focus = {
+		id = MON_propaganda_efforts
+		icon = xxx
+		prerequisite = { focus = MON_empowering_moon }
+		x = 2
+		y = 1
+		relative_position_id = MON_empowering_moon
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_WAR_SUPPORT }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = MON_stir_anti_monster_sentiments
+		icon = xxx
+		prerequisite = { focus = MON_propaganda_efforts }
+		x = 0
+		y = 1
+		relative_position_id = MON_propaganda_efforts
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				has_wargoal_against = MEW
+			}
+			modifier = {
+				factor = 5
+				has_war_with = MEW
+			}
+		}
+
+		completion_reward = {
+			add_stability = -0.05
+			add_ideas = MON_anti_monster_sentiments
+		}
+	}
+
+	focus = {
+		id = MON_iron_fist_over_san_havensisco
+		icon = xxx
+		prerequisite = { focus = MON_empowering_moon }
+		x = 6
+		y = 1
+		relative_position_id = MON_empowering_moon
+		mutually_exclusive = { focus = MON_guiding_hand_over_san_havensisco }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 50
+				is_historical_focus_on = yes #will do if historical focus is on
+			}
+		}
+
+		completion_reward = {
+			add_ideas = MON_havensisco_iron_fist
+			STA = {
+				country_event = xxx
+			}
+		}
+	}
+
+	focus = {
+		id = MON_seize_havensisco_tech
+		icon = xxx
+		prerequisite = { focus = MON_iron_fist_over_san_havensisco }
+		x = -2
+		y = 1
+		relative_position_id = MON_iron_fist_over_san_havensisco
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+			STA = {
+				is_subject_of = MON
+				NOT = {
+					has_completed_focus = STA_resist_mandates
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = MON_havensisco_tech
+				days = 730
+			}
+			STA = {
+				add_ideas = MON_havensisco_tech_debuff
+				country_event = xxx
+			}
+		}
+	}
+
+	focus = {
+		id = MON_seize_havensisco_schematics
+		icon = xxx
+		prerequisite = { focus = MON_seize_havensisco_tech }
+		x = 0
+		y = 1
+		relative_position_id = MON_seize_havensisco_tech
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+			STA = {
+				is_subject_of = MON
+				NOT = {
+					has_completed_focus = STA_resist_mandates
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+			STA = {
+				add_stability = -0.1
+			}
+		}
+	}
+
+	focus = {
+		id = MON_harsh_production_quotas
+		icon = xxx
+		prerequisite = { focus = MON_iron_fist_over_san_havensisco }
+		x = 0
+		y = 1
+		relative_position_id = MON_iron_fist_over_san_havensisco
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+			STA = {
+				is_subject_of = MON
+				NOT = {
+					has_completed_focus = STA_resist_mandates
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			STA = {
+				add_ideas = MON_havensisco_harsh_quotas
+				country_event = xxx
+			}
+		}
+	}
+
+	focus = {
+		id = MON_raid_havensisco
+		icon = xxx
+		prerequisite = { focus = MON_harsh_production_quotas }
+		x = 0
+		y = 1
+		relative_position_id = MON_harsh_production_quotas
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+			STA = {
+				is_subject_of = MON
+				NOT = {
+					has_completed_focus = STA_resist_mandates
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = MON_havensisco_raid
+				days = 730
+			}
+			25 = {
+				damage_building = {
+				  type = infrastructure
+				  damage = 5
+				}
+				damage_building = {
+				  type = industrial_complex
+				  damage = 10
+				}
+				damage_building = {
+				  type = arms_factory
+				  damage = 10
+				}
+			}
+			STA = {
+				country_event = xxx
+			}
+		}
+	}
+
+	focus = {
+		id = MON_seize_resources
+		icon = xxx
+		prerequisite = { focus = MON_iron_fist_over_san_havensisco }
+		x = 2
+		y = 1
+		relative_position_id = MON_iron_fist_over_san_havensisco
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+			STA = {
+				is_subject_of = MON
+				NOT = {
+					has_completed_focus = STA_resist_mandates
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			STA = {
+				give_resource_rights = {
+					receiver = MON
+					state = 89
+				}
+				give_resource_rights = {
+					receiver = MON
+					state = 88
+				}
+				give_resource_rights = {
+					receiver = MON
+					state = 39
+				}
+				country_event = xxx
+			}
+		}
+	}
+
+	focus = {
+		id = MON_seize_greater_resources
+		icon = xxx
+		prerequisite = { focus = MON_seize_resources }
+		x = 0
+		y = 1
+		relative_position_id = MON_seize_resources
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+			STA = {
+				is_subject_of = MON
+				NOT = {
+					has_completed_focus = STA_resist_mandates
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			STA = {
+				give_resource_rights = {
+					receiver = MON
+					state = 25
+				}
+				give_resource_rights = {
+					receiver = MON
+					state = 87
+				}
+				country_event = xxx
+			}
+		}
+	}
+
+	focus = {
+		id = MON_stars_education_continues
+		icon = xxx
+		prerequisite = { focus = MON_iron_fist_over_san_havensisco focus = MON_guiding_hand_over_san_havensisco }
+		x = 4
+		y = 1
+		relative_position_id = MON_iron_fist_over_san_havensisco
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+			owns_state = 89
+			owns_state = 88
+			owns_state = 39
+			owns_state = 25
+			owns_state = 87
+			STA = {
+				exists = no
+			}
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = MON_guiding_hand_over_san_havensisco
+		icon = xxx
+		prerequisite = { focus = MON_empowering_moon }
+		x = 10
+		y = 1
+		relative_position_id = MON_empowering_moon
+		mutually_exclusive = { focus = MON_iron_fist_over_san_havensisco }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			STA = {
+				country_event = xxx
+			}
+		}
+	}
+}

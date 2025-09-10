@@ -1,0 +1,16 @@
+﻿l_english:
+ MEWNI_SHARED_mountaineers:0 "Californian Terrain Studies"
+ MEWNI_SHARED_mountaineers_desc:0 "California is a very hilly and mountainous region. We should make sure we are well acclimated to fighitng in this terrain."
+ MEWNI_SHARED_mountaineers_tt:0 "If you have researched §YMountain Infantry I§!, you will gain 2 units of the §YMountaineer-Division§! template."
+ 
+ MEWNI_SHARED_temporary_draft_tt:0 "In two years:"
+ 
+ MEWNI_SHARED_mercenary_contracts_tt:0 "Gain a Locked Template and 2 20 width veteran infantry divisions. Both the template and divisions will disband upon the end of the Mewman Crisis. §R(DISBANDING NOT YET IMPLEMENTED)§!"
+ 
+ MEWNI_SHARED_borrow_large_loans_tt:0 "Upon the end of the Mewman Crisis, you will lose the above national spirit and gain a new national spirit with grants\nConsumer Goods Factories factor: §Y20.0%§! for §Y545§! day(s). §R(NOT YET IMPLEMENTED)§!" #event exists, mewni_shared_warlord_events.3
+ 
+ MEWNI_SHARED_emergency_taxes_tt:0 "Upon the end of the Mewman Crisis, you may choose to keep the Civillian Factories or give them up in return for a partial restoration of Stability and Warsupport. §R(NOT YET IMPLEMENTED!)§!"
+ 
+ MEWNI_SHARED_emergency_taxes_tt:0 "Upon the end of the Mewman Crisis, you may choose to keep the Military Factories or give them up in return  for a partial restoration of Stability and Warsupport. §R(NOT YET IMPLEMENTED!)§!" #event exists, mewni_shared_warlord_events.4
+ 
+ MEWNI_SHARED_uniting_mewni_branch_start_tt:0 "Unlock decisions to core states within the Mewman Crownlands"

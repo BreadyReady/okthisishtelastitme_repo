@@ -3,16 +3,18 @@
 capital = 72
 
 set_stability = 0.40
-set_war_support = 35
+set_war_support = 0.2
 
 set_politics = {
 	ruling_party = fascism
 }
 set_popularities = {
-	fascism = 60
-	democratic = 40
+	fascism = 40
+	democratic = 60
 }
 
 load_oob = JAN
+
+add_ideas = shared_mewman_matriarchy_idea
 
 recruit_character = JAN_janna_ordonia

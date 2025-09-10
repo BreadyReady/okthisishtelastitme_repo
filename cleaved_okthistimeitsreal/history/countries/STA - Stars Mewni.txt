@@ -3,7 +3,7 @@
 capital = 25
 
 set_stability = 0.40
-set_war_support = 35
+set_war_support = 0.2
 
 MON = {
 	puppet = STA
@@ -18,5 +18,7 @@ set_popularities = {
 }
 
 load_oob = STA
+
+add_ideas = shared_mewman_matriarchy_idea
 
 recruit_character = STA_star_butterfly

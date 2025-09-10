@@ -1,0 +1,30 @@
+leader_traits = {
+	cleaved_cult_of_personality = {
+		random = no
+		political_power_factor = 0.1
+		weekly_casualties_war_support = 0.001
+		ai_desired_divisions_factor = 0.20
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cleaved_rebel_princess = {
+		random = no
+		autonomy_gain = 15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cleaved_loyal_to_moon = {
+		random = no
+		autonomy_gain = -4
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

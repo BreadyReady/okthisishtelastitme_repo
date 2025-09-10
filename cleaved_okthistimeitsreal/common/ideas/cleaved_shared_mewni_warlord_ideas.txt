@@ -1,0 +1,143 @@
+ideas = {
+	country = {
+		shared_mewman_matriarchy_idea = {
+			name = shared_mewman_matriarchy_idea
+			picture = generic_war_preparation
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				female_random_country_leader_chance = 5
+				female_random_army_leader_chance = 5
+				female_random_admiral_chance = 5
+				female_divisional_commander_chance = 5
+				female_random_scientist_chance = 5
+				female_random_country_leader_chance = 5
+				female_random_operative_chance = 5
+			}
+		}
+		shared_mewman_loans_mercenary_idea = {
+			name = shared_mewman_loans_mercenary_idea
+			picture = generic_war_preparation
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		shared_mewman_loans_equipment_idea = {
+			name = shared_mewman_loans_equipment_idea
+			picture = generic_war_preparation
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		shared_mewman_borrow_large_loans_idea = {
+			name = shared_mewman_loans_equipment_idea
+			picture = generic_war_preparation
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+		
+		shared_mewman_borrow_large_loans_idea_2 = {
+			name = shared_mewman_loans_equipment_idea
+			picture = generic_war_preparation
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.20
+			}
+		}
+		
+		shared_mewman_untrained_ranks_idea = {
+			name = shared_mewman_untrained_ranks_idea
+			picture = generic_war_preparation
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = -0.1
+				experience_gain_army = -0.35
+			}
+		}
+		
+		shared_mewman_salvage_program_idea = {
+			name = shared_mewman_salvage_program_idea
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_lack_of_resource_penalty_factor = -0.20
+				equipment_capture_factor = 0.10
+				equipment_conversion_speed = 0.50
+			}
+		}
+	} # End Country Bloc
+} # End Ideas Bloc

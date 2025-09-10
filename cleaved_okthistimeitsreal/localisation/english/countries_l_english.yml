@@ -15,13 +15,13 @@
  MON_DEF:0 "Moon's Mewni"
  MON_ADJ:0 "Moon's Mewni"
  
- #STA:0 "Star's Mewni"
- #STA_DEF:0 "Star's Mewni"
- #STA_ADJ:0 "Star's Mewni"
- 
  STA:0 "Star's Duchy"
  STA_DEF:0 "Star's Duchy"
  STA_ADJ:0 "Star's Duchy"
+
+ STA_REBEL:0 "Star's Mewni"
+ STA_REBEL_DEF:0 "Star's Mewni"
+ STA_REBEL_ADJ:0 "Star's Mewni"
  
  HIG:0 "Higgs' Mewni"
  HIG_DEF:0 "Higgs' Mewni"

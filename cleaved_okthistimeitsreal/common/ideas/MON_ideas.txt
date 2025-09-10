@@ -1,0 +1,159 @@
+ideas = {
+	country = {
+		MON_empowering_moon = {
+			name = MON_empowering_moon
+			picture = xxx
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.03
+			}
+		}
+		
+		MON_loyal_law_enforcement = {
+			name = MON_loyal_law_enforcement
+			picture = xxx
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				required_garrison_factor = -0.1
+			}
+		}
+		
+		MON_anti_monster_sentiments = {
+			name = MON_anti_monster_sentiments
+			picture = xxx
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = MEW
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		
+		MON_havensisco_iron_fist = {
+			name = MON_havensisco_iron_fist
+			picture = xxx
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				subjects_autonomy_gain = -0.5
+			}
+		}
+		
+		MON_havensisco_harsh_quotas = {
+			name = MON_havensisco_harsh_quotas
+			picture = xxx
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				cic_to_overlord_factor = 0.1
+				mic_to_overlord_factor  = 0.3
+				extra_trade_to_overlord_factor = 0.3
+			}
+		}
+		
+		MON_havensisco_tech = {
+			name = MON_havensisco_tech
+			picture = xxx
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.15
+			}
+		}
+		
+		MON_havensisco_tech_debuff = {
+			name = MON_havensisco_tech_debuff
+			picture = xxx
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = -0.15
+			}
+		}
+		
+		MON_havensisco_raid = {
+			name = MON_havensisco_raid
+			picture = xxx
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}
+	} # End Country Bloc
+} # End Ideas Bloc

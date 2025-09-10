@@ -1,0 +1,64 @@
+ideas = {
+	country = {
+		STA_tech_connections = {
+			name = STA_tech_connections
+			picture = xxx
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.05
+				research_speed_factor = 0.1
+			}
+		}
+		
+		STA_human_autonomy = {
+			name = STA_tech_connections
+			picture = xxx
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = 0.05
+			}
+		}
+		
+		STA_gifts = {
+			name = STA_gifts
+			picture = xxx
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				cic_to_overlord_factor = 0.05
+				mic_to_overlord_factor  = 0.15
+				extra_trade_to_overlord_factor = 0.15
+			}
+		}
+	} # End Country Bloc
+} # End Ideas Bloc

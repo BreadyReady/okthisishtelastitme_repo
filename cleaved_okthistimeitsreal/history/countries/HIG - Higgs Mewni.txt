@@ -3,7 +3,7 @@
 capital = 28
 
 set_stability = 0.40
-set_war_support = 35
+set_war_support = 0.2
 
 set_politics = {
 	ruling_party = fascism
@@ -14,5 +14,7 @@ set_popularities = {
 }
 
 load_oob = HIG
+
+add_ideas = shared_mewman_matriarchy_idea
 
 recruit_character = HIG_higgs

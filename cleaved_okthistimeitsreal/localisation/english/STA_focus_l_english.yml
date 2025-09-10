@@ -1,0 +1,14 @@
+﻿l_english:
+ STA_give_peace_a_chance:0 "Congress of Mewni"
+ STA_give_peace_a_chance_desc:0 "TO WRITE"
+ STA_give_peace_a_chance_tt:0 "§YBegin an Event Chain about the Congress of Mewni, where a diplomatic solution to the Mewman Crisis is Attempted§!"
+ 
+ STA_pragmatic_star_tt:0 "When annexed by [MON.GetName], Star will become an advisor for them that grants a political power and stability bonus. Star will also be open to marry for political reasons. §RNOT YET IMPLEMENTED!§!"
+ 
+ STA_idealist_star_tt:0 "When annexed by [MON.GetName], Star will become an advisor for them that grants a lesser political power and stability bonus. Star will also eventually marry for love. §RNOT YET IMPLEMENTED!§!"
+ 
+ STA_resist_mandates:0 "Resist Moon's Mandates"
+ STA_resist_mandates_tt:0 "[MON.GetName] will be unable to take focuses branching from the focus §Y$MON_iron_fist_over_san_havensisco$§!"
+ 
+ STA_form_mewman_commonwealth_requirement_tt:0 "All states within the Mewman Crownlands (meaning each state that §Y[MEW.getflag] [MEW.getname]§!, §Y[MON.getflag] [MON.getname]§!, §Y[STA.getflag] [STA.getname]§!, §Y[MAR.getflag] [MAR.getname]§!, §Y[HIG.getflag] [HIG.getname]§!, and §Y[JAN.getflag] [JAN.getname]§! begins with)"
+ STA_form_mewman_commonwealth_tt:0 "§YAnnexes All Faction Members§!"

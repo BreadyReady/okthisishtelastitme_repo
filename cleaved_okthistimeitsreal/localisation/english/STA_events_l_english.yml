@@ -1,0 +1,18 @@
+﻿l_english:
+ STA_event.1.t:0 "Invitation to the Mewman Commonwealth"
+ STA_event.1.desc:0 ""
+ STA_event.1.a:0 "Mewni must stand together!"
+ STA_event.1.b:0 "Our diffrences are too great"
+ 
+ STA_event.2.t:0 "Attending the Congress of Mewni"
+ STA_event.2.desc:0 ""
+ STA_event.2.a:0 "Be there, or be square!"
+ 
+ STA_event.3.t:0 "Attending the Congress of Mewni"
+ STA_event.3.desc:0 "[FROM.GetLeader] has accepted the invitation to the Congress of Mewni!"
+ STA_event.3.a:0 "Awesome!"
+ 
+ STA_event.4.t:0 "[FROM.GetName] Rejects the Mewman Commonwealth!"
+ STA_event.4.desc:0 "[FROM.GetName] has rejected the invitation to the Mewman Commonwealth!"
+ STA_event.4.a:0 "Aw..."
+ 

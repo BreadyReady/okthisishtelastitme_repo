@@ -1,0 +1,330 @@
+﻿###########################
+# news event
+###########################
+
+add_namespace = mewni_warlords_news_event
+
+news_event = { # Star announces congress of mewni
+    id = mewni_warlords_news_event.1
+    title = mewni_warlords_news_event.1.t
+    desc = mewni_warlords_news_event.1.desc
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_my_news_event_picture
+    
+    option = {
+        name = mewni_warlords_news_event.1.a
+		trigger = {
+			tag = STA
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.1.b
+		trigger = {
+			NOT = {
+				tag = STA
+			}
+		}
+    }
+}
+
+news_event = { # Congress of Mewni Begins
+    id = mewni_warlords_news_event.2
+    title = mewni_warlords_news_event.2.t
+    desc = mewni_warlords_news_event.2.desc
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_my_news_event_picture
+    
+    option = {
+        name = mewni_warlords_news_event.2.a
+		trigger = {
+			tag = STA
+		}
+		custom_effect_tooltip = mewni_warlords_news_event_2_tt
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.2.b
+		trigger = {
+			NOT = {
+				tag = STA
+			}
+		}
+		custom_effect_tooltip = mewni_warlords_news_event_2_tt
+    }
+}
+
+news_event = { # Congress of Mewni Fails
+    id = mewni_warlords_news_event.3
+    title = mewni_warlords_news_event.3.t
+    desc = mewni_warlords_news_event.3.desc
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_my_news_event_picture
+    
+    option = {
+        name = mewni_warlords_news_event.3.a
+		trigger = {
+			tag = STA
+		}
+		custom_effect_tooltip = mewni_warlords_news_event_2_tt
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.3.b
+		trigger = {
+			NOT = {
+				tag = STA
+			}
+		}
+		custom_effect_tooltip = mewni_warlords_news_event_2_tt
+    }
+}
+
+news_event = { # Star denounces moons ambitions
+    id = mewni_warlords_news_event.4
+    title = mewni_warlords_news_event.4.t
+    desc = mewni_warlords_news_event.4.desc
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_my_news_event_picture
+    
+    option = {
+        name = mewni_warlords_news_event.4.a
+		trigger = {
+			tag = STA
+			NOt = {
+				tag = MON
+			}
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.4.b
+		trigger = {
+			tag = MON
+			NOT = {
+				tag = STA
+			}
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.4.c
+		trigger = {
+			NOT = {
+				tag = STA
+				tag = MON
+			}
+		}
+    }
+}
+
+news_event = { # Star breaks away from moon
+    id = mewni_warlords_news_event.5
+    title = mewni_warlords_news_event.5.t
+    desc = mewni_warlords_news_event.5.desc
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_my_news_event_picture
+    
+    option = {
+        name = mewni_warlords_news_event.5.a
+		trigger = {
+			tag = STA
+			NOt = {
+				tag = MON
+			}
+		}
+		set_cosmetic_tag = STA_REBEL
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.5.b
+		trigger = {
+			tag = MON
+			NOT = {
+				tag = STA
+			}
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.5.c
+		trigger = {
+			NOT = {
+				tag = STA
+				tag = MON
+			}
+		}
+    }
+}
+
+news_event = { # Moon integrates Star
+    id = mewni_warlords_news_event.6
+    title = mewni_warlords_news_event.6.t
+    desc = mewni_warlords_news_event.6.desc
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_my_news_event_picture
+    
+    option = {
+        name = mewni_warlords_news_event.6.a
+		trigger = {
+			tag = STA
+			NOt = {
+				tag = MON
+			}
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.6.b
+		trigger = {
+			tag = MON
+			NOT = {
+				tag = STA
+			}
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.6.c
+		trigger = {
+			NOT = {
+				tag = STA
+				tag = MON
+			}
+		}
+    }
+}
+
+news_event = { # Unification of Mewman Crownlands
+    id = mewni_warlords_news_event.7
+    title = mewni_warlords_news_event.7.t
+	
+    desc = {
+        text = mewni_warlords_news_event.7.desc.a
+		trigger = {
+			FROM = {
+				tag = MON
+				NOT = {
+					tag = MEW
+					tag = STA
+					tag = HIG
+					tag = MAR
+					tag = JAN
+
+				}
+			}
+		}
+	}
+	
+    desc = {
+        text = mewni_warlords_news_event.7.desc.b
+		trigger = {
+			FROM = {
+				tag = MEW
+				NOT = {
+					tag = MON
+					tag = STA
+					tag = HIG
+					tag = MAR
+					tag = JAN
+				}
+			}
+		}
+	}
+	
+    desc = {
+        text = mewni_warlords_news_event.7.desc.c
+		trigger = {
+			FROM = {
+				tag = STA
+				NOT = {
+					tag = MEW
+					tag = MON
+					tag = HIG
+					tag = MAR
+					tag = JAN
+				}
+			}
+		}
+	}
+	
+    desc = {
+        text = mewni_warlords_news_event.7.desc.d
+		trigger = {
+			FROM = {
+				tag = HIG
+				NOT = {
+					tag = MEW
+					tag = MON
+					tag = STA
+					tag = MAR
+					tag = JAN
+				}
+			}
+		}
+	}
+	
+    desc = {
+        text = mewni_warlords_news_event.7.desc.e
+		trigger = {
+			FROM = {
+				tag = MAR
+				NOT = {
+					tag = MEW
+					tag = MON
+					tag = STA
+					tag = HIG
+					tag = JAN
+				}
+			}
+		}
+	}
+	
+    desc = {
+        text = mewni_warlords_news_event.7.desc.f
+		trigger = {
+			FROM = {
+				tag = JAN
+				NOT = {
+					tag = MEW
+					tag = MON
+					tag = STA
+					tag = HIG
+					tag = MAR
+				}
+			}
+		}
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_my_news_event_picture
+    
+    option = {
+        name = mewni_warlords_news_event.7.a
+		trigger = {
+			tag = FROM
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.7.b
+		trigger = {
+			NOT = {
+				tag = FROM
+			}
+		}
+    }
+}

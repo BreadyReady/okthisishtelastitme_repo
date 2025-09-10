@@ -1,0 +1,97 @@
+﻿###########################
+# stars mewni
+###########################
+
+add_namespace = STA_event
+
+country_event = {
+	id = STA_event.1 #Invitation to the Mewman commonwealth (For other nations)
+	title = STA_event.1.t
+	desc = STA_event.1.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STA_event.1.a
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 50
+				is_historical_focus_on = yes #will do if historical focus is on
+			}
+			modifier = {
+				factor = 50
+				tag = MAR #MArco will always join cuz of Starco. This event will go to him only if hes in power anyway
+			}
+		}
+		STA = { add_to_faction = ROOT }
+	}
+	
+	option = {
+		name = STA_event.1.b
+		STA = { 
+			country_event = STA_event.4
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes #will not do if historical focus is on
+			}
+			modifier = {
+				factor = 0
+				tag = MAR #MArco will always join cuz of Starco. This event will go to him only if hes in power anyway
+			}
+		}
+	}
+}
+
+country_event = {
+	id = STA_event.2 #Should we attend the congress of mewni (For other antions)
+	title = STA_event.2.t
+	desc = STA_event.2.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STA_event.2.a
+		ai_chance = {
+			factor = 1
+		}
+		STA = { country_event = STA_event.3 }
+	}
+}
+
+country_event = {
+	id = STA_event.3 #Accepting attending the congress of mewni
+	title = STA_event.3.t
+	desc = STA_event.3.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STA_event.3.a
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = { #Rejection of joining the mewman commonwealth
+	id = STA_event.4
+	title = STA_event.4.t
+	desc = STA_event.4.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STA_event.4.a
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,103 @@
+﻿###########################
+# Mewni shared warlord Events
+###########################
+
+add_namespace = mewni_shared_warlord_events
+
+country_event = {
+	id = mewni_shared_warlord_events.1 #Ending or keeping temprary draft
+	title = mewni_shared_warlord_events.1.t
+	desc = mewni_shared_warlord_events.1.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mewni_shared_warlord_events.1.a
+		downgrade_conscription_law = yes
+		add_stability = 0.03
+		ai_chance = {
+			base = 1
+		}
+	}
+	option = {
+		name = mewni_shared_warlord_events.1.b
+		add_stability = -0.08
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = {
+	id = mewni_shared_warlord_events.2 #remove mercenaries
+	title = mewni_shared_warlord_events.2.t
+	desc = mewni_shared_warlord_events.2.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mewni_shared_warlord_events.2.a
+		delete_unit_template_and_units = {
+			division_template = "Foreign Mercenary Force"
+			disband = no #will NOT refund equipment and manpower
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -400
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = {
+	id = mewni_shared_warlord_events.3 #paying large loans
+	title = mewni_shared_warlord_events.3.t
+	desc = mewni_shared_warlord_events.3.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mewni_shared_warlord_events.3.a
+		remove_ideas = shared_mewman_borrow_large_loans_idea
+		add_timed_idea = {
+			idea = shared_mewman_borrow_large_loans_idea_2
+			days = 545
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = {
+	id = mewni_shared_warlord_events.4 #returning tax payments
+	title = mewni_shared_warlord_events.4.t
+	desc = mewni_shared_warlord_events.4.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mewni_shared_warlord_events.4.a
+		add_offsite_building = { type = industrial_complex level = -5 }
+		add_stability = 0.05
+		add_war_support = 0.05
+		ai_chance = {
+			base = 1
+		}
+	}
+	
+	option = {
+		name = mewni_shared_warlord_events.4.b
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+

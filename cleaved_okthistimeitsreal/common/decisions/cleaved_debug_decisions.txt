@@ -1,0 +1,1637 @@
+cleaved_mewman_crisis_coring_cat = {
+	
+	mewman_crisis_coring_state_87 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 87
+			}
+		}
+
+		available = {
+			owns_state = 87
+			controls_state = 87
+		}
+
+		visible = {
+			owns_state = 87
+			controls_state = 87
+			87 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 87
+		}
+	}
+	
+	mewman_crisis_coring_state_89 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 89
+			}
+		}
+
+		available = {
+			owns_state = 89
+			controls_state = 89
+		}
+
+		visible = {
+			owns_state = 89
+			controls_state = 89
+			89 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 89
+		}
+	}
+	
+	mewman_crisis_coring_state_88 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 88
+			}
+		}
+
+		available = {
+			owns_state = 88
+			controls_state = 88
+		}
+
+		visible = {
+			owns_state = 88
+			controls_state = 88
+			88 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 88
+		}
+	}
+	
+	mewman_crisis_coring_state_39 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 39
+			}
+		}
+
+		available = {
+			owns_state = 39
+			controls_state = 39
+		}
+
+		visible = {
+			owns_state = 39
+			controls_state = 39
+			39 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 39
+		}
+	}
+	
+	mewman_crisis_coring_state_25 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 25
+			}
+		}
+
+		available = {
+			owns_state = 25
+			controls_state = 25
+		}
+
+		visible = {
+			owns_state = 25
+			controls_state = 25
+			25 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 25
+		}
+	}
+	
+	mewman_crisis_coring_state_40 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 40
+			}
+		}
+
+		available = {
+			owns_state = 40
+			controls_state = 40
+		}
+
+		visible = {
+			owns_state = 40
+			controls_state = 40
+			40 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 40
+		}
+	}
+	
+	mewman_crisis_coring_state_26 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 26
+			}
+		}
+
+		available = {
+			owns_state = 26
+			controls_state = 26
+		}
+
+		visible = {
+			owns_state = 26
+			controls_state = 26
+			26 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 26
+		}
+	}
+	
+	mewman_crisis_coring_state_45 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 45
+			}
+		}
+
+		available = {
+			owns_state = 45
+			controls_state = 45
+		}
+
+		visible = {
+			owns_state = 45
+			controls_state = 45
+			45 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 45
+		}
+	}
+	
+	mewman_crisis_coring_state_49 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 49
+			}
+		}
+
+		available = {
+			owns_state = 49
+			controls_state = 49
+		}
+
+		visible = {
+			owns_state = 49
+			controls_state = 49
+			49 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 49
+		}
+	}
+	
+	mewman_crisis_coring_state_48 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 48
+			}
+		}
+
+		available = {
+			owns_state = 48
+			controls_state = 48
+		}
+
+		visible = {
+			owns_state = 48
+			controls_state = 48
+			48 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 48
+		}
+	}
+	
+	mewman_crisis_coring_state_47 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 47
+			}
+		}
+
+		available = {
+			owns_state = 47
+			controls_state = 47
+		}
+
+		visible = {
+			owns_state = 47
+			controls_state = 47
+			47 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 47
+		}
+	}
+	
+	mewman_crisis_coring_state_46 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 46
+			}
+		}
+
+		available = {
+			owns_state = 46
+			controls_state = 46
+		}
+
+		visible = {
+			owns_state = 46
+			controls_state = 46
+			46 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 46
+		}
+	}
+	
+	mewman_crisis_coring_state_71 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 71
+			}
+		}
+
+		available = {
+			owns_state = 71
+			controls_state = 71
+		}
+
+		visible = {
+			owns_state = 71
+			controls_state = 71
+			71 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 71
+		}
+	}
+	
+	mewman_crisis_coring_state_86 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 86
+			}
+		}
+
+		available = {
+			owns_state = 86
+			controls_state = 86
+		}
+
+		visible = {
+			owns_state = 86
+			controls_state = 86
+			86 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 86
+		}
+	}
+	
+	mewman_crisis_coring_state_44 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 44
+			}
+		}
+
+		available = {
+			owns_state = 44
+			controls_state = 44
+		}
+
+		visible = {
+			owns_state = 44
+			controls_state = 44
+			44 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 44
+		}
+	}
+	
+	mewman_crisis_coring_state_38 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 38
+			}
+		}
+
+		available = {
+			owns_state = 38
+			controls_state = 38
+		}
+
+		visible = {
+			owns_state = 38
+			controls_state = 38
+			38 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 38
+		}
+	}
+	
+	mewman_crisis_coring_state_30 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 30
+			}
+		}
+
+		available = {
+			owns_state = 30
+			controls_state = 30
+		}
+
+		visible = {
+			owns_state = 30
+			controls_state = 30
+			30 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 30
+		}
+	}
+	
+	mewman_crisis_coring_state_29 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 29
+			}
+		}
+
+		available = {
+			owns_state = 29
+			controls_state = 29
+		}
+
+		visible = {
+			owns_state = 29
+			controls_state = 29
+			29 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 29
+		}
+	}
+	
+	mewman_crisis_coring_state_31 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 31
+			}
+		}
+
+		available = {
+			owns_state = 31
+			controls_state = 31
+		}
+
+		visible = {
+			owns_state = 31
+			controls_state = 31
+			31 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 31
+		}
+	}
+	
+	mewman_crisis_coring_state_28 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 28
+			}
+		}
+
+		available = {
+			owns_state = 28
+			controls_state = 28
+		}
+
+		visible = {
+			owns_state = 28
+			controls_state = 28
+			28 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 28
+		}
+	}
+	
+	mewman_crisis_coring_state_85 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 85
+			}
+		}
+
+		available = {
+			owns_state = 85
+			controls_state = 85
+		}
+
+		visible = {
+			owns_state = 85
+			controls_state = 85
+			85 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 85
+		}
+	}
+	
+	mewman_crisis_coring_state_73 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 73
+			}
+		}
+
+		available = {
+			owns_state = 73
+			controls_state = 73
+		}
+
+		visible = {
+			owns_state = 73
+			controls_state = 73
+			73 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 73
+		}
+	}
+	
+	mewman_crisis_coring_state_72 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 72
+			}
+		}
+
+		available = {
+			owns_state = 72
+			controls_state = 72
+		}
+
+		visible = {
+			owns_state = 72
+			controls_state = 72
+			72 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 72
+		}
+	}
+	
+	mewman_crisis_coring_state_90 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 90
+			}
+		}
+
+		available = {
+			owns_state = 90
+			controls_state = 90
+		}
+
+		visible = {
+			owns_state = 90
+			controls_state = 90
+			90 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 90
+		}
+	}
+	
+	mewman_crisis_coring_state_74 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 74
+			}
+		}
+
+		available = {
+			owns_state = 74
+			controls_state = 74
+		}
+
+		visible = {
+			owns_state = 74
+			controls_state = 74
+			74 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 74
+		}
+	}
+	
+	mewman_crisis_coring_state_33 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 33
+			}
+		}
+
+		available = {
+			owns_state = 33
+			controls_state = 33
+		}
+
+		visible = {
+			owns_state = 33
+			controls_state = 33
+			33 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 33
+		}
+	}
+	
+	mewman_crisis_coring_state_20 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 20
+			}
+		}
+
+		available = {
+			owns_state = 20
+			controls_state = 20
+		}
+
+		visible = {
+			owns_state = 20
+			controls_state = 20
+			20 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 20
+		}
+	}
+	
+	mewman_crisis_coring_state_22 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 22
+			}
+		}
+
+		available = {
+			owns_state = 22
+			controls_state = 22
+		}
+
+		visible = {
+			owns_state = 22
+			controls_state = 22
+			22 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 22
+		}
+	}
+	
+	mewman_crisis_coring_state_21 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 21
+			}
+		}
+
+		available = {
+			owns_state = 21
+			controls_state = 21
+		}
+
+		visible = {
+			owns_state = 21
+			controls_state = 21
+			21 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 21
+		}
+	}
+	
+	mewman_crisis_coring_state_79 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 79
+			}
+		}
+
+		available = {
+			owns_state = 79
+			controls_state = 79
+		}
+
+		visible = {
+			owns_state = 79
+			controls_state = 79
+			79 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 79
+		}
+	}
+	
+	mewman_crisis_coring_state_34 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 34
+			}
+		}
+
+		available = {
+			owns_state = 34
+			controls_state = 34
+		}
+
+		visible = {
+			owns_state = 34
+			controls_state = 34
+			34 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 34
+		}
+	}
+	
+	mewman_crisis_coring_state_83 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 83
+			}
+		}
+
+		available = {
+			owns_state = 83
+			controls_state = 83
+		}
+
+		visible = {
+			owns_state = 83
+			controls_state = 83
+			83 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 83
+		}
+	}
+	
+	mewman_crisis_coring_state_37 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 37
+			}
+		}
+
+		available = {
+			owns_state = 37
+			controls_state = 37
+		}
+
+		visible = {
+			owns_state = 37
+			controls_state = 37
+			37 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 37
+		}
+	}
+	
+	mewman_crisis_coring_state_35 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 35
+			}
+		}
+
+		available = {
+			owns_state = 35
+			controls_state = 35
+		}
+
+		visible = {
+			owns_state = 35
+			controls_state = 35
+			35 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 35
+		}
+	}
+	
+	mewman_crisis_coring_state_36 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 36
+			}
+		}
+
+		available = {
+			owns_state = 36
+			controls_state = 36
+		}
+
+		visible = {
+			owns_state = 36
+			controls_state = 36
+			36 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 36
+		}
+	}
+	
+	mewman_crisis_coring_state_23 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 23
+			}
+		}
+
+		available = {
+			owns_state = 23
+			controls_state = 23
+		}
+
+		visible = {
+			owns_state = 23
+			controls_state = 23
+			23 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 23
+		}
+	}
+	
+	mewman_crisis_coring_state_80 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 80
+			}
+		}
+
+		available = {
+			owns_state = 80
+			controls_state = 80
+		}
+
+		visible = {
+			owns_state = 80
+			controls_state = 80
+			80 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 80
+		}
+	}
+	
+	mewman_crisis_coring_state_27 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 27
+			}
+		}
+
+		available = {
+			owns_state = 27
+			controls_state = 27
+		}
+
+		visible = {
+			owns_state = 27
+			controls_state = 27
+			27 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 27
+		}
+	}
+	
+	mewman_crisis_coring_state_42 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 42
+			}
+		}
+
+		available = {
+			owns_state = 42
+			controls_state = 42
+		}
+
+		visible = {
+			owns_state = 42
+			controls_state = 42
+			42 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 42
+		}
+	}
+	
+	mewman_crisis_coring_state_43 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 43
+			}
+		}
+
+		available = {
+			owns_state = 43
+			controls_state = 43
+		}
+
+		visible = {
+			owns_state = 43
+			controls_state = 43
+			43 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 43
+		}
+	}
+	
+	mewman_crisis_coring_state_84 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 84
+			}
+		}
+
+		available = {
+			owns_state = 84
+			controls_state = 84
+		}
+
+		visible = {
+			owns_state = 84
+			controls_state = 84
+			84 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 84
+		}
+	}
+	
+	mewman_crisis_coring_state_24 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 24
+			}
+		}
+
+		available = {
+			owns_state = 24
+			controls_state = 24
+		}
+
+		visible = {
+			owns_state = 24
+			controls_state = 24
+			24 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 24
+		}
+	}
+	
+	mewman_crisis_coring_state_32 = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 32
+			}
+		}
+
+		available = {
+			owns_state = 32
+			controls_state = 32
+		}
+
+		visible = {
+			owns_state = 32
+			controls_state = 32
+			32 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 25
+		days_remove = 30
+
+		ai_will_do = {
+			base = 3
+		}
+		remove_effect = {
+			add_state_core = 32
+		}
+	}
+
+}
