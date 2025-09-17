@@ -15,13 +15,13 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				female_random_country_leader_chance = 5
-				female_random_army_leader_chance = 5
-				female_random_admiral_chance = 5
-				female_divisional_commander_chance = 5
-				female_random_scientist_chance = 5
-				female_random_country_leader_chance = 5
-				female_random_operative_chance = 5
+				female_random_country_leader_chance = 0.2
+				female_random_army_leader_chance = 0.2
+				female_random_admiral_chance = 0.2
+				female_divisional_commander_chance = 0.2
+				female_random_scientist_chance = 0.2
+				female_random_country_leader_chance = 0.2
+				female_random_operative_chance = 0.2
 			}
 		}
 		shared_mewman_loans_mercenary_idea = {

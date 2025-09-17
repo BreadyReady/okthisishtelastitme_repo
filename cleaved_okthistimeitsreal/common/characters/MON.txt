@@ -14,4 +14,20 @@ characters={
 			id=-1
 		}
 	}
+	MON_silent_workhorse={
+		#name=MON_silent_workhorse #commented out so that random name will be generated
+		gender = female
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_female_europe"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MON_silent_workhorse
+			traits  = {
+				silent_workhorse 
+			}
+		}
+	}
 }

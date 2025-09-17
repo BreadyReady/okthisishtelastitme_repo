@@ -19,3 +19,20 @@ cleaved_mewman_crisis_coring_cat = {
 		has_completed_focus = MEWNI_SHARED_uniting_mewni_branch_start
 	}
 }
+
+cleaved_mewman_crisis_congress_of_mewni_cat = {
+	icon = generic_political_actions
+	visible = {
+		STA = {
+			has_shine_effect_on_focus = STA_give_peace_a_chance
+		}
+		OR = {
+			original_tag = STA
+			original_tag = MON
+			original_tag = MEW
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MAR
+		}
+	}
+}

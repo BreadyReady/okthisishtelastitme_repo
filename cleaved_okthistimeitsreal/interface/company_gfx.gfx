@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_jacket_phat_manufacturer_gfx"
+		texturefile = "gfx/interface/ideas/companies/idea_jacket_phat_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_idea_kstart_manufacturer_gfx"
+		texturefile = "gfx/interface/ideas/companies/idea_kstart_manufacturer.dds"
+	}
+}

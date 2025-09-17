@@ -4,13 +4,18 @@
  STA_event.1.a:0 "Mewni must stand together!"
  STA_event.1.b:0 "Our diffrences are too great"
  
- STA_event.2.t:0 "Attending the Congress of Mewni"
+ STA_event.2.t:0 "Cooperating at the Congress of Mewni"
  STA_event.2.desc:0 ""
- STA_event.2.a:0 "Be there, or be square!"
+ STA_event.2.a:0 "We should present reasonable conditions in the pursuit of peace. (will become a cooperating nation and the congress will come closer to succeeding)"
+ STA_event.2.b:0 "Send demands that the others will nto agree to. This is just a diplomatic show, after all..."
  
- STA_event.3.t:0 "Attending the Congress of Mewni"
- STA_event.3.desc:0 "[FROM.GetLeader] has accepted the invitation to the Congress of Mewni!"
+ STA_event.3.t:0 "[FROM.GetLeader] will cooperate!"
+ STA_event.3.desc:0 "[FROM.GetLeader] has sent us a letter stating that they intend to cooperate fully with the cognress of Mewni!"
  STA_event.3.a:0 "Awesome!"
+ 
+ STA_event.5.t:0 "[FROM.GetLeader] will not cooperate!"
+ STA_event.5.desc:0 "[FROM.GetLeader] has sent us a letter stating that they intend to show up at the congress of Mewni, but the demands they have sent for further cooperation are unreasonable!"
+ STA_event.5.a:0 "Darn it!"
  
  STA_event.4.t:0 "[FROM.GetName] Rejects the Mewman Commonwealth!"
  STA_event.4.desc:0 "[FROM.GetName] has rejected the invitation to the Mewman Commonwealth!"

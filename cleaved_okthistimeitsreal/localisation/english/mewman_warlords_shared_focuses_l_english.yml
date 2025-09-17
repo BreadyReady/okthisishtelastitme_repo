@@ -1,16 +1,93 @@
 ﻿l_english:
+ MEWNI_SHARED_uniting_mewni_branch_start:0 "Uniting the Crownlands"
+ MEWNI_SHARED_uniting_mewni_branch_start_tt:0 "Unlock decisions to core states within the Mewman Crownlands"
+ MEWNI_SHARED_uniting_mewni_strike_MON:0 "Striking [MON.GetLeader]"
+ MEWNI_SHARED_uniting_mewni_strike_STA:0 "Striking [STA.GetLeader]"
+ MEWNI_SHARED_uniting_mewni_strike_HIG:0 "Striking [HIG.GetLeader]"
+ MEWNI_SHARED_uniting_mewni_strike_JAN:0 "Striking [JAN.GetLeader]"
+ MEWNI_SHARED_uniting_mewni_strike_MEW:0 "Striking [MEW.GetLeader]"
+ MEWNI_SHARED_uniting_mewni_strike_MAR:0 "Striking [MAR.GetLeader]"
+ 
+ MEWNI_SHARED_forward_operating_bases_san_joaquin:0 "Forward Operating Bases: San Joaquin"
+ MEWNI_SHARED_forward_operating_bases_las_vegas:0 "Forward Operating Bases: Outside Las Vegas"
+ MEWNI_SHARED_forward_operating_bases_mojave:0 "Forward Operating Bases: The Mojave"
+ MEWNI_SHARED_forward_operating_bases_sierra:0 "Forward Operating Bases: The Sierra"
+ MEWNI_SHARED_supply_line_experience:0 "Supply Line Experience"
+ 
+ MEWNI_SHARED_industrial_effort:0 "Industrial Effort"
+ 
+ MEWNI_SHARED_emergency_taxes:0 "Emergency Taxes"
+ MEWNI_SHARED_emergency_taxes_tt:0 "Upon the end of the Mewman Crisis, you may choose to keep the Civillian Factories or give them up in return for a partial restoration of Stability and Warsupport. §R(NOT YET IMPLEMENTED!)§!"
+ 
+ MEWNI_SHARED_seize_production_facilities:0 "Seize Production Facilities"
+ MEWNI_SHARED_seize_production_facilities_tt:0 "Upon the end of the Mewman Crisis, you may choose to keep the Military Factories or give them up in return  for a partial restoration of Stability and Warsupport. §R(NOT YET IMPLEMENTED!)§!" #event exists, mewni_shared_warlord_events.4
+ 
+ MEWNI_SHARED_borrow_large_loans:0 "Borrow Large Loans"
+ MEWNI_SHARED_borrow_large_loans_tt:0 "Upon the end of the Mewman Crisis, you will lose the above national spirit and gain a new national spirit with grants\nConsumer Goods Factories factor: §Y20.0%§! for §Y545§! day(s). §R(NOT YET IMPLEMENTED)§!" #event exists, mewni_shared_warlord_events.3
+ 
+ MEWNI_SHARED_scrapper_programs:0 "Scrapper Programs"
+ 
+ MEWNI_SHARED_kingdom_investments:0 "Kingdom Investments"
+ 
+ MEWNI_SHARED_construction_effort:0 "Construction Effort"
+ 
+ MEWNI_SHARED_construction_effort_2:0 "Construction Effort II"
+ 
+ MEWNI_SHARED_construction_effort_3:0 "Construction Effort III"
+ 
+ MEWNI_SHARED_production_effort:0 "Production Effort"
+ 
+ MEWNI_SHARED_production_effort_2:0 "Production Effort II"
+ 
+ MEWNI_SHARED_production_effort_3:0 "Production Effort III"
+ 
+ MEWNI_SHARED_infrastructure_effort:0 "Infrastructure Effort"
+ 
+ MEWNI_SHARED_infrastructure_effort_2:0 "Infrastructure Effort II"
+ 
+ MEWNI_SHARED_infrastructure_effort_3:0 "Infrastructure Effort III"
+ 
+ MEWNI_SHARED_army_effort:0 "Army Effort"
+ 
+ MEWNI_SHARED_temporary_draft:0 "Temporary Draft"
+ MEWNI_SHARED_temporary_draft_tt:0 "In two years:"
+ 
  MEWNI_SHARED_mountaineers:0 "Californian Terrain Studies"
  MEWNI_SHARED_mountaineers_desc:0 "California is a very hilly and mountainous region. We should make sure we are well acclimated to fighitng in this terrain."
  MEWNI_SHARED_mountaineers_tt:0 "If you have researched §YMountain Infantry I§!, you will gain 2 units of the §YMountaineer-Division§! template."
  
- MEWNI_SHARED_temporary_draft_tt:0 "In two years:"
+ MEWNI_SHARED_swell_ranks:0 "Swell the Ranks"
  
+ MEWNI_SHARED_mercenary_contracts:0 "Mercenary Contracts"
  MEWNI_SHARED_mercenary_contracts_tt:0 "Gain a Locked Template and 2 20 width veteran infantry divisions. Both the template and divisions will disband upon the end of the Mewman Crisis. §R(DISBANDING NOT YET IMPLEMENTED)§!"
+  
+ MEWNI_SHARED_equipment_effort:0 "Firearms Effort"
  
- MEWNI_SHARED_borrow_large_loans_tt:0 "Upon the end of the Mewman Crisis, you will lose the above national spirit and gain a new national spirit with grants\nConsumer Goods Factories factor: §Y20.0%§! for §Y545§! day(s). §R(NOT YET IMPLEMENTED)§!" #event exists, mewni_shared_warlord_events.3
+ MEWNI_SHARED_equipment_effort_2:0 "Support Arms Effort"
  
- MEWNI_SHARED_emergency_taxes_tt:0 "Upon the end of the Mewman Crisis, you may choose to keep the Civillian Factories or give them up in return for a partial restoration of Stability and Warsupport. §R(NOT YET IMPLEMENTED!)§!"
+ MEWNI_SHARED_equipment_effort_3:0 "Heavy Artillery Effort"
  
- MEWNI_SHARED_emergency_taxes_tt:0 "Upon the end of the Mewman Crisis, you may choose to keep the Military Factories or give them up in return  for a partial restoration of Stability and Warsupport. §R(NOT YET IMPLEMENTED!)§!" #event exists, mewni_shared_warlord_events.4
+ MEWNI_SHARED_equipment_import:0 "Equipment Imports"
  
- MEWNI_SHARED_uniting_mewni_branch_start_tt:0 "Unlock decisions to core states within the Mewman Crownlands"
+ MEWNI_SHARED_equipment_import_loans:0 "Equipment Import Loans"
+ 
+ MEWNI_SHARED_bgf_special_forces:0 "Special Forces Program"
+ 
+ MEWNI_SHARED_motorization_effort:0 "Motorize the Army"
+ 
+ MEWNI_SHARED_mechanization_effort:0 "Mechanize the Army"
+ 
+ MEWNI_SHARED_armor_effort:0 "Armor Effort"
+ 
+ MEWNI_SHARED_doctrine_effort:0 "Learning from Experience"
+ 
+ MEWNI_SHARED_doctrine_effort_2:0 "Strategic Theory"
+ 
+ MEWNI_SHARED_doctrine_effort_3:0 "Military Academy"
+ 
+ MEWNI_SHARED_massive_military_funding:0 "Streamline Training Requirements"
+ 
+ MEWNI_SHARED_bgf_citizen_readiness:0 "Citizen Readiness"
+ 
+ MEWNI_SHARED_bgf_swiss_model:0 "Militarized Society"
+ 

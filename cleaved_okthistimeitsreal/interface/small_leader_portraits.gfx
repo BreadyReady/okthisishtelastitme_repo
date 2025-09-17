@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_generic_army_female_europe"
+		texturefile = "gfx/interface/ideas/idea_generic_army_female_europe.dds"
+	}
+}

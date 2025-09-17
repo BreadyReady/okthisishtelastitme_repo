@@ -22,6 +22,10 @@
  STA_REBEL:0 "Star's Mewni"
  STA_REBEL_DEF:0 "Star's Mewni"
  STA_REBEL_ADJ:0 "Star's Mewni"
+
+ STA_COMMONWEALTH:0 "Mewman Commonwealth"
+ STA_COMMONWEALTH_DEF:0 "Mewman Commonwealth"
+ STA_COMMONWEALTH_ADJ:0 "Mewman Commonwealth"
  
  HIG:0 "Higgs' Mewni"
  HIG_DEF:0 "Higgs' Mewni"

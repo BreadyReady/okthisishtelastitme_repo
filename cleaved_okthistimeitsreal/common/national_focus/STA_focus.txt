@@ -25,7 +25,7 @@ focus_tree = {
 
 	focus = {
 		id = STA_give_peace_a_chance
-		icon = xxx
+		icon = GFX_focus_generic_diplomatic_treaty
 		x = 10
 		y = 6
 		cost = 10
@@ -37,6 +37,10 @@ focus_tree = {
 		}
 		
 		select_effect = {
+			set_variable = {
+				var = global.nations_cooperating_at_congress_of_mewni
+				value = 1
+			}
 			news_event = {
 				id = mewni_warlords_news_event.1
 				days = 1
@@ -87,7 +91,17 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = STA_give_peace_a_chance_tt
 			hidden_effect = {
-				country_event = mewni_warlords_news_event.3
+				IF = {
+					limit = {
+						check_variable = {
+							global.nations_cooperating_at_congress_of_mewni = 6
+						}
+					}
+					country_event = STA_event.6
+				}
+				else = {
+					country_event = mewni_warlords_news_event.3
+				}
 			}
 		}
 	}
@@ -922,6 +936,10 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = STA_form_mewman_commonwealth_tt
+			set_cosmetic_tag = STA_COMMONWEALTH
+			set_global_flag = mewman_crownlands_united
+			set_country_flag = uniter_of_mewman_crownlands
+			country_event = mewni_warlords_news_event.7
 			hidden_effect = {
 				IF = {
 					limit = {

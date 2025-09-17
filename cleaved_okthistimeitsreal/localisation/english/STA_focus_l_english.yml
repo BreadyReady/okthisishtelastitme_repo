@@ -3,10 +3,44 @@
  STA_give_peace_a_chance_desc:0 "TO WRITE"
  STA_give_peace_a_chance_tt:0 "§YBegin an Event Chain about the Congress of Mewni, where a diplomatic solution to the Mewman Crisis is Attempted§!"
  
+ STA_rebel:0 "Rebel Princess!"
+ 
+ STA_stay_loyal:0 "Stay Loyal to Moon"
+ 
+ STA_helping_out_moon:0 "Helping Out Moon"
+ 
+ STA_technological_talents:0 "Sending Technological Talents"
+ 
+ STA_gifts_of_production:0 "Gifts of Industry"
+ 
+ STA_positive_image:0 "Star's Good Image"
+ 
+ STA_local_politics:0 "Local Politics"
+ 
+ STA_kiss_babies:0 "Kiss Babies"
+ 
+ STA_parades_and_ballrooms:0 "Parades and Ballrooms"
+
+ STA_visit_victims_of_war:0 "Visit Victims of War"
+ 
+ STA_network_with_tech_oligarchs:0 "Network with Tech Oligarchs"
+ 
+ STA_industrial_contracts:0 "Industrial Contracts"
+ 
+ STA_production_contracts:0 "Production Contracts"
+ 
+ STA_adopt_local_customs:0 "Adopt Local Customs"
+ 
+ STA_grant_human_autonomy:0 "Grant Human Autonomy"
+ 
+ STA_pragmatic_star:0 "Moon's Heir"
  STA_pragmatic_star_tt:0 "When annexed by [MON.GetName], Star will become an advisor for them that grants a political power and stability bonus. Star will also be open to marry for political reasons. §RNOT YET IMPLEMENTED!§!"
  
+ STA_idealist_star:0 "The Good Duchess"
  STA_idealist_star_tt:0 "When annexed by [MON.GetName], Star will become an advisor for them that grants a lesser political power and stability bonus. Star will also eventually marry for love. §RNOT YET IMPLEMENTED!§!"
- 
+
+ STA_taking_on_greater_responsibilities:0 "Taking on Greater Responsibilities"
+  
  STA_resist_mandates:0 "Resist Moon's Mandates"
  STA_resist_mandates_tt:0 "[MON.GetName] will be unable to take focuses branching from the focus §Y$MON_iron_fist_over_san_havensisco$§!"
  

@@ -1,6 +1,6 @@
 shared_focus = {
 	id = MEWNI_SHARED_uniting_mewni_branch_start
-	icon = xxx
+	icon = GFX_focus_generic_total_war
 	x = 20
 	y = 5
 	cost = 5
@@ -28,7 +28,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_uniting_mewni_strike_MON
-	icon = xxx
+	icon = GFX_focus_generic_total_war
 	x = -1
 	y = 1
 	relative_position_id = MEWNI_SHARED_uniting_mewni_branch_start
@@ -91,7 +91,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_uniting_mewni_strike_STA
-	icon = xxx
+	icon = GFX_focus_generic_total_war
 	x = -3
 	y = 1
 	relative_position_id = MEWNI_SHARED_uniting_mewni_branch_start
@@ -154,7 +154,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_uniting_mewni_strike_MAR
-	icon = xxx
+	icon = GFX_focus_generic_total_war
 	x = 1
 	y = 1
 	relative_position_id = MEWNI_SHARED_uniting_mewni_branch_start
@@ -217,7 +217,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_uniting_mewni_strike_HIG
-	icon = xxx
+	icon = GFX_focus_generic_total_war
 	x = 3
 	y = 1
 	relative_position_id = MEWNI_SHARED_uniting_mewni_branch_start
@@ -280,7 +280,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_uniting_mewni_strike_JAN
-	icon = xxx
+	icon = GFX_focus_generic_total_war
 	x = -2
 	y = 2
 	relative_position_id = MEWNI_SHARED_uniting_mewni_branch_start
@@ -343,7 +343,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_uniting_mewni_strike_MEW
-	icon = xxx
+	icon = GFX_focus_generic_total_war
 	x = 2
 	y = 2
 	relative_position_id = MEWNI_SHARED_uniting_mewni_branch_start
@@ -406,7 +406,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_forward_operating_bases_san_joaquin
-	icon = GFX_goal_generic_production
+	icon = GFX_focus_generic_reinforcing_the_supply_network
 	x = 30
 	y = 0
 	cost = 5
@@ -456,7 +456,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_forward_operating_bases_las_vegas
-	icon = GFX_goal_generic_production
+	icon = GFX_focus_generic_reinforcing_the_supply_network
 	x = 2
 	y = 0
 	relative_position_id = MEWNI_SHARED_forward_operating_bases_san_joaquin
@@ -519,7 +519,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_forward_operating_bases_mojave
-	icon = GFX_goal_generic_production
+	icon = GFX_focus_generic_reinforcing_the_supply_network
 	x = 4
 	y = 0
 	relative_position_id = MEWNI_SHARED_forward_operating_bases_san_joaquin
@@ -573,7 +573,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_forward_operating_bases_sierra
-	icon = GFX_goal_generic_production
+	icon = GFX_focus_generic_reinforcing_the_supply_network
 	x = -2
 	y = 0
 	relative_position_id = MEWNI_SHARED_forward_operating_bases_san_joaquin
@@ -627,7 +627,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_supply_line_experience
-	icon = GFX_goal_generic_production
+	icon = GFX_focus_generic_supply_line
 	x = 1
 	y = 1
 	prerequisite = { focus = MEWNI_SHARED_forward_operating_bases_san_joaquin }
@@ -719,7 +719,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_emergency_taxes
-	icon = GFX_goal_generic_construct_civ_factory
+	icon = GFX_focus_usa_reestablish_the_gold_standard
 	prerequisite = { focus = MEWNI_SHARED_industrial_effort }
 	x = -2
 	y = 1
@@ -785,13 +785,13 @@ shared_focus = {
 		add_offsite_building = { type = arms_factory level = 5 }
 		add_stability = -0.08
 		add_war_support = -0.08
-		custom_effect_tooltip = MEWNI_SHARED_emergency_taxes_tt #Add event that will ask you if you want to return the taxes back for stability, or keep them
+		custom_effect_tooltip = MEWNI_SHARED_seize_production_facilities_tt #Add event that will ask you if you want to return the taxes back for stability, or keep them
 	}
 }
 
 shared_focus = {
 	id = MEWNI_SHARED_borrow_large_loans
-	icon = GFX_goal_generic_construct_civ_factory
+	icon = GFX_goal_generic_forceful_treaty
 	prerequisite = { focus = MEWNI_SHARED_construction_effort }
 	prerequisite = { focus = MEWNI_SHARED_infrastructure_effort }
 	x = 0
@@ -828,7 +828,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_scrapper_programs
-	icon = GFX_focus_focus_fra_maquis
+	icon = GFX_goal_generic_construct_mil_factory
 	prerequisite = { focus = MEWNI_SHARED_construction_effort }
 	prerequisite = { focus = MEWNI_SHARED_infrastructure_effort }
 	x = 2
@@ -854,7 +854,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_kingdom_investments
-	icon = GFX_goal_generic_construct_civ_factory
+	icon = GFX_focus_usa_reestablish_the_gold_standard
 	prerequisite = { focus = MEWNI_SHARED_production_effort }
 	prerequisite = { focus = MEWNI_SHARED_infrastructure_effort }
 	x = 2
@@ -1776,7 +1776,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_temporary_draft
-	icon = GFX_goal_generic_small_arms
+	icon = GFX_focus_generic_manpower
 	prerequisite = { focus = MEWNI_SHARED_army_effort }
 	x = -6
 	y = 1
@@ -1856,7 +1856,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_swell_ranks
-	icon = GFX_goal_generic_small_arms
+	icon = GFX_focus_AFG_adopt_nufus
 	prerequisite = { focus = MEWNI_SHARED_temporary_draft }
 	x = 0
 	y = 1
@@ -1889,7 +1889,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_mercenary_contracts
-	icon = GFX_goal_generic_small_arms
+	icon = GFX_goal_generic_special_forces
 	prerequisite = { focus = MEWNI_SHARED_temporary_draft }
 	x = -2
 	y = 1
@@ -2085,7 +2085,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_equipment_import
-	icon = GFX_goal_generic_small_arms
+	icon = GFX_goal_generic_positive_trade_relations
 	prerequisite = { focus = MEWNI_SHARED_equipment_effort }
 	x = -2
 	y = 1
@@ -2131,7 +2131,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_equipment_import_loans
-	icon = GFX_goal_generic_small_arms
+	icon = GFX_goal_generic_forceful_treaty
 	prerequisite = { focus = MEWNI_SHARED_equipment_import }
 	x = 0
 	y = 1
@@ -2258,7 +2258,7 @@ focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_bgf_special_forces 	#Localization is reused with the National Idea name.
-	icon = GFX_goal_generic_special_forces
+	icon = GFX_focus_AFG_adopt_nufus
 	prerequisite = { focus = MEWNI_SHARED_equipment_effort_2 }
 	prerequisite = { focus = MEWNI_SHARED_doctrine_effort }
 	x = 0
@@ -2722,7 +2722,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_aerial_imports_loans
-	icon = GFX_goal_generic_build_airforce
+	icon = GFX_goal_generic_forceful_treaty
 	x = 0
 	y = 1
 	relative_position_id = MEWNI_SHARED_aerial_imports
@@ -2784,7 +2784,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_cas_imports_loans
-	icon = GFX_goal_generic_build_airforce
+	icon = GFX_goal_generic_forceful_treaty
 	x = 0
 	y = 1
 	relative_position_id = MEWNI_SHARED_cas_imports

@@ -1,0 +1,262 @@
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = boring_loyalist characters = yes } #Will not appear if you have a custom charatcer w/ smae trait
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_boring_loyalist  #token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = political_advisor
+			traits = { boring_loyalist }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_political_advisor_female_europe }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = popular_figurehead2 characters = yes } #Will not appear if you have a custom charatcer with same traitd
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_popular_figurehead2  #token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { popular_figurehead2 }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_political_advisor_europe_1 }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = propaganda_expert characters = yes } #Will not appear if you have a custom charatcer with same traitd
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_propaganda_expert  #token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { propaganda_expert }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_political_advisor_europe_1 }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = prince_of_terror characters = yes } #Will not appear if you have a custom charatcer with same traitd
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_prince_of_terror  #token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = political_advisor
+			traits = { prince_of_terror }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_political_advisor_female_europe }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = popular_figurehead characters = yes } #Will not appear if you have a custom charatcer with same traitd
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_popular_figurehead  #token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = political_advisor
+			traits = { popular_figurehead }
+			available = {
+				always = no
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_political_advisor_female_europe }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = technocrat characters = yes } #Will not appear if you have a custom charatcer with same traitd
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_technocrat  #token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = political_advisor
+			traits = { technocrat }
+			available = {
+				OR = {
+					has_completed_focus = MEWNI_SHARED_industrial_effort
+					has_completed_focus = STA_network_with_tech_oligarchs
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_political_advisor_female_europe }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = silent_workhorse characters = yes } #Will not appear if you have a custom charatcer w/ same trait
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_silent_workhorse  #token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = political_advisor
+			traits = { silent_workhorse }
+			available = {
+				always = no
+			}
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_political_advisor_female_europe }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = army_chief_organizational_2 characters = yes } #Will not appear if you have a custom charatcer w/ same trait
+			OR = {
+				original_tag = USA  #placeholder. for if you want to remove it from specific nation. Or, we may use it for diffrent cultures
+			}
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_army_chief_org_2 # token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = army_chief
+			traits = {
+				army_chief_organizational_2
+			}
+			allowed = {
+				always = yes
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_female_europe }
+		}
+	}
+}

@@ -46,3 +46,5 @@
  mewman_crisis_coring_state_24:0 "Integrate [24.GetName]"
  mewman_crisis_coring_state_32:0 "Integrate [32.GetName]"
  
+ cleaved_mewman_crisis_congress_of_mewni_cat:0 "The Congress of Mewni"
+ cleaved_mewman_crisis_congress_of_mewni_cat_desc:0 "In an effort to peacefully resolve the Mewman Crisis, Star Butterfly has established the §YCongress of Mewni§!. Based in San Havensisco, the Congress is intended to streamline diplomacy and hopefully help the nations of the Mewman Crownlands to reconcile their diffrences and avoid bloodshed in the pursuit of reunification.\n\nIn order for the Congress of Mewni to succeed in unifying the Crownlands without bloodshed, all 6 warlords must agree to cooperate. Currently, [?global.nations_cooperating_at_congress_of_mewni]/6 are cooperating."
