@@ -48,3 +48,9 @@
  
  cleaved_mewman_crisis_congress_of_mewni_cat:0 "The Congress of Mewni"
  cleaved_mewman_crisis_congress_of_mewni_cat_desc:0 "In an effort to peacefully resolve the Mewman Crisis, Star Butterfly has established the §YCongress of Mewni§!. Based in San Havensisco, the Congress is intended to streamline diplomacy and hopefully help the nations of the Mewman Crownlands to reconcile their diffrences and avoid bloodshed in the pursuit of reunification.\n\nIn order for the Congress of Mewni to succeed in unifying the Crownlands without bloodshed, all 6 warlords must agree to cooperate. Currently, [?global.nations_cooperating_at_congress_of_mewni]/6 are cooperating."
+ 
+ cleaved_age_characters_cat:0 "Kid's Aging GFX"
+ cleaved_age_characters_cat_desc:0 "As time passes, people age. People who were mid-teens during the Cleaving like Star and Marco will definitley stop looking like kids and more like adultsas they enter their late 20s."
+ cleaved_age_characters_dec:0 "Age Characters (This is not a reversible decision!)"
+ cleaved_age_characters_dec_tt:0 "The GFX of characters who are very young at the start of the game will change to reflect the passage of time. (Credit to Gravity Fying on tumblr for the portraits!)"
+ cleaved_age_characters_debug_dec:0 "Age Characters Debug"

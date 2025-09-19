@@ -36,3 +36,10 @@ cleaved_mewman_crisis_congress_of_mewni_cat = {
 		}
 	}
 }
+
+cleaved_age_characters_cat = {
+	icon = generic_political_actions
+	visible = {
+		is_ai = no
+	}
+}

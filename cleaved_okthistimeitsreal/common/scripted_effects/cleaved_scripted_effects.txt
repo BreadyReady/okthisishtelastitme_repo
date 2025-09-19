@@ -120,21 +120,23 @@ unite_mewman_crownlands = {
 }
 
 age_portraits = {
-	set_portraits = {
-		character = STA_star_butterfly
-		civilian = { large ="GFX_portrait_adult_star" }
-	}
-	set_portraits = {
-		character = MAR_marco_diaz
-		civilian = { large ="GFX_portrait_adult_marco" }
-	}
-	set_portraits = {
-		character = HIG_higgs
-		civilian = { large ="GFX_portrait_adult_higgs" }
-		army = { large ="GFX_portrait_adult_higgs" }
-	}
-	set_portraits = {
-		character = JAN_janna_ordonia
-		civilian = { large ="GFX_portrait_adult_janna" }
+	every_country = {
+		set_portraits = {
+			character = STA_star_butterfly
+			civilian = { large ="GFX_portrait_adult_star" }
+		}
+		set_portraits = {
+			character = MAR_marco_diaz
+			civilian = { large ="GFX_portrait_adult_marco" }
+		}
+		set_portraits = {
+			character = HIG_higgs
+			civilian = { large ="GFX_portrait_adult_higgs" }
+			army = { large ="GFX_portrait_adult_higgs" }
+		}
+		set_portraits = {
+			character = JAN_janna_ordonia
+			civilian = { large ="GFX_portrait_adult_janna" }
+		}
 	}
 }

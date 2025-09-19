@@ -1652,3 +1652,53 @@ cleaved_mewman_crisis_congress_of_mewni_cat = {
 		}
 	}
 }
+
+cleaved_age_characters_cat = {
+	cleaved_age_characters_dec = {
+
+		icon = generic
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 0
+		}
+		
+		available = {
+			date > 2022.01.01
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = cleaved_age_characters_dec_tt
+			hidden_effect = {
+				age_portraits = yes
+			}
+		}
+	}
+	
+	cleaved_age_characters_debug_dec = {
+
+		icon = generic
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			base = 0
+		}
+		
+		visible = {
+			is_debug = yes
+		}
+		
+		available = {
+			is_debug = yes
+		}
+		
+		complete_effect = {
+			custom_effect_tooltip = cleaved_age_characters_dec_tt
+			hidden_effect = {
+				age_portraits = yes
+			}
+		}
+	}
+}
