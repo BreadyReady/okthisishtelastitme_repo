@@ -111,3 +111,30 @@ downgrade_economy_law = {
 		add_political_power = 150
 	}
 }
+
+unite_mewman_crownlands = {
+	news_event = mewni_warlords_news_event.7
+	country_event = mewni_shared_warlord_events.5
+	set_country_flag = uniter_of_mewman_crownlands
+	set_global_flag = mewman_crownlands_united
+}
+
+age_portraits = {
+	set_portraits = {
+		character = STA_star_butterfly
+		civilian = { large ="GFX_portrait_adult_star" }
+	}
+	set_portraits = {
+		character = MAR_marco_diaz
+		civilian = { large ="GFX_portrait_adult_marco" }
+	}
+	set_portraits = {
+		character = HIG_higgs
+		civilian = { large ="GFX_portrait_adult_higgs" }
+		army = { large ="GFX_portrait_adult_higgs" }
+	}
+	set_portraits = {
+		character = JAN_janna_ordonia
+		civilian = { large ="GFX_portrait_adult_janna" }
+	}
+}

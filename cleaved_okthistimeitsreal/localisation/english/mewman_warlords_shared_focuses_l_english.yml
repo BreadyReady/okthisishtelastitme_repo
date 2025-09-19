@@ -17,13 +17,13 @@
  MEWNI_SHARED_industrial_effort:0 "Industrial Effort"
  
  MEWNI_SHARED_emergency_taxes:0 "Emergency Taxes"
- MEWNI_SHARED_emergency_taxes_tt:0 "Upon the end of the Mewman Crisis, you may choose to keep the Civillian Factories or give them up in return for a partial restoration of Stability and Warsupport. §R(NOT YET IMPLEMENTED!)§!"
+ MEWNI_SHARED_emergency_taxes_tt:0 "Upon the end of the Mewman Crisis, you may choose to keep the Civillian Factories or give them up in return for a partial restoration of Stability and Warsupport."
  
  MEWNI_SHARED_seize_production_facilities:0 "Seize Production Facilities"
- MEWNI_SHARED_seize_production_facilities_tt:0 "Upon the end of the Mewman Crisis, you may choose to keep the Military Factories or give them up in return  for a partial restoration of Stability and Warsupport. §R(NOT YET IMPLEMENTED!)§!" #event exists, mewni_shared_warlord_events.4
+ MEWNI_SHARED_seize_production_facilities_tt:0 "Upon the end of the Mewman Crisis, you may choose to keep the Military Factories or give them up in return  for a partial restoration of Stability and Warsupport."
  
  MEWNI_SHARED_borrow_large_loans:0 "Borrow Large Loans"
- MEWNI_SHARED_borrow_large_loans_tt:0 "Upon the end of the Mewman Crisis, you will lose the above national spirit and gain a new national spirit with grants\nConsumer Goods Factories factor: §Y20.0%§! for §Y545§! day(s). §R(NOT YET IMPLEMENTED)§!" #event exists, mewni_shared_warlord_events.3
+ MEWNI_SHARED_borrow_large_loans_tt:0 "Upon the end of the Mewman Crisis, you will lose the above national spirit and gain a new national spirit with grants\nConsumer Goods Factories factor: §Y20.0%§! for §Y545§! day(s)."
  
  MEWNI_SHARED_scrapper_programs:0 "Scrapper Programs"
  
@@ -59,7 +59,7 @@
  MEWNI_SHARED_swell_ranks:0 "Swell the Ranks"
  
  MEWNI_SHARED_mercenary_contracts:0 "Mercenary Contracts"
- MEWNI_SHARED_mercenary_contracts_tt:0 "Gain a Locked Template and 2 20 width veteran infantry divisions. Both the template and divisions will disband upon the end of the Mewman Crisis. §R(DISBANDING NOT YET IMPLEMENTED)§!"
+ MEWNI_SHARED_mercenary_contracts_tt:0 "Gain a Locked Template and 2 20 width veteran infantry divisions. Both the template and divisions will disband upon the end of the Mewman Crisis."
   
  MEWNI_SHARED_equipment_effort:0 "Firearms Effort"
  
@@ -91,3 +91,14 @@
  
  MEWNI_SHARED_bgf_swiss_model:0 "Militarized Society"
  
+ MEWNI_SHARED_aviation_effort:0 "Aviation Effort"
+ 
+ MEWNI_SHARED_aerial_imports:0 "Fighter Plane Imports"
+ MEWNI_SHARED_aerial_imports_tt:0 "You will gain Fighter planes if you have researched Fighters"
+
+ MEWNI_SHARED_aerial_imports_loans:0 "Fighter Plane Import Loans"
+ 
+ MEWNI_SHARED_cas_imports:0 "CAS Imports"
+ MEWNI_SHARED_cas_imports_tt:0 "You will gain CAS planes if you have researched CAS"
+ 
+ MEWNI_SHARED_cas_imports_loans:0 "CAS Import Loans"

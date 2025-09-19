@@ -41,8 +41,25 @@
 
  STA_taking_on_greater_responsibilities:0 "Taking on Greater Responsibilities"
   
+ STA_fortify_east:0 "Fortify the Duchy"
+ 
+ STA_independence:0 "Breaking Free"
+ 
+ STA_offer_HIG:0 "Invite [HIG.Getleader]"
+ 
+ STA_offer_MAR:0 "Invite [MAR.Getleader]"
+ 
+ STA_offer_JAN:0 "Invite [JAN.Getleader]"
+ 
+ STA_offer_MEW:0 "Invite [MEW.Getleader]"
+ 
+ STA_offer_MON:0 "Invite [MON.Getleader]"
+  
+ STA_mewman_commonwealth:0 "Begginings of a Mewman Commonwealth"
+  
  STA_resist_mandates:0 "Resist Moon's Mandates"
  STA_resist_mandates_tt:0 "[MON.GetName] will be unable to take focuses branching from the focus §Y$MON_iron_fist_over_san_havensisco$§!"
- 
+  
+ STA_form_mewman_commonwealth:0 "The Mewman Commonwealth"
  STA_form_mewman_commonwealth_requirement_tt:0 "All states within the Mewman Crownlands (meaning each state that §Y[MEW.getflag] [MEW.getname]§!, §Y[MON.getflag] [MON.getname]§!, §Y[STA.getflag] [STA.getname]§!, §Y[MAR.getflag] [MAR.getname]§!, §Y[HIG.getflag] [HIG.getname]§!, and §Y[JAN.getflag] [JAN.getname]§! begins with)"
  STA_form_mewman_commonwealth_tt:0 "§YAnnexes All Faction Members§!"

@@ -1,8 +1,8 @@
 shared_focus = {
 	id = MEWNI_SHARED_uniting_mewni_branch_start
 	icon = GFX_focus_generic_total_war
-	x = 20
-	y = 5
+	x = 31
+	y = 2
 	cost = 5
 	search_filters = {  }
 	
@@ -646,7 +646,7 @@ shared_focus = {
 	}
 	
 	completion_reward = {
-		add_ideas = xxx #supply node build speed
+		add_ideas = shared_mewman_supply_line_exp_idea
 	}
 }
 
@@ -728,9 +728,13 @@ shared_focus = {
 
 	search_filters = { FOCUS_FILTER_INDUSTRY }
 	
-	available_if_capitulated = yes
-#		cancel_if_invalid = no
-#		continue_if_invalid = yes
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
+	
+	cancel_if_invalid = yes
 
 	
 	ai_will_do = {
@@ -764,9 +768,13 @@ shared_focus = {
 
 	search_filters = { FOCUS_FILTER_INDUSTRY }
 	
-	available_if_capitulated = yes
-#		cancel_if_invalid = no
-#		continue_if_invalid = yes
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
+	
+	cancel_if_invalid = yes
 
 	
 	ai_will_do = {
@@ -1785,9 +1793,13 @@ shared_focus = {
 
 	search_filters = { FOCUS_FILTER_MANPOWER }
 	
-	available_if_capitulated = yes
-#		cancel_if_invalid = no
-#		continue_if_invalid = yes
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
+	
+	cancel_if_invalid = yes
 
 	ai_will_do = {
 		factor = 1
@@ -1819,10 +1831,6 @@ shared_focus = {
 
 	search_filters = { FOCUS_FILTER_RESEARCH }
 	
-	available_if_capitulated = yes
-#		cancel_if_invalid = no
-#		continue_if_invalid = yes
-
 	ai_will_do = {
 		factor = 1
 		
@@ -1865,9 +1873,13 @@ shared_focus = {
 
 	search_filters = { FOCUS_FILTER_MANPOWER }
 	
-	available_if_capitulated = yes
-#		cancel_if_invalid = no
-#		continue_if_invalid = yes
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
+	
+	cancel_if_invalid = yes
 
 	ai_will_do = {
 		factor = 1
@@ -1898,10 +1910,14 @@ shared_focus = {
 
 	search_filters = { FOCUS_FILTER_ARMY_XP }
 	
-	available_if_capitulated = yes
-#		cancel_if_invalid = no
-#		continue_if_invalid = yes
-
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
+	
+	cancel_if_invalid = yes
+	
 	ai_will_do = {
 		factor = 1
 		
@@ -2010,7 +2026,7 @@ shared_focus = {
 	search_filters = {  FOCUS_FILTER_RESEARCH }
 	
 	available = {
-		has_country_flag = won_mewman_crisis
+		has_country_flag = uniter_of_mewman_crownlands
 	}
 	
 	available_if_capitulated = yes
@@ -2056,7 +2072,7 @@ shared_focus = {
 	search_filters = {  FOCUS_FILTER_RESEARCH }
 	
 	available = {
-		has_country_flag = won_mewman_crisis
+		has_country_flag = uniter_of_mewman_crownlands
 	}
 	
 	available_if_capitulated = yes
@@ -2140,9 +2156,13 @@ shared_focus = {
 
 	search_filters = {  }
 	
-	available_if_capitulated = yes
-#		cancel_if_invalid = no
-#		continue_if_invalid = yes
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
+	
+	cancel_if_invalid = yes
 
 	ai_will_do = {
 		factor = 1
@@ -2269,7 +2289,7 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_RESEARCH }
 	
 	available = {
-		has_country_flag = won_mewman_crisis
+		has_country_flag = uniter_of_mewman_crownlands
 	}
 	
 	available_if_capitulated = yes
@@ -2360,7 +2380,7 @@ shared_focus = {
 	search_filters = {  FOCUS_FILTER_RESEARCH }
 	
 	available = {
-		has_country_flag = won_mewman_crisis
+		has_country_flag = uniter_of_mewman_crownlands
 	}
 
 	available_if_capitulated = yes
@@ -2398,7 +2418,7 @@ shared_focus = {
 	search_filters = {  FOCUS_FILTER_RESEARCH }
 	
 	available = {
-		has_country_flag = won_mewman_crisis
+		has_country_flag = uniter_of_mewman_crownlands
 	}
 	
 	available_if_capitulated = yes
@@ -2509,7 +2529,7 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP }
 	
 	available = {
-		has_country_flag = won_mewman_crisis
+		has_country_flag = uniter_of_mewman_crownlands
 	}
 	
 	available_if_capitulated = yes
@@ -2579,7 +2599,7 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
 	
 	available = {
-		has_country_flag = won_mewman_crisis
+		has_country_flag = uniter_of_mewman_crownlands
 		NOT = {
 			has_idea = shared_mewman_crisis_military_funding
 		}
@@ -2614,7 +2634,7 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
 	
 	available = {
-		has_country_flag = won_mewman_crisis
+		has_country_flag = uniter_of_mewman_crownlands
 		#shoudl onl be available if youve taken an authoritarian path
 	}
 
@@ -2717,6 +2737,7 @@ shared_focus = {
 			type = fighter_equipment_0
 			amount = 50
 		}
+		custom_effect_tooltip = MEWNI_SHARED_aerial_imports_tt
 	} #End Rewards Bloc
 }
 
@@ -2732,11 +2753,12 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_AIR_XP }
 	
 	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
 	}
-
-	available_if_capitulated = yes
-#		cancel_if_invalid = no
-#		continue_if_invalid = yes
+	
+	cancel_if_invalid = yes
 
 	ai_will_do = {
 		factor = 1
@@ -2747,7 +2769,8 @@ shared_focus = {
 			type = fighter_equipment_0
 			amount = 150
 		}
-		add_ideas = xxx #cosnumer goods debuff
+		custom_effect_tooltip = MEWNI_SHARED_aerial_imports_tt
+		add_ideas = shared_mewman_loans_fighter_planes_idea
 	} #End Rewards Bloc
 }
 
@@ -2779,6 +2802,7 @@ shared_focus = {
 			type = CAS_equipment_1
 			amount = 50
 		}
+		custom_effect_tooltip = MEWNI_SHARED_cas_imports_tt
 	} #End Rewards Bloc
 }
 
@@ -2794,21 +2818,23 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_AIR_XP }
 	
 	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
 	}
-
-	available_if_capitulated = yes
-#		cancel_if_invalid = no
-#		continue_if_invalid = yes
+	
+	cancel_if_invalid = yes
 
 	ai_will_do = {
 		factor = 1
 	}
 
 	completion_reward = {
+		custom_effect_tooltip = MEWNI_SHARED_cas_imports_tt
 		add_equipment_to_stockpile = {
 			type = CAS_equipment_1
 			amount = 100
 		}
-		add_ideas = xxx #cosnumer goods debuff
+		add_ideas = shared_mewman_loans_fighter_planes_idea
 	} #End Rewards Bloc
 }

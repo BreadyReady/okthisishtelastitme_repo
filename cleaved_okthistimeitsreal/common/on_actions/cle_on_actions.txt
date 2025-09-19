@@ -68,11 +68,7 @@ on_actions = {
 						owns_or_subject_of = yes
 					}
 				}
-				ROOT = {
-					news_event = mewni_warlords_news_event.7
-					set_country_flag = uniter_of_mewman_crownlands
-				}
-				set_global_flag = mewman_crownlands_united
+				unite_mewman_crownlands = yes
 			}
 		}
 	}
@@ -88,11 +84,7 @@ on_actions = {
 						owns_or_subject_of = yes
 					}
 				}
-				ROOT = {
-					news_event = mewni_warlords_news_event.7
-					set_country_flag = uniter_of_mewman_crownlands
-				}
-				set_global_flag = mewman_crownlands_united
+				unite_mewman_crownlands = yes
 			}
 		}
 	}

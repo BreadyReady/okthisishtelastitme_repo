@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = STA_event
+add_namespace = STA_notification_event #events that serve no purpose other than notifying other nations a buff was given to them
 
 country_event = {
 	id = STA_event.1 #Invitation to the Mewman commonwealth (For other nations)
@@ -166,6 +167,91 @@ country_event = { #Congress of Mewni works
 		unlock_national_focus = STA_offer_JAN
 		unlock_national_focus = STA_offer_MEW
 		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = { #sending tech talents to moon notification
+	id = STA_notification_event.1
+	title = STA_notification_event.1.t
+	desc = STA_notification_event.1.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STA_notification_event.1.a
+		custom_effect_tooltip = STA_notification_event.1_tt
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = { #giving industry to moon notification
+	id = STA_notification_event.2
+	title = STA_notification_event.2.t
+	desc = STA_notification_event.2.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STA_notification_event.2.a
+		custom_effect_tooltip = STA_notification_event.2_tt
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = { #stars image notification
+	id = STA_notification_event.3
+	title = STA_notification_event.3.t
+	desc = STA_notification_event.3.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STA_notification_event.3.a
+		custom_effect_tooltip = STA_notification_event.3_tt
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = { #star resists moon
+	id = STA_notification_event.4
+	title = STA_notification_event.4.t
+	desc = STA_notification_event.4.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STA_notification_event.4.a
+		custom_effect_tooltip = STA_notification_event.4_tt
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = { #star decides to help out moon 
+	id = STA_notification_event.5
+	title = STA_notification_event.5.t
+	desc = STA_notification_event.5.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STA_notification_event.5.a
+		custom_effect_tooltip = STA_notification_event.5_tt
 		ai_chance = {
 			factor = 1
 		}

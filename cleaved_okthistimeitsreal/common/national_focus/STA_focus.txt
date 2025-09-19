@@ -26,8 +26,8 @@ focus_tree = {
 	focus = {
 		id = STA_give_peace_a_chance
 		icon = GFX_focus_generic_diplomatic_treaty
-		x = 10
-		y = 6
+		x = 31
+		y = 5
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -108,7 +108,7 @@ focus_tree = {
 
 	focus = {
 		id = STA_stay_loyal
-		icon = xxx
+		icon = GFX_focus_star_formal
 		prerequisite = { focus = STA_give_peace_a_chance }
 		mutually_exclusive = { focus = STA_rebel }
 		x = -4
@@ -117,6 +117,8 @@ focus_tree = {
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		cancel_if_invalid = yes
 
 		ai_will_do = {
 			factor = 3
@@ -137,7 +139,7 @@ focus_tree = {
 	
 	focus = {
 		id = STA_helping_out_moon
-		icon = xxx
+		icon = GFX_focus_moon_formal
 		prerequisite = { focus = STA_stay_loyal }
 		x = 3
 		y = 1
@@ -159,14 +161,14 @@ focus_tree = {
 		completion_reward = {
 			MON = {
 				add_political_power = 50
-				country_event = xxx
+				country_event = STA_notification_event.5
 			}
 		}
 	}
 	
 	focus = {
 		id = STA_technological_talents
-		icon = xxx
+		icon = GFX_focus_research
 		prerequisite = { focus = STA_helping_out_moon }
 		x = -2
 		y = 3
@@ -186,7 +188,7 @@ focus_tree = {
 		completion_reward = {
 			MON = {
 				add_research_slot = 1
-				country_event = xxx
+				country_event = STA_notification_event.1
 			}
 			add_autonomy_score = {
 				value = -150
@@ -196,7 +198,7 @@ focus_tree = {
 	
 	focus = {
 		id = STA_gifts_of_production
-		icon = xxx
+		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = STA_helping_out_moon }
 		x = 0
 		y = 3
@@ -222,14 +224,14 @@ focus_tree = {
 				value = -150
 			}
 			MON = {
-				country_event = xxx
+				country_event = STA_notification_event.2
 			}
 		}
 	}
 	
 	focus = {
 		id = STA_positive_image
-		icon = xxx
+		icon = GFX_focus_star_finger_guns
 		prerequisite = { focus = STA_helping_out_moon }
 		x = 2
 		y = 3
@@ -252,7 +254,7 @@ focus_tree = {
 		completion_reward = {
 			MON = {
 				add_war_support = 0.08
-				country_event = xxx
+				country_event = STA_notification_event.3
 			}
 			add_autonomy_score = {
 				value = -150
@@ -262,7 +264,7 @@ focus_tree = {
 	
 	focus = {
 		id = STA_local_politics
-		icon = xxx
+		icon = GFX_focus_california_flag
 		prerequisite = { focus = STA_stay_loyal }
 		x = -4
 		y = 1
@@ -283,7 +285,7 @@ focus_tree = {
 	
 	focus = {
 		id = STA_kiss_babies
-		icon = xxx
+		icon = GFX_focus_child_meteora_cry
 		prerequisite = { focus = STA_local_politics }
 		x = 3
 		y = 1
@@ -303,7 +305,7 @@ focus_tree = {
 	
 	focus = {
 		id = STA_parades_and_ballrooms
-		icon = xxx
+		icon = GFX_focus_royal_party
 		prerequisite = { focus = STA_kiss_babies }
 		x = 1
 		y = 1
@@ -323,7 +325,7 @@ focus_tree = {
 	
 	focus = {
 		id = STA_visit_victims_of_war
-		icon = xxx
+		icon = GFX_focus_sabrina_cry
 		prerequisite = { focus = STA_kiss_babies }
 		x = -1
 		y = 1
@@ -344,7 +346,7 @@ focus_tree = {
 	
 	focus = {
 		id = STA_network_with_tech_oligarchs
-		icon = xxx
+		icon = GFX_focus_phone
 		prerequisite = { focus = STA_local_politics }
 		x = -3
 		y = 1
@@ -364,7 +366,7 @@ focus_tree = {
 	
 	focus = {
 		id = STA_industrial_contracts
-		icon = xxx
+		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = STA_network_with_tech_oligarchs }
 		x = -1
 		y = 1
@@ -443,7 +445,7 @@ focus_tree = {
 	
 	focus = {
 		id = STA_production_contracts
-		icon = xxx
+		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = STA_network_with_tech_oligarchs }
 		x = 1
 		y = 1
@@ -522,7 +524,7 @@ focus_tree = {
 	
 	focus = {
 		id = STA_adopt_local_customs
-		icon = xxx
+		icon = GFX_focus_star_tangled_in_christmas_lights
 		prerequisite = { focus = STA_local_politics }
 		x = 0
 		y = 1
@@ -543,7 +545,7 @@ focus_tree = {
 	
 	focus = {
 		id = STA_grant_human_autonomy
-		icon = xxx
+		icon = GFX_focus_mayor_sash
 		prerequisite = { focus = STA_adopt_local_customs }
 		x = 0
 		y = 1
@@ -563,7 +565,7 @@ focus_tree = {
 	
 	focus = {
 		id = STA_pragmatic_star
-		icon = xxx
+		icon = GFX_focus_star_formal
 		prerequisite = { focus = STA_grant_human_autonomy }
 		prerequisite = { focus = STA_production_contracts }
 		prerequisite = { focus = STA_industrial_contracts }
@@ -586,7 +588,7 @@ focus_tree = {
 	
 	focus = {
 		id = STA_idealist_star
-		icon = xxx
+		icon = GFX_focus_star_booth_smile
 		prerequisite = { focus = STA_grant_human_autonomy }
 		prerequisite = { focus = STA_visit_victims_of_war }
 		prerequisite = { focus = STA_parades_and_ballrooms }
@@ -609,7 +611,7 @@ focus_tree = {
 	
 	focus = {
 		id = STA_taking_on_greater_responsibilities
-		icon = xxx
+		icon = GFX_focus_star_scroll
 		prerequisite = { focus = STA_idealist_star focus = STA_pragmatic_star }
 		prerequisite = { focus = STA_positive_image }
 		prerequisite = { focus = STA_gifts_of_production }
@@ -642,7 +644,7 @@ focus_tree = {
 
 	focus = {
 		id = STA_rebel
-		icon = xxx
+		icon = GFX_focus_star_punk
 		prerequisite = { focus = STA_give_peace_a_chance }
 		mutually_exclusive = { focus = STA_stay_loyal }
 		x = 4
@@ -678,7 +680,7 @@ focus_tree = {
 
 	focus = {
 		id = STA_resist_mandates
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_moon_formal
 		prerequisite = { focus = STA_rebel }
 		x = -2
 		y = 1
@@ -702,13 +704,16 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			MON = {
+				country_event = STA_notification_event.4
+			}
 			custom_effect_tooltip = STA_resist_mandates_tt
 		}
 	}
 
 	focus = {
 		id = STA_independence
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_generic_total_war
 		prerequisite = { focus = STA_rebel }
 		x = 4
 		y = 1
@@ -741,7 +746,7 @@ focus_tree = {
 
 	focus = {
 		id = STA_mewman_commonwealth
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_generic_diplomatic_treaty
 		prerequisite = { focus = STA_rebel }
 		x = 0
 		y = 1
@@ -765,7 +770,7 @@ focus_tree = {
 
 	focus = {
 		id = STA_offer_HIG
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_generic_treaty
 		prerequisite = { focus = STA_mewman_commonwealth }
 		x = 0
 		y = 1
@@ -793,7 +798,7 @@ focus_tree = {
 
 	focus = {
 		id = STA_offer_MAR
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_generic_treaty
 		prerequisite = { focus = STA_mewman_commonwealth }
 		x = -2
 		y = 1
@@ -824,7 +829,7 @@ focus_tree = {
 
 	focus = {
 		id = STA_offer_JAN
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_generic_treaty
 		prerequisite = { focus = STA_mewman_commonwealth }
 		x = 2
 		y = 1
@@ -852,7 +857,7 @@ focus_tree = {
 
 	focus = {
 		id = STA_offer_MEW
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_generic_treaty
 		prerequisite = { focus = STA_mewman_commonwealth }
 		x = -1
 		y = 2
@@ -880,7 +885,7 @@ focus_tree = {
 
 	focus = {
 		id = STA_offer_MON
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_generic_treaty
 		prerequisite = { focus = STA_mewman_commonwealth }
 		x = 1
 		y = 2
@@ -908,7 +913,7 @@ focus_tree = {
 
 	focus = {
 		id = STA_form_mewman_commonwealth
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_generic_diplomatic_treaty
 		prerequisite = { focus = STA_offer_MON }
 		prerequisite = { focus = STA_offer_MEW }
 		prerequisite = { focus = STA_offer_HIG }
@@ -937,9 +942,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = STA_form_mewman_commonwealth_tt
 			set_cosmetic_tag = STA_COMMONWEALTH
-			set_global_flag = mewman_crownlands_united
-			set_country_flag = uniter_of_mewman_crownlands
-			country_event = mewni_warlords_news_event.7
+			unite_mewman_crownlands = yes
 			hidden_effect = {
 				IF = {
 					limit = {
@@ -960,7 +963,7 @@ focus_tree = {
 
 	focus = {
 		id = STA_fortify_east
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_star_armor
 		prerequisite = { focus = STA_rebel }
 		x = 2
 		y = 1

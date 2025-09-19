@@ -21,3 +21,28 @@
  STA_event.4.desc:0 "[FROM.GetName] has rejected the invitation to the Mewman Commonwealth!"
  STA_event.4.a:0 "Aw..."
  
+ STA_notification_event.1.t:0 "[STA.GetName] Sends Tech Engineers!"
+ STA_notification_event.1.desc:0 "To Write"
+ STA_notification_event.1.a:0 "Great!"
+ STA_notification_event.1_tt:0 "§Y[STA.getflag][STA.getname]§! has completed a focus which grants you a research slot!"
+ 
+ STA_notification_event.2.t:0 "[STA.GetName] Grants Economic Gifts!"
+ STA_notification_event.2.desc:0 "To Write"
+ STA_notification_event.2.a:0 "Great!"
+ STA_notification_event.2_tt:0 "§Y[STA.getflag][STA.getname]§! has gained a national focus which transfers extra economic assets to overlord!"
+ 
+ STA_notification_event.3.t:0 "[STA.Getleader] Public Image Benefits Us!"
+ STA_notification_event.3.desc:0 "To Write"
+ STA_notification_event.3.a:0 "Great!"
+ STA_notification_event.3_tt:0 "§Y[STA.getflag][STA.getname]§! has completed a focus which grants you extra war support!"
+ 
+ STA_notification_event.4.t:0 "Control Over [STA.Getname] Slips Significantly!"
+ STA_notification_event.4.desc:0 "[STA.Getleader], in her infinite insolence, has instructed her duchy not to follow any of our new orders! While we still hold some control over the duchy, our capacity to carry out measures to bring the duchy to heel has been severely hampered."
+ STA_notification_event.4.a:0 "Rats!"
+ STA_notification_event.4_tt:0 "§Y[STA.getflag][STA.getname]§! has completed a focus which makes you unable to take focuses branching from the focus §Y$MON_iron_fist_over_san_havensisco$§!!"
+ 
+ STA_notification_event.5.t:0 "[STA.Getleader] Announces Intentions to Help Us Further!"
+ STA_notification_event.5.desc:0 "Star, in order to prove her administrative prowess, has promised to deliver us economic and political boons from her duchy beyond what she is obligated."
+ STA_notification_event.5.a:0 "Great!"
+ STA_notification_event.5_tt:0 "§Y[STA.getflag][STA.getname]§! has completed a focus which grants you 50 political power, and which also leads to focuses which will grant you further bonuses!"
+ 

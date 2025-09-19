@@ -1,0 +1,58 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_star_armor"
+		texturefile = "gfx/interface/goals/STA/focus_star_armor.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_star_punk"
+		texturefile = "gfx/interface/goals/STA/focus_star_punk.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_star_formal"
+		texturefile = "gfx/interface/goals/STA/focus_star_formal.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_moon_formal"
+		texturefile = "gfx/interface/goals/STA/focus_moon_formal.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_mayor_sash"
+		texturefile = "gfx/interface/goals/STA/focus_mayor_sash.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_star_tangled_in_christmas_lights"
+		texturefile = "gfx/interface/goals/STA/focus_star_tangled_in_christmas_lights.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_california_flag"
+		texturefile = "gfx/interface/goals/STA/focus_california_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_phone"
+		texturefile = "gfx/interface/goals/STA/focus_phone.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_royal_party"
+		texturefile = "gfx/interface/goals/STA/focus_royal_party.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_sabrina_cry"
+		texturefile = "gfx/interface/goals/STA/focus_sabrina_cry.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_child_meteora_cry"
+		texturefile = "gfx/interface/goals/STA/focus_child_meteora_cry.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_star_booth_smile"
+		texturefile = "gfx/interface/goals/STA/focus_star_booth_smile.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_star_finger_guns"
+		texturefile = "gfx/interface/goals/STA/focus_star_finger_guns.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_star_scroll"
+		texturefile = "gfx/interface/goals/STA/focus_star_scroll.dds"
+	}
+}

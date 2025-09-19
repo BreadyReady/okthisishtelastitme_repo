@@ -60,6 +60,38 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
+		shared_mewman_loans_fighter_planes_idea = {
+			name = shared_mewman_loans_fighter_planes_idea
+			picture = generic_war_preparation
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		shared_mewman_loans_cas_idea = {
+			name = shared_mewman_loans_cas_idea
+			picture = generic_war_preparation
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
 		
 		shared_mewman_borrow_large_loans_idea = {
 			name = shared_mewman_loans_equipment_idea
@@ -77,6 +109,25 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = -0.15
+			}
+		}
+		
+		shared_mewman_borrow_large_loans_payments_idea = {
+			name = shared_mewman_borrow_large_loans_payments_idea
+			picture = generic_war_preparation
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.20
 			}
 		}
 		
@@ -137,6 +188,23 @@ ideas = {
 				production_lack_of_resource_penalty_factor = -0.20
 				equipment_capture_factor = 0.10
 				equipment_conversion_speed = 0.50
+			}
+		}
+		
+		shared_mewman_supply_line_exp_idea = {
+			name = shared_mewman_supply_line_exp_idea
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_supply_node_factor = 0.2
 			}
 		}
 	} # End Country Bloc

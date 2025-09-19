@@ -100,4 +100,110 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = mewni_shared_warlord_events.5 #effects after uniting mewni
+	title = mewni_shared_warlord_events.5.t
+	desc = mewni_shared_warlord_events.5.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mewni_shared_warlord_events.5.a
+		if = {
+			limit = {
+				has_completed_focus = MEWNI_SHARED_mercenary_contracts
+			}
+			delete_unit_template_and_units = {
+				division_template = "Foreign Mercenary Force"
+				disband = yes #will refund equipment and manpower
+			}
+		}
+		if = {
+			limit = {
+				has_completed_focus = MEWNI_SHARED_borrow_large_loans
+			}
+			remove_ideas = shared_mewman_borrow_large_loans_idea
+			add_timed_idea = {
+				idea = shared_mewman_borrow_large_loans_payments_idea
+				days = 545
+			}
+		}
+		if = {
+			limit = {
+				has_completed_focus = MEWNI_SHARED_emergency_taxes
+			}
+			country_event = {
+				id = mewni_shared_warlord_events.4
+				days = 30
+				random_days = 30
+			}
+		}
+		if = {
+			limit = {
+				has_completed_focus = MEWNI_SHARED_seize_production_facilities
+			}
+			country_event = {
+				id = mewni_shared_warlord_events.6
+				days = 30
+				random_days = 30
+			}
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = {
+	id = mewni_shared_warlord_events.6 #returning production facilities
+	title = mewni_shared_warlord_events.6.t
+	desc = mewni_shared_warlord_events.6.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mewni_shared_warlord_events.6.a
+		add_offsite_building = { type = arms_factory level = -5 }
+		add_stability = 0.05
+		add_war_support = 0.05
+		ai_chance = {
+			base = 1
+		}
+	}
+	
+	option = {
+		name = mewni_shared_warlord_events.6.b
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = {
+	id = mewni_shared_warlord_events.7 #characters age
+	title = mewni_shared_warlord_events.7.t
+	desc = mewni_shared_warlord_events.7.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mewni_shared_warlord_events.6.a
+		every_country = {
+			age_portraits = yes #see scripted effects
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+	
+	option = {
+		name = mewni_shared_warlord_events.6.b
+		ai_chance = {
+			base = 0
+		}
+	}
+}
 

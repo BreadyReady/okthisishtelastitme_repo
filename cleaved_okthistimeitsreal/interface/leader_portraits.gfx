@@ -28,4 +28,30 @@ spriteTypes = {
 		name = "GFX_portrait_JAN_janna_ordonia"
 		texturefile = "gfx/leaders/JAN/JAN_janna_ordonia.dds"
 	}
+	
+	###############
+	#Adult version#
+	###############
+	
+	spriteType = {
+		name = "GFX_portrait_adult_star"
+		texturefile = "gfx/leaders/adult/hoi4_portrait_adult_star.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_adult_marco"
+		texturefile = "gfx/leaders/adult/hoi4_portrait_adult_marco.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_adult_higgs"
+		texturefile = "gfx/leaders/adult/hoi4_portrait_adult_higgs.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_adult_janna"
+		texturefile = "gfx/leaders/adult/hoi4_portrait_adult_janna.dds"
+	}
+	
+	
 }

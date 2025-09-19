@@ -4,3 +4,17 @@
  mewni_shared_warlord_events.1.a:0 "Very well, we must abide by our promises"
  mewni_shared_warlord_events.1.b:0 "Time limit? What time limit?"
  
+ mewni_shared_warlord_events.1.t:0 "Draft Time Limit Reached"
+ mewni_shared_warlord_events.1.desc:0 "The temporary draft has helped our manpower problems, however at the time we enacted it we did promise to stop it in two years. Well, two years have passed, and the time limit is over. People are hoping that we will roll back our mandatory recruitment efforts."
+ mewni_shared_warlord_events.1.a:0 "Very well, we must abide by our promises"
+ mewni_shared_warlord_events.1.b:0 "Time limit? What time limit?"
+ 
+ mewni_shared_warlord_events.4.t:0 "Returning Emergency Taxes"
+ mewni_shared_warlord_events.4.desc:0 "In an effort to promote rebuilding and goodwill, we can deploy a combination of tax breaks and redistribution strategies to compensate people for the emergency taxes we took during our reunification efforts."
+ mewni_shared_warlord_events.4.a:0 "It was an emergency measure, we should compensate people now that we are outside an emergency."
+ mewni_shared_warlord_events.4.b:0 "Sorry guys, we spent it all on corn!"
+ 
+ mewni_shared_warlord_events.5.t:0 "Reap the Corn you Sow"
+ mewni_shared_warlord_events.5.desc:0 "Now that the Crownlands have been reunified, we have begun rolling back some of the extreme measure we took. Loans are now going to be put off the freeze and will have to be repaid, mercenaries will now leave, etc."
+ mewni_shared_warlord_events.5.a:0 "Darn, the concequences of my actions!"
+ 
