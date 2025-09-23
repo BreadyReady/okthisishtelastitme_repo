@@ -1,0 +1,109 @@
+ideas = {
+
+	economy = {
+		law = yes
+		use_list_view = yes
+
+		mewman_feudalism = {
+
+			picture = idea_mewman_feudalism
+
+			allowed = {
+				always = no
+			}
+
+			available = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_expected_value = 0.5
+				production_speed_industrial_complex_factor = -0.5
+				production_speed_arms_factory_factor = -0.5
+				production_speed_dockyard_factor = -0.5
+				conversion_cost_civ_to_mil_factor = 0.5
+				conversion_cost_mil_to_civ_factor = 0.5
+				generate_wargoal_tension = 1.00
+				join_faction_tension = 0.20
+				lend_lease_tension = 0.50
+				send_volunteers_tension = 0.20
+				guarantee_tension = 0.75
+				max_fuel_factor = -0.45
+				fuel_gain_factor = -0.6
+				agency_upgrade_time = 1.0
+			}
+
+			allowed_to_remove = {
+				has_completed_focus = xxx
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+	
+	trade_laws = {
+		law = yes
+		use_list_view = yes
+
+		mewman_mercantalism = {
+
+			picture = idea_mewman_mercantalism
+
+			allowed = {
+				always = no
+			}
+
+			available = {
+				always = no
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				min_export = 0.8
+				consumer_goods_expected_value = 0.15
+			}
+
+			allowed_to_remove = {
+				has_completed_focus = xxx
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	mobilization_laws = {
+		law = yes
+		use_list_view = yes
+
+		mewman_warrior_class = {
+		
+			picture = idea_mewman_warrior_class
+
+			cost = 150
+			removal_cost = -1
+			level = 7
+
+			allowed = {
+				always = no
+			}
+
+			available = {
+				always = no
+			}
+
+			modifier = {
+				conscription = 0.01
+				training_time_factor = 0.15
+			}
+			
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

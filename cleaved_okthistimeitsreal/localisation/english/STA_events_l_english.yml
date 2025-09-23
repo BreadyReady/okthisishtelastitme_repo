@@ -21,6 +21,10 @@
  STA_event.4.desc:0 "[FROM.GetName] has rejected the invitation to the Mewman Commonwealth!"
  STA_event.4.a:0 "Aw..."
  
+ STA_event.6.t:0 "Congress of Mewni reaches an agreement!"
+ STA_event.6.desc:0 "All the nations of the Mewman Crownlands have come to an agreement on peaceful unification! Our disparate factions have agreed to work together underneath a 'Mewman Commonwealth', where their interests will have to gain the approval of others to go forward. This will ensure progress while, hopefully, not upsetting anyone too much.\n\nStar Butterfly, as the head of the Mewman Congress, has been seen by many has the face of the new Commonwealth."
+ STA_event.6.a:0 "Awesome!"
+ 
  STA_notification_event.1.t:0 "[STA.GetName] Sends Tech Engineers!"
  STA_notification_event.1.desc:0 "To Write"
  STA_notification_event.1.a:0 "Great!"

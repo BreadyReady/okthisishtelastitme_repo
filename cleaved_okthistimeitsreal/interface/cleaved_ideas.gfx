@@ -1,0 +1,18 @@
+### Advisors for DRG ###
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_mewman_warrior_class"
+		texturefile = "gfx/interface/ideas/laws/idea_mewman_warrior_class.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_idea_mewman_mercantalism"
+		texturefile = "gfx/interface/ideas/laws/idea_mewman_mercantalism.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_idea_mewman_feudalism"
+		texturefile = "gfx/interface/ideas/laws/idea_mewman_feudalism.dds" 
+	}
+}

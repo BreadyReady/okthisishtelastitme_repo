@@ -110,6 +110,9 @@ country_event = {
 	
 	option = {
 		name = mewni_shared_warlord_events.5.a
+		add_ideas = mewman_feudalism
+		add_ideas = mewman_mercantalism
+		add_ideas = mewman_warrior_class
 		if = {
 			limit = {
 				has_completed_focus = MEWNI_SHARED_mercenary_contracts
