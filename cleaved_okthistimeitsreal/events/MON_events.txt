@@ -1,11 +1,12 @@
 ﻿###########################
-# Moons mewnie events
+# Moons mewni events
 ###########################
 
 add_namespace = MON_event
+add_namespace = MON_notification_event
 
 country_event = {
-	id = MON_event.1 #Invitation to the Mewman commonwealth (For other nations)
+	id = MON_event.1 #Invitation to the Mewman commonwealth (For other nations) ###it is unclear why this is here, but leave it just in case
 	title = MON_event.1.t
 	desc = MON_event.1.desc
 	picture = xxx
@@ -18,5 +19,141 @@ country_event = {
 			factor = 1
 		}
 		STA = { add_to_faction = ROOT }
+	}
+}
+
+country_event = {
+	id = MON_notification_event.1
+	title = MON_notification_event.1.t
+	desc = MON_notification_event.1.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_notification_event.1.a
+		custom_effect_tooltip = MON_notification_event.1_tt
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = MON_notification_event.2
+	title = MON_notification_event.2.t
+	desc = MON_notification_event.2.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_notification_event.2.a
+		custom_effect_tooltip = MON_notification_event.2_tt
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = MON_notification_event.3
+	title = MON_notification_event.3.t
+	desc = MON_notification_event.3.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_notification_event.3.a
+		custom_effect_tooltip = MON_notification_event.3_tt
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = MON_notification_event.4
+	title = MON_notification_event.4.t
+	desc = MON_notification_event.4.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_notification_event.4.a
+		custom_effect_tooltip = MON_notification_event.4_tt
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = MON_notification_event.5
+	title = MON_notification_event.5.t
+	desc = MON_notification_event.5.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_notification_event.5.a
+		custom_effect_tooltip = MON_notification_event.5_tt
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = MON_notification_event.6
+	title = MON_notification_event.6.t
+	desc = MON_notification_event.6.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_notification_event.6.a
+		custom_effect_tooltip = MON_notification_event.6_tt
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = MON_notification_event.7
+	title = MON_notification_event.7.t
+	desc = MON_notification_event.7.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_notification_event.7.a
+		custom_effect_tooltip = MON_notification_event.7_tt
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = MON_notification_event.8
+	title = MON_notification_event.8.t
+	desc = MON_notification_event.8.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_notification_event.8.a
+		custom_effect_tooltip = MON_notification_event.8_tt
+		ai_chance = {
+			factor = 1
+		}
 	}
 }

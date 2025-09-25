@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_moon_poster"
+		texturefile = "gfx/interface/goals/MON/focus_moon_poster.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_moon_eyes_glow"
+		texturefile = "gfx/interface/goals/MON/focus_moon_eyes_glow.dds"
+	}
+}

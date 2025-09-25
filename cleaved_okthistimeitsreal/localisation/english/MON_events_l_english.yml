@@ -1,0 +1,40 @@
+﻿l_english:
+ MON_notification_event.1.t:0 "Moon Cracks Down on San Havensisco"
+ MON_notification_event.1.desc:0 "[MON.getleader] has moved military, police, and bureaucratic elements loyal to her into key positions in San Havensisco. This, in tandem with Moon's recent messages to Star telling her that she will need stricter obidience from the duchy, likely means that Moon is making a power play for further control over the duchy."
+ MON_notification_event.1.a:0 "Rats!"
+ MON_notification_event.1_tt:0 "§Y[MON.getflag][MON.getname]§! has completed the focus §Y$MON_iron_fist_over_san_havensisco$§!, which grants §Y[STA.getflag][STA.getname]§! reduced autonomy gain and which leads to further focuses which give §Y[STA.getflag][STA.getname]§! harsh debuffs.\n\n§Y[STA.getflag][STA.getname]§! may prevent §Y[MON.getflag][MON.getname]§! from pursuing these further focuses by completing the focus §Y$STA_resist_mandates$§!."
+ 
+ MON_notification_event.2.t:0 "Moon Seizes Valuable Technology"
+ MON_notification_event.2.desc:0 "[MON.getleader] has ordered the seizure of key technology sectors in San Havensisco. While this seizure may temporarily provide [MON.getname] with a technological advantage, it also severely cripples San Havensisco's technological capacity, and future talents may look elsewhere to establish startups or research."
+ MON_notification_event.2.a:0 "Rats!"
+ MON_notification_event.2_tt:0 "§Y[MON.getflag][MON.getname]§! has completed the focus §Y$MON_seize_havensisco_tech$§!, which grants §Y[STA.getflag][STA.getname]§! a technology debuff.\n\n§Y[STA.getflag][STA.getname]§! may prevent §Y[MON.getflag][MON.getname]§! from pursuing further harmful focuses by completing the focus §Y$STA_resist_mandates$§!."
+ 
+ MON_notification_event.3.t:0 "Moon Seizes Valuable Industrial Schematics"
+ MON_notification_event.3.desc:0 "[MON.getleader] has ordered the seizure of key company archives in San Havensisco and the suspension of certain patent rights, all focused on finding insights into industrial design. While this seizure may temporarily provide [MON.getname] with a industrial advancement, it also severely cripples San Havensisco's economic capacity."
+ MON_notification_event.3.a:0 "Rats!"
+ MON_notification_event.3_tt:0 "§Y[MON.getflag][MON.getname]§! has completed the focus §Y$MON_seize_havensisco_schematics$§!, which grants §Y[STA.getflag][STA.getname]§! a stability debuff.\n\n§Y[STA.getflag][STA.getname]§! may prevent §Y[MON.getflag][MON.getname]§! from pursuing further harmful focuses by completing the focus §Y$STA_resist_mandates$§!."
+ 
+ MON_notification_event.4.t:0 "Moon Orders Harsh Production Quotas"
+ MON_notification_event.4.desc:0 "[MON.getleader] has ordered a harsh and somewhat unrealistic increase in industrial production and financial tribute from us. With her loyalists in powerful positions, we cannot aleiviate this order."
+ MON_notification_event.4.a:0 "Rats!"
+ MON_notification_event.4_tt:0 "§Y[MON.getflag][MON.getname]§! has completed the focus §Y$MON_harsh_production_quotas$§!, which grants §Y[STA.getflag][STA.getname]§! increased economic tribute to §Y[MON.getflag][MON.getname]§!.\n\n§Y[STA.getflag][STA.getname]§! may prevent §Y[MON.getflag][MON.getname]§! from pursuing further harmful focuses by completing the focus §Y$STA_resist_mandates$§!."
+ 
+ MON_notification_event.5.t:0 "Moon Orders Economic Raids!"
+ MON_notification_event.5.desc:0 "[MON.getleader] has ordered incredibly unrealistic increases in industrial production and financial tribute from us. With our inability to pay, she has ordered the forceful seizure of economic assets."
+ MON_notification_event.5.a:0 "Rats!"
+ MON_notification_event.5_tt:0 "§Y[MON.getflag][MON.getname]§! has completed the focus §Y$MON_raid_havensisco$§!, which damages certain states in §Y[STA.getflag][STA.getname]§! severely.\n\n§Y[STA.getflag][STA.getname]§! may prevent §Y[MON.getflag][MON.getname]§! from pursuing further harmful focuses by completing the focus §Y$STA_resist_mandates$§!."
+ 
+ MON_notification_event.6.t:0 "Moon Seizes Natural Resources!"
+ MON_notification_event.6.desc:0 "[MON.getleader] loyalists in our nation have signed over vital resource rights over to Moon's government."
+ MON_notification_event.6.a:0 "Rats!"
+ MON_notification_event.6_tt:0 "§Y[MON.getflag][MON.getname]§! has completed the focus §Y$MON_seize_resources$§!, which grants some of §Y[STA.getflag][STA.getname]§!'s resources to §Y[MON.getflag][MON.getname]§!.\n\n§Y[STA.getflag][STA.getname]§! may prevent §Y[MON.getflag][MON.getname]§! from pursuing further harmful focuses by completing the focus §Y$STA_resist_mandates$§!."
+ 
+ MON_notification_event.7.t:0 "Moon Seizes Vital Natural Resources!"
+ MON_notification_event.7.desc:0 "[MON.getleader] loyalists in our nation have signed over greatly vital resource rights over to Moon's government."
+ MON_notification_event.7.a:0 "Rats!"
+ MON_notification_event.7_tt:0 "§Y[MON.getflag][MON.getname]§! has completed the focus §Y$MON_seize_greater_resources$§!, which grants the rest of §Y[STA.getflag][STA.getname]§!'s resources to §Y[MON.getflag][MON.getname]§!.\n\n§Y[STA.getflag][STA.getname]§! may prevent §Y[MON.getflag][MON.getname]§! from pursuing further harmful focuses by completing the focus §Y$STA_resist_mandates$§!."
+ 
+ MON_notification_event.8.t:0 "[MON.Getleader] Announces Intentions to Help Us Further!"
+ MON_notification_event.8.desc:0 "Moon, in in a private letter to Star, has promised to leave the duchy largely alone and autonomous. This comes with the caveat that this autonomy is expected to be put to use, and that the duchy must support Moon, even if it is mroe free to choose how to do so."
+ MON_notification_event.8.a:0 "Great!"
+ MON_notification_event.8_tt:0 "§Y[MON.getflag][MON.getname]§! has completed the focus §Y$MON_guiding_hand_over_san_havensisco$§!, which allows §Y[STA.getflag][STA.getname]§! to pursue focuses which lower it's autonomy and buff §Y[MON.getflag][MON.getname]§!!"

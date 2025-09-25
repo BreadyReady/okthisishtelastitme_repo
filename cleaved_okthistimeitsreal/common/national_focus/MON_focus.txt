@@ -25,7 +25,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_empowering_moon
-		icon = xxx
+		icon = GFX_focus_moon_eyes_glow
 		x = 5
 		y = 8
 		cost = 10
@@ -47,7 +47,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_cult_of_personality
-		icon = xxx
+		icon = GFX_focus_moon_formal
 		prerequisite = { focus = MON_empowering_moon }
 		x = 0
 		y = 1
@@ -91,7 +91,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_propaganda_efforts
-		icon = xxx
+		icon = GFX_focus_moon_poster
 		prerequisite = { focus = MON_empowering_moon }
 		x = 2
 		y = 1
@@ -161,7 +161,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = MON_havensisco_iron_fist
 			STA = {
-				country_event = xxx
+				country_event = MON_notification_event.1
 			}
 		}
 	}
@@ -197,7 +197,7 @@ focus_tree = {
 			}
 			STA = {
 				add_ideas = MON_havensisco_tech_debuff
-				country_event = xxx
+				country_event = MON_notification_event.2
 			}
 		}
 	}
@@ -234,6 +234,7 @@ focus_tree = {
 			}
 			STA = {
 				add_stability = -0.1
+				country_event = MON_notification_event.3
 			}
 		}
 	}
@@ -265,7 +266,7 @@ focus_tree = {
 		completion_reward = {
 			STA = {
 				add_ideas = MON_havensisco_harsh_quotas
-				country_event = xxx
+				country_event = MON_notification_event.4
 			}
 		}
 	}
@@ -314,7 +315,7 @@ focus_tree = {
 				}
 			}
 			STA = {
-				country_event = xxx
+				country_event = MON_notification_event.5
 			}
 		}
 	}
@@ -357,7 +358,7 @@ focus_tree = {
 					receiver = MON
 					state = 39
 				}
-				country_event = xxx
+				country_event = MON_notification_event.6
 			}
 		}
 	}
@@ -396,7 +397,7 @@ focus_tree = {
 					receiver = MON
 					state = 87
 				}
-				country_event = xxx
+				country_event = MON_notification_event.7
 			}
 		}
 	}
@@ -450,7 +451,7 @@ focus_tree = {
 
 		completion_reward = {
 			STA = {
-				country_event = xxx
+				country_event = MON_notification_event.8
 			}
 		}
 	}
