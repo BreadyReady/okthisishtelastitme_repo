@@ -260,3 +260,405 @@ every_possible_country = {
 		}
 	}
 }
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = army_chief_offensive_1 characters = yes } #Will not appear if you have a custom charatcer w/ same trait
+			OR = {
+				original_tag = USA  #placeholder. for if you want to remove it from specific nation. Or, we may use it for diffrent cultures
+			}
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_army_chief_offensive_1 # token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = army_chief
+			traits = {
+				army_chief_offensive_1
+			}
+			allowed = {
+				always = yes
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_female_europe }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = army_chief_entrenchment_1 characters = yes } #Will not appear if you have a custom charatcer w/ same trait
+			OR = {
+				original_tag = USA  #placeholder. for if you want to remove it from specific nation. Or, we may use it for diffrent cultures
+			}
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_army_chief_entrenchment_1 # token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = army_chief
+			traits = {
+				army_chief_entrenchment_1
+			}
+			allowed = {
+				always = yes
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_female_europe }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = navy_chief_maneuver_2 characters = yes } #Will not appear if you have a custom charatcer w/ same trait
+			OR = {
+				original_tag = USA  #placeholder. for if you want to remove it from specific nation. Or, we may use it for diffrent cultures
+			}
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_navy_chief_maneuver_2 # token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = navy_chief
+			traits = {
+				navy_chief_maneuver_2
+			}
+			allowed = {
+				always = yes
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_female_europe }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = air_chief_reform_2 characters = yes } #Will not appear if you have a custom charatcer w/ same trait
+			OR = {
+				original_tag = USA  #placeholder. for if you want to remove it from specific nation. Or, we may use it for diffrent cultures
+			}
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_air_chief_reform_2 # token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = air_chief
+			traits = {
+				air_chief_reform_2
+			}
+			allowed = {
+				always = yes
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_female_europe }
+		}
+	}
+}
+
+#########################
+#high command (officers)#
+#########################
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = army_infantry_2 characters = yes } #Will not appear if you have a custom charatcer w/ same trait
+			OR = {
+				original_tag = USA  #placeholder. for if you want to remove it from specific nation. Or, we may use it for diffrent cultures
+			}
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_high_command_army_infantry_2 # token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = high_command
+			traits = {
+				army_infantry_2
+			}
+			allowed = {
+				always = yes
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_female_europe }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = army_entrenchment_2 characters = yes } #Will not appear if you have a custom charatcer w/ same trait
+			OR = {
+				original_tag = USA  #placeholder. for if you want to remove it from specific nation. Or, we may use it for diffrent cultures
+			}
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_high_command_army_entrenchment_2 # token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = high_command
+			traits = {
+				army_entrenchment_2
+			}
+			allowed = {
+				always = yes
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_female_europe }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = army_artillery_2 characters = yes } #Will not appear if you have a custom charatcer w/ same trait
+			OR = {
+				original_tag = USA  #placeholder. for if you want to remove it from specific nation. Or, we may use it for diffrent cultures
+			}
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_high_command_army_artillery_2 # token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = high_command
+			traits = {
+				army_artillery_2
+			}
+			allowed = {
+				always = yes
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_female_europe }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = army_logistics_2 characters = yes } #Will not appear if you have a custom charatcer w/ same trait
+			OR = {
+				original_tag = USA  #placeholder. for if you want to remove it from specific nation. Or, we may use it for diffrent cultures
+			}
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_high_command_army_logistics_2 # token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = high_command
+			traits = {
+				army_logistics_2
+			}
+			allowed = {
+				always = yes
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_female_europe }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = air_close_air_support_2 characters = yes } #Will not appear if you have a custom charatcer w/ same trait
+			OR = {
+				original_tag = USA  #placeholder. for if you want to remove it from specific nation. Or, we may use it for diffrent cultures
+			}
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_high_command_air_close_air_support_2 # token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = high_command
+			traits = {
+				air_close_air_support_2
+			}
+			allowed = {
+				always = yes
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_female_europe }
+		}
+	}
+}
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = navy_fleet_logistics_1 characters = yes } #Will not appear if you have a custom charatcer w/ same trait
+			OR = {
+				original_tag = USA  #placeholder. for if you want to remove it from specific nation. Or, we may use it for diffrent cultures
+			}
+		}
+	}
+	generate_character = {
+		token_base = shared_crownland_high_command_navy_fleet_logistics_1 # token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = high_command
+			traits = {
+				navy_fleet_logistics_1
+			}
+			allowed = {
+				always = yes
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_female_europe }
+		}
+	}
+}
+
+
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		OR = {
+			original_tag = MON
+			original_tag = STA
+			original_tag = MAR
+			original_tag = HIG
+			original_tag = JAN
+			original_tag = MEW
+		} # Crownland nations
+		NOT = {
+			has_allowed_idea_with_traits = { idea = air_chief_all_weather_2 characters = yes } #Will not appear if you have a custom charatcer w/ same trait
+			OR = {
+				original_tag = USA  #placeholder. for if you want to remove it from specific nation. Or, we may use it for diffrent cultures
+			}
+		}
+	}
+	
+	generate_character = {
+		token_base = shared_crownland_high_command_air_chief_all_weather_2 # token will be TAG_token_base
+		gender = female
+		advisor = {
+			slot = air_chief
+			traits = {
+				air_chief_all_weather_2
+			}
+			allowed = {
+				always = yes
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_army_female_europe }
+		}
+	}
+}

@@ -51,3 +51,19 @@
  PNW_DEF:0 "Human Government of the Pacific Northwest"
  PNW_ADJ:0 "Human Government of the Pacific Northwest"
  
+ PNY:0 "Ponyhead Kingdom"
+ PNY_DEF:0 "Ponyhead Kingdom"
+ PNY_ADJ:0 "Ponyhead Kingdom"
+ 
+ MIN:0 "Mina's Clique (Dev Location Marker)"
+ MIN_DEF:0 "Mina's Clique (Dev Location Marker)
+ MIN_ADJ:0 "Mina's Clique (Dev Location Marker)"
+ 
+ SPT:0 "Septarsis (Dev Location Marker)"
+ SPT_DEF:0 "Septarsis (Dev Location Marker)"
+ SPT_ADJ:0 "Septarsis (Dev Location Marker)"
+ 
+ PIG:0 "Pigeon Kingdom"
+ PIG_DEF:0 "Pigeon Kingdom"
+ PIG_ADJ:0 "Pigeon Kingdom"
+ 

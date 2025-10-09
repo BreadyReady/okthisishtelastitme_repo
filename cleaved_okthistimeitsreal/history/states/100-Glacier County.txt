@@ -1,0 +1,14 @@
+state={
+	id=100
+	name="STATE_100"
+	history = {
+		owner = SPI
+		add_core_of = SPI
+	}
+	provinces={
+		532 988 1974 2286 2297 2332 2554 2624 2719 2819 2874 4008 4046 4527 6712 7245 12957
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

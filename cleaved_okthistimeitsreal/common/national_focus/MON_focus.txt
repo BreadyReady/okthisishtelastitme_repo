@@ -71,7 +71,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_law_enforcement_loyalty
-		icon = xxx
+		icon = GFX_focus_police
 		prerequisite = { focus = MON_empowering_moon }
 		x = -2
 		y = 1
@@ -111,7 +111,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_stir_anti_monster_sentiments
-		icon = xxx
+		icon = GFX_focus_mewman_vs_monster
 		prerequisite = { focus = MON_propaganda_efforts }
 		x = 0
 		y = 1
@@ -140,7 +140,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_iron_fist_over_san_havensisco
-		icon = xxx
+		icon = GFX_focus_tom_fiery_fist
 		prerequisite = { focus = MON_empowering_moon }
 		x = 6
 		y = 1
@@ -435,7 +435,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_guiding_hand_over_san_havensisco
-		icon = xxx
+		icon = GFX_focus_star_and_moon_with_flag
 		prerequisite = { focus = MON_empowering_moon }
 		x = 10
 		y = 1

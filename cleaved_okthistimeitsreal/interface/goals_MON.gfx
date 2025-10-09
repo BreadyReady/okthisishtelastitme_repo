@@ -7,4 +7,20 @@ spriteTypes = {
 		name = "GFX_focus_moon_eyes_glow"
 		texturefile = "gfx/interface/goals/MON/focus_moon_eyes_glow.dds"
 	}
+	spriteType = {
+		name = "GFX_focus_police"
+		texturefile = "gfx/interface/goals/MON/focus_police.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_mewman_vs_monster"
+		texturefile = "gfx/interface/goals/MON/focus_mewman_vs_monster.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_star_and_moon_with_flag"
+		texturefile = "gfx/interface/goals/MON/focus_star_and_moon_with_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_tom_fiery_fist"
+		texturefile = "gfx/interface/goals/MON/focus_tom_fiery_fist.dds"
+	}
 }
