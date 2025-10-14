@@ -39,4 +39,46 @@ bookmarks = {
 			#123 = { rain_light = yes }
 		}
 	}
+	
+	bookmark = {
+		name = "SEPTARSIS_NAME"
+		desc = "SEPTARSIS_DESC"
+		date = 2018.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "---"
+		default = yes
+		
+		"SPT"={
+			history = "xxx"
+		}
+		
+		"---"={
+			history = "OTHER_CALM_BEFORE_THE_STORM_DESC"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+	
+	bookmark = {
+		name = "TEXAS_NAME"
+		desc = "TEXAS_DESC"
+		date = 2018.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "---"
+		default = yes
+		
+		"MIN"={
+			history = "xxx"
+		}
+		
+		"---"={
+			history = "OTHER_CALM_BEFORE_THE_STORM_DESC"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
 }

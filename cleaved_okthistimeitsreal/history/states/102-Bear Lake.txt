@@ -1,0 +1,14 @@
+state={
+	id=102
+	name="STATE_102"
+	history = {
+		owner = UTH
+		add_core_of = UTH
+	}
+	provinces={
+		643 4354 4523 6011 7819 13020 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

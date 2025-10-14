@@ -1,0 +1,14 @@
+state={
+	id=104
+	name="STATE_104"
+	history={
+		owner = PIG
+		add_core_of = PIG
+	}
+	provinces={
+		90 195 624 777 1012 2091 2351 2520 4027 5148 7501 7564 7612 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

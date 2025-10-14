@@ -1,0 +1,14 @@
+state={
+	id=107
+	name="STATE_107"
+	history={
+		owner = TST
+		add_core_of = TST
+	}
+	provinces={
+		114 155 1071 1192 1238 1423 2211 3426 4770 6272 6445 6446 8382 8448 8603 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
