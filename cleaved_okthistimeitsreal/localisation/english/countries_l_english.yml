@@ -55,9 +55,9 @@
  PNY_DEF:0 "Ponyhead Kingdom"
  PNY_ADJ:0 "Ponyhead Kingdom"
  
- MIN:0 "Mina's Clique (Dev Location Marker)"
- MIN_DEF:0 "Mina's Clique (Dev Location Marker)
- MIN_ADJ:0 "Mina's Clique (Dev Location Marker)"
+ MIN:0 "Mina's Clique"
+ MIN_DEF:0 "Mina's Clique"
+ MIN_ADJ:0 "Mina's Clique"
  
  SPT:0 "Septarsis (Dev Location Marker)"
  SPT_DEF:0 "Septarsis (Dev Location Marker)"
@@ -70,4 +70,24 @@
  UTH:0 "Utah"
  UTH_DEF:0 "Utah"
  UTH_ADJ:0 "Utah"
+ 
+ DAL:0 "Dallas Government"
+ DAL_DEF:0 "Dallas Government"
+ DAL_ADJ:0 "Dallas Government"
+ 
+ RTX:0 "Grand Old Texas"
+ RTX_DEF:0 "Grand Old Texas"
+ RTX_ADJ:0 "Grand Old Texas"
+ 
+ FNT:0 "Fuentesland"
+ FNT_DEF:0 "Fuentesland"
+ FNT_ADJ:0 "Fuentesland"
+ 
+ DTX:0 "Democrat Texas"
+ DTX_DEF:0 "Democrat Texas"
+ DTX_ADJ:0 "Democrat Texas"
+ 
+ HER:0 "23rd District"
+ HER_DEF:0 "23rd District"
+ HER_ADJ:0 "23rd District"
  

@@ -1,0 +1,14 @@
+state={
+	id=118
+	name="STATE_118"
+	history = {
+		owner = SPT
+		add_core_of = SPT
+	}
+	provinces={
+		323 622 671 689 1325 1666 1742 2151 2578 2687 2872 3340 3877 4639 5832 8461 8552 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
