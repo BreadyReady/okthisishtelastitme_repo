@@ -1,0 +1,32 @@
+state={
+	id=136
+	name="STATE_136"
+	history = {
+		owner = MIN
+		add_core_of = MIN
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+		
+		victory_points = {
+			1700 10
+		}
+	}
+	
+	resources = {
+		steel = 12
+		oil = 6
+	}
+	
+	provinces={
+		76 545 1056 1100 1143 1496 1700 2757 4304 4562 4592 5284 5919 6109 6278 6346 6599 6607 6686 6841 9573 9575 9578 9579 9613 9639 9642 9653 9657 9667 9678 9690 
+	}
+	manpower=215000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

@@ -42,3 +42,8 @@
  mewni_warlords_news_event.7.desc.f:0 "[FROM.GetLeader] has united the Mewman Crownlands, which is where the traditional economic and political powerbase of Mewni is situated. DETAILS TO WRITE"
  mewni_warlords_news_event.7.a:0 "Hail [FROM.GetLeader]!"
  mewni_warlords_news_event.7.b:0 "Is the worst of the Mewman Crisis over?"
+ 
+ mewni_warlords_news_event.8.t:0 "Comet Sighted!"
+ mewni_warlords_news_event.8.desc:0 "Mewmans have always been superstitious, and a new mass hysteria is throwing Mewmanity into further panic. Multiple sightings of Queen Comet, the deceased Queen before Moon, have been reported across former Mewni. Sometimes she's a hazy apparition in the distance, other times she appears clear as day, and one peasant even reported Comet speaking directly to her. Many are convinced that this is a sign of bad times ahead, while others think that this is an endorsement of Moon's bid for the throne.\n\nCasting superstition aside, this mass hysteria is likely rooted in a dissatisfaction with recent times. Queen Comet, being free from the current dispute over the throne, is the most recent "uncontroversial" queen that the Mewman consciousness can latch onto."
+ mewni_warlords_news_event.8.a:0 "This is clear evidence that Moon is Mewni's rightful ruler!"
+ mewni_warlords_news_event.8.b:0 "Oh Comet, Mewman's kith and kin..."

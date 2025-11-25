@@ -1,12 +1,12 @@
 state={
-	id=125
-	name="STATE_125"
+	id=143
+	name="STATE_143"
 	history = {
 		owner = DTX
 		add_core_of = DTX
 	}
 	provinces={
-		2047 2464 2600 3829 3883 4107 4421 4498 4940 5180 5493 6120 6146 6429 9833 9876 9878 9881 10416 10417 
+		2141 2422 3518 3819 4578 4767 4938 5296 6030 6803 9915 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

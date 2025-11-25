@@ -23,6 +23,39 @@ country_event = {
 }
 
 country_event = {
+	id = MON_event.2 #Comet sighted
+	title = MON_event.2.t
+	desc = MON_event.2.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_event.2.a
+		trigger = {
+			NOT = {
+				tag = MON
+			}
+		}
+		add_stability = -0.01
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = MON_event.2.b
+		trigger = {
+			tag = MON
+		}
+		add_stability = 0.01
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
 	id = MON_notification_event.1
 	title = MON_notification_event.1.t
 	desc = MON_notification_event.1.desc

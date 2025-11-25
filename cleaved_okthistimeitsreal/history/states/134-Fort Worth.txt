@@ -1,0 +1,40 @@
+state={
+	id=134
+	name="STATE_134"
+	history = {
+		owner = DAL
+		add_core_of = DAL
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+		}
+		
+		victory_points = {
+			4224 20
+		}
+		
+		victory_points = {
+			2745 10
+		}
+		
+		4224 = {
+			bunker = 5
+		}
+	}
+	
+	resources = {
+		steel = 18
+		aluminium = 15
+	}
+	
+	provinces={
+		2745 2826 3673 3769 3973 4224 5317 5916 6561 9470 9483 9489 9501 9504 9509 9518 9528 9538 9540 9553 
+	}
+	manpower=1008000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

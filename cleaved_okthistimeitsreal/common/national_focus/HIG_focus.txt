@@ -1,0 +1,43 @@
+focus_tree = {
+
+	id = HIG_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = HIG
+		}
+	}
+	shared_focus = MEWNI_SHARED_army_effort
+	shared_focus = MEWNI_SHARED_aviation_effort
+	shared_focus = MEWNI_SHARED_industrial_effort
+	shared_focus = MEWNI_SHARED_uniting_mewni_branch_start
+	shared_focus = MEWNI_SHARED_forward_operating_bases_las_vegas
+	shared_focus = MEWNI_SHARED_forward_operating_bases_mojave
+	shared_focus = MEWNI_SHARED_forward_operating_bases_san_joaquin
+	shared_focus = MEWNI_SHARED_forward_operating_bases_sierra
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = {
+		id = HIG_sons_and_daughters_of_the_century
+		icon = xxx
+		x = 5
+		y = 8
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+}

@@ -21,6 +21,10 @@ on_actions = {
 						value = THIS.id
 					}
                 }
+				country_event = {
+					id = mewni_warlords_news_event.8
+					days = 400
+				}
 			}
 			STA = {
 				every_owned_state = {

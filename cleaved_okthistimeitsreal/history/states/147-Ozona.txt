@@ -1,0 +1,14 @@
+state={
+	id=147
+	name="STATE_147"
+	history = {
+		owner = HER
+		add_core_of = HER
+	}
+	provinces={
+		1032 1723 1750 1848 2033 2276 2608 3133 3172 3648 3688 4638 5291 9576 9638 9683 9759 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

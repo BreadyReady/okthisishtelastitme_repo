@@ -1,0 +1,25 @@
+state={
+	id=146
+	name="STATE_146"
+	history = {
+		owner = RTX
+		add_core_of = RTX
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+		
+		victory_points = {
+			9338 10
+		}
+	}
+	provinces={
+		231 388 495 504 660 768 827 1469 1509 1952 2284 2439 2864 3054 3444 3823 4177 4604 4607 5517 5992 6376 6487 6618 9283 9338 9378 9379 9381 9391 9487 9532 9567 
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

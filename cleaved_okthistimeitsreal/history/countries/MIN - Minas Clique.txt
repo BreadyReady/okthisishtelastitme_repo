@@ -1,0 +1,18 @@
+﻿set_research_slots = 1
+
+capital = 136
+
+set_stability = 0.40
+set_war_support = 0.40
+
+set_politics = {
+	ruling_party = fascism
+}
+set_popularities = {
+	neutrality = 40
+	fascism = 60
+}
+
+load_oob = MIN
+
+recruit_character = MIN_mina_loveberry

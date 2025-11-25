@@ -1,0 +1,17 @@
+characters={
+	MIN_mina_loveberry = {
+		name = MIN_mina_loveberry
+		portraits={
+			civilian={
+				large = GFX_portrait_MIN_mina_loveberry
+			}
+		}
+		country_leader={
+			ideology = cle_solarianism
+			desc = MIN_mina_loveberry_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

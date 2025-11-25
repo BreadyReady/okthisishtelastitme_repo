@@ -1,6 +1,6 @@
 state={
-	id=16
-	name="STATE_16"
+	id=137
+	name="STATE_137"
 	history = {
 		owner = MIN
 		add_core_of = MIN
@@ -10,15 +10,20 @@ state={
 			industrial_complex = 2
 
 		}
+		
+		victory_points = {
+			9500 5
+		}
 	}
 	
 	resources = {
-		steel = 14
+		steel = 6
 	}
+	
 	provinces={
-		427 573 834 896 1111 1215 1707 1859 2206 2378 2790 3275 3281 3439 4515 5183 5418 5506 5751 5872 6253 9296 9464 9465 9500 9527 9533 9541 9547 9559 9601 13063 
+		295 413 570 1322 1522 2010 2625 2714 2853 2920 3106 3279 3436 4694 4996 5780 5897 6695 9670 9733 9738 9751 9779 9804 
 	}
-	manpower=75000
+	manpower=50000
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

@@ -328,3 +328,34 @@ news_event = { # Unification of Mewman Crownlands
 		}
     }
 }
+
+news_event = { # Comet sighted
+    id = mewni_warlords_news_event.8
+    title = mewni_warlords_news_event.8.t
+	
+    desc = {
+        text = mewni_warlords_news_event.8.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_news_event_comet
+    
+    option = {
+        name = mewni_warlords_news_event.8.a
+		trigger = {
+			tag = MON
+		}
+		add_stability = 0.01
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.8.b
+		trigger = {
+			NOT = {
+				tag = MON
+			}
+		}
+		add_stability = -0.01
+    }
+}

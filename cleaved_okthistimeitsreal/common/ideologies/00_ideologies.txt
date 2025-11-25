@@ -152,6 +152,9 @@ ideologies = {
 
 			cle_knightly_supremacy = {
 			}
+
+			cle_solarianism = {
+			}
 		}
 
 		dynamic_faction_names = {
