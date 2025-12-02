@@ -1,0 +1,17 @@
+characters={
+	DAL_duchess = {
+		name = DAL_duchess
+		portraits={
+			civilian={
+				large = GFX_portrait_DAL_duchess
+			}
+		}
+		country_leader={
+			ideology = oligarchism
+			desc = DAL_duchess_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

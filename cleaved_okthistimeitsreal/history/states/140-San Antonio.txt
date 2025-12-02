@@ -4,11 +4,31 @@ state={
 	history = {
 		owner = DTX
 		add_core_of = DTX
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 2
+			air_base = 2
+		}
+		
+		victory_points = {
+			4534 25
+		}
 	}
+	
+	resources = {
+		steel = 20
+		aluminium = 15
+		tungsten = 8
+		chromium = 6
+	}
+	
 	provinces={
 		4534 5859 9839 9842 9851 9852 9855 9865 
 	}
-	manpower=0
+	manpower=1500000
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
 }

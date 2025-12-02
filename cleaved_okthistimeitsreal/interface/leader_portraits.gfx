@@ -34,6 +34,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MIN/portrait_MIN_mina_loveberry.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_DAL_duchess"
+		texturefile = "gfx/leaders/DAL/portrait_DAL_duchess.dds"
+	}
+	
 	###############
 	#Adult version#
 	###############
