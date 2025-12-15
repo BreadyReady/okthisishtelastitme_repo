@@ -1,0 +1,19 @@
+﻿set_research_slots = 1
+
+capital = 93
+
+set_stability = 0.40
+set_war_support = 0.25
+
+set_politics = {
+	ruling_party = fascism
+}
+set_popularities = {
+	neutrality = 30
+	democratic = 5
+	fascism = 65
+}
+
+load_oob = SIN
+
+recruit_character = SIN_tomas_drogas

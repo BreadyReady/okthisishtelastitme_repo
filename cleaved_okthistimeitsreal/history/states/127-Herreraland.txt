@@ -4,11 +4,30 @@ state={
 	history = {
 		owner = HER
 		add_core_of = HER
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+		
+		victory_points = {
+			1080 10
+		}
+		
+		victory_points = {
+			5082 10
+		}
 	}
+	
+	resources = {
+		steel = 7
+	}
+	
 	provinces={
-		60 61 216 391 617 635 761 1080 1917 2189 2190 2705 2973 3357 3914 4460 4543 4559 5042 5082 6296 9536 9556 9566 9585 9605 9716 9756 9758 9820 9838 
+		60 61 216 391 617 635 761 1080 1917 2189 2190 2705 2973 3357 3914 4460 4543 4559 5042 5082 6296 9536 9556 9566 9585 9605 9716 9756 9758 9820 9838 13063
 	}
-	manpower=0
+	manpower=1000000
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
 }

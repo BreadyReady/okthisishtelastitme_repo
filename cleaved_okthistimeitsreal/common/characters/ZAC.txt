@@ -1,0 +1,17 @@
+characters={
+	ZAC_javier_barragan = {
+		name = ZAC_javier_barragan
+		portraits={
+			civilian={
+				large = GFX_portrait_ZAC_javier_barragan
+			}
+		}
+		country_leader={
+			ideology = oligarchism
+			desc = ZAC_javier_barragan_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

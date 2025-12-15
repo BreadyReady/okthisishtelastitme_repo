@@ -1,0 +1,82 @@
+focus_tree = {
+
+	id = DAL_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = DAL
+		}
+	}
+	shared_focus = TEXAS_SHARED_resources_eco_branch_start
+	shared_focus = TEXAS_SHARED_uniting_texas_branch_start
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+}
+
+focus_tree = {
+
+	id = DTX_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = DTX
+		}
+	}
+	
+	shared_focus = TEXAS_SHARED_resources_eco_branch_start
+	shared_focus = TEXAS_SHARED_uniting_texas_branch_start
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+}
+
+focus_tree = {
+
+	id = RTX_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = RTX
+		}
+	}
+	
+	shared_focus = TEXAS_SHARED_resources_eco_branch_start
+	shared_focus = TEXAS_SHARED_uniting_texas_branch_start
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+}
+
+focus_tree = {
+
+	id = HER_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = HER
+		}
+	}
+	
+	shared_focus = TEXAS_SHARED_resources_eco_branch_start
+	shared_focus = TEXAS_SHARED_uniting_texas_branch_start
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+}

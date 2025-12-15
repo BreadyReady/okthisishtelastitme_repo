@@ -1,0 +1,627 @@
+shared_focus = {
+	id = TEXAS_SHARED_resources_eco_branch_start
+	icon = GFX_goal_generic_construct_mil_factory
+	x = 12
+	y = 0
+	cost = 5
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = TEXAS_SHARED_resources_eco_kosse_resource_industry
+	icon = GFX_goal_generic_construct_mil_factory
+	x = -3
+	y = 2
+	relative_position_id = TEXAS_SHARED_resources_eco_branch_start
+	prerequisite = { focus = TEXAS_SHARED_resources_eco_branch_start }
+	cost = 10
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	cancel_if_invalid = yes
+	
+	available = {
+		owns_state = 136
+		NOT = {
+			any_country = {
+				has_completed_focus = TEXAS_SHARED_resources_eco_kosse_resoruce_industry
+			}
+		}
+	}
+	
+	completion_reward = {
+		136 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		add_resource = {
+			type = steel
+			amount = 20
+			state = 136
+		}
+		add_resource = {
+			type = coal
+			amount = 10
+			state = 136
+		}
+		add_resource = {
+			type = oil
+			amount = 10
+			state = 136
+		}
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = TEXAS_SHARED_resources_eco_dallas_urban_economy
+	icon = GFX_goal_generic_construct_mil_factory
+	x = -1
+	y = 2
+	relative_position_id = TEXAS_SHARED_resources_eco_branch_start
+	prerequisite = { focus = TEXAS_SHARED_resources_eco_branch_start }
+	cost = 10
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	cancel_if_invalid = yes
+	
+	available = {
+		owns_state = 133
+		owns_state = 134
+		owns_state = 135
+		NOT = {
+			any_country = {
+				has_completed_focus = TEXAS_SHARED_resources_eco_dallas_urban_economy
+			}
+		}
+	}
+	
+	completion_reward = {
+		133 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		134 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		add_resource = {
+			type = steel
+			amount = 10
+			state = 135
+		}
+		add_resource = {
+			type = coal
+			amount = 5
+			state = 135
+		}
+		add_resource = {
+			type = oil
+			amount = 20
+			state = 135
+		}
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = TEXAS_SHARED_resources_eco_austin_urban_eco
+	icon = GFX_goal_generic_construct_mil_factory
+	x = 1
+	y = 2
+	relative_position_id = TEXAS_SHARED_resources_eco_branch_start
+	prerequisite = { focus = TEXAS_SHARED_resources_eco_branch_start }
+	cost = 10
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	cancel_if_invalid = yes
+	
+	available = {
+		owns_state = 139
+		owns_state = 140
+		owns_state = 141
+		NOT = {
+			any_country = {
+				has_completed_focus = TEXAS_SHARED_resources_eco_austin_urban_eco
+			}
+		}
+	}
+	
+	completion_reward = {
+		139 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		140 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		141 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = TEXAS_SHARED_resources_eco_houston_urban_eco
+	icon = GFX_goal_generic_construct_mil_factory
+	x = 3
+	y = 2
+	relative_position_id = TEXAS_SHARED_resources_eco_branch_start
+	prerequisite = { focus = TEXAS_SHARED_resources_eco_branch_start }
+	cost = 10
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	cancel_if_invalid = yes
+	
+	available = {
+		owns_state = 138
+		NOT = {
+			any_country = {
+				has_completed_focus = TEXAS_SHARED_resources_eco_houston_urban_eco
+			}
+		}
+	}
+	
+	completion_reward = {
+		138 = {
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = TEXAS_SHARED_resources_eco_weapons_procurement
+	icon = GFX_goal_generic_army_artillery2
+	x = -2
+	y = 1
+	relative_position_id = TEXAS_SHARED_resources_eco_branch_start
+	prerequisite = { focus = TEXAS_SHARED_resources_eco_branch_start }
+	cost = 5
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 5
+			has_war = yes
+		}
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 5000
+		}
+	}
+}
+
+shared_focus = {
+	id = TEXAS_SHARED_resources_eco_big_energy
+	icon = GFX_goal_generic_army_artillery2
+	x = 0
+	y = 1
+	relative_position_id = TEXAS_SHARED_resources_eco_branch_start
+	prerequisite = { focus = TEXAS_SHARED_resources_eco_branch_start }
+	cost = 5
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	cancel_if_invalid = yes
+	
+	available = {
+		owns_state = 133
+	}
+	
+	completion_reward = {
+		custom_effect_tooltip = TEXAS_SHARED_resources_eco_big_energy_tt
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shared_focus = {
+	id = TEXAS_SHARED_uniting_texas_branch_start
+	icon = GFX_focus_generic_total_war
+	x = 20
+	y = 0
+	cost = 5
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		date > 2019.04.01
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_war_support = 0.15
+	}
+}
+
+shared_focus = {
+	id = TEXAS_SHARED_uniting_texas_strike_DAL
+	icon = GFX_focus_generic_total_war
+	x = -1
+	y = 1
+	relative_position_id = TEXAS_SHARED_uniting_texas_branch_start
+	prerequisite = { focus = TEXAS_SHARED_uniting_texas_branch_start }
+	cost = 5
+	search_filters = { FOCUS_FILTER_ANNEXATION }
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 5
+			has_war = no
+		}
+		modifier = {
+			factor = 0.2
+			OR = {
+				has_wargoal_against = DAL
+				has_wargoal_against = DTX
+				has_wargoal_against = MIN
+				has_wargoal_against = HER
+				has_wargoal_against = RTX
+			}
+		}
+	}
+	
+	available = {
+		has_war = no
+		any_neighbor_country = {
+			tag = DAL
+		}
+	}
+	
+	bypass = {
+		OR = {
+			ROOT = {
+				tag = DAL
+			}
+			DAL = {
+				exists = no
+			}
+		}
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		create_wargoal = {
+			type = civil_war
+			target = DAL
+		}
+	}
+	will_lead_to_war_with = DAL
+}
+
+shared_focus = {
+	id = TEXAS_SHARED_uniting_texas_strike_DTX
+	icon = GFX_focus_generic_total_war
+	x = -3
+	y = 1
+	relative_position_id = TEXAS_SHARED_uniting_texas_branch_start
+	prerequisite = { focus = TEXAS_SHARED_uniting_texas_branch_start }
+	cost = 5
+	search_filters = { FOCUS_FILTER_ANNEXATION }
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 5
+			has_war = no
+		}
+		modifier = {
+			factor = 0.2
+			OR = {
+				has_wargoal_against = DAL
+				has_wargoal_against = DTX
+				has_wargoal_against = MIN
+				has_wargoal_against = HER
+				has_wargoal_against = RTX
+			}
+		}
+	}
+	
+	available = {
+		has_war = no
+		any_neighbor_country = {
+			tag = DTX
+		}
+	}
+	
+	bypass = {
+		OR = {
+			ROOT = {
+				tag = DTX
+			}
+			DTX = {
+				exists = no
+			}
+		}
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		create_wargoal = {
+			type = civil_war
+			target = DTX
+		}
+	}
+	will_lead_to_war_with = DTX
+}
+
+shared_focus = {
+	id = TEXAS_SHARED_uniting_texas_strike_HER
+	icon = GFX_focus_generic_total_war
+	x = 1
+	y = 1
+	relative_position_id = TEXAS_SHARED_uniting_texas_branch_start
+	prerequisite = { focus = TEXAS_SHARED_uniting_texas_branch_start }
+	cost = 5
+	search_filters = { FOCUS_FILTER_ANNEXATION }
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 5
+			has_war = no
+		}
+		modifier = {
+			factor = 0.2
+			OR = {
+				has_wargoal_against = DAL
+				has_wargoal_against = DTX
+				has_wargoal_against = MIN
+				has_wargoal_against = HER
+				has_wargoal_against = RTX
+			}
+		}
+	}
+	
+	available = {
+		has_war = no
+		any_neighbor_country = {
+			tag = HER
+		}
+	}
+	
+	bypass = {
+		OR = {
+			ROOT = {
+				tag = HER
+			}
+			HER = {
+				exists = no
+			}
+		}
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		create_wargoal = {
+			type = civil_war
+			target = HER
+		}
+	}
+	will_lead_to_war_with = HER
+}
+
+shared_focus = {
+	id = TEXAS_SHARED_uniting_texas_strike_RTX
+	icon = GFX_focus_generic_total_war
+	x = 3
+	y = 1
+	relative_position_id = TEXAS_SHARED_uniting_texas_branch_start
+	prerequisite = { focus = TEXAS_SHARED_uniting_texas_branch_start }
+	cost = 5
+	search_filters = { FOCUS_FILTER_ANNEXATION }
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 5
+			has_war = no
+		}
+		modifier = {
+			factor = 0.2
+			OR = {
+				has_wargoal_against = DAL
+				has_wargoal_against = DTX
+				has_wargoal_against = MIN
+				has_wargoal_against = HER
+				has_wargoal_against = RTX
+			}
+		}
+	}
+	
+	available = {
+		has_war = no
+		any_neighbor_country = {
+			tag = RTX
+		}
+	}
+	
+	bypass = {
+		OR = {
+			ROOT = {
+				tag = RTX
+			}
+			RTX = {
+				exists = no
+			}
+		}
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		create_wargoal = {
+			type = civil_war
+			target = RTX
+		}
+	}
+	will_lead_to_war_with = RTX
+}
+
+shared_focus = {
+	id = TEXAS_SHARED_uniting_texas_strike_MIN
+	icon = GFX_focus_generic_total_war
+	x = 0
+	y = 2
+	relative_position_id = TEXAS_SHARED_uniting_texas_branch_start
+	prerequisite = { focus = TEXAS_SHARED_uniting_texas_branch_start }
+	cost = 5
+	search_filters = { FOCUS_FILTER_ANNEXATION }
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 5
+			has_war = no
+		}
+		modifier = {
+			factor = 0.2
+			OR = {
+				has_wargoal_against = DAL
+				has_wargoal_against = DTX
+				has_wargoal_against = MIN
+				has_wargoal_against = HER
+				has_wargoal_against = RTX
+			}
+		}
+	}
+	
+	available = {
+		has_war = no
+		any_neighbor_country = {
+			tag = MIN
+		}
+	}
+	
+	bypass = {
+		OR = {
+			ROOT = {
+				tag = MIN
+			}
+			MIN = {
+				exists = no
+			}
+		}
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		create_wargoal = {
+			type = civil_war
+			target = MIN
+		}
+	}
+	will_lead_to_war_with = MIN
+}

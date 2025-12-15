@@ -15,11 +15,16 @@ state={
 		victory_points = {
 			1700 10
 		}
+		
+		victory_points = {
+			1143 5
+		}
 	}
 	
 	resources = {
 		steel = 12
 		oil = 6
+		coal = 36
 	}
 	
 	provinces={

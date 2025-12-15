@@ -7,4 +7,8 @@ spriteTypes = {
 		name = "GFX_idea_idea_kstart_manufacturer_gfx"
 		texturefile = "gfx/interface/ideas/companies/idea_kstart_manufacturer.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_idea_texas_oil_manufacturer_gfx"
+		texturefile = "gfx/interface/ideas/companies/idea_texas_oil_manufacturer.dds"
+	}
 }

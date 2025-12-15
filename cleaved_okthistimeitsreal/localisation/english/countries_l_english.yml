@@ -91,3 +91,15 @@
  HER_DEF:0 "23rd District"
  HER_ADJ:0 "23rd District"
  
+ JUA:0 "Juarez Government"
+ JUA_DEF:0 "Juarez Government"
+ JUA_ADJ:0 "Juarez Government"
+ 
+ SIN:0 "Sinaloa Cartel"
+ SIN_DEF:0 "Sinaloa Cartel"
+ SIN_ADJ:0 "Sinaloa Cartel"
+ 
+ ZAC:0 "Diocese of Zacatecas"
+ ZAC_DEF:0 "Diocese of Zacatecas"
+ ZAC_ADJ:0 "Diocese of Zacatecas"
+ 

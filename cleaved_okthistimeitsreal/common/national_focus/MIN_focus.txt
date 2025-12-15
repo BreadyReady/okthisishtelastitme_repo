@@ -1,0 +1,78 @@
+focus_tree = {
+
+	id = min_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = MIN
+		}
+	}
+	
+	shared_focus = TEXAS_SHARED_resources_eco_branch_start
+	shared_focus = TEXAS_SHARED_uniting_texas_branch_start
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = {
+		id = MIN_good_ideas
+		icon = xxx
+		x = 5
+		y = 0
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = MIN_recruitment_drives
+		icon = xxx
+		prerequisite = { focus = MIN_good_ideas }
+		relative_position_id = MIN_good_ideas
+		x = -1
+		y = 1
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_manpower = 75000
+		}
+	}
+
+	focus = {
+		id = MIN_rile_up_the_frontier_mewmans
+		icon = xxx
+		prerequisite = { focus = MIN_good_ideas }
+		relative_position_id = MIN_good_ideas
+		x = 1
+		y = 1
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_war_support = 0.05
+		}
+	}
+}

@@ -1,0 +1,16 @@
+﻿l_english:
+ TEXAS_SHARED_resources_eco_branch_start:0 "Industrial Concern"
+ 
+ TEXAS_SHARED_resources_eco_kosse_resource_industry:0 "Kosse Industrial Complex"
+ 
+ TEXAS_SHARED_resources_eco_dallas_urban_economy:0 "Dallas Devlopment"
+ 
+ TEXAS_SHARED_resources_eco_austin_urban_eco:0 "Austin Development"
+ 
+ TEXAS_SHARED_resources_eco_houston_urban_eco:0 "Houston Development"
+ 
+ TEXAS_SHARED_resources_eco_weapons_procurement:0 "Weapons Procurement"
+ 
+ TEXAS_SHARED_resources_eco_big_energy:0 "Big Energy Collaboration"
+ TEXAS_SHARED_resources_eco_big_energy_tt:0 "Makes an Industrial Concern company available."
+ 

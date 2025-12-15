@@ -1,0 +1,14 @@
+state={
+	id=158
+	name="STATE_158"
+	history = {
+		owner = ZAC
+		add_core_of = ZAC
+	}
+	provinces={
+		202 2373 3757 4451 10038 10045 10048 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

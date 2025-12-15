@@ -1,0 +1,119 @@
+﻿division_template = {
+	name = "Solarian Infantry Troopers"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Conscript Fodder"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Trained Loyalists"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 0 y = 4 }
+	}
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "Trained Loyalists"
+		location = 1700
+		division_template = "Trained Loyalists"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Trained Loyalists"
+		location = 1700
+		division_template = "Trained Loyalists"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Conscript Fodder"
+		location = 1700
+		division_template = "Conscript Fodder"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Conscript Fodder"
+		location = 1700
+		division_template = "Conscript Fodder"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Conscript Fodder"
+		location = 1700
+		division_template = "Conscript Fodder"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Conscript Fodder"
+		location = 1700
+		division_template = "Conscript Fodder"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Conscript Fodder"
+		location = 1700
+		division_template = "Conscript Fodder"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Solarian Infantry Troopers"
+		location = 1700
+		division_template = "Solarian Infantry Troopers"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Solarian Infantry Troopers"
+		location = 1700
+		division_template = "Solarian Infantry Troopers"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Solarian Infantry Troopers"
+		location = 1700
+		division_template = "Solarian Infantry Troopers"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+
+}

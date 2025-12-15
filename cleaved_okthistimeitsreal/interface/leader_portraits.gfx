@@ -39,6 +39,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/DAL/portrait_DAL_duchess.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_ZAC_javier_barragan"
+		texturefile = "gfx/leaders/ZAC/ZAC_javier_barragan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_SIN_tomas_drogas"
+		texturefile = "gfx/leaders/SIN/SIN_tomas_drogas.dds"
+	}
+	
 	###############
 	#Adult version#
 	###############

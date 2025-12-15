@@ -102,3 +102,10 @@
  MEWNI_SHARED_cas_imports_tt:0 "You will gain CAS planes if you have researched CAS"
  
  MEWNI_SHARED_cas_imports_loans:0 "CAS Import Loans"
+
+ ##################
+ #POST UNIFICATION#
+ ##################
+
+ MEWNI_SHARED_POSTUNI_texas_policy:0 "Texas Policy"
+ MEWNI_SHARED_POSTUNI_texas_policy_desc:0 "There is currently a Mewman regieme in Texas. What should our policy towards them be?"

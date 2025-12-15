@@ -1,0 +1,343 @@
+cleaved_texas_coring_cat = {
+	
+	texas_coring_dallas = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 124
+				state = 133
+				state = 134
+				state = 135
+			}
+		}
+
+		available = {
+			owns_state = 124
+			controls_state = 124
+			owns_state = 133
+			controls_state = 133
+			owns_state = 134
+			controls_state = 134
+			owns_state = 135
+			controls_state = 135
+		}
+
+		visible = {
+			124 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			133 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			134 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			135 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+		days_remove = 70
+
+		ai_will_do = {
+			base = 50
+		}
+		remove_effect = {
+			add_state_core = 124
+			add_state_core = 133
+			add_state_core = 134
+			add_state_core = 135
+		}
+	}
+	
+	texas_coring_23rd_dist = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 147
+				state = 127
+			}
+		}
+
+		available = {
+			owns_state = 147
+			controls_state = 147
+			owns_state = 127
+			controls_state = 127
+		}
+
+		visible = {
+			147 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			127 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+		days_remove = 70
+
+		ai_will_do = {
+			base = 50
+		}
+		remove_effect = {
+			add_state_core = 127
+			add_state_core = 147
+		}
+	}
+	
+	texas_coring_gop_tex = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 146
+				state = 126
+			}
+		}
+
+		available = {
+			owns_state = 146
+			controls_state = 146
+			owns_state = 126
+			controls_state = 126
+		}
+
+		visible = {
+			146 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			126 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+		days_remove = 70
+
+		ai_will_do = {
+			base = 50
+		}
+		remove_effect = {
+			add_state_core = 126
+			add_state_core = 146
+		}
+	}
+	
+	texas_coring_austin = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 139
+				state = 141
+				state = 140
+				state = 142
+				state = 144
+				state = 143
+			}
+		}
+
+		available = {
+			owns_state = 139
+			controls_state = 139
+			owns_state = 141
+			controls_state = 141
+			owns_state = 140
+			controls_state = 140
+			owns_state = 142
+			controls_state = 142
+			owns_state = 144
+			controls_state = 144
+			owns_state = 143
+			controls_state = 143
+		}
+
+		visible = {
+			139 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			141 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			140 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			142 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			144 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			143 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+		days_remove = 70
+
+		ai_will_do = {
+			base = 50
+		}
+		remove_effect = {
+			add_state_core = 139
+			add_state_core = 140
+			add_state_core = 141
+			add_state_core = 142
+			add_state_core = 143
+		}
+	}
+	
+	texas_coring_houston = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 138
+				state = 125
+				state = 145
+			}
+		}
+
+		available = {
+			owns_state = 138
+			controls_state = 138
+			owns_state = 125
+			controls_state = 125
+			owns_state = 145
+			controls_state = 145
+		}
+
+		visible = {
+			138 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			125 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			145 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+		days_remove = 70
+
+		ai_will_do = {
+			base = 50
+		}
+		remove_effect = {
+			add_state_core = 138
+			add_state_core = 125
+			add_state_core = 145
+		}
+	}
+	
+	texas_coring_waco = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 136
+				state = 137
+				state = 16
+			}
+		}
+
+		available = {
+			owns_state = 136
+			controls_state = 136
+			owns_state = 137
+			controls_state = 137
+			owns_state = 16
+			controls_state = 16
+		}
+
+		visible = {
+			136 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			137 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			16 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+		days_remove = 70
+
+		ai_will_do = {
+			base = 50
+		}
+		remove_effect = {
+			add_state_core = 136
+			add_state_core = 137
+			add_state_core = 16
+		}
+	}
+}

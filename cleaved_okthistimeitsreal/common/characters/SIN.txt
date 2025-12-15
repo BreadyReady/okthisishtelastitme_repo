@@ -1,0 +1,17 @@
+characters={
+	SIN_tomas_drogas = {
+		name = SIN_tomas_drogas
+		portraits={
+			civilian={
+				large = GFX_portrait_SIN_tomas_drogas
+			}
+		}
+		country_leader={
+			ideology = gen_nazism
+			desc = SIN_tomas_drogas_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

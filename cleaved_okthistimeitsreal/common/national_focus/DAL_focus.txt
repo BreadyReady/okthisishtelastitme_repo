@@ -1,0 +1,65 @@
+focus_tree = {
+
+	id = DAL_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = DAL
+		}
+	}
+	
+	shared_focus = TEXAS_SHARED_resources_eco_branch_start
+	shared_focus = TEXAS_SHARED_uniting_texas_branch_start
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = {
+		id = DAL_swear_loyalty_to_the_crownland
+		icon = xxx
+		x = 2
+		y = 0
+		mutually_exclusive = { focus = DAL_claim_the_mewman_throne }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		available = {
+			has_global_flag = mewman_crownlands_united
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = DAL_claim_the_mewman_throne
+		icon = xxx
+		x = 2
+		y = 0
+		cost = 10
+		relative_position_id = DAL_swear_loyalty_to_the_crownland
+		mutually_exclusive = { focus = DAL_swear_loyalty_to_the_crownland }
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		available = {
+			has_global_flag = mewman_crownlands_united
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+		}
+	}
+}

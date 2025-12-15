@@ -1,0 +1,14 @@
+state={
+	id=149
+	name="STATE_149"
+	history = {
+		owner = SIN
+		add_core_of = SIN
+	}
+	provinces={
+		53 115 475 717 833 837 866 910 941 944 982 1011 1761 1778 1934 2364 2403 2438 2630 2889 2941 3078 3251 3840 4743 4857 4901 5740 5788 5988 6093 6322 6415 6704 10051 10061 10064 10071 10074 10089 10103 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

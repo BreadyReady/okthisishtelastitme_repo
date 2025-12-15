@@ -63,3 +63,12 @@
  STA_form_mewman_commonwealth:0 "The Mewman Commonwealth"
  STA_form_mewman_commonwealth_requirement_tt:0 "All states within the Mewman Crownlands (meaning each state that §Y[MEW.getflag] [MEW.getname]§!, §Y[MON.getflag] [MON.getname]§!, §Y[STA.getflag] [STA.getname]§!, §Y[MAR.getflag] [MAR.getname]§!, §Y[HIG.getflag] [HIG.getname]§!, and §Y[JAN.getflag] [JAN.getname]§! begins with)"
  STA_form_mewman_commonwealth_tt:0 "§YAnnexes All Faction Members§!"
+ 
+ STA_maiden_of_mewni:0 "The Maiden of Mewni"
+ STA_maiden_of_mewni_desc:0 "Star has united Mewni under her rule!\n\n§CWeaving magic like a born spell-caster,\nAnd wreaking havoc like a natural disaster,\nShe rocks her Narwhal Blast and Warnicorn Stampede!\nShe just now took her crown, so hail to the Queen!§!"
+ 
+ STA_unite_warring_houses:0 "Unite Grumbling Factions"
+ STA_unite_warring_houses_desc:0 "While we may have dealt with the diffrent factions on the ground, anti-eclipsan and anti-moon factions still snub each other in peaceful society. Thankfully Star can unite these factiosn through diplomacy, or atleast through force if need be..."
+ 
+ STA_bring_extremists_into_dialogue:0 "Bring Extremists into Dialogue"
+ STA_bring_extremists_into_dialogue_desc:0 "While Star believes in the primacy of the monarchy, she also wants to use a light hand in dealing with anti-monarchist sentiments."

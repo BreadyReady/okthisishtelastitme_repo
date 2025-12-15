@@ -1,0 +1,213 @@
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
+	icon = GFX_focus_generic_total_war
+	x = 0
+	y = 8
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		AND = {
+			OR = {
+				tag = MEW
+				tag = STA
+				tag = MAR
+			}
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_support_campaign
+	icon = GFX_focus_generic_total_war
+	x = 0
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_royal_politics
+	icon = GFX_focus_generic_total_war
+	x = 8
+	y = 8
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		AND = {
+			OR = {
+				tag = MEW
+				tag = STA
+				tag = MON
+			}
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_struggle_for_seattle #choose via event who to support: spiders, johansen, attemtp compromise, or neither. Supporting either one means you get them in your alliance and the other either folds and you get them as well or they defy you and you have to go to war. Finding compromise means you get both in your faction if you have high relations with both. If compromise fails then it gets same ffects as stayign neutral. staying neutral means you dont get either one and the two of them go to war.
+	icon = GFX_focus_generic_total_war
+	x = 0
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_royal_politics
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_royal_politics }
+	cost = 5
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = { #WILL ONLY BECOEM AVAILABLE ONCE JOH AND SPI TAKE OUT THE HGPNW
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_underworld_struggles #HAVE TO FLESH OUT THE LUCITOR V MEXICO CONFLICT BEFORE THIS CAN BE EVEN PLANNED
+	icon = GFX_focus_generic_total_war
+	x = 2
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_royal_politics
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_royal_politics }
+	cost = 5
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = { #
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_pny_order
+	icon = GFX_focus_generic_total_war
+	x = -2
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_royal_politics
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_royal_politics }
+	cost = 5
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = { #
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_pig_order
+	icon = GFX_focus_generic_total_war
+	x = -4
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_royal_politics
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_royal_politics }
+	cost = 5
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = { #
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_texas_policy
+	icon = GFX_focus_generic_total_war
+	x = 4
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_royal_politics
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_royal_politics }
+	cost = 5
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = { #should only become available once mina unites texas
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+	}
+}

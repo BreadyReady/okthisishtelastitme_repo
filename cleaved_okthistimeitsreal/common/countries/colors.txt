@@ -108,3 +108,18 @@ HER = {
 	color = rgb { 200 40 40 }
 	color_ui = rgb { 200 40 40 }
 }
+
+JUA = {
+	color = rgb { 200 100 40 }
+	color_ui = rgb { 200 100 40 }
+}
+
+SIN = {
+	color = rgb { 100 100 100 }
+	color_ui = rgb { 100 100 100 }
+}
+
+ZAC = {
+	color = rgb { 180 180 180 }
+	color_ui = rgb { 180 180 180 }
+}
