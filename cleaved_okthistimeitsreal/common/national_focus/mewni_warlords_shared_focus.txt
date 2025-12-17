@@ -11,7 +11,7 @@ shared_focus = {
 	}
 	
 	available = {
-		date > 2019.04.01 	
+		date > 2019.04.01
 		is_puppet = no
 		STA = {
 			has_completed_focus = STA_give_peace_a_chance

@@ -1,0 +1,95 @@
+﻿division_template = {
+	name = "Draftees"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Militia"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "National Guard"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 0 y = 4 }
+	}
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "National Guard"
+		location = 162
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "National Guard"
+		location = 162
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Draftees"
+		location = 162
+		division_template = "Draftees"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Draftees"
+		location = 162
+		division_template = "Draftees"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Draftees"
+		location = 162
+		division_template = "Draftees"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Draftees"
+		location = 162
+		division_template = "Draftees"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Draftees"
+		location = 162
+		division_template = "Draftees"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+
+}

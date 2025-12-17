@@ -1,0 +1,17 @@
+characters={
+	SPI_makadee_spiderbite = {
+		name = SPI_makadee_spiderbite
+		portraits={
+			civilian={
+				large = GFX_portrait_SPI_queen_spiderbite
+			}
+		}
+		country_leader={
+			ideology = oligarchism
+			desc = SPI_queen_spiderbite_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -76,6 +76,167 @@ on_actions = {
 			}
 		}
 	}
+	on_peaceconference_ended = {
+		effect = {
+			IF = {
+				limit = {
+					original_tag = JOH
+					FROM = {
+						original_tag = PNW
+					}
+				}
+				country_event = kingdoms_skeleton_event.1
+			}
+		}
+	}
+	on_war_relation_added = {
+		effect = {
+			IF = {
+				limit = {
+					OR = {
+						original_tag = MEW
+						original_tag = MON
+					}
+					FROM = {
+						OR = {
+							original_tag = MEW
+							original_tag = MON
+						}
+					}
+				}
+				news_event = mewni_warlords_news_event.12
+			}
+			IF = {
+				limit = {
+					OR = {
+						original_tag = STA
+						original_tag = MON
+					}
+					FROM = {
+						OR = {
+							original_tag = STA
+							original_tag = MON
+						}
+					}
+				}
+				news_event = mewni_warlords_news_event.13
+			}
+		}
+	}
+	on_offer_join_faction = {
+		effect = {
+			IF = {
+				limit = {
+					any_allied_country = {
+						OR = {
+							original_tag = MON
+						}
+					}
+					FROM = {
+						OR = {
+							original_tag = MEW
+						}
+					}
+				}
+				news_event = mewni_warlords_news_event.14
+			}
+			IF = {
+				limit = {
+					any_allied_country = {
+						OR = {
+							original_tag = MEW
+						}
+					}
+					FROM = {
+						OR = {
+							original_tag = MON
+						}
+					}
+				}
+				news_event = mewni_warlords_news_event.14
+			}
+			IF = {
+				limit = {
+					OR = {
+						original_tag = STA
+						any_allied_country = {
+							OR = {
+								original_tag = STA
+								original_tag = MON
+							}
+						}
+					}
+					FROM = {
+						OR = {
+							original_tag = STA
+							original_tag = MON
+						}
+					}
+				}
+				news_event = mewni_warlords_news_event.15
+			}
+			IF = {
+				limit = {
+					OR = {
+						original_tag = STA
+						any_allied_country = {
+							OR = {
+								original_tag = STA
+								original_tag = MAR
+							}
+						}
+					}
+					FROM = {
+						OR = {
+							original_tag = STA
+							original_tag = MAR
+						}
+					}
+				}
+				news_event = mewni_warlords_news_event.16
+			}
+			IF = {
+				limit = {
+					OR = {
+						original_tag = STA
+						any_allied_country = {
+							OR = {
+								original_tag = STA
+								original_tag = JAN
+							}
+						}
+					}
+					FROM = {
+						OR = {
+							original_tag = STA
+							original_tag = JAN
+						}
+					}
+				}
+				news_event = mewni_warlords_news_event.17
+			}
+			IF = {
+				limit = {
+					OR = {
+						original_tag = HIG
+						any_allied_country = {
+							OR = {
+								original_tag = STA
+								original_tag = HIG
+							}
+						}
+					}
+					FROM = {
+						OR = {
+							original_tag = STA
+							original_tag = HIG
+						}
+					}
+				}
+				news_event = mewni_warlords_news_event.18
+			}
+		}
+	}
 	on_monthly = {
 		effect = {
 			IF = {

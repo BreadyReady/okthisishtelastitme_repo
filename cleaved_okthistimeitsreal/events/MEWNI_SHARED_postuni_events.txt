@@ -1,0 +1,21 @@
+﻿###########################
+# Mewni shared post-unification Events
+###########################
+
+add_namespace = mewni_shared_postuni_events
+
+country_event = {
+	id = mewni_shared_postuni_events.1 #Ending or keeping temprary draft
+	title = mewni_shared_postuni_events.1.t
+	desc = mewni_shared_postuni_events.1.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mewni_shared_postuni_events.1.a
+		ai_chance = {
+			base = 1
+		}
+	}
+}

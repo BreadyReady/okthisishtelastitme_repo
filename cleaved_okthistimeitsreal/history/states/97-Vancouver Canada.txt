@@ -4,11 +4,24 @@ state={
 	history = {
 		owner = PNW
 		add_core_of = PNW
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			dockyard = 2
+			4679 = {
+				naval_base = 1
+			}
+		}
+		
+		victory_points = {
+			4679 20
+		}
 	}
 	provinces={
 		2903 4679 7075 7083 
 	}
-	manpower=0
+	manpower=690000
 	buildings_max_level_factor=1.000
+	state_category=metropolis 
 	local_supplies=0.000
 }

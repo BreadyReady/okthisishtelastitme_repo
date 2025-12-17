@@ -4,11 +4,31 @@ state={
 	history = {
 		owner = JOH
 		add_core_of = JOH
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		
+		victory_points = {
+			2143 10
+		}
+		
+		victory_points = {
+			3354 5
+		}
 	}
+	
+	resources = {
+		steel = 48
+	}
+	
 	provinces={
 		414 1863 2143 2152 2280 3354 3729 3896 4299 4519 4583 4613 4723 5316 5705 6511 6696 7928 7940 7986 7999 8003 13019 13027 
 	}
-	manpower=0
+	manpower=150000
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
 }

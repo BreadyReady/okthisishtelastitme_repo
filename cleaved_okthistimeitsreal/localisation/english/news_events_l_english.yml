@@ -47,3 +47,43 @@
  mewni_warlords_news_event.8.desc:0 "Mewmans have always been superstitious, and a new mass hysteria is throwing Mewmanity into further panic. Multiple sightings of Queen Comet, the deceased Queen before Moon, have been reported across former Mewni. Sometimes she's a hazy apparition in the distance, other times she appears clear as day, and one peasant even reported Comet speaking directly to her. Many are convinced that this is a sign of bad times ahead, while others think that this is an endorsement of Moon's bid for the throne.\n\nCasting superstition aside, this mass hysteria is likely rooted in a dissatisfaction with recent times. Queen Comet, being free from the current dispute over the throne, is the most recent "uncontroversial" queen that the Mewman consciousness can latch onto."
  mewni_warlords_news_event.8.a:0 "This is clear evidence that Moon is Mewni's rightful ruler!"
  mewni_warlords_news_event.8.b:0 "Oh Comet, Mewman's kith and kin..."
+
+ mewni_warlords_news_event.9.t:0 "Johansen-Spiderbite Alliance!"
+ mewni_warlords_news_event.9.desc:0 "The Johansen and Spiderbite Kingdoms have announced a formal millitary alliance! With the traditional powerbase of Mewni shattered and in dissarray, the Johansens and Spiderbites have had no suzerain to unite them. Both parties have said that this alliance is for mutual protection against "Cleaving Chaos".\n\nOptimists say that the new alliance is a sign of unity between Mewman kingdoms, while pessimists say that vassal-states getting a taste of freedom is not good in the long run.\n\nThis does not bode well for the Human Government of the Pacific Northwest, who is likely the main expansionary target of this coalition."
+ mewni_warlords_news_event.9.a:0 "Interesting"
+
+ mewni_warlords_news_event.10.t:0 "Seattle Under Siege!"
+ mewni_warlords_news_event.10.desc:0 "The Johansen and Spiderbite Alliance has declared a war to take the Human rump-state of the H.G.P.N.W. (Human Government of the Pacific Northwest). Leveraging their existing alliance, which was likely formed with this war in mind in the first place, the battle will rage for the Willamette Valley and the Seattle-Vancouver area.\n\nA Johansen-Spiderbite victory is expected, if at a bloody cost. However, high sources say that there have been some disputes among the Kingdoms over how exactly to partition the Pacific Northwest..."
+ mewni_warlords_news_event.10.a:0 "Interesting"
+
+ mewni_warlords_news_event.11.t:0 "Johansen-Spiderbite Alliance Falls!"
+ mewni_warlords_news_event.11.desc:0 "The Johansen and Spiderbite alliance, now understood to have formed largely to partition the H.G.P.N.W., has dissolved! Following the end of the H.G.P.N.W., both kingdoms have been unable to reconcile territorial disputes. While they have agreed to temporary lines of control, neither side agrees with the other over the de-jure borders.\n\nOn the bright side, each party seems unwilling to go to war with each other just yet, and this dispute might be resolved by whoever takes up the crown of Mewni..."
+ mewni_warlords_news_event.11.a:0 "Interesting"
+
+ mewni_warlords_news_event.12.t:0 "War of the Butterflys"
+ mewni_warlords_news_event.12.desc:0 "The two main feuding factions of the Mewman Crownland Crisis, those loyal to Moon and those loyal to Eclipsa, have found themselves at war with each other!\n\nThese two factions, both claiming to be the rightful head of the Butterfly family and therefore the rightful Queen of Mewni, have been the largest and strongest factions in the crisis.\n\nTheir conflict erupting into all-out war marks the biggest flareup in the struggle for the Mewman Crownlands."
+ mewni_warlords_news_event.12.a:0 "War does not determine who is right, only who is left..."
+
+ mewni_warlords_news_event.13.t:0 "The Mother-Daughter War"
+ mewni_warlords_news_event.13.desc:0 "Moon and Star, Mother and Heir, have gone to war!\n\nFollowing growing tensions, with Star denouncing Moon's authority, the central valley and the bay area are now in a state of war. It is unknown what each head of state will do to each other if either of them gets captures by the other.\n\nThis war significantly weakens Moon, who previously took the Bay Area's resoruces for granted."
+ mewni_warlords_news_event.13.a:0 "MAJOR mommy issues..."
+
+ mewni_warlords_news_event.14.t:0 "Unity of the Butterflys?"
+ mewni_warlords_news_event.14.desc:0 "The two main feuding factions of the Mewman Crownland Crisis, those loyal to Moon and those loyal to Eclipsa, have found themselves united in the same alliance!\n\nThese two factions, both claiming to be the rightful head of the Butterfly family and therefore the rightful Queen of Mewni, have been the largest and strongest factions in the crisis.\n\nTheir unification under an alliance might be a sign that the Crownland Crisis is getting resolved soon."
+ mewni_warlords_news_event.14.a:0 "Peace in the Crownlands?"
+
+ mewni_warlords_news_event.15.t:0 "Unity Between Star and Moon?"
+ mewni_warlords_news_event.15.desc:0 "Moon and Star, Mother and Heir, have been united under the same alliance!\n\nFollowing growing tensions, with Star denouncing Moon's authority, relations between the central valley and the bay area nations were expected to be unreconcilable. However, it seems family values pulled through, and now mother and daughter are united in the bid for the crownlands!"
+ mewni_warlords_news_event.15.a:0 "Mommy issues... resolved?"
+
+ mewni_warlords_news_event.16.t:0 "Alliance between Star and Marco"
+ mewni_warlords_news_event.16.desc:0 "Star and Marco, two contenders for the crownlands, have announced a formal alliance.\n\nThe two leaders, who have had a close relationship since before the Cleaving, have declared to aid each other in each's efforts to unite the Crownlands."
+ mewni_warlords_news_event.16.a:0 "Lovebirds..."
+
+ mewni_warlords_news_event.17.t:0 "Alliance between Star and Janna"
+ mewni_warlords_news_event.17.desc:0 "TO WRITE"
+ mewni_warlords_news_event.17.a:0 "Girls' Alliance Out!"
+
+ mewni_warlords_news_event.18.t:0 "Alliance between Star and Higgs!"
+ mewni_warlords_news_event.18.desc:0 "TO WRITE"
+ mewni_warlords_news_event.18.a:0 "Girlbosses?"

@@ -1,0 +1,24 @@
+﻿###########################
+# events to string along skeleton content
+###########################
+
+add_namespace = kingdoms_skeleton_event
+
+country_event = {
+	id = kingdoms_skeleton_event.1 #spiderbites and johansens alliance falls
+	title = kingdoms_skeleton_event.1.t
+	desc = kingdoms_skeleton_event.1.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kingdoms_skeleton_event.1.a
+		dismantle_faction = yes
+		news_event = mewni_warlords_news_event.11
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+

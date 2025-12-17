@@ -49,6 +49,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SIN/SIN_tomas_drogas.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_JOH_queen_johansen"
+		texturefile = "gfx/leaders/JOH/JOH_queen_johansen.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_SPI_queen_spiderbite"
+		texturefile = "gfx/leaders/SPI/SPI_queen_spiderbite.dds"
+	}
+	
 	###############
 	#Adult version#
 	###############

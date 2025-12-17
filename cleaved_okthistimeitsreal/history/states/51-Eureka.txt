@@ -4,11 +4,26 @@ state={
 	history = {
 		owner = JOH
 		add_core_of = JOH
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 3
+			7656 = {
+				naval_base = 3
+			}
+		}
+		
+		victory_points = {
+			7656 10
+		}
 	}
 	provinces={
 		2616 3053 3393 3726 4699 6159 6282 6512 7656 7701 7780 7815 7861 7920 7943 
 	}
-	manpower=0
+	manpower=50000
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
 }

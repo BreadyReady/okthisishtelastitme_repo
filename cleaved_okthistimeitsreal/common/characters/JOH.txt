@@ -1,0 +1,17 @@
+characters={
+	JOH_helga_johansen = {
+		name = JOH_helga_johansen
+		portraits={
+			civilian={
+				large = GFX_portrait_JOH_queen_johansen
+			}
+		}
+		country_leader={
+			ideology = oligarchism
+			desc = JOH_helga_johansen_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

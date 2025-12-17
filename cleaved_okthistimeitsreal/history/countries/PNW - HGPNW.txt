@@ -1,0 +1,18 @@
+﻿set_research_slots = 1
+
+capital = 64
+
+set_stability = 0.40
+set_war_support = 0.2
+
+set_politics = {
+	ruling_party = democratic
+}
+set_popularities = {
+	democratic = 80
+	neutrality = 20
+}
+
+load_oob = PNW
+
+#recruit_character = STA_star_butterfly

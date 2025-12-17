@@ -1,0 +1,18 @@
+﻿set_research_slots = 1
+
+capital = 133
+
+set_stability = 0.40
+set_war_support = 0.25
+
+set_politics = {
+	ruling_party = democratic
+}
+set_popularities = {
+	democratic = 80
+	fascism = 20
+}
+
+load_oob = HER
+
+#recruit_character = DAL_duchess

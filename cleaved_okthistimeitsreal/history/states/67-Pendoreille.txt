@@ -4,11 +4,17 @@ state={
 	history = {
 		owner = SPI
 		add_core_of = SPI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
 	}
 	provinces={
 		9 2416 2989 3395 4248 5379 5539 5551 5741 7184 7186 7196 7205 7243 7250 
 	}
-	manpower=0
+	manpower=15000
 	buildings_max_level_factor=1.000
+	state_category=town 
 	local_supplies=0.000
 }

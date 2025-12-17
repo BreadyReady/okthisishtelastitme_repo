@@ -4,11 +4,22 @@ state={
 	history = {
 		owner = JOH
 		add_core_of = JOH
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+	}
+	
+	resources = {
+		steel = 14
+		coal = 18
+		aluminium = 10
 	}
 	provinces={
 		30 449 695 1438 1911 2111 2736 3433 3909 3964 4325 5756 5944 6154 7323 7336 7338 7368 7391 7401 7435 7474 
 	}
-	manpower=0
+	manpower=45000
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
 }

@@ -1,8 +1,17 @@
-### Advisors for DRG ###
 spriteTypes = {
 
 	spriteType = {
 		name = "GFX_news_event_comet"
 		texturefile = "gfx/event_pictures/cleaved_unique/news_event_comet.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_news_event_star_party"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_star_party.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_news_event_star_and_marco_party"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_star_and_marco_party.dds" 
 	}
 }

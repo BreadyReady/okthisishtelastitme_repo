@@ -79,6 +79,8 @@ shared_focus = {
 	cancel_if_invalid = yes
 	
 	completion_reward = {
+		dismantle_faction = yes
+		create_faction = "Kingdom of Mewni"
 	}
 }
 
@@ -105,6 +107,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 	
 	completion_reward = {
+		country_event = mewni_shared_kingdom_diplo_events.1
 	}
 }
 

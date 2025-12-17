@@ -11,7 +11,7 @@ news_event = { # Star announces congress of mewni
     
     is_triggered_only = yes
 	major = yes
-	picture = GFX_my_news_event_picture
+	picture = GFX_news_event_star_party
     
     option = {
         name = mewni_warlords_news_event.1.a
@@ -37,7 +37,7 @@ news_event = { # Congress of Mewni Begins
     
     is_triggered_only = yes
 	major = yes
-	picture = GFX_my_news_event_picture
+	picture = GFX_news_event_star_party
     
     option = {
         name = mewni_warlords_news_event.2.a
@@ -93,7 +93,7 @@ news_event = { # Star denounces moons ambitions
     
     is_triggered_only = yes
 	major = yes
-	picture = GFX_my_news_event_picture
+	picture = GFX_news_event_star_party
     
     option = {
         name = mewni_warlords_news_event.4.a
@@ -133,7 +133,7 @@ news_event = { # Star breaks away from moon
     
     is_triggered_only = yes
 	major = yes
-	picture = GFX_my_news_event_picture
+	picture = GFX_news_event_star_party
     
     option = {
         name = mewni_warlords_news_event.5.a
@@ -357,5 +357,175 @@ news_event = { # Comet sighted
 			}
 		}
 		add_stability = -0.01
+    }
+}
+
+news_event = { # Johansen-spiderbite Alliance
+    id = mewni_warlords_news_event.9
+    title = mewni_warlords_news_event.9.t
+	
+    desc = {
+        text = mewni_warlords_news_event.9.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_my_news_event_picture
+    
+    option = {
+        name = mewni_warlords_news_event.9.a
+    }
+}
+
+news_event = { # Pacific Northwest War
+    id = mewni_warlords_news_event.10
+    title = mewni_warlords_news_event.10.t
+	
+    desc = {
+        text = mewni_warlords_news_event.10.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_my_news_event_picture
+    
+    option = {
+        name = mewni_warlords_news_event.10.a
+    }
+}
+
+news_event = { # spiderbites and johansens alliance falls
+    id = mewni_warlords_news_event.11
+    title = mewni_warlords_news_event.11.t
+	
+    desc = {
+        text = mewni_warlords_news_event.11.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_my_news_event_picture
+    
+    option = {
+        name = mewni_warlords_news_event.11.a
+    }
+}
+
+news_event = { # war of the butterflies
+    id = mewni_warlords_news_event.12
+    title = mewni_warlords_news_event.12.t
+	
+    desc = {
+        text = mewni_warlords_news_event.12.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_my_news_event_picture
+    
+    option = {
+        name = mewni_warlords_news_event.12.a
+    }
+}
+
+news_event = { # star v moon war
+    id = mewni_warlords_news_event.13
+    title = mewni_warlords_news_event.13.t
+	
+    desc = {
+        text = mewni_warlords_news_event.13.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_my_news_event_picture
+    
+    option = {
+        name = mewni_warlords_news_event.13.a
+    }
+}
+
+news_event = { # butterfly factions in same faction
+    id = mewni_warlords_news_event.14
+    title = mewni_warlords_news_event.14.t
+	
+    desc = {
+        text = mewni_warlords_news_event.14.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_news_event_star_party
+    
+    option = {
+        name = mewni_warlords_news_event.14.a
+    }
+}
+
+news_event = { # moon joins star
+    id = mewni_warlords_news_event.15
+    title = mewni_warlords_news_event.15.t
+	
+    desc = {
+        text = mewni_warlords_news_event.15.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_news_event_star_party
+    
+    option = {
+        name = mewni_warlords_news_event.15.a
+    }
+}
+
+news_event = { # marco joins star
+    id = mewni_warlords_news_event.16
+    title = mewni_warlords_news_event.16.t
+	
+    desc = {
+        text = mewni_warlords_news_event.16.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_news_event_star_and_marco_party
+    
+    option = {
+        name = mewni_warlords_news_event.16.a
+    }
+}
+
+news_event = { # janna joins star
+    id = mewni_warlords_news_event.17
+    title = mewni_warlords_news_event.17.t
+	
+    desc = {
+        text = mewni_warlords_news_event.17.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_news_event_star_party
+    
+    option = {
+        name = mewni_warlords_news_event.17.a
+    }
+}
+
+news_event = { # higgs joins star
+    id = mewni_warlords_news_event.18
+    title = mewni_warlords_news_event.18.t
+	
+    desc = {
+        text = mewni_warlords_news_event.18.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_news_event_star_party
+    
+    option = {
+        name = mewni_warlords_news_event.18.a
     }
 }

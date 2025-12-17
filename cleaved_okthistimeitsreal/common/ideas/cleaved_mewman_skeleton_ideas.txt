@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+		JOH_pacific_war = {
+			name = JOH_pacific_war
+			picture = xxx
+
+			available = {
+				PNW = {
+					exists = yes
+				}
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 1
+				army_org_regain = 1
+				army_attack_factor = 1
+				recruitable_population = 0.25
+			}
+		}
+	}
+}
