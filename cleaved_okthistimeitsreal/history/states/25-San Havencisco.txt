@@ -26,8 +26,6 @@ state={
 	resources = {
 		steel = 15
 		aluminium = 10
-		tungsten = 6
-		chromium = 3
 		oil = 8
 	}
 	provinces={

@@ -15,6 +15,27 @@
  mewni_shared_warlord_events.4.b:0 "Sorry guys, we spent it all on corn!"
  
  mewni_shared_warlord_events.5.t:0 "Royal Business as Usual"
- mewni_shared_warlord_events.5.desc:0 "Now that the Crownlands have been reunified, governance is returning to normal. We have begun rolling back some of the extreme measure we took, and nobles are now reducing their contribution efforts. Loans are now going to be put off the freeze and will have to be repaid, mercenaries will now leave, etc."
- mewni_shared_warlord_events.5.a:0 "The war machine rests... for now."
+ mewni_shared_warlord_events.5.desc:0 "Now that the Crownlands have been reunified, governance is returning to normal. We have begun rolling back some of the extreme measure we took, and nobles are now reducing their contribution efforts. Loans are now going to be put off the freeze and will have to be repaid, mercenaries will now leave, etc.\n\nThe war machine rests, for now."
+ mewni_shared_warlord_events.5.a:0 "Problems at the core of our society rear their ugly heads..."
+ 
+ mewni_shared_kingdom_diplo_events.1.t:0 "The Dark New North"
+ mewni_shared_kingdom_diplo_events.1.desc:0 ""
+ mewni_shared_kingdom_diplo_events.1.a:0 "Compromise"
+ mewni_shared_kingdom_diplo_events.1.b:0 "Side with the Johansens"
+ mewni_shared_kingdom_diplo_events.1.c:0 "Side with the Spdierbites"
+ 
+ mewni_shared_kingdom_diplo_events.4.t:0 "The Crown sides with us!"
+ mewni_shared_kingdom_diplo_events.4.desc:0 ""
+ mewni_shared_kingdom_diplo_events.4.a:0 "Great!"
+ 
+ mewni_shared_kingdom_diplo_events.5.t:0 "The Crown sides against us!"
+ mewni_shared_kingdom_diplo_events.5.desc:0 ""
+ mewni_shared_kingdom_diplo_events.5.a:0 "We must not rock the boat..."
+ mewni_shared_kingdom_diplo_events.5.b:0 "We must defy them!"
+ 
+ mewni_shared_postuni_events.2.t:0 "Choosing a site"
+ mewni_shared_postuni_events.2.desc:0 "Two sites have been identified for the monument: One on the Los Angeles beachfront, and one near Butterfly Castle. While this may seem simple, the tensions between Mewmans and Californians have complicated matters.\n\nIf we choose to put the monument near Butterfly castle, californians will feel snubbed, and they will think that our government is ignoring the contributions that californians have made. If we choose to put the monument near LA, the Mewman people will feel snubbed and that our government is choosing the rich californians over our own Mewmanity.\n\nIt seems like a lose-lose situation. What should we do?"
+ mewni_shared_postuni_events.2.a:0 "Put the monument near Butterfly Castle"
+ mewni_shared_postuni_events.2.b:0 "Put the monument near LA."
+ mewni_shared_postuni_events.2.c:0 "Y'know what? Nobody gets the monument now!"
  

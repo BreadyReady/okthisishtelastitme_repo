@@ -54,3 +54,9 @@
  cleaved_age_characters_dec:0 "Age Characters (This is not a reversible decision!)"
  cleaved_age_characters_dec_tt:0 "The GFX of characters who are very young at the start of the game will change to reflect the passage of time. (Credit to Gravity Fying on tumblr for the portraits!)"
  cleaved_age_characters_debug_dec:0 "Age Characters Debug"
+ 
+ cleaved_johansen_spiderbite_mediation_cat:0 "Mediating the Partition of Seattle"
+ cleaved_johansen_spiderbite_mediation_cat_desc:0 "The Crown's official position is: \n\n[?global.nations_cooperating_at_congress_of_mewni]/6 are cooperating."
+ 
+ cleaved_crown_of_mewni_cat:0 "The Mewman Crisis"
+ cleaved_crown_of_mewni_cat_desc:0 "The deplorable, shattered condition of the Kingdom of Mewni following the Cleaving is referred to as §YThe Mewman Crisis.§! Only by eliminating all contenders to the throne and the foreign enemies of Mewni can Mewmanity return to normalcy.\n\n§YContenders§! to the §CMewman Throne§!: (Insert clickable flags here)\n\nThe §REnemies§! of Mewni: (Insert clickable flags here)"

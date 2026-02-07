@@ -19,3 +19,43 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = mewni_shared_postuni_events.2 #monument location choose
+	title = mewni_shared_postuni_events.2.t
+	desc = mewni_shared_postuni_events.2.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mewni_shared_postuni_events.2.a
+		add_victory_points = {
+			province = 8944
+			value = 10
+		}
+		add_stability = -0.02
+		ai_chance = {
+			base = 1
+		}
+	}
+	
+	option = {
+		name = mewni_shared_postuni_events.2.b
+		add_victory_points = {
+			province = 8974
+			value = 10
+		}
+		add_stability = -0.02
+		ai_chance = {
+			base = 1
+		}
+	}
+	
+	option = {
+		name = mewni_shared_postuni_events.2.c
+		ai_chance = {
+			base = 1
+		}
+	}
+}

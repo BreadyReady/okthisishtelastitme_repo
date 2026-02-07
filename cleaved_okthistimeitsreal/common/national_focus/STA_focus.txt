@@ -18,7 +18,10 @@ focus_tree = {
 	shared_focus = MEWNI_SHARED_forward_operating_bases_san_joaquin
 	shared_focus = MEWNI_SHARED_forward_operating_bases_sierra
 	shared_focus = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
-	shared_focus = MEWNI_SHARED_POSTUNI_royal_politics
+	shared_focus = MEWNI_SHARED_POSTUNI_modernize_solarian_laws
+	shared_focus = MEWNI_SHARED_POSTUNI_crownland_economy
+	shared_focus = MEWNI_SHARED_POSTUNI_modernizing_army
+	#shared_focus = MEWNI_SHARED_POSTUNI_royal_politics
 	
 	default = no # This is not a default generic tree
 	
@@ -1051,7 +1054,7 @@ focus_tree = {
 	focus = {
 		id = STA_maiden_of_mewni
 		icon = GFX_focus_star_armor
-		x = 30
+		x = 40
 		y = 12
 		cost = 10
 
@@ -1114,6 +1117,186 @@ focus_tree = {
 	}
 
 	focus = {
+		id = STA_supress_the_californian_problem
+		icon = GFX_focus_star_armor
+		prerequisite = { focus = STA_the_royal_marriage }
+		x = 0
+		y = 1
+		relative_position_id = STA_the_royal_marriage
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			hidden_effect = {
+				country_event = STA_event.7
+			}
+		}
+	}
+
+	focus = {
+		id = STA_address_the_californian_problem
+		icon = GFX_focus_star_armor
+		prerequisite = { focus = STA_the_lovely_marriage }
+		x = 0
+		y = 1
+		relative_position_id = STA_the_lovely_marriage
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STA_commonwealth_high_commisions
+		icon = GFX_focus_star_armor
+		x = -1
+		y = 1
+		relative_position_id = STA_bring_extremists_into_dialogue
+		prerequisite = { focus = STA_bring_extremists_into_dialogue }
+		prerequisite = { focus = STA_unite_warring_houses }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STA_commonwealth_high_moons_statecraft
+		icon = GFX_focus_star_armor
+		x = -1
+		y = 1
+		relative_position_id = STA_commonwealth_high_commisions
+		prerequisite = { focus = STA_commonwealth_high_commisions }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STA_commonwealth_high_eclipsas_compassion
+		icon = GFX_focus_star_armor
+		x = 1
+		y = 1
+		relative_position_id = STA_commonwealth_high_commisions
+		prerequisite = { focus = STA_commonwealth_high_commisions }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STA_commonwealth_high_marcos_represenation
+		icon = GFX_focus_star_armor
+		x = 0
+		y = 2
+		relative_position_id = STA_commonwealth_high_commisions
+		prerequisite = { focus = STA_commonwealth_high_commisions }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STA_commonwealth_high_higgs_meritocracy
+		icon = GFX_focus_star_armor
+		x = -2
+		y = 2
+		relative_position_id = STA_commonwealth_high_commisions
+		prerequisite = { focus = STA_commonwealth_high_commisions }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STA_commonwealth_high_jannas_esotericism
+		icon = GFX_focus_star_armor
+		x = 2
+		y = 2
+		relative_position_id = STA_commonwealth_high_commisions
+		prerequisite = { focus = STA_commonwealth_high_commisions }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
 		id = STA_the_royal_marriage
 		icon = GFX_focus_star_armor
 		prerequisite = { focus = STA_maiden_of_mewni }
@@ -1133,6 +1316,21 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			if = {
+				limit = {
+					has_global_flag = marco_peacefully_united_with_star
+				}
+				country_event = {
+					id = STA_flavor_event.1
+					days = 3
+				}
+			}
+			else = {
+				country_event = {
+					id = STA_flavor_event.2
+					days = 3
+				}
+			}
 		}
 	}
 

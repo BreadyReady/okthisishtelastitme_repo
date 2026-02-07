@@ -1,21 +1,28 @@
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
 	icon = GFX_focus_generic_total_war
-	x = 0
+	x = 2
 	y = 8
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_modernize_solarian_laws }
 	cost = 10
-	search_filters = {  }
+	search_filters = { FOCUS_FILTER_POLITICAL }
 	
 	ai_will_do = {
 		factor = 1
 	}
 	
 	available = {
+		NOT = {
+			has_country_flag = monster_rights_timer
+		}
 		AND = {
 			OR = {
 				tag = MEW
 				tag = STA
 				tag = MAR
+				tag = MON
+				tag = HIG
+				tag = JAN
 			}
 			has_country_flag = uniter_of_mewman_crownlands
 		}
@@ -24,6 +31,14 @@ shared_focus = {
 	cancel_if_invalid = yes
 	
 	completion_reward = {
+		set_country_flag = {
+			flag = monster_rights_timer
+			days = 70
+		}
+		swap_ideas = {
+			remove_idea = shared_mewman_monster_rights_idea
+			add_idea = shared_mewman_monster_rights_good_reform_idea
+		}
 	}
 }
 
@@ -35,6 +50,294 @@ shared_focus = {
 	relative_position_id = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
 	prerequisite = { focus = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms }
 	cost = 10
+	search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		NOT = {
+			has_country_flag = monster_rights_timer
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_political_power = 75
+		set_country_flag = {
+			flag = monster_rights_timer
+			days = 70
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_land_reimbursment
+	icon = GFX_focus_generic_total_war
+	x = -2
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms }
+	cost = 10
+	search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		NOT = {
+			has_country_flag = monster_rights_timer
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_offsite_building = { type = industrial_complex level = 2 }
+		set_country_flag = {
+			flag = monster_rights_timer
+			days = 70
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_political_representation
+	icon = GFX_focus_generic_total_war
+	x = 2
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms }
+	cost = 10
+	search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		NOT = {
+			has_country_flag = monster_rights_timer
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_stability = 0.07
+		set_country_flag = {
+			flag = monster_rights_timer
+			days = 70
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_monster_rights_act
+	icon = GFX_focus_generic_total_war
+	x = 0
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_support_campaign
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_support_campaign }
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_land_reimbursment }
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_political_representation }
+	cost = 10
+	search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		NOT = {
+			has_country_flag = monster_rights_timer
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = shared_mewman_monster_rights_good_reform_idea
+			add_idea = shared_mewman_monster_rights_good_reform_idea_2
+		}
+		set_country_flag = {
+			flag = monster_rights_timer
+			days = 70
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_association_amendment
+	icon = GFX_focus_generic_total_war
+	x = -1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_monster_rights_act
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_monster_rights_act }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_public_good_amendment }
+	cost = 10
+	search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		NOT = {
+			has_country_flag = monster_rights_timer
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = shared_mewman_monster_rights_good_reform_idea_2
+			add_idea = shared_mewman_monster_rights_good_reform_idea_3
+		}
+		set_country_flag = {
+			flag = monster_rights_timer
+			days = 70
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_public_good_amendment
+	icon = GFX_focus_generic_total_war
+	x = 1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_monster_rights_act
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_monster_rights_act }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_association_amendment }
+	cost = 10
+	search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		NOT = {
+			has_country_flag = monster_rights_timer
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = shared_mewman_monster_rights_good_reform_idea_2
+			add_idea = shared_mewman_monster_rights_good_reform_idea_4
+		}
+		set_country_flag = {
+			flag = monster_rights_timer
+			days = 70
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_modernize_solarian_laws
+	icon = GFX_focus_generic_total_war
+	x = 6
+	y = 0
+	relative_position_id = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms }
+	cost = 10
+	search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		NOT = {
+			has_country_flag = monster_rights_timer
+		}
+		AND = {
+			OR = {
+				tag = MON
+				tag = HIG
+				tag = JAN
+			}
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		set_country_flag = {
+			flag = monster_rights_timer
+			days = 70
+		}
+		swap_ideas = {
+			remove_idea = shared_mewman_monster_rights_idea
+			add_idea = shared_mewman_monster_rights_good_reform_idea
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_modernizing_army
+	icon = GFX_focus_generic_total_war
+	x = 16
+	y = 13
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		has_country_flag = uniter_of_mewman_crownlands
+		NOT = {
+			tag = HIG
+		}
+		
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = { 	
+		army_experience = 15
+		air_experience = 15
+		navy_experience = 15
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_army_effort
+	icon = GFX_focus_generic_total_war
+	x = 4
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_modernizing_army
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_modernizing_army }
+	cost = 10
 	search_filters = {  }
 	
 	ai_will_do = {
@@ -44,7 +347,875 @@ shared_focus = {
 	available = {
 	}
 	
-	bypass = {
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		army_experience = 25
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_armor_effort
+	icon = GFX_focus_generic_total_war
+	x = 2
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_army_effort
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_army_effort }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_anti_tank_effort }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 3
+			category = armor
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_anti_tank_effort
+	icon = GFX_focus_generic_total_war
+	x = 4
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_army_effort
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_army_effort }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_armor_effort }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 3
+			category = cat_anti_tank
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_motors_effort
+	icon = GFX_focus_generic_total_war
+	x = -2
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_army_effort
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_army_effort }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_well_rounded_infantry }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 1
+			uses = 2
+			category = motorized_equipment
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_well_rounded_infantry
+	icon = GFX_focus_generic_total_war
+	x = -4
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_army_effort
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_army_effort }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_motors_effort }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.2
+			uses = 5
+			category = infantry_tech
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_innovative_reforms
+	icon = GFX_focus_generic_total_war
+	x = 0
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_army_effort
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_army_effort }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_mastery_bonus = {
+			bonus = 0.1
+			days = 1095
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_forward_thinking_military
+	icon = GFX_focus_generic_total_war
+	x = -1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_innovative_reforms
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_innovative_reforms }
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_motors_effort focus = MEWNI_SHARED_POSTUNI_well_rounded_infantry }
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_armor_effort focus = MEWNI_SHARED_POSTUNI_anti_tank_effort }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_discipline_and_triumph }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_research_slot = 1
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_discipline_and_triumph
+	icon = GFX_focus_generic_total_war
+	x = 1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_innovative_reforms
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_innovative_reforms }
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_motors_effort focus = MEWNI_SHARED_POSTUNI_well_rounded_infantry }
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_armor_effort focus = MEWNI_SHARED_POSTUNI_anti_tank_effort }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_discipline_and_triumph }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_forward_thinking_military }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_ideas = shared_mewman_military_toughness
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_aerial_effort
+	icon = GFX_focus_generic_total_war
+	x = 11
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_modernizing_army
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_modernizing_army }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		air_experience = 25
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_anti_air
+	icon = GFX_focus_generic_total_war
+	x = -1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_aerial_effort
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_aerial_effort }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_airforce_of_our_own }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = cat_anti_air
+		}
+		add_ideas = shared_mewman_aerial_denial_doctrine
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_airforce_of_our_own
+	icon = GFX_focus_generic_total_war
+	x = 1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_aerial_effort
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_aerial_effort }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_anti_air }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.2
+			uses = 5
+			category = air_equipment
+		}
+		#add_ideas = shared_mewman_aerial_catchup_doctrine #wanted to make planes cheaper but couldnt get to to work
+		
+	}
+}
+
+#Who cares about navy?
+#shared_focus = {
+#	id = MEWNI_SHARED_POSTUNI_naval_effort
+#	icon = GFX_focus_generic_total_war
+#	x = 8
+#	y = 1
+#	relative_position_id = MEWNI_SHARED_POSTUNI_modernizing_army
+#	prerequisite = { focus = MEWNI_SHARED_POSTUNI_modernizing_army }
+#	cost = 10
+#	search_filters = {  }
+#	
+#	ai_will_do = {
+#		factor = 1
+#	}
+#	
+#	available = {
+#	}
+#	
+#	cancel_if_invalid = yes
+#	
+#	completion_reward = {
+#	}
+#}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_knighthood_future
+	icon = GFX_focus_generic_total_war
+	x = -2
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_modernizing_army
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_modernizing_army }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_depoliticize_armed_forces
+	icon = GFX_focus_generic_total_war
+	x = 0
+	y = 3
+	relative_position_id = MEWNI_SHARED_POSTUNI_knighthood_future
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_knighthood_future }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_open_up_armed_forces
+	icon = GFX_focus_generic_total_war
+	x = 0
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_depoliticize_armed_forces
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_depoliticize_armed_forces }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_ideas = volunteer_only
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_dynamic_recruitment
+	icon = GFX_focus_generic_total_war
+	x = 0
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_open_up_armed_forces
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_open_up_armed_forces }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_restorationist_outlook
+	icon = GFX_focus_generic_total_war
+	x = 6
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_open_up_armed_forces
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_open_up_armed_forces }
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_innovative_reforms }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_named_threat = {
+			threat = 10
+			name = cleaved_crownland_expansionism
+		}
+		add_ideas = cleaved_mewman_restorationism_natl_sprt
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_crownland_economy
+	icon = GFX_focus_generic_total_war
+	x = 5
+	y = 13
+	cost = 10
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		has_country_flag = uniter_of_mewman_crownlands
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_timed_idea = {
+			idea = shared_mewman_crownland_eco_recovery
+			days = 365
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_crownland_monument
+	icon = GFX_focus_generic_total_war
+	x = -2
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_crownland_economy
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_crownland_economy }
+	cost = 5
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		country_event = mewni_shared_postuni_events.2
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan
+	icon = GFX_focus_generic_total_war
+	x = 0
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_crownland_economy
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_crownland_economy }
+	cost = 10
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_timed_idea = {
+			idea = shared_mewman_crownland_hyperindustrializtion
+			days = 730
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_infrastrucure_and_utilities
+	icon = GFX_focus_generic_total_war
+	x = 0
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan }
+	cost = 10
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_timed_idea = {
+			idea = shared_mewman_crownland_infrastrucure
+			days = 730
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_prospector_prospects
+	icon = GFX_focus_generic_total_war
+	x = -4
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan }
+	cost = 10
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_ideas = shared_mewman_crownland_prospecting
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_energy_focus
+	icon = GFX_focus_generic_total_war
+	x = -1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_prospector_prospects
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_prospector_prospects }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_rare_earths_focus }
+	cost = 10
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_ideas = shared_mewman_crownland_energy
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_rare_earths_focus
+	icon = GFX_focus_generic_total_war
+	x = 1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_prospector_prospects
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_prospector_prospects }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_energy_focus }
+	cost = 10
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_resource = {
+			type = chromium
+			amount = 12
+			state = 25
+		}
+		add_resource = {
+			type = tungsten
+			amount = 18
+			state = 25
+		}
+		add_resource = {
+			type = chromium
+			amount = 20
+			state = 20
+		}
+		add_resource = {
+			type = tungsten
+			amount = 24
+			state = 20
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_playing_catchup
+	icon = GFX_focus_generic_total_war
+	x = 4
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan }
+	cost = 10
+	search_filters = { FOCUS_FILTER_RESEARCH }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_research_slot = 1
+		add_tech_bonus = {
+			name = industrial_bonus
+			bonus = 0.5
+			uses = 3
+			category = industry
+		}
+		add_tech_bonus = {
+			name = electronics_bonus
+			bonus = 0.5
+			uses = 3
+			category = electronics
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_excavation
+	icon = GFX_focus_generic_total_war
+	x = -1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_playing_catchup
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_playing_catchup }
+	cost = 10
+	search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 3
+			category = excavation_tech
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_oiling_up
+	icon = GFX_focus_generic_total_war
+	x = 1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_playing_catchup
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_playing_catchup }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 3
+			category = synth_resources
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_californian_tech_sector
+	icon = GFX_focus_generic_total_war
+	x = 0
+	y = 2
+	relative_position_id = MEWNI_SHARED_POSTUNI_playing_catchup
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_playing_catchup }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		num_of_factories > 225
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_research_slot = 1
+	}
+}
+
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_mewman_middle_class
+	icon = GFX_focus_generic_total_war
+	x = -1
+	y = 2
+	relative_position_id = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_investor_trust }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		num_of_factories > 225
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_ideas = shared_mewman_crownland_mewman_middle_class
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_investor_trust
+	icon = GFX_focus_generic_total_war
+	x = 1
+	y = 2
+	relative_position_id = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_mewman_middle_class }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		num_of_factories > 225
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_ideas = shared_mewman_crownland_investor_trust
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_globalzied_economy
+	icon = GFX_focus_generic_total_war
+	x = 1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_mewman_middle_class
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_mewman_middle_class focus = MEWNI_SHARED_POSTUNI_investor_trust }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		num_of_factories > 225
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_ideas = free_trade
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_state_and_economy
+	icon = GFX_focus_generic_total_war
+	x = 4
+	y = 2
+	relative_position_id = MEWNI_SHARED_POSTUNI_globalzied_economy
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_globalzied_economy }
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_depoliticize_armed_forces }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_ideas = civilian_economy
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_military_industrial_complex
+	icon = GFX_focus_generic_total_war
+	x = 0
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_state_and_economy
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_state_and_economy }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		num_of_factories > 300
 	}
 	
 	cancel_if_invalid = yes
@@ -56,8 +1227,8 @@ shared_focus = {
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_royal_politics
 	icon = GFX_focus_generic_total_war
-	x = 8
-	y = 8
+	x = 10
+	y = 18
 	cost = 10
 	search_filters = {  }
 	
@@ -66,6 +1237,7 @@ shared_focus = {
 	}
 	
 	available = {
+		always = no
 		AND = {
 			OR = {
 				tag = MEW
@@ -81,11 +1253,12 @@ shared_focus = {
 	completion_reward = {
 		dismantle_faction = yes
 		create_faction = "Kingdom of Mewni"
+		custom_effect_tooltip = MEWNI_SHARED_POSTUNI_royal_politics_tt
 	}
 }
 
 shared_focus = {
-	id = MEWNI_SHARED_POSTUNI_struggle_for_seattle #choose via event who to support: spiders, johansen, attemtp compromise, or neither. Supporting either one means you get them in your alliance and the other either folds and you get them as well or they defy you and you have to go to war. Finding compromise means you get both in your faction if you have high relations with both. If compromise fails then it gets same ffects as stayign neutral. staying neutral means you dont get either one and the two of them go to war.
+	id = MEWNI_SHARED_POSTUNI_struggle_for_seattle #choose via event who to support: spiders, johansen, attemtp compromise. Supporting either one means you get them in your alliance and the other either folds and you get them as well or they defy you and you have to go to war. Finding compromise means you get both in your faction if you have high relations with both. If compromise fails then it gets same ffects as stayign neutral. staying neutral means you dont get either one and the two of them go to war.
 	icon = GFX_focus_generic_total_war
 	x = 0
 	y = 1
@@ -99,6 +1272,9 @@ shared_focus = {
 	}
 	
 	available = { #WILL ONLY BECOEM AVAILABLE ONCE JOH AND SPI TAKE OUT THE HGPNW
+		PNW = {
+			exists = no
+		}
 	}
 	
 	bypass = {
@@ -108,6 +1284,7 @@ shared_focus = {
 	
 	completion_reward = {
 		country_event = mewni_shared_kingdom_diplo_events.1
+		custom_effect_tooltip = MEWNI_SHARED_POSTUNI_struggle_for_seattle_tt
 	}
 }
 

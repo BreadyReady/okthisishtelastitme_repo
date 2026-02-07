@@ -18,7 +18,10 @@ focus_tree = {
 	shared_focus = MEWNI_SHARED_forward_operating_bases_san_joaquin
 	shared_focus = MEWNI_SHARED_forward_operating_bases_sierra
 	shared_focus = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
-	shared_focus = MEWNI_SHARED_POSTUNI_royal_politics
+	shared_focus = MEWNI_SHARED_POSTUNI_modernize_solarian_laws
+	shared_focus = MEWNI_SHARED_POSTUNI_crownland_economy
+	shared_focus = MEWNI_SHARED_POSTUNI_modernizing_army
+	#shared_focus = MEWNI_SHARED_POSTUNI_royal_politics
 	
 	default = no # This is not a default generic tree
 	
@@ -48,6 +51,9 @@ focus_tree = {
 	shared_focus = MEWNI_SHARED_forward_operating_bases_san_joaquin
 	shared_focus = MEWNI_SHARED_forward_operating_bases_sierra
 	shared_focus = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
+	shared_focus = MEWNI_SHARED_POSTUNI_modernize_solarian_laws
+	shared_focus = MEWNI_SHARED_POSTUNI_crownland_economy
+	shared_focus = MEWNI_SHARED_POSTUNI_modernizing_army
 	
 	default = no # This is not a default generic tree
 	
@@ -74,6 +80,10 @@ focus_tree = {
 	shared_focus = MEWNI_SHARED_forward_operating_bases_mojave
 	shared_focus = MEWNI_SHARED_forward_operating_bases_san_joaquin
 	shared_focus = MEWNI_SHARED_forward_operating_bases_sierra
+	shared_focus = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
+	shared_focus = MEWNI_SHARED_POSTUNI_modernize_solarian_laws
+	shared_focus = MEWNI_SHARED_POSTUNI_crownland_economy
+	shared_focus = MEWNI_SHARED_POSTUNI_modernizing_army
 	
 	default = no # This is not a default generic tree
 	

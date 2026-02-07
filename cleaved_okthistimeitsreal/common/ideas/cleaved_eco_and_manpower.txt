@@ -63,7 +63,6 @@ ideas = {
 
 			modifier = {
 				min_export = 0.8
-				consumer_goods_expected_value = 0.15
 			}
 
 			allowed_to_remove = {

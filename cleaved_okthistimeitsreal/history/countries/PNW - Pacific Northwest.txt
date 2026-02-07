@@ -1,0 +1,18 @@
+﻿set_research_slots = 1
+
+capital = 64
+
+set_stability = 0.75
+set_war_support = 0.75
+
+set_politics = {
+	ruling_party = democratic
+}
+set_popularities = {
+	democratic = 80
+	fascism = 20
+}
+
+#load_oob = DTX
+
+recruit_character = PNW_leader

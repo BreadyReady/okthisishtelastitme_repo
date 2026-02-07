@@ -207,5 +207,269 @@ ideas = {
 				production_speed_supply_node_factor = 0.2
 			}
 		}
+		
+		shared_mewman_monster_rights_idea = {
+			name = shared_mewman_monster_rights_idea
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				resistance_growth = 0.1
+				conscription = -0.01
+			}
+		}
+		
+		shared_mewman_monster_rights_good_reform_idea = {
+			name = shared_mewman_monster_rights_good_reform_idea
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				political_power_factor = -0.12
+				stability_factor = -0.08
+				war_support_factor = -0.08
+				resistance_growth = 0.08
+				conscription = -0.01
+			}
+		}
+		
+		shared_mewman_monster_rights_good_reform_idea_2 = {
+			name = shared_mewman_monster_rights_good_reform_idea_2
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				resistance_growth = 0.05
+			}
+		}
+		
+		shared_mewman_monster_rights_good_reform_idea_3 = {
+			name = shared_mewman_monster_rights_good_reform_idea_3
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				resistance_growth = 0.05
+			}
+		}
+		
+		shared_mewman_monster_rights_good_reform_idea_4 = {
+			name = shared_mewman_monster_rights_good_reform_idea_4
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				political_power_factor = -0.05
+				resistance_growth = 0.02
+			}
+		}
+		
+		shared_mewman_crownland_eco_recovery = {
+			name = shared_mewman_crownland_eco_recovery
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				industry_repair_factor = 0.1
+			}
+		}
+		
+		shared_mewman_crownland_hyperindustrializtion = {
+			name = shared_mewman_crownland_hyperindustrializtion
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = 0.10
+			}
+		}
+		
+		shared_mewman_crownland_energy = {
+			name = shared_mewman_crownland_energy
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				factory_energy_consumption = -0.1
+			}
+		}
+		
+		shared_mewman_crownland_prospecting = {
+			name = shared_mewman_crownland_prospecting
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				local_resources_factor = 0.1
+			}
+		}
+		
+		shared_mewman_crownland_mewman_middle_class = {
+			name = shared_mewman_crownland_mewman_middle_class
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = 0.15
+			}
+		}
+		
+		shared_mewman_crownland_investor_trust = {
+			name = shared_mewman_crownland_investor_trust
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				 political_power_gain = 0.15
+				 production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		shared_mewman_crownland_infrastrucure = {
+			name = shared_mewman_crownland_infrastrucure
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.15
+			 	production_speed_rail_way_factor = 0.05
+			}
+		}
+		
+		shared_mewman_military_toughness = {
+			name = shared_mewman_military_toughness
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				 max_planning_factor = 0.1
+				 planning_speed = 0.1
+				 army_org_factor = 0.15
+			}
+		}
+		
+		shared_mewman_aerial_denial_doctrine = {
+			name = shared_mewman_aerial_denial_doctrine
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = { 
+				air_intercept_efficiency = 0.25
+			}
+		}
+		
+		shared_mewman_californian_resistance = {
+			name = shared_mewman_californian_resistance
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.1
+			}
+		}
+		
+		cleaved_mewman_restorationism_natl_sprt = {
+			name = cleaved_mewman_restorationism_natl_sprt
+			picture = mewman_restorationism
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				war_stability_factor = 0.15
+				generate_wargoal_tension = -0.35
+				justify_war_goal_time = -0.3
+			}
+		}
 	} # End Country Bloc
 } # End Ideas Bloc

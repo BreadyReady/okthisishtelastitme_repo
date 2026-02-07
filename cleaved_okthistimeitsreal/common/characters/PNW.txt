@@ -1,0 +1,17 @@
+characters={
+	PNW_leader = {
+		name = PNW_leader
+		portraits={
+			civilian={
+				large = GFX_portrait_PNW_leader
+			}
+		}
+		country_leader={
+			ideology = liberalism
+			desc = PNW_leader_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

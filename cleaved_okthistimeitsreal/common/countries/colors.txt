@@ -123,3 +123,23 @@ ZAC = {
 	color = rgb { 180 180 180 }
 	color_ui = rgb { 180 180 180 }
 }
+
+OCL = {
+	color = rgb { 120 170 200 }
+	color_ui = rgb { 120 170 200 }
+}
+
+NMX = {
+	color = rgb { 255 255 100 }
+	color_ui = rgb { 255 255 100 }
+}
+
+NTN = {
+	color = rgb { 225 225 50 }
+	color_ui = rgb { 225 225 50 }
+}
+
+CAN = {
+	color = rgb { 190 100 100 }
+	color_ui = rgb { 190 100 100 }
+}

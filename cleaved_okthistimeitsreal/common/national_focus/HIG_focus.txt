@@ -17,6 +17,10 @@ focus_tree = {
 	shared_focus = MEWNI_SHARED_forward_operating_bases_mojave
 	shared_focus = MEWNI_SHARED_forward_operating_bases_san_joaquin
 	shared_focus = MEWNI_SHARED_forward_operating_bases_sierra
+	shared_focus = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
+	shared_focus = MEWNI_SHARED_POSTUNI_modernize_solarian_laws
+	shared_focus = MEWNI_SHARED_POSTUNI_crownland_economy
+	shared_focus = MEWNI_SHARED_POSTUNI_modernizing_army
 	
 	default = no # This is not a default generic tree
 	
@@ -27,7 +31,7 @@ focus_tree = {
 		id = HIG_sons_and_daughters_of_the_century
 		icon = xxx
 		x = 5
-		y = 8
+		y = 5
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -38,6 +42,46 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = HIG_estates_high_commission
+		icon = xxx
+		prerequisite = { focus = HIG_sons_and_daughters_of_the_century}
+		relative_position_id = HIG_sons_and_daughters_of_the_century
+		mutually_exclusive = { focus = HIG_primacy_of_the_knighthood }
+		x = -1
+		y = 1
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = HIG_primacy_of_the_knighthood
+		icon = xxx
+		prerequisite = { focus = HIG_sons_and_daughters_of_the_century}
+		relative_position_id = HIG_sons_and_daughters_of_the_century
+		mutually_exclusive = { focus = HIG_estates_high_commission }
+		x = 1
+		y = 1
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
 		}
 	}
 }

@@ -19,7 +19,7 @@
  JAN_janna_ordonia_desc:0 "Janna Ordonia Desc"
  
  MIN_mina_loveberry:0 "Mina Loveberry"
- MIN_mina_loveberry_desc:0 "Mina Loveberry Desc"
+ MIN_mina_loveberry_desc:0 "Mina Loveberry Desc INCOMPLETE\n\nWarrior, Traitor, Veteran, Insurrector, and if you asked her what descriptor is best for her above all: Mewman."
  
  DAL_duchess:0 "Duchess Nebula Butterfly"
  DAL_duchess_desc:0 "KENLUXE OC (from discord), ASK FOR PERMISSION FOR FURTHER DEVELOPMENT AND EVEN JUST GENERAL USE!"
@@ -35,4 +35,7 @@
  
  SPI_makadee_spiderbite:0 "Makadee Spiderbite"
  SPI_makadee_spiderbite_desc:0 "Makadee Spiderbite Desc"
+ 
+ PNW_leader:0 "Rockwell Northwest"
+ PNW_leader_desc:0 "Rockwell Northwest Desc"
  

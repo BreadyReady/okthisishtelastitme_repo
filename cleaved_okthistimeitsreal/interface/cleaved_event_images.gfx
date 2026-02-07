@@ -1,0 +1,12 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_event_cali_protest"
+		texturefile = "gfx/event_pictures/STA/event_cali_protest.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_event_marco_smart"
+		texturefile = "gfx/event_pictures/STA/event_marco_smart.dds" 
+	}
+}

@@ -70,7 +70,7 @@ bookmarks = {
 		default = yes
 		
 		"MIN"={
-			history = "xxx"
+			history = "MIN_TEXAS_DESC"
 		}
 		
 		"---"={

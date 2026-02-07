@@ -59,6 +59,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SPI/SPI_queen_spiderbite.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_PNW_leader"
+		texturefile = "gfx/leaders/PNW/PNW_leader.dds"
+	}
+	
 	###############
 	#Adult version#
 	###############

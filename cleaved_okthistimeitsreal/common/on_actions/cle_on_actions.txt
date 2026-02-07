@@ -194,6 +194,7 @@ on_actions = {
 					}
 				}
 				news_event = mewni_warlords_news_event.16
+				set_global_flag = marco_peacefully_united_with_star
 			}
 			IF = {
 				limit = {

@@ -1760,8 +1760,7 @@ shared_focus = {
 	search_filters = {  FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP }
 	
 	available_if_capitulated = yes
-#	cancel_if_invalid = no
-#	continue_if_invalid = yes
+	cancel_if_invalid = yes
 
 	ai_will_do = {
 		factor = 1
@@ -1769,6 +1768,12 @@ shared_focus = {
 		modifier = {
 			factor = 2
 			has_war = yes
+		}
+	}
+	
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
 		}
 	}
 
@@ -1789,7 +1794,7 @@ shared_focus = {
 	x = -6
 	y = 1
 	relative_position_id = MEWNI_SHARED_army_effort
-	cost = 10
+	cost = 6
 
 	search_filters = { FOCUS_FILTER_MANPOWER }
 	
@@ -1827,9 +1832,15 @@ shared_focus = {
 	x = -4
 	y = 1
 	relative_position_id = MEWNI_SHARED_army_effort
-	cost = 10
+	cost = 6
 
 	search_filters = { FOCUS_FILTER_RESEARCH }
+	
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
 	
 	ai_will_do = {
 		factor = 1
@@ -1869,7 +1880,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = MEWNI_SHARED_temporary_draft
-	cost = 10
+	cost = 6
 
 	search_filters = { FOCUS_FILTER_MANPOWER }
 	
@@ -1906,7 +1917,7 @@ shared_focus = {
 	x = -2
 	y = 1
 	relative_position_id = MEWNI_SHARED_temporary_draft
-	cost = 10
+	cost = 6
 
 	search_filters = { FOCUS_FILTER_ARMY_XP }
 	
@@ -1985,9 +1996,15 @@ shared_focus = {
 	x = -2
 	y = 1
 	relative_position_id = MEWNI_SHARED_army_effort
-	cost = 10
+	cost = 6
 
 	search_filters = {  FOCUS_FILTER_RESEARCH }
+	
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
 	
 	available_if_capitulated = yes
 #		cancel_if_invalid = no
@@ -2021,12 +2038,15 @@ shared_focus = {
 	x = 0
 	y = 2
 	relative_position_id = MEWNI_SHARED_equipment_effort
-	cost = 10
+	cost = 6
 
 	search_filters = {  FOCUS_FILTER_RESEARCH }
 	
 	available = {
-		has_country_flag = uniter_of_mewman_crownlands
+		has_tech = gw_artillery
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
 	}
 	
 	available_if_capitulated = yes
@@ -2050,53 +2070,12 @@ shared_focus = {
 			category = support_tech
 			category = artillery
 		}
-		add_tech_bonus = {
-			name = tech_bonus_infantry_advances
-			bonus = 1.0
-			ahead_reduction = 2
-			uses = 1
-			category = infantry_weapons
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_1
+			amount = 3000
+			producer = ROOT
 		}
 	} # End Reward Bloc
-} # End Focus
-
-shared_focus = {
-	id = MEWNI_SHARED_equipment_effort_3
-	icon = GFX_goal_generic_army_artillery2
-	prerequisite = { focus = MEWNI_SHARED_equipment_effort_2 }
-	x = 0
-	y = 2
-	relative_position_id = MEWNI_SHARED_equipment_effort_2
-	cost = 10
-
-	search_filters = {  FOCUS_FILTER_RESEARCH }
-	
-	available = {
-		has_country_flag = uniter_of_mewman_crownlands
-	}
-	
-	available_if_capitulated = yes
-#		cancel_if_invalid = no
-#		continue_if_invalid = yes
-
-	ai_will_do = {
-		factor = 1
-		
-		modifier = {
-			factor = 2
-			has_war = yes
-		}
-	}
-
-	completion_reward = {
-		add_tech_bonus = {
-			name = tech_bonus_artillery_effort
-			bonus = 1.0
-			ahead_reduction = 2
-			uses = 2
-			category = artillery
-		}
-	} # End Rewards
 } # End Focus
 
 shared_focus = {
@@ -2106,9 +2085,15 @@ shared_focus = {
 	x = -2
 	y = 1
 	relative_position_id = MEWNI_SHARED_equipment_effort
-	cost = 10
+	cost = 6
 
 	search_filters = {  }
+	
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
 	
 	available_if_capitulated = yes
 #		cancel_if_invalid = no
@@ -2152,7 +2137,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = MEWNI_SHARED_equipment_import
-	cost = 10
+	cost = 6
 
 	search_filters = {  }
 	
@@ -2206,9 +2191,15 @@ focus = {
 	x = 0
 	y = 2
 	relative_position_id = MEWNI_SHARED_equipment_effort
-	cost = 10
+	cost = 6
 
 	search_filters = {  FOCUS_FILTER_RESEARCH }
+	
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
 	
 	available_if_capitulated = yes
 #		cancel_if_invalid = no
@@ -2248,9 +2239,15 @@ focus = {
 	x = 0
 	y = 2
 	relative_position_id = MEWNI_SHARED_equipment_effort_2
-	cost = 10
+	cost = 6
 
 	search_filters = {  FOCUS_FILTER_RESEARCH }
+	
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
 	
 	available_if_capitulated = yes
 #		cancel_if_invalid = no
@@ -2284,12 +2281,14 @@ shared_focus = {
 	x = 0
 	y = 2
 	relative_position_id = MEWNI_SHARED_doctrine_effort
-	cost = 10
+	cost = 6
 
 	search_filters = { FOCUS_FILTER_RESEARCH }
 	
 	available = {
-		has_country_flag = uniter_of_mewman_crownlands
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
 	}
 	
 	available_if_capitulated = yes
@@ -2334,18 +2333,20 @@ shared_focus = {
 	id = MEWNI_SHARED_motorization_effort
 	icon = GFX_goal_generic_army_motorized
 	prerequisite = { focus = MEWNI_SHARED_army_effort }
-#		bypass = { has_tech = MEWNI_SHARED_motorised_infantry }
-# No longer need to bypass since it offers more than one tech
 	x = 2
 	y = 1
 	relative_position_id = MEWNI_SHARED_army_effort
-	cost = 10
+	cost = 6
 
 	search_filters = {  FOCUS_FILTER_RESEARCH }
 	
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
+	
 	available_if_capitulated = yes
-#		cancel_if_invalid = no
-#		continue_if_invalid = yes
 
 	ai_will_do = {
 		factor = 1
@@ -2360,10 +2361,7 @@ shared_focus = {
 		add_tech_bonus = {
 			name = motorized_bonus
 			bonus = 3.0
-			technology = motorised_infantry
-			technology = armored_car1
-			technology = armored_car2
-			technology = armored_car3
+			category = motorized_equipment
 		}
 	} # End Rewards
 } # End Focus
@@ -2375,12 +2373,15 @@ shared_focus = {
 	x = 0
 	y = 2
 	relative_position_id = MEWNI_SHARED_motorization_effort
-	cost = 10
+	cost = 6
 	
 	search_filters = {  FOCUS_FILTER_RESEARCH }
 	
 	available = {
-		has_country_flag = uniter_of_mewman_crownlands
+		has_tech = tech_trucks
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
 	}
 
 	available_if_capitulated = yes
@@ -2397,49 +2398,16 @@ shared_focus = {
 	}
 
 	completion_reward = {
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_0
+			amount = 2500
+			producer = ROOT
+		}
 		add_tech_bonus = {
 			name = motorized_bonus
 			bonus = 1.0
 			uses = 2
 			category = motorized_equipment
-		}
-	} # End Rewards
-} # End Focus
-
-shared_focus = {
-	id = MEWNI_SHARED_armor_effort
-	icon = GFX_goal_generic_army_tanks
-	prerequisite = { focus = MEWNI_SHARED_mechanization_effort }
-	x = 0
-	y = 2
-	relative_position_id = MEWNI_SHARED_mechanization_effort
-	cost = 10
-
-	search_filters = {  FOCUS_FILTER_RESEARCH }
-	
-	available = {
-		has_country_flag = uniter_of_mewman_crownlands
-	}
-	
-	available_if_capitulated = yes
-#		cancel_if_invalid = no
-#		continue_if_invalid = yes
-
-	ai_will_do = {
-		factor = 1
-		
-		modifier = {
-			factor = 2
-			has_war = yes
-		}
-	}
-
-	completion_reward = {
-		add_tech_bonus = {
-			name = armor_bonus
-			bonus = 1.0
-			uses = 4
-			category = armor
 		}
 	} # End Rewards
 } # End Focus
@@ -2452,9 +2420,15 @@ shared_focus = {
 	x = 1
 	y = 1
 	relative_position_id = MEWNI_SHARED_equipment_effort
-	cost = 10
+	cost = 6
 
 	search_filters = {  FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP }
+	
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
 	
 	available_if_capitulated = yes
 #		cancel_if_invalid = no
@@ -2470,13 +2444,7 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		add_doctrine_cost_reduction = {
-			cost_reduction = 0.5
-			uses = 1
-			category = land_doctrine
-		}
-
-		army_experience = 25
+		army_experience = 35
 	}
 }
 
@@ -2488,9 +2456,15 @@ shared_focus = {
 	x = -1
 	y = 1
 	relative_position_id = MEWNI_SHARED_motorization_effort
-	cost = 10
+	cost = 6
 
 	search_filters = {  FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP }
+	
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
 	
 	available_if_capitulated = yes
 #		cancel_if_invalid = no
@@ -2511,8 +2485,10 @@ shared_focus = {
 			uses = 1
 			category = land_doctrine
 		}
-
-		army_experience = 25
+		add_mastery = {
+			amount = 75
+			folder = land
+		}
 	}
 }
 
@@ -2524,12 +2500,14 @@ shared_focus = {
 	x = 0
 	y = 2
 	relative_position_id = MEWNI_SHARED_doctrine_effort_2
-	cost = 10
+	cost = 6
 
 	search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP }
 	
 	available = {
-		has_country_flag = uniter_of_mewman_crownlands
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
 	}
 	
 	available_if_capitulated = yes
@@ -2551,8 +2529,13 @@ shared_focus = {
 			uses = 1
 			category = land_doctrine
 		}
-
 		army_experience = 25
+		add_mastery_bonus = {
+			bonus = 0.5
+			days = 270
+			# FILTERS:
+			folder = land
+		}
 	}
 }
 
@@ -2563,8 +2546,14 @@ shared_focus = {
 	x = 0
 	y = 1
 	relative_position_id = MEWNI_SHARED_army_effort
-	cost = 10
+	cost = 6
 	search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
+	
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
 
 	available_if_capitulated = yes
 #		cancel_if_invalid = no
@@ -2595,13 +2584,13 @@ shared_focus = {
 	x = 0
 	y = 2
 	relative_position_id = MEWNI_SHARED_massive_military_funding
-	cost = 10
+	cost = 6
 	search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
 	
 	available = {
-		has_country_flag = uniter_of_mewman_crownlands
 		NOT = {
 			has_idea = shared_mewman_crisis_military_funding
+			has_country_flag = uniter_of_mewman_crownlands
 		}
 	}
 
@@ -2619,44 +2608,11 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		add_ideas = shared_mewman_crisis_citizen_readiness_idea
+		add_timed_idea = {
+			idea = shared_mewman_crisis_citizen_readiness_idea
+			days = 730
+		}
 	} #End Rewards Bloc
-}
-
-shared_focus = {
-	id = MEWNI_SHARED_bgf_swiss_model
-	icon = GFX_goal_generic_occupy_states_ongoing_war
-	prerequisite = { focus = MEWNI_SHARED_bgf_citizen_readiness }
-	x = 0
-	y = 2
-	relative_position_id = MEWNI_SHARED_bgf_citizen_readiness
-	cost = 10
-	search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_MANPOWER }
-	
-	available = {
-		has_country_flag = uniter_of_mewman_crownlands
-		#shoudl onl be available if youve taken an authoritarian path
-	}
-
-	available_if_capitulated = yes
-#		cancel_if_invalid = no
-#		continue_if_invalid = yes
-
-	ai_will_do = {
-		factor = 1
-		
-		modifier = {
-			factor = 2
-			has_war = yes
-		}
-	}
-
-	completion_reward = {
-		swap_ideas = {
-			remove_idea = shared_mewman_crisis_citizen_readiness_idea
-			add_idea = shared_mewman_crisis_citizen_readiness_idea_2
-		}
-	}
 }
 
 shared_focus = {
@@ -2668,6 +2624,12 @@ shared_focus = {
 	cost = 5
 	
 	search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_AIR_XP }
+	
+	available = {
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+	}
 
 	available_if_capitulated = yes
 #		cancel_if_invalid = no
@@ -2722,8 +2684,11 @@ shared_focus = {
 	
 	available = {
 		has_tech = early_fighter
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
 	}
-
+	
 	available_if_capitulated = yes
 #		cancel_if_invalid = no
 #		continue_if_invalid = yes
@@ -2787,6 +2752,9 @@ shared_focus = {
 	
 	available = {
 		has_tech = CAS1
+		NOT = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
 	}
 
 	available_if_capitulated = yes

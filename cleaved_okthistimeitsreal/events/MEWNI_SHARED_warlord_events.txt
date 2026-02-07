@@ -114,6 +114,8 @@ country_event = {
 		add_ideas = mewman_feudalism
 		add_ideas = mewman_mercantalism
 		add_ideas = mewman_warrior_class
+		add_ideas = shared_mewman_monster_rights_idea
+		add_ideas = shared_mewman_californian_resistance
 		if = {
 			limit = {
 				has_completed_focus = MEWNI_SHARED_mercenary_contracts
@@ -221,29 +223,212 @@ country_event = { #mediating johansen and spiderbites
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { #Compromise
 		name = mewni_shared_kingdom_diplo_events.1.a
+		JOH = {
+			country_event = {
+				id = mewni_shared_kingdom_diplo_events.2
+				days = 7
+			}
+		}
+		SPI = {
+			country_event = {
+				id = mewni_shared_kingdom_diplo_events.3
+				days = 7
+			}
+		}
 		ai_chance = {
 			base = 1
 		}
 	}
 	
-	option = {
+	option = { #side with johansen
 		name = mewni_shared_kingdom_diplo_events.1.b
+		JOH = {
+			country_event = {
+				id = mewni_shared_kingdom_diplo_events.4
+				days = 7
+			}
+		}
+		SPI = {
+			country_event = {
+				id = mewni_shared_kingdom_diplo_events.5
+				days = 7
+			}
+		}
 		ai_chance = {
 			base = 1
 		}
 	}
 	
-	option = {
+	option = { #side with spiderbites
 		name = mewni_shared_kingdom_diplo_events.1.c
+		SPI = {
+			country_event = {
+				id = mewni_shared_kingdom_diplo_events.6
+				days = 7
+			}
+		}
+		JOH = {
+			country_event = {
+				id = mewni_shared_kingdom_diplo_events.7
+				days = 7
+			}
+		}
 		ai_chance = {
 			base = 1
 		}
 	}
+}
+
+country_event = { #does johansen consent to compromise
+	id = mewni_shared_kingdom_diplo_events.2
+	title = mewni_shared_kingdom_diplo_events.2.t
+	desc = mewni_shared_kingdom_diplo_events.2.desc
+	picture = xxx
 	
-	option = {
-		name = mewni_shared_kingdom_diplo_events.1.d
+	is_triggered_only = yes
+	
+	option = { #yes
+		name = mewni_shared_kingdom_diplo_events.2.a
+		trigger = {
+			has_opinion = {
+				target = FROM 
+				value > 50
+			}
+		}
+		ai_chance = {
+			base = 25
+		}
+	}
+	
+	option = { #no
+		name = mewni_shared_kingdom_diplo_events.2.b
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = { #does spiderbite consent to compromise
+	id = mewni_shared_kingdom_diplo_events.3
+	title = mewni_shared_kingdom_diplo_events.3.t
+	desc = mewni_shared_kingdom_diplo_events.3.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = { #yes
+		name = mewni_shared_kingdom_diplo_events.3.a
+		trigger = {
+			has_opinion = {
+				target = FROM 
+				value > 50
+			}
+		}
+		ai_chance = {
+			base = 25
+		}
+	}
+	
+	option = { #no
+		name = mewni_shared_kingdom_diplo_events.3.b
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = { #johansen is sided with
+	id = mewni_shared_kingdom_diplo_events.4
+	title = mewni_shared_kingdom_diplo_events.4.t
+	desc = mewni_shared_kingdom_diplo_events.4.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = { #yes
+		name = mewni_shared_kingdom_diplo_events.4.a
+		FROM = {
+			add_to_faction = ROOT
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = { #johansen is sided with, what will spidebites do
+	id = mewni_shared_kingdom_diplo_events.5
+	title = mewni_shared_kingdom_diplo_events.5.t
+	desc = mewni_shared_kingdom_diplo_events.5.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = { #accept
+		name = mewni_shared_kingdom_diplo_events.5.a
+		trigger = {
+			has_opinion = {
+				target = FROM 
+				value > 50
+			}
+		}
+		FROM = {
+			add_to_faction = ROOT
+		}
+		ai_chance = {
+			base = 5
+		}
+	}
+	
+	option = { #defy!
+		name = mewni_shared_kingdom_diplo_events.5.a
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = { #spiderbites are sided with
+	id = mewni_shared_kingdom_diplo_events.6
+	title = mewni_shared_kingdom_diplo_events.6.t
+	desc = mewni_shared_kingdom_diplo_events.6.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = { #yes
+		name = mewni_shared_kingdom_diplo_events.6.a
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = { #siderbites are sided with, what will johansen do
+	id = mewni_shared_kingdom_diplo_events.7
+	title = mewni_shared_kingdom_diplo_events.7.t
+	desc = mewni_shared_kingdom_diplo_events.7.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = { #accept
+		name = mewni_shared_kingdom_diplo_events.7.a
+		trigger = {
+			has_opinion = {
+				target = FROM 
+				value > 50
+			}
+		}
+		ai_chance = {
+			base = 5
+		}
+	}
+	
+	option = { #defy!
+		name = mewni_shared_kingdom_diplo_events.7.a
 		ai_chance = {
 			base = 1
 		}

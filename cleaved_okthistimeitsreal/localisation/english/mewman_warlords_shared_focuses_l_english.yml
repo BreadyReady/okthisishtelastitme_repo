@@ -107,5 +107,32 @@
  #POST UNIFICATION#
  ##################
 
+ MEWNI_SHARED_POSTUNI_royal_politics_tt:0 "NOT AVAILABLE FOR NOW"
+
  MEWNI_SHARED_POSTUNI_texas_policy:0 "Texas Policy"
  MEWNI_SHARED_POSTUNI_texas_policy_desc:0 "There is currently a Mewman regieme in Texas. What should our policy towards them be?"
+
+ MEWNI_SHARED_POSTUNI_struggle_for_seattle:0 "Struggle for Seattle"
+ MEWNI_SHARED_POSTUNI_struggle_for_seattle_desc:0 "Struggle for Seattle Desc"
+ MEWNI_SHARED_POSTUNI_struggle_for_seattle_tt:0 "Siding with one particular faction will greatly anger the other, and compromise satisfies neither of them. Consider raising the opinion of which ever side may come out of this mediation badly to above 50, which will greatly increase the chances of them backing down."
+ 
+ MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms:0 "Continue Monster Rights Rights Reforms"
+ 
+ MEWNI_SHARED_POSTUNI_political_representation:0 "Political Representation"
+ MEWNI_SHARED_POSTUNI_political_representation_desc:0 "By enouraging monsters to fill positions of bureaucratic power, monster interests will be brought up to challenge old laws and ways of thinking. \n\nConveniently, this also embeds grateful loyalists in positions of power..."
+ 
+ MEWNI_SHARED_POSTUNI_support_campaign:0 "Support Campaigns"
+ 
+ MEWNI_SHARED_POSTUNI_land_reimbursment:0 "Land Reimbursements"
+ MEWNI_SHARED_POSTUNI_land_reimbursment_desc:0 "Eclipsa's landback programs - forcibly taking Mewman property that was deemed orignally monster property - was extremley disastrous. By implementing buyback programs and compensating Mewman victims, we can atleast mitigate some of the damage."
+ 
+ MEWNI_SHARED_POSTUNI_monster_rights_act:0 "Enact the Monster Right Act"
+ 
+ MEWNI_SHARED_POSTUNI_association_amendment:0 "The Association Amendment"
+ MEWNI_SHARED_POSTUNI_association_amendment_desc:0 "An amendment to the Monster Rights Act specifies that anti-discrimination laws only apply to government institutions, and private parties are free from such laws. While this limits government overreach and preserves freedom of association, it also allows private citizens and businesses to discriminate against Monsters freely."
+ 
+ MEWNI_SHARED_POSTUNI_public_good_amendment:0 "The Public Good Amendment"
+ MEWNI_SHARED_POSTUNI_public_good_amendment_desc:0 "An amendment to the Monster Rights Act specifies that anti-discrimination laws apply to both government and private institutions. While this prohibits private citizens and businesses from discrimination and gives monsters increased oppurtunities, some call it government overreach and a violation of freedom of association."
+ 
+ MEWNI_SHARED_POSTUNI_restorationist_outlook:0 "Adopt Restorationism"
+ MEWNI_SHARED_POSTUNI_restorationist_outlook_desc:0 "The unification of all pre-Cleaved Mewman subjects under one state is the top priority in our foreign affairs. The growing Mewman Restoration movement, if fostered and adopted as official government rhetoric, will help us put aside half measures, caution, and pacifist laze.\n\n§R"Cry, Havoc! and let slip the dogs of war..."§!"

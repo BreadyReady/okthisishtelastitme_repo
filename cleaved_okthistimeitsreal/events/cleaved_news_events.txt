@@ -529,3 +529,20 @@ news_event = { # higgs joins star
         name = mewni_warlords_news_event.18.a
     }
 }
+
+news_event = { # star marries marco
+    id = mewni_warlords_news_event.19
+    title = mewni_warlords_news_event.19.t
+	
+    desc = {
+        text = mewni_warlords_news_event.19.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_news_event_star_party
+    
+    option = {
+        name = mewni_warlords_news_event.19.a
+    }
+}

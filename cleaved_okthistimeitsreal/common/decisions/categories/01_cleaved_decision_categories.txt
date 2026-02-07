@@ -50,9 +50,40 @@ cleaved_mewman_crisis_congress_of_mewni_cat = {
 	}
 }
 
+cleaved_johansen_spiderbite_mediation_cat = {
+	icon = generic_political_actions
+	visible = {
+		any_country = {
+			has_completed_focus = MEWNI_SHARED_POSTUNI_struggle_for_seattle
+		}
+	}
+}
+
 cleaved_age_characters_cat = {
 	icon = generic_political_actions
 	visible = {
 		is_ai = no
+	}
+}
+
+cleaved_crown_of_mewni_cat = {
+	icon = generic_political_actions
+	visible = {
+		OR = {
+			tag = MEW
+			tag = MON
+			tag = MAR
+			tag = STA
+			tag = HIG
+			tag = JAN
+			tag = OCL
+			tag = MIN
+			tag = DAL
+			tag = LUC
+			tag = JOH
+			tag = SPI
+			tag = PIG
+			tag = PNY
+		}
 	}
 }

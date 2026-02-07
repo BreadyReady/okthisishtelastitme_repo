@@ -1,4 +1,3 @@
-### Advisors for DRG ###
 spriteTypes = {
 
 	spriteType = {
@@ -14,5 +13,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_mewman_feudalism"
 		texturefile = "gfx/interface/ideas/laws/idea_mewman_feudalism.dds" 
+	}
+
+	#natl sprts
+
+	spriteType = {
+		name = "GFX_idea_mewman_restorationism"
+		texturefile = "gfx/interface/ideas/cleaved_natl_spirits/idea_mewman_restorationism.dds" 
 	}
 }

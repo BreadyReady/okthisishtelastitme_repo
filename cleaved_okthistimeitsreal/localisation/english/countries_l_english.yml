@@ -103,3 +103,19 @@
  ZAC_DEF:0 "Diocese of Zacatecas"
  ZAC_ADJ:0 "Diocese of Zacatecas"
  
+ OCL:0 "Outer Crownlands"
+ OCL_DEF:0 "Outer Crownlands"
+ OCL_ADJ:0 "Outer Crownlands"
+ 
+ NMX:0 "Albuquerque Government"
+ NMX_DEF:0 "Albuquerque Government"
+ NMX_ADJ:0 "Albuquerque Government
+ 
+ NTN:0 "Native Nation"
+ NTN_DEF:0 "Native Nation"
+ NTN_ADJ:0 "Native Nation"
+ 
+ CAN:0 "Canada (Dev location Marker)"
+ CAN_DEF:0 "Canada (Dev location Marker)"
+ CAN_ADJ:0 "Canada (Dev location Marker)"
+ 

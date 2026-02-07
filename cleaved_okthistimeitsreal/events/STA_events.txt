@@ -4,6 +4,7 @@
 
 add_namespace = STA_event
 add_namespace = STA_notification_event #events that serve no purpose other than notifying other nations a buff was given to them
+add_namespace = STA_flavor_event
 
 country_event = {
 	id = STA_event.1 #Invitation to the Mewman commonwealth (For other nations)
@@ -173,6 +174,34 @@ country_event = { #Congress of Mewni works
 	}
 }
 
+country_event = { #Star's genocide
+	id = STA_event.7
+	title = STA_event.7.t
+	desc = STA_event.7.desc
+	picture = GFX_event_cali_protest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STA_event.7.a
+		add_stability = -0.05
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	option = {
+		name = STA_event.7.b
+		add_stability = -0.08
+		add_political_power = 75
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
 country_event = { #sending tech talents to moon notification
 	id = STA_notification_event.1
 	title = STA_notification_event.1.t
@@ -252,6 +281,40 @@ country_event = { #star decides to help out moon
 	option = {
 		name = STA_notification_event.5.a
 		custom_effect_tooltip = STA_notification_event.5_tt
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = { #Marco is at the marriage of Star and Tom (because he allied with star and united mewni with her)
+	id = STA_flavor_event.1
+	title = STA_flavor_event.1.t
+	desc = STA_flavor_event.1.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STA_flavor_event.1.a
+		custom_effect_tooltip = STA_flavor_event.1_tt
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = { #Marco is not at the marriage of Star and Tom (because he didn't ally with star and didn't unite mewni with her)
+	id = STA_flavor_event.2
+	title = STA_flavor_event.2.t
+	desc = STA_flavor_event.2.desc
+	picture = GFX_event_marco_smart
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = STA_flavor_event.2.a
+		custom_effect_tooltip = STA_flavor_event.2_tt
 		ai_chance = {
 			factor = 1
 		}

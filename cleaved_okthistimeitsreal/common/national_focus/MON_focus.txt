@@ -17,7 +17,11 @@ focus_tree = {
 	shared_focus = MEWNI_SHARED_forward_operating_bases_mojave
 	shared_focus = MEWNI_SHARED_forward_operating_bases_san_joaquin
 	shared_focus = MEWNI_SHARED_forward_operating_bases_sierra
-	shared_focus = MEWNI_SHARED_POSTUNI_royal_politics
+	#shared_focus = MEWNI_SHARED_POSTUNI_royal_politics
+	shared_focus = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
+	shared_focus = MEWNI_SHARED_POSTUNI_modernize_solarian_laws
+	shared_focus = MEWNI_SHARED_POSTUNI_crownland_economy
+	shared_focus = MEWNI_SHARED_POSTUNI_modernizing_army
 	
 	default = no # This is not a default generic tree
 	
@@ -42,6 +46,36 @@ focus_tree = {
 			add_timed_idea = {
 				idea = MON_empowering_moon
 				days = 730
+			}
+		}
+	}
+
+	focus = {
+		id = MON_return_to_butterfly_castle
+		icon = gfx
+		x = -4
+		y = 1
+		relative_position_id = MON_empowering_moon
+		prerequisite = { focus = MON_empowering_moon }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+		
+		available = { 	
+			owns_state = 22
+			22 = {
+				is_core_of = ROOT
+			}
+			has_country_flag = uniter_of_mewman_crownlands
+		}
+
+		completion_reward = {
+			set_capital = {
+				state = 22
 			}
 		}
 	}
@@ -140,6 +174,25 @@ focus_tree = {
 	}
 
 	focus = {
+		id = MON_centralizing_the_state
+		icon = GFX
+		x = -2
+		y = 3
+		relative_position_id = MON_propaganda_efforts
+		#prerequisite = { focus = MON_propaganda_efforts }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
 		id = MON_iron_fist_over_san_havensisco
 		icon = GFX_focus_tom_fiery_fist
 		prerequisite = { focus = MON_empowering_moon }
@@ -150,6 +203,14 @@ focus_tree = {
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		available = {
+			STA= {
+				NOT = {
+					is_puppet_of = MON
+				} 
+			}
+		}
 
 		ai_will_do = {
 			factor = 3
@@ -443,6 +504,14 @@ focus_tree = {
 		relative_position_id = MON_empowering_moon
 		mutually_exclusive = { focus = MON_iron_fist_over_san_havensisco }
 		cost = 10
+		
+		available = {
+			STA= {
+				NOT = {
+					is_puppet_of = MON
+				} 
+			}
+		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
