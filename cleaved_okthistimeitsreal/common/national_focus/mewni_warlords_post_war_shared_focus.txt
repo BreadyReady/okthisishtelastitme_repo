@@ -704,6 +704,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 	
 	completion_reward = {
+		remove_ideas = cleaved_politicized_warrior_class_natl_sprt
 	}
 }
 
@@ -770,6 +771,9 @@ shared_focus = {
 	}
 	
 	available = {
+		NOT = {
+			has_idea = shared_mewman_californian_resistance
+		}
 	}
 	
 	cancel_if_invalid = yes
@@ -1227,8 +1231,8 @@ shared_focus = {
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_royal_politics
 	icon = GFX_focus_generic_total_war
-	x = 10
-	y = 18
+	x = 14
+	y = 6
 	cost = 10
 	search_filters = {  }
 	
@@ -1302,7 +1306,25 @@ shared_focus = {
 		factor = 1
 	}
 	
-	available = { #
+	available = {
+		has_war = no
+		any_neighbor_country = {
+			tag = LUC
+		}
+		OR = {
+			AND = {
+				tag = MON
+				NOT = {
+					has_completed_focus = MON_new_royal_marriage
+				}
+			}
+			AND = {
+				tag = STA
+				NOT = {
+					has_completed_focus = STA_the_royal_marriage
+				}
+			}
+		}
 	}
 	
 	bypass = {
@@ -1311,7 +1333,12 @@ shared_focus = {
 	cancel_if_invalid = yes
 	
 	completion_reward = {
+		create_wargoal = {
+			type = civil_war
+			target = LUC
+		}
 	}
+	will_lead_to_war_with = LUC
 }
 
 shared_focus = {
@@ -1337,7 +1364,43 @@ shared_focus = {
 	cancel_if_invalid = yes
 	
 	completion_reward = {
+		create_wargoal = {
+			type = civil_war
+			target = PNY
+		}
 	}
+	will_lead_to_war_with = PNY
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_outer_crownlands_ADD_PEACEFUL_ANNEX_OPTION_LATER
+	icon = GFX_focus_generic_total_war
+	x = -1
+	y = 2
+	relative_position_id = MEWNI_SHARED_POSTUNI_royal_politics
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_royal_politics }
+	cost = 5
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = { #
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		create_wargoal = {
+			type = civil_war
+			target = OCL
+		}
+	}
+	will_lead_to_war_with = OCL
 }
 
 shared_focus = {

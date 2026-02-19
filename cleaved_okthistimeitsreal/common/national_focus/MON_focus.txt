@@ -42,7 +42,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 75
 			add_timed_idea = {
 				idea = MON_empowering_moon
 				days = 730
@@ -53,10 +53,10 @@ focus_tree = {
 	focus = {
 		id = MON_return_to_butterfly_castle
 		icon = gfx
-		x = -4
+		x = 8
 		y = 1
-		relative_position_id = MON_empowering_moon
-		prerequisite = { focus = MON_empowering_moon }
+		relative_position_id = MON_centralizing_the_state
+		prerequisite = { focus = MON_centralizing_the_state }
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -183,12 +183,331 @@ focus_tree = {
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		available = {
+			has_country_flag = uniter_of_mewman_crownlands
+		}
 
 		ai_will_do = {
 			factor = 2
 		}
 
 		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = MON_big_business_is_government_business
+		icon = GFX
+		x = -5
+		y = 1
+		relative_position_id = MON_centralizing_the_state
+		prerequisite = { focus = MON_centralizing_the_state }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
+
+		available = {
+			has_completed_focus = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_ideas = MON_big_business_agreements
+		}
+	}
+
+	focus = {
+		id = MON_corn_and_circuses
+		icon = GFX
+		x = -3
+		y = 1
+		relative_position_id = MON_centralizing_the_state
+		prerequisite = { focus = MON_centralizing_the_state }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_ideas = MON_continuous_festivals
+		}
+	}
+
+	focus = {
+		id = MON_obliteration_of_ruralism
+		icon = GFX
+		x = -1
+		y = 1
+		relative_position_id = MON_corn_and_circuses
+		prerequisite = { focus = MON_corn_and_circuses }
+		prerequisite = { focus = MON_big_business_is_government_business }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_ideas = MON_economic_high_commission
+		}
+	}
+
+	focus = {
+		id = MON_ban_independent_organization
+		icon = GFX
+		x = -1
+		y = 1
+		relative_position_id = MON_centralizing_the_state
+		prerequisite = { focus = MON_centralizing_the_state }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = MON_queens_caretakers
+		icon = GFX
+		x = 1
+		y = 1
+		relative_position_id = MON_centralizing_the_state
+		prerequisite = { focus = MON_centralizing_the_state }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_political_power = 50
+			add_ideas = MON_queens_caretakers_idea
+		}
+	}
+
+	focus = {
+		id = MON_ultrasurveillance
+		icon = GFX
+		x = 1
+		y = 1
+		relative_position_id = MON_ban_independent_organization
+		prerequisite = { focus = MON_queens_caretakers }
+		prerequisite = { focus = MON_ban_independent_organization }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				add_idea = MON_ultra_surveillance_idea
+				remove_idea = MON_queens_caretakers_idea
+			}
+		}
+	}
+
+	focus = {
+		id = MON_state_education
+		icon = GFX
+		x = 3
+		y = 1
+		relative_position_id = MON_centralizing_the_state
+		prerequisite = { focus = MON_centralizing_the_state }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_ideas = MON_state_education_idea
+			hidden_effect = {
+				country_event = {
+					days = 7
+					id = MON_flavor_event.1
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = MON_the_butterfly_web
+		icon = GFX
+		x = 5
+		y = 1
+		relative_position_id = MON_centralizing_the_state
+		prerequisite = { focus = MON_centralizing_the_state }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = MON_all_media_for_the_queen
+		icon = GFX
+		x = -1
+		y = 1
+		relative_position_id = MON_the_butterfly_web
+		prerequisite = { focus = MON_state_education }
+		prerequisite = { focus = MON_the_butterfly_web }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = MON_butterfly_points_system
+		icon = GFX
+		x = -2
+		y = 1
+		relative_position_id = MON_all_media_for_the_queen
+		prerequisite = { focus = MON_all_media_for_the_queen }
+		prerequisite = { focus = MON_ultrasurveillance }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_ideas = MON_butterfly_points_system_idea
+		}
+	}
+
+	focus = {
+		id = MON_fear_and_love
+		icon = GFX
+		x = -2
+		y = 1
+		relative_position_id = MON_ultrasurveillance
+		prerequisite = { focus = MON_obliteration_of_ruralism }
+		prerequisite = { focus = MON_ultrasurveillance }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = MON_everything_for_the_queen
+		icon = GFX
+		x = 2
+		y = 1
+		relative_position_id = MON_fear_and_love
+		prerequisite = { focus = MON_butterfly_points_system }
+		prerequisite = { focus = MON_fear_and_love }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_trait = {
+				 character = MON_moon_butterfly
+				 ideology = oligarchism
+				 trait = cleaved_undaunted
+			}
+		}
+	}
+
+	focus = {
+		id = MON_reaffirming_johansen_ties
+		icon = GFX
+		x = -1
+		y = 1
+		relative_position_id = MON_return_to_butterfly_castle
+		prerequisite = { focus = MON_return_to_butterfly_castle }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = MON_new_royal_marriage  #marry star off to tom
+		icon = GFX
+		x = 1
+		y = 1
+		relative_position_id = MON_return_to_butterfly_castle
+		prerequisite = { focus = MON_return_to_butterfly_castle }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		available = {
+			STA = {
+				has_completed_focus = STA_pragmatic_star
+			}
+			NOT = {
+				has_completed_focus = MEWNI_SHARED_POSTUNI_underworld_struggles
+			}
+		}
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			LUC = {
+				country_event = MON_event.4
+			}
 		}
 	}
 

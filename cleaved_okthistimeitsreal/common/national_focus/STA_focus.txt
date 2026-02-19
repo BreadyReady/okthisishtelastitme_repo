@@ -21,7 +21,7 @@ focus_tree = {
 	shared_focus = MEWNI_SHARED_POSTUNI_modernize_solarian_laws
 	shared_focus = MEWNI_SHARED_POSTUNI_crownland_economy
 	shared_focus = MEWNI_SHARED_POSTUNI_modernizing_army
-	#shared_focus = MEWNI_SHARED_POSTUNI_royal_politics
+	shared_focus = MEWNI_SHARED_POSTUNI_royal_politics
 	
 	default = no # This is not a default generic tree
 	
@@ -1242,6 +1242,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		available = {
+			has_global_flag = marco_peacefully_united_with_star
 		}
 
 		ai_will_do = {
@@ -1309,6 +1310,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		available = {
+			NOT = {
+				has_completed_focus = MEWNI_SHARED_POSTUNI_underworld_struggles
+			}
 		}
 
 		ai_will_do = {

@@ -30,7 +30,7 @@ focus_tree = {
 	focus = {
 		id = HIG_sons_and_daughters_of_the_century
 		icon = xxx
-		x = 5
+		x = 20
 		y = 5
 		cost = 10
 
@@ -51,6 +51,25 @@ focus_tree = {
 		prerequisite = { focus = HIG_sons_and_daughters_of_the_century}
 		relative_position_id = HIG_sons_and_daughters_of_the_century
 		mutually_exclusive = { focus = HIG_primacy_of_the_knighthood }
+		x = -2
+		y = 1
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = HIG_supremacy_theory
+		icon = xxx
+		prerequisite = { focus = HIG_estates_high_commission}
+		relative_position_id = HIG_estates_high_commission
 		x = -1
 		y = 1
 		cost = 10
@@ -71,6 +90,25 @@ focus_tree = {
 		prerequisite = { focus = HIG_sons_and_daughters_of_the_century}
 		relative_position_id = HIG_sons_and_daughters_of_the_century
 		mutually_exclusive = { focus = HIG_estates_high_commission }
+		x = 2
+		y = 1
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = HIG_eliminate_pretenders_to_power
+		icon = xxx
+		prerequisite = { focus = HIG_primacy_of_the_knighthood }
+		relative_position_id = HIG_primacy_of_the_knighthood
 		x = 1
 		y = 1
 		cost = 10

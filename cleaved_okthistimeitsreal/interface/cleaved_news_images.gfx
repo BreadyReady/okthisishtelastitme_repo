@@ -14,4 +14,14 @@ spriteTypes = {
 		name = "GFX_news_event_star_and_marco_party"
 		texturefile = "gfx/event_pictures/cleaved_unique/news_event_star_and_marco_party.dds" 
 	}
+
+	spriteType = {
+		name = "GFX_news_event_tomstar_dance"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_tomstar_dance.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_news_event_star_moon_river_public"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_star_moon_river_public.dds" 
+	}
 }

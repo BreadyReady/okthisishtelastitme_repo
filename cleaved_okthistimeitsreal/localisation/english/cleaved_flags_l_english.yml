@@ -1,3 +1,3 @@
 ﻿l_english:
-    uniter_of_mewman_crownlands:0 "United the Mewman Crownlands"
+    uniter_of_mewman_crownlands:0 "[country.GetFlag]§Y[country.getname]§! has united the Mewman Crownlands"
     monster_rights_timer:0 "Within 70 days since completion of last Monster Rights focus"

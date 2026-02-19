@@ -9,4 +9,19 @@ spriteTypes = {
 		name = "GFX_event_marco_smart"
 		texturefile = "gfx/event_pictures/STA/event_marco_smart.dds" 
 	}
+
+	spriteType = {
+		name = "GFX_event_kids_in_classroom"
+		texturefile = "gfx/event_pictures/MON/event_kids_in_classroom.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_event_letter"
+		texturefile = "gfx/event_pictures/MON/event_letter.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_event_library"
+		texturefile = "gfx/event_pictures/MON/event_library.dds" 
+	}
 }

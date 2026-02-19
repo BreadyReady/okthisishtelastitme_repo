@@ -19,3 +19,4 @@ add_ideas = shared_mewman_matriarchy_idea
 
 recruit_character = MON_moon_butterfly
 recruit_character = MON_silent_workhorse
+recruit_character = MON_star_butterfly_advisor

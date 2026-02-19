@@ -102,7 +102,7 @@ country_event = {
 }
 
 country_event = {
-	id = mewni_shared_warlord_events.5 #effects after uniting mewni
+	id = mewni_shared_warlord_events.5 #effects after uniting crownlands
 	title = mewni_shared_warlord_events.5.t
 	desc = mewni_shared_warlord_events.5.desc
 	picture = xxx
@@ -116,6 +116,7 @@ country_event = {
 		add_ideas = mewman_warrior_class
 		add_ideas = shared_mewman_monster_rights_idea
 		add_ideas = shared_mewman_californian_resistance
+		add_ideas = cleaved_politicized_warrior_class_natl_sprt
 		if = {
 			limit = {
 				has_completed_focus = MEWNI_SHARED_mercenary_contracts

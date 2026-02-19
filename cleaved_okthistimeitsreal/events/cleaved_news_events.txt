@@ -540,9 +540,43 @@ news_event = { # star marries marco
     
     is_triggered_only = yes
 	major = yes
-	picture = GFX_news_event_star_party
+	picture = xxx
     
     option = {
         name = mewni_warlords_news_event.19.a
+    }
+}
+
+news_event = { # announcement of star marrying tom at the direction of moon
+    id = mewni_warlords_news_event.20
+    title = mewni_warlords_news_event.20.t
+	
+    desc = {
+        text = mewni_warlords_news_event.20.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_news_event_star_moon_river_public
+    
+    option = {
+        name = mewni_warlords_news_event.20.a
+    }
+}
+
+news_event = { # star marrying tom at the direction of moon, the actual marriage
+    id = mewni_warlords_news_event.21
+    title = mewni_warlords_news_event.21.t
+	
+    desc = {
+        text = mewni_warlords_news_event.21.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_news_event_tomstar_dance
+    
+    option = {
+        name = mewni_warlords_news_event.21.a
     }
 }

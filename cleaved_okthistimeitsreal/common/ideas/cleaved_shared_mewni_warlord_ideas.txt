@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		shared_mewman_matriarchy_idea = {
 			name = shared_mewman_matriarchy_idea
-			picture = generic_war_preparation
+			picture = 2_mewman_peasants
 
 			allowed = {
 				always = no
@@ -440,7 +440,7 @@ ideas = {
 		
 		shared_mewman_californian_resistance = {
 			name = shared_mewman_californian_resistance
-			picture = generic_flexible_foreign_policy2
+			picture = californian_resistance_2
 
 			allowed = {
 			}
@@ -466,9 +466,26 @@ ideas = {
 			}
 			
 			modifier = {
+				war_support_factor = 0.1
 				war_stability_factor = 0.15
 				generate_wargoal_tension = -0.35
 				justify_war_goal_time = -0.3
+			}
+		}
+		
+		cleaved_politicized_warrior_class_natl_sprt = {
+			name = cleaved_politicized_warrior_class_natl_sprt
+			picture = cross_arm_knight
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				political_power_factor = -0.1
 			}
 		}
 	} # End Country Bloc

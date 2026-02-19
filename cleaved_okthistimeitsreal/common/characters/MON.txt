@@ -30,4 +30,13 @@ characters={
 			}
 		}
 	}
+	MON_star_butterfly_advisor={
+		name=STA_star_butterfly
+		gender = female
+		portraits={
+			army={
+				small="GFX_idea_mon_star_butterfly_royal_advisor"
+			}
+		}
+	}
 }

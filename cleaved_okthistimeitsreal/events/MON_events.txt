@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = MON_event
+add_namespace = MON_flavor_event
 add_namespace = MON_notification_event
 
 country_event = {
@@ -16,14 +17,14 @@ country_event = {
 	option = {
 		name = MON_event.1.a
 		ai_chance = {
-			factor = 1
+			base = 1
 		}
 		STA = { add_to_faction = ROOT }
 	}
 }
 
 country_event = {
-	id = MON_event.2 #Comet sighted
+	id = MON_event.2 #Comet sighted unused version
 	title = MON_event.2.t
 	desc = MON_event.2.desc
 	picture = xxx
@@ -39,7 +40,7 @@ country_event = {
 		}
 		add_stability = -0.01
 		ai_chance = {
-			factor = 1
+			base = 1
 		}
 	}
 	
@@ -50,9 +51,72 @@ country_event = {
 		}
 		add_stability = 0.01
 		ai_chance = {
-			factor = 1
+			base = 1
 		}
 	}
+}
+
+country_event = { #Star is consentually annexed, star took "moons heir" focus
+	id = MON_event.3
+	title = MON_event.3.t
+	desc = MON_event.3.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_event.3.a
+		MON_star_butterfly_advisor = {
+			add_advisor_role = {
+				advisor = {
+					slot = political_advisor
+					cost = 50
+					idea_token = MON_star_butterfly_advisor_idea
+					traits = {
+						royal_heir
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = { #moon marrying off star to tom
+	id = MON_event.4
+	title = MON_event.4.t
+	desc = MON_event.4.desc
+	picture = GFX_event_letter
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_event.4.a
+		MON = {
+			country_event = {
+				id = MON_notification_event.9
+				days = 7
+			}
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+	
+	#option = {
+	#	name = MON_event.4.a
+	#	MON = {
+	#		country_event = {
+	#			id = MON_notification_event.10
+	#		days = 7
+	#		}
+	#	}
+	#	ai_chance = {
+	#		base = 0
+	#	}
+	#}
 }
 
 country_event = {
@@ -67,7 +131,7 @@ country_event = {
 		name = MON_notification_event.1.a
 		custom_effect_tooltip = MON_notification_event.1_tt
 		ai_chance = {
-			factor = 1
+			base = 1
 		}
 	}
 }
@@ -84,7 +148,7 @@ country_event = {
 		name = MON_notification_event.2.a
 		custom_effect_tooltip = MON_notification_event.2_tt
 		ai_chance = {
-			factor = 1
+			base = 1
 		}
 	}
 }
@@ -101,7 +165,7 @@ country_event = {
 		name = MON_notification_event.3.a
 		custom_effect_tooltip = MON_notification_event.3_tt
 		ai_chance = {
-			factor = 1
+			base = 1
 		}
 	}
 }
@@ -118,7 +182,7 @@ country_event = {
 		name = MON_notification_event.4.a
 		custom_effect_tooltip = MON_notification_event.4_tt
 		ai_chance = {
-			factor = 1
+			base = 1
 		}
 	}
 }
@@ -135,7 +199,7 @@ country_event = {
 		name = MON_notification_event.5.a
 		custom_effect_tooltip = MON_notification_event.5_tt
 		ai_chance = {
-			factor = 1
+			base = 1
 		}
 	}
 }
@@ -152,7 +216,7 @@ country_event = {
 		name = MON_notification_event.6.a
 		custom_effect_tooltip = MON_notification_event.6_tt
 		ai_chance = {
-			factor = 1
+			base = 1
 		}
 	}
 }
@@ -169,7 +233,7 @@ country_event = {
 		name = MON_notification_event.7.a
 		custom_effect_tooltip = MON_notification_event.7_tt
 		ai_chance = {
-			factor = 1
+			base = 1
 		}
 	}
 }
@@ -186,7 +250,85 @@ country_event = {
 		name = MON_notification_event.8.a
 		custom_effect_tooltip = MON_notification_event.8_tt
 		ai_chance = {
-			factor = 1
+			base = 1
+		}
+	}
+}
+
+country_event = {
+	id = MON_notification_event.9
+	title = MON_notification_event.9.t
+	desc = MON_notification_event.9.desc
+	picture = GFX_event_letter
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_notification_event.9.a
+		hidden_effect = {
+			news_event = mewni_warlords_news_event.20
+			country_event = {
+				id = MON_flavor_event.2
+				days = 7
+			}
+			country_event = {
+				id = mewni_warlords_news_event.21
+				days = 30
+			}
+		}
+		puppet = LUC
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = {
+	id = MON_notification_event.10
+	title = MON_notification_event.10.t
+	desc = MON_notification_event.10.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_notification_event.10.a
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = {
+	id = MON_flavor_event.1 #the mewman school pledge
+	title = MON_flavor_event.1.t
+	desc = MON_flavor_event.1.desc
+	picture = GFX_event_kids_in_classroom
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_flavor_event.1.a
+		custom_effect_tooltip = MON_flavor_event.1_tt
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = {
+	id = MON_flavor_event.2 #stars reaction to marrying tom 
+	title = MON_flavor_event.2.t
+	desc = MON_flavor_event.2.desc
+	picture = GFX_event_library
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_flavor_event.2.a
+		custom_effect_tooltip = MON_flavor_event.2_tt
+		ai_chance = {
+			base = 1
 		}
 	}
 }

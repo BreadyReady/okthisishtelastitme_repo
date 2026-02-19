@@ -21,4 +21,26 @@ spriteTypes = {
 		name = "GFX_idea_mewman_restorationism"
 		texturefile = "gfx/interface/ideas/cleaved_natl_spirits/idea_mewman_restorationism.dds" 
 	}
+
+	spriteType = {
+		name = "GFX_idea_californian_resistance_2"
+		texturefile = "gfx/interface/ideas/cleaved_natl_spirits/idea_californian_resistance_2.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_idea_cross_arm_knight"
+		texturefile = "gfx/interface/ideas/cleaved_natl_spirits/idea_cross_arm_knight.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_idea_2_mewman_peasants"
+		texturefile = "gfx/interface/ideas/cleaved_natl_spirits/idea_2_mewman_peasants.dds" 
+	}
+	
+	#advisors
+
+	spriteType = {
+		name = "GFX_idea_mon_star_butterfly_royal_advisor"
+		texturefile = "gfx/interface/ideas/laws/idea_mon_star_butterfly_royal_advisor.dds" 
+	}
 }

@@ -134,5 +134,47 @@
  MEWNI_SHARED_POSTUNI_public_good_amendment:0 "The Public Good Amendment"
  MEWNI_SHARED_POSTUNI_public_good_amendment_desc:0 "An amendment to the Monster Rights Act specifies that anti-discrimination laws apply to both government and private institutions. While this prohibits private citizens and businesses from discrimination and gives monsters increased oppurtunities, some call it government overreach and a violation of freedom of association."
  
+ MEWNI_SHARED_POSTUNI_modernize_solarian_laws:0 "Modernize Solarian Law"
+ 
+ MEWNI_SHARED_POSTUNI_modernizing_army:0 "Modernizing The Royal Army"
+ 
  MEWNI_SHARED_POSTUNI_restorationist_outlook:0 "Adopt Restorationism"
  MEWNI_SHARED_POSTUNI_restorationist_outlook_desc:0 "The unification of all pre-Cleaved Mewman subjects under one state is the top priority in our foreign affairs. The growing Mewman Restoration movement, if fostered and adopted as official government rhetoric, will help us put aside half measures, caution, and pacifist laze.\n\n§R"Cry, Havoc! and let slip the dogs of war..."§!"
+ 
+ MEWNI_SHARED_POSTUNI_crownland_economy:0 "Life in the Crownlands"
+ 
+ MEWNI_SHARED_POSTUNI_crownland_monument:0 "Monument to the Fallen"
+ MEWNI_SHARED_POSTUNI_crownland_monument_desc:0 "The shattering of the crownlands and the vicious wars to reunite it will be seen as a dark time in Mewman history. It is fitting that it be memorialized."
+ 
+ MEWNI_SHARED_POSTUNI_hyperindustrialization_plan:0 "Hyperindustrialization Plan"
+ MEWNI_SHARED_POSTUNI_hyperindustrialization_plan_desc:0 "A modern nation needs a modern industry. We must transition from a agrarian, peasant economy to an industrial one."
+ 
+ MEWNI_SHARED_POSTUNI_infrastrucure_and_utilities:0 "Infrastructure and Utilities"
+ MEWNI_SHARED_POSTUNI_infrastrucure_and_utilities_desc:0 "Asphalt roads, highways, public electricity, running water, etc. These are all components vital to a modern life on Earthni that we lack. By providing them, we will reap rewards in the form of a more robust economy."
+ 
+ MEWNI_SHARED_POSTUNI_prospector_prospects:0 "Prospector Prospects"
+ 
+ MEWNI_SHARED_POSTUNI_energy_focus:0 "Prioritize Energy"
+ 
+ MEWNI_SHARED_POSTUNI_rare_earths_focus:0 "Prioritize Rare Earths"
+ MEWNI_SHARED_POSTUNI_rare_earths_focus_desc:0 "We must fund prospects into domestic mineral and rare resource production.\n\n§gPerhaps, they should be called rare Earthnis...?§!"
+ 
+ MEWNI_SHARED_POSTUNI_playing_catchup:0 "Playing Catch-up"
+ 
+ MEWNI_SHARED_POSTUNI_excavation:0 "Excavation Technologies"
+ 
+ MEWNI_SHARED_POSTUNI_oiling_up:0 "Oiling Up"
+ 
+ MEWNI_SHARED_POSTUNI_californian_tech_sector:0 "Harness the Californian Tech Sector"
+ 
+ MEWNI_SHARED_POSTUNI_mewman_middle_class:0 "Mewman Middle Class"
+ 
+ MEWNI_SHARED_POSTUNI_investor_trust:0 "Obtain a Respectable Credit Rating"
+ 
+ MEWNI_SHARED_POSTUNI_globalzied_economy:0 "Gloablized Economy"
+ 
+ MEWNI_SHARED_POSTUNI_state_and_economy:0 "State and Economy"
+ MEWNI_SHARED_POSTUNI_state_and_economy_desc:0 "In the modern world, the state and economy are inextricably linked. In times of prosperity, the state benefits. In times of need, the state intervenes. And in times of war, the State whips the economy into ensuring survival. Through our efforts, we have achieved this dynamic!"
+ 
+ MEWNI_SHARED_POSTUNI_military_industrial_complex:0 "Mewman Military Industrial Complex"
+ MEWNI_SHARED_POSTUNI_military_industrial_complex_desc:0 "Continuous investment into war industries has created powerful interest groups who benefit from ongoing wars and manipulate policy to benefit themselves. Morally concerning? Perhaps. But look at those guns!"
