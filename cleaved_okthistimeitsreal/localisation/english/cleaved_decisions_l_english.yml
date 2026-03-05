@@ -1,6 +1,6 @@
 ﻿l_english:
- cleaved_mewman_crisis_coring_cat:0 "Integrating Mewni"
- cleaved_mewman_crisis_coring_cat_desc:0 "As we unite the Mewman Crownlands, we must reoganize the administration of lands to ensure our control. This will allow us to extract more resources and makes sure that any reforms are effectivley carried out."
+ cleaved_mewman_crisis_coring_cat:0 "Reintegrating the Crownlands"
+ cleaved_mewman_crisis_coring_cat_desc:0 "\n\n\n\n £core_crownlands_decision_desc_texticon \n\n\n\n\n\nAs we unite the Mewman Crownlands, we must reoganize the administration of lands to ensure our control. This will allow us to extract more resources and makes sure that any reforms are effectivley carried out."
  
  mewman_crisis_coring_state_87:0 "Integrate [87.GetName]"
  mewman_crisis_coring_state_89:0 "Integrate [89.GetName]"
@@ -45,6 +45,9 @@
  mewman_crisis_coring_state_84:0 "Integrate [84.GetName]"
  mewman_crisis_coring_state_24:0 "Integrate [24.GetName]"
  mewman_crisis_coring_state_32:0 "Integrate [32.GetName]"
+ mewman_crisis_coring_state_121:0 "Integrate [121.GetName]"
+ mewman_crisis_coring_state_107:0 "Integrate [107.GetName]"
+ mewman_crisis_coring_state_9:0 "Integrate [9.GetName]"
  
  cleaved_mewman_crisis_congress_of_mewni_cat:0 "The Congress of Mewni"
  cleaved_mewman_crisis_congress_of_mewni_cat_desc:0 "In an effort to peacefully resolve the Mewman Crisis, Star Butterfly has established the §YCongress of Mewni§!. Based in San Havensisco, the Congress is intended to streamline diplomacy and hopefully help the nations of the Mewman Crownlands to reconcile their diffrences and avoid bloodshed in the pursuit of reunification.\n\nIn order for the Congress of Mewni to succeed in unifying the Crownlands without bloodshed, all 6 warlords must agree to cooperate. Currently, [?global.nations_cooperating_at_congress_of_mewni]/6 are cooperating."

@@ -64,6 +64,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/PNW/PNW_leader.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_ocl_noble_leader"
+		texturefile = "gfx/leaders/OCL/ocl_noble_leader.dds"
+	}
+	
 	###############
 	#Adult version#
 	###############

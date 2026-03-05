@@ -81,6 +81,30 @@ focus_tree = {
 	}
 
 	focus = {
+		id = MON_direct_rule_from_butterfly_castle
+		icon = gfx
+		x = 0
+		y = 2
+		relative_position_id = MON_return_to_butterfly_castle
+		prerequisite = { focus = MON_return_to_butterfly_castle }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+		
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = MON_direct_rule_from_butterfly_castle_tt
+		}
+	}
+
+	focus = {
 		id = MON_cult_of_personality
 		icon = GFX_focus_moon_formal
 		prerequisite = { focus = MON_empowering_moon }
@@ -472,6 +496,13 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
+		available = {
+			NOT = {
+				has_completed_focus = MEWNI_SHARED_POSTUNI_complete_northern_aggression
+				has_completed_focus = MEWNI_SHARED_POSTUNI_side_with_spiderbites
+			}
+		}
+
 		ai_will_do = {
 			factor = 2
 		}
@@ -496,7 +527,7 @@ focus_tree = {
 				has_completed_focus = STA_pragmatic_star
 			}
 			NOT = {
-				has_completed_focus = MEWNI_SHARED_POSTUNI_underworld_struggles
+				has_completed_focus = MEWNI_SHARED_POSTUNI_take_down_the_lucitors
 			}
 		}
 
@@ -525,9 +556,9 @@ focus_tree = {
 		
 		available = {
 			STA= {
-				NOT = {
+				#NOT = {
 					is_puppet_of = MON
-				} 
+				#} 
 			}
 		}
 
@@ -826,9 +857,9 @@ focus_tree = {
 		
 		available = {
 			STA= {
-				NOT = {
+				#NOT = {
 					is_puppet_of = MON
-				} 
+				#} 
 			}
 		}
 

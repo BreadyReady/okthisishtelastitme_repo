@@ -178,3 +178,9 @@
  
  MEWNI_SHARED_POSTUNI_military_industrial_complex:0 "Mewman Military Industrial Complex"
  MEWNI_SHARED_POSTUNI_military_industrial_complex_desc:0 "Continuous investment into war industries has created powerful interest groups who benefit from ongoing wars and manipulate policy to benefit themselves. Morally concerning? Perhaps. But look at those guns!"
+ 
+ MEWNI_SHARED_POSTUNI_crownland_integrity:0 "Full Integrity of the Crownlands"
+ MEWNI_SHARED_POSTUNI_crownland_integrity_desc:0 "While we have consolidated the most important parts of the Crownlands, it is not yet technically whole. The Outer Crownlands, a largely poor and rural area even after the Cleaving, has flown under our radar. Thankfully, it's current de-facto leader is amenable to peace and reintegration."
+ MEWNI_SHARED_POSTUNI_crownland_integrity_tt:0 "The states of the Outer Crownlands can be cored with decisions.\n§gThe Outer Crownlands beign able to reject annexation is planned for a future update.§!"
+ 
+ MEWNI_SHARED_POSTUNI_to_the_frontier:0 "To The Frontier!"

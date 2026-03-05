@@ -332,3 +332,20 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = MON_flavor_event.3 #stars message to marco after marrying tom
+	title = MON_flavor_event.3.t
+	desc = MON_flavor_event.3.desc
+	picture = GFX_event_library
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_flavor_event.3.a
+		custom_effect_tooltip = MON_flavor_event.3_tt
+		ai_chance = {
+			base = 1
+		}
+	}
+}

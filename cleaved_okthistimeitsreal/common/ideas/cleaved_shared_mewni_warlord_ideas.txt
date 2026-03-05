@@ -488,5 +488,23 @@ ideas = {
 				political_power_factor = -0.1
 			}
 		}
+		
+		cleaved_student_protests_natl_sprt = {
+			name = cleaved_student_protests_natl_sprt
+			picture = burning_books
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				political_power_factor = -0.05
+				 stability_factor = -0.1
+				research_speed_factor = -0.1
+			}
+		}
 	} # End Country Bloc
 } # End Ideas Bloc

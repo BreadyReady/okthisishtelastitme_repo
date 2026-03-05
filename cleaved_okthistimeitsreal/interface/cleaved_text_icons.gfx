@@ -1,0 +1,44 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_mewman_matriarchy_popup_desc_texticon"
+		texturefile = "gfx/interface/texticons/mewman_matriarchy_popup_desc_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_core_crownlands_decision_desc_texticon"
+		texturefile = "gfx/interface/texticons/core_crownlands_decision_desc_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_student_protests_popup_desc_texticon"
+		texturefile = "gfx/interface/texticons/student_protests_popup_desc_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mewman_restorationism_popup_desc_texticon"
+		texturefile = "gfx/interface/texticons/mewman_restorationism_popup_desc_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_mewman_restorationism_tfr_style_popup_desc_texticon"
+		texturefile = "gfx/interface/texticons/mewman_restorationism_tfr_style_popup_desc_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_monster_rights_popup_desc_texticon"
+		texturefile = "gfx/interface/texticons/monster_rights_popup_desc_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_monster_rights_good_popup_desc_texticon"
+		texturefile = "gfx/interface/texticons/monster_rights_good_popup_desc_texticon.dds"
+		legacy_lazy_load = no
+	}
+}

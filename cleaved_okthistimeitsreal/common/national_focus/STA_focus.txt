@@ -1311,7 +1311,7 @@ focus_tree = {
 
 		available = {
 			NOT = {
-				has_completed_focus = MEWNI_SHARED_POSTUNI_underworld_struggles
+				has_completed_focus = MEWNI_SHARED_POSTUNI_take_down_the_lucitors
 			}
 		}
 

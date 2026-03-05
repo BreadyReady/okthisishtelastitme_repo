@@ -788,6 +788,378 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_crownland_integrity
+	icon = GFX_focus_generic_total_war
+	x = -2
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_restorationist_outlook
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_restorationist_outlook }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		OCL = {
+			exists = yes
+		}
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		annex_country = {
+			target = OCL
+			transfer_troops = yes
+		}
+		custom_effect_tooltip = MEWNI_SHARED_POSTUNI_crownland_integrity_tt
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_take_down_the_lucitors
+	icon = GFX_focus_generic_total_war
+	x = -1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_crownland_integrity
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_crownland_integrity }
+	cost = 5
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		LUC = {
+			NOT = {
+				is_subject_of = ROOT
+			}
+			any_home_area_neighbor_country = {
+				OR = {
+					is_ally_with = ROOT
+					tag = ROOT
+				}
+			}
+		}
+		OR = {
+			AND = {
+				tag = MON
+				NOT = {
+					has_completed_focus = MON_new_royal_marriage
+				}
+			}
+			AND = {
+				tag = STA
+				NOT = {
+					has_completed_focus = STA_the_royal_marriage
+				}
+			}
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = LUC
+		}
+	}
+	will_lead_to_war_with = LUC
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_take_down_the_pigeons
+	icon = GFX_focus_generic_total_war
+	x = -3
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_crownland_integrity
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_crownland_integrity }
+	cost = 5
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		PIG = {
+			NOT = {
+				is_subject_of = ROOT
+			}
+			any_home_area_neighbor_country = {
+				OR = {
+					is_ally_with = ROOT
+					tag = ROOT
+				}
+			}
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = PIG
+		}
+	}
+	will_lead_to_war_with = PIG
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_take_down_the_ponyheads
+	icon = GFX_focus_generic_total_war
+	x = -2
+	y = 2
+	relative_position_id = MEWNI_SHARED_POSTUNI_crownland_integrity
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_crownland_integrity }
+	cost = 5
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		PNY = {
+			NOT = {
+				is_subject_of = ROOT
+			}
+			any_home_area_neighbor_country = {
+				OR = {
+					is_ally_with = ROOT
+					tag = ROOT
+				}
+			}
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = PNY
+		}
+	}
+	will_lead_to_war_with = PNY
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_complete_northern_aggression
+	icon = GFX_focus_generic_total_war
+	x = 2
+	y = 2
+	relative_position_id = MEWNI_SHARED_POSTUNI_crownland_integrity
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_crownland_integrity }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_side_with_johansens }
+	cost = 5
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		OR = {
+			JOH = {
+				NOT = {
+					is_subject_of = ROOT
+				}
+				any_home_area_neighbor_country = {
+					OR = {
+						is_ally_with = ROOT
+						tag = ROOT
+					}
+				}
+			}
+			SPI = {
+				NOT = {
+					is_subject_of = ROOT
+				}
+				any_home_area_neighbor_country = {
+					OR = {
+						is_ally_with = ROOT
+						tag = ROOT
+					}
+				}
+			}
+		}
+		NOT = {
+			has_completed_focus = MON_reaffirming_johansen_ties
+		}
+
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = JOH
+		}
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = SPI
+		}
+	}
+	will_lead_to_war_with = JOH
+	will_lead_to_war_with = SPI
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_side_with_johansens
+	icon = GFX_focus_generic_total_war
+	x = 1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_crownland_integrity
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_crownland_integrity }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_complete_northern_aggression }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_side_with_spiderbites }
+	cost = 5
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		SPI = {
+			NOT = {
+				is_subject_of = ROOT
+			}
+			any_home_area_neighbor_country = {
+				OR = {
+					is_ally_with = ROOT
+					tag = ROOT
+					is_ally_with = JOH
+					tag = JOH
+				}
+			}
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = SPI
+		}
+		puppet = JOH
+	}
+	will_lead_to_war_with = SPI
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_side_with_spiderbites
+	icon = GFX_focus_generic_total_war
+	x = 3
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_crownland_integrity
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_crownland_integrity }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_complete_northern_aggression }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_side_with_johansens }
+	cost = 5
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		JOH = {
+			NOT = {
+				is_subject_of = ROOT
+			}
+			any_home_area_neighbor_country = {
+				OR = {
+					is_ally_with = ROOT
+					tag = ROOT
+					is_ally_with = SPI
+					tag = SPI
+				}
+			}
+		}
+		NOT = {
+			has_completed_focus = MON_reaffirming_johansen_ties
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = JOH
+		}
+		puppet = SPI
+	}
+	will_lead_to_war_with = JOH
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_to_the_frontier
+	icon = GFX_focus_generic_total_war
+	x = 2
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_restorationist_outlook
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_restorationist_outlook }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		
+	}
+	
+	cancel_if_invalid = yes
+		
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = NTN
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = NMX
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = JUA
+		}
+	}
+	will_lead_to_war_with = NTN
+	will_lead_to_war_with = NMX
+	will_lead_to_war_with = JUA
+}
+
+shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_crownland_economy
 	icon = GFX_focus_generic_total_war
 	x = 5
@@ -1260,117 +1632,117 @@ shared_focus = {
 		custom_effect_tooltip = MEWNI_SHARED_POSTUNI_royal_politics_tt
 	}
 }
-
-shared_focus = {
-	id = MEWNI_SHARED_POSTUNI_struggle_for_seattle #choose via event who to support: spiders, johansen, attemtp compromise. Supporting either one means you get them in your alliance and the other either folds and you get them as well or they defy you and you have to go to war. Finding compromise means you get both in your faction if you have high relations with both. If compromise fails then it gets same ffects as stayign neutral. staying neutral means you dont get either one and the two of them go to war.
-	icon = GFX_focus_generic_total_war
-	x = 0
-	y = 1
-	relative_position_id = MEWNI_SHARED_POSTUNI_royal_politics
-	prerequisite = { focus = MEWNI_SHARED_POSTUNI_royal_politics }
-	cost = 5
-	search_filters = {  }
-	
-	ai_will_do = {
-		factor = 1
-	}
-	
-	available = { #WILL ONLY BECOEM AVAILABLE ONCE JOH AND SPI TAKE OUT THE HGPNW
-		PNW = {
-			exists = no
-		}
-	}
-	
-	bypass = {
-	}
-	
-	cancel_if_invalid = yes
-	
-	completion_reward = {
-		country_event = mewni_shared_kingdom_diplo_events.1
-		custom_effect_tooltip = MEWNI_SHARED_POSTUNI_struggle_for_seattle_tt
-	}
-}
-
-shared_focus = {
-	id = MEWNI_SHARED_POSTUNI_underworld_struggles #HAVE TO FLESH OUT THE LUCITOR V MEXICO CONFLICT BEFORE THIS CAN BE EVEN PLANNED
-	icon = GFX_focus_generic_total_war
-	x = 2
-	y = 1
-	relative_position_id = MEWNI_SHARED_POSTUNI_royal_politics
-	prerequisite = { focus = MEWNI_SHARED_POSTUNI_royal_politics }
-	cost = 5
-	search_filters = {  }
-	
-	ai_will_do = {
-		factor = 1
-	}
-	
-	available = {
-		has_war = no
-		any_neighbor_country = {
-			tag = LUC
-		}
-		OR = {
-			AND = {
-				tag = MON
-				NOT = {
-					has_completed_focus = MON_new_royal_marriage
-				}
-			}
-			AND = {
-				tag = STA
-				NOT = {
-					has_completed_focus = STA_the_royal_marriage
-				}
-			}
-		}
-	}
-	
-	bypass = {
-	}
-	
-	cancel_if_invalid = yes
-	
-	completion_reward = {
-		create_wargoal = {
-			type = civil_war
-			target = LUC
-		}
-	}
-	will_lead_to_war_with = LUC
-}
-
-shared_focus = {
-	id = MEWNI_SHARED_POSTUNI_pny_order
-	icon = GFX_focus_generic_total_war
-	x = -2
-	y = 1
-	relative_position_id = MEWNI_SHARED_POSTUNI_royal_politics
-	prerequisite = { focus = MEWNI_SHARED_POSTUNI_royal_politics }
-	cost = 5
-	search_filters = {  }
-	
-	ai_will_do = {
-		factor = 1
-	}
-	
-	available = { #
-	}
-	
-	bypass = {
-	}
-	
-	cancel_if_invalid = yes
-	
-	completion_reward = {
-		create_wargoal = {
-			type = civil_war
-			target = PNY
-		}
-	}
-	will_lead_to_war_with = PNY
-}
+#
+#shared_focus = {
+#	id = MEWNI_SHARED_POSTUNI_struggle_for_seattle #choose via event who to support: spiders, johansen, attemtp compromise. Supporting either one means you get them in your alliance and the other either folds and you get them as well or they defy you and you have to go to war. Finding compromise means you get both in your faction if you have high relations with both. If compromise fails then it gets same ffects as stayign neutral. staying neutral means you dont get either one and the two of them go to war.
+#	icon = GFX_focus_generic_total_war
+#	x = 0
+#	y = 1
+#	relative_position_id = MEWNI_SHARED_POSTUNI_royal_politics
+#	prerequisite = { focus = MEWNI_SHARED_POSTUNI_royal_politics }
+#	cost = 5
+#	search_filters = {  }
+#	
+#	ai_will_do = {
+#		factor = 1
+#	}
+#	
+#	available = { #WILL ONLY BECOEM AVAILABLE ONCE JOH AND SPI TAKE OUT THE HGPNW
+#		PNW = {
+#			exists = no
+#		}
+#	}
+#	
+#	bypass = {
+#	}
+#	
+#	cancel_if_invalid = yes
+#	
+#	completion_reward = {
+#		country_event = mewni_shared_kingdom_diplo_events.1
+#		custom_effect_tooltip = MEWNI_SHARED_POSTUNI_struggle_for_seattle_tt
+#	}
+#}
+#
+#shared_focus = {
+#	id = MEWNI_SHARED_POSTUNI_underworld_struggles #HAVE TO FLESH OUT THE LUCITOR V MEXICO CONFLICT BEFORE THIS CAN BE EVEN PLANNED
+#	icon = GFX_focus_generic_total_war
+#	x = 2
+#	y = 1
+#	relative_position_id = MEWNI_SHARED_POSTUNI_royal_politics
+#	prerequisite = { focus = MEWNI_SHARED_POSTUNI_royal_politics }
+#	cost = 5
+#	search_filters = {  }
+#	
+#	ai_will_do = {
+#		factor = 1
+#	}
+#	
+#	available = {
+#		has_war = no
+#		any_neighbor_country = {
+#			tag = LUC
+#		}
+#		OR = {
+#			AND = {
+#				tag = MON
+#				NOT = {
+#					has_completed_focus = MON_new_royal_marriage
+#				}
+#			}
+#			AND = {
+#				tag = STA
+#				NOT = {
+#					has_completed_focus = STA_the_royal_marriage
+#				}
+#			}
+#		}
+#	}
+#	
+#	bypass = {
+#	}
+#	
+#	cancel_if_invalid = yes
+#	
+#	completion_reward = {
+#		create_wargoal = {
+#			type = civil_war
+#			target = LUC
+#		}
+#	}
+#	will_lead_to_war_with = LUC
+#}
+#
+#shared_focus = {
+#	id = MEWNI_SHARED_POSTUNI_pny_order
+#	icon = GFX_focus_generic_total_war
+#	x = -2
+#	y = 1
+#	relative_position_id = MEWNI_SHARED_POSTUNI_royal_politics
+#	prerequisite = { focus = MEWNI_SHARED_POSTUNI_royal_politics }
+#	cost = 5
+#	search_filters = {  }
+#	
+#	ai_will_do = {
+#		factor = 1
+#	}
+#	
+#	available = { #
+#	}
+#	
+#	bypass = {
+#	}
+#	
+#	cancel_if_invalid = yes
+#	
+#	completion_reward = {
+#		create_wargoal = {
+#			type = civil_war
+#			target = PNY
+#		}
+#	}
+#	will_lead_to_war_with = PNY
+#}
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_outer_crownlands_ADD_PEACEFUL_ANNEX_OPTION_LATER

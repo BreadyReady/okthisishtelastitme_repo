@@ -36,6 +36,11 @@ spriteTypes = {
 		name = "GFX_idea_2_mewman_peasants"
 		texturefile = "gfx/interface/ideas/cleaved_natl_spirits/idea_2_mewman_peasants.dds" 
 	}
+
+	spriteType = {
+		name = "GFX_idea_burning_books"
+		texturefile = "gfx/interface/ideas/cleaved_natl_spirits/idea_burning_books.dds" 
+	}
 	
 	#advisors
 

@@ -29,3 +29,7 @@
  MON_stars_education_continues:0 "Star's Education Continues"
  
  MON_centralizing_the_state:0 "State High Commission"
+ 
+ MON_direct_rule_from_butterfly_castle:0 "Realm High Commissions"
+ MON_direct_rule_from_butterfly_castle_desc:0 "The client kingdoms are an antiquated, inefficient way to govern land. Not to mention, the lower royals can get uppity with ideas of overthrowing the status quo, as we have seen after the Cleaving! With new communication methods and governing practices, we can directly govern these lands.\n§gDirect Rule From Butterfly Castle!§!"
+ MON_direct_rule_from_butterfly_castle_tt:0 "Not yet implemented: Create custom 'Realm High Commissions' similar to the reichkommisariats to replace the kingdoms"

@@ -1,0 +1,17 @@
+characters={
+	OCL_noble_leader = {
+		name = OCL_noble_leader
+		portraits={
+			civilian={
+				large = GFX_portrait_ocl_noble_leader
+			}
+		}
+		country_leader={
+			ideology = oligarchism
+			desc = OCL_noble_leader_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}
