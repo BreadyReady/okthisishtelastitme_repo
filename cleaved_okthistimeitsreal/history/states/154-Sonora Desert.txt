@@ -4,11 +4,20 @@ state={
 	history = {
 		owner = LUC
 		add_core_of = LUC
+	
+		buildings = {
+			infrastructure = 2
+		}
+		
+		victory_points = {
+			723 10
+		}
 	}
 	provinces={
 		723 1390 1792 3125 3765 4208 5465 6017 9555 9561 9604 9666 
 	}
-	manpower=0
+	manpower=25000
 	buildings_max_level_factor=1
+	state_category=town
 	local_supplies=0
 }

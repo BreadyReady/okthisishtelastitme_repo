@@ -7,7 +7,7 @@ shared_focus = {
 	search_filters = {  }
 	
 	ai_will_do = {
-		factor = 1
+		base = 15
 	}
 	
 	available = {
@@ -37,7 +37,7 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_ANNEXATION }
 	
 	ai_will_do = {
-		factor = 1
+		base = 1
 		modifier = {
 			factor = 5
 			has_war = no
@@ -100,7 +100,7 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_ANNEXATION }
 	
 	ai_will_do = {
-		factor = 1
+		base = 1
 		modifier = {
 			factor = 5
 			has_war = no
@@ -163,7 +163,7 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_ANNEXATION }
 	
 	ai_will_do = {
-		factor = 1
+		base = 1
 		modifier = {
 			factor = 5
 			has_war = no
@@ -226,7 +226,7 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_ANNEXATION }
 	
 	ai_will_do = {
-		factor = 1
+		base = 1
 		modifier = {
 			factor = 5
 			has_war = no
@@ -289,7 +289,7 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_ANNEXATION }
 	
 	ai_will_do = {
-		factor = 1
+		base = 1
 		modifier = {
 			factor = 5
 			has_war = no
@@ -352,7 +352,7 @@ shared_focus = {
 	search_filters = { FOCUS_FILTER_ANNEXATION }
 	
 	ai_will_do = {
-		factor = 1
+		base = 1
 		modifier = {
 			factor = 5
 			has_war = no
@@ -413,7 +413,7 @@ shared_focus = {
 	search_filters = {  }
 	
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			any_country = {
@@ -464,7 +464,7 @@ shared_focus = {
 	search_filters = {  }
 	
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			any_country = {
@@ -527,7 +527,7 @@ shared_focus = {
 	search_filters = {  }
 	
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			any_country = {
@@ -581,7 +581,7 @@ shared_focus = {
 	search_filters = {  }
 	
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			any_country = {
@@ -639,7 +639,7 @@ shared_focus = {
 	search_filters = {  }
 	
 	ai_will_do = {
-		factor = 1
+		base  = 1
 	}
 	
 	available = {
@@ -663,7 +663,7 @@ shared_focus = {
 #	continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			num_of_factories < 10
@@ -738,7 +738,7 @@ shared_focus = {
 
 	
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			num_of_factories < 10
@@ -778,7 +778,7 @@ shared_focus = {
 
 	
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			num_of_factories < 10
@@ -815,7 +815,7 @@ shared_focus = {
 
 	
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			num_of_factories < 10
@@ -852,7 +852,7 @@ shared_focus = {
 
 	
 	ai_will_do = {
-		factor = 1
+		base  = 1
 	}
 	
 	completion_reward = {
@@ -878,7 +878,7 @@ shared_focus = {
 
 	
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			num_of_factories < 10
@@ -911,7 +911,7 @@ shared_focus = {
 
 	
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			num_of_factories < 10
@@ -1006,7 +1006,7 @@ shared_focus = {
 
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			num_of_factories < 10
@@ -1101,7 +1101,7 @@ shared_focus = {
 
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			num_of_factories < 10
@@ -1196,7 +1196,7 @@ shared_focus = {
 
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			num_of_factories < 10
@@ -1291,7 +1291,7 @@ shared_focus = {
 
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			num_of_factories < 10
@@ -1386,7 +1386,7 @@ shared_focus = {
 
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 2
 			num_of_factories < 10
@@ -1510,7 +1510,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 1.2
 			any_controlled_state = { infrastructure < 4 }
@@ -1595,7 +1595,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 1.2
 			any_controlled_state = { infrastructure < 4 }
@@ -1680,7 +1680,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		modifier = {
 			factor = 1.2
 			any_controlled_state = { infrastructure < 4 }
@@ -1763,7 +1763,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -1807,7 +1807,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -1843,7 +1843,7 @@ shared_focus = {
 	}
 	
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -1893,7 +1893,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -1930,7 +1930,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 	
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2011,7 +2011,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2054,7 +2054,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2100,7 +2100,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2150,7 +2150,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2206,7 +2206,7 @@ focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2254,7 +2254,7 @@ focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2296,7 +2296,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2349,7 +2349,7 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2389,7 +2389,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2435,7 +2435,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2471,7 +2471,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2515,7 +2515,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2560,7 +2560,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2599,7 +2599,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 		
 		modifier = {
 			factor = 2
@@ -2636,7 +2636,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 
 		modifier = {
 			factor = 1.5
@@ -2694,7 +2694,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 	}
 
 	completion_reward = {
@@ -2726,7 +2726,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 	}
 
 	completion_reward = {
@@ -2762,7 +2762,7 @@ shared_focus = {
 #		continue_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 	}
 
 	completion_reward = {
@@ -2794,7 +2794,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 
 	ai_will_do = {
-		factor = 1
+		base  = 1
 	}
 
 	completion_reward = {

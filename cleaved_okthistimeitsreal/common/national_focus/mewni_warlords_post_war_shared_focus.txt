@@ -1,6 +1,6 @@
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_forceful_treaty
 	x = 2
 	y = 8
 	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_modernize_solarian_laws }
@@ -44,7 +44,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_support_campaign
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_royal_party
 	x = 0
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
@@ -78,7 +78,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_land_reimbursment
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_kids_with_key
 	x = -2
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
@@ -112,7 +112,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_political_representation
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_happy_mail_monster
 	x = 2
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
@@ -146,7 +146,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_monster_rights_act
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_happy_buff_frog
 	x = 0
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_support_campaign
@@ -185,7 +185,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_association_amendment
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_mewman_vs_monster_2
 	x = -1
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_monster_rights_act
@@ -223,7 +223,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_public_good_amendment
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_royal_party
 	x = 1
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_monster_rights_act
@@ -261,7 +261,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_modernize_solarian_laws
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_mewman_vs_monster_2
 	x = 6
 	y = 0
 	relative_position_id = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
@@ -296,14 +296,196 @@ shared_focus = {
 		}
 		swap_ideas = {
 			remove_idea = shared_mewman_monster_rights_idea
-			add_idea = shared_mewman_monster_rights_good_reform_idea
+			add_idea = shared_mewman_monster_rights_bad_reform_idea
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_monster_ghetto
+	icon = GFX_focus_ghetto
+	x = 0
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_modernize_solarian_laws
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_modernize_solarian_laws }
+	cost = 10
+	search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		NOT = {
+			has_country_flag = monster_rights_timer
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_stability = 0.05
+		set_country_flag = {
+			flag = monster_rights_timer
+			days = 70
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_monster_labor_quotas
+	icon = GFX_goal_generic_construct_mil_factory
+	x = -2
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_modernize_solarian_laws
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_modernize_solarian_laws }
+	cost = 10
+	search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		NOT = {
+			has_country_flag = monster_rights_timer
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_offsite_building = { type = arms_factory level = 3 }
+		add_offsite_building = { type = industrial_complex level = 5 }
+		set_country_flag = {
+			flag = monster_rights_timer
+			days = 70
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_harsh_incarceration
+	icon = GFX_focus_arrested_monster
+	x = 2
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_modernize_solarian_laws
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_modernize_solarian_laws }
+	cost = 10
+	search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		NOT = {
+			has_country_flag = monster_rights_timer
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		add_war_support = 0.05
+		add_stability = 0.03
+		set_country_flag = {
+			flag = monster_rights_timer
+			days = 70
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_monster_underclass
+	icon = GFX_focus_generic_total_war
+	x = -1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_monster_ghetto
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_monster_ghetto }
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_monster_labor_quotas }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_violent_monster_expulsion }
+	cost = 10
+	search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		NOT = {
+			has_country_flag = monster_rights_timer
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		swap_ideas = {
+			add_idea = shared_mewman_monster_rights_bad_reform_idea_3
+			remove_idea = shared_mewman_monster_rights_bad_reform_idea
+		}
+		set_country_flag = {
+			flag = monster_rights_timer
+			days = 70
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_violent_monster_expulsion
+	icon = GFX_focus_generic_total_war
+	x = 1
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_monster_ghetto
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_monster_ghetto }
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_harsh_incarceration }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_monster_underclass }
+	cost = 10
+	search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		NOT = {
+			has_country_flag = monster_rights_timer
+		}
+	}
+	
+	bypass = {
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		swap_ideas = {
+			add_idea = shared_mewman_monster_rights_bad_reform_idea_2
+			remove_idea = shared_mewman_monster_rights_bad_reform_idea
+		}
+		set_country_flag = {
+			flag = monster_rights_timer
+			days = 70
 		}
 	}
 }
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_modernizing_army
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_generic_manpower
 	x = 16
 	y = 13
 	cost = 10
@@ -332,7 +514,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_army_effort
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_special_forces
 	x = 4
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_modernizing_army
@@ -356,7 +538,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_armor_effort
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_army_tanks
 	x = 2
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_army_effort
@@ -385,7 +567,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_anti_tank_effort
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_army_artillery
 	x = 4
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_army_effort
@@ -414,7 +596,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_motors_effort
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_army_motorized
 	x = -2
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_army_effort
@@ -443,7 +625,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_well_rounded_infantry
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_AFG_adopt_nufus
 	x = -4
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_army_effort
@@ -472,7 +654,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_innovative_reforms
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_army_doctrines
 	x = 0
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_army_effort
@@ -499,7 +681,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_forward_thinking_military
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_special_forces
 	x = -1
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_innovative_reforms
@@ -526,7 +708,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_discipline_and_triumph
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_more_territorial_claims
 	x = 1
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_innovative_reforms
@@ -554,7 +736,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_aerial_effort
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_build_airforce
 	x = 11
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_modernizing_army
@@ -578,7 +760,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_anti_air
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_army_artillery2
 	x = -1
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_aerial_effort
@@ -608,7 +790,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_airforce_of_our_own
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_build_airforce
 	x = 1
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_aerial_effort
@@ -663,7 +845,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_knighthood_future
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_allies_build_infantry
 	x = -2
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_modernizing_army
@@ -788,10 +970,35 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_restorationism_realized
+	icon = GFX_focus_restorationism_realized_big
+	x = 0
+	y = 2
+	relative_position_id = MEWNI_SHARED_POSTUNI_restorationist_outlook
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_restorationist_outlook }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 100
+	}
+	
+	available = {
+		cleaved_scripted_trigger_restorationism_realized = yes
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		news_event = mewni_warlords_news_event.30
+	}
+}
+
+shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_crownland_integrity
 	icon = GFX_focus_generic_total_war
 	x = -2
-	y = 1
+	y = 2
 	relative_position_id = MEWNI_SHARED_POSTUNI_restorationist_outlook
 	prerequisite = { focus = MEWNI_SHARED_POSTUNI_restorationist_outlook }
 	cost = 10
@@ -810,10 +1017,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 	
 	completion_reward = {
-		annex_country = {
-			target = OCL
-			transfer_troops = yes
-		}
+		puppet = OCL
 		custom_effect_tooltip = MEWNI_SHARED_POSTUNI_crownland_integrity_tt
 	}
 }
@@ -1160,8 +1364,38 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = MEWNI_SHARED_POSTUNI_crownland_economy
+	id = MEWNI_SHARED_POSTUNI_take_down_the_frontier
 	icon = GFX_focus_generic_total_war
+	x = 0
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_to_the_frontier
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_to_the_frontier }
+	cost = 10
+	search_filters = {  }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		any_country = {
+			has_country_flag = united_texas_flag
+		}
+	}
+	
+	cancel_if_invalid = yes
+		
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = global.uniter_of_texas
+		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_crownland_economy
+	icon = GFX_focus_GRE_a_land_of_mountains
 	x = 5
 	y = 13
 	cost = 10
@@ -1187,7 +1421,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_crownland_monument
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_sabrina_cry
 	x = -2
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_crownland_economy
@@ -1211,7 +1445,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_production
 	x = 0
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_crownland_economy
@@ -1238,7 +1472,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_infrastrucure_and_utilities
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_mewman_middle_class
 	x = 0
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan
@@ -1265,7 +1499,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_prospector_prospects
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_generic_reinforcing_the_supply_network
 	x = -4
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan
@@ -1289,7 +1523,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_energy_focus
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_generic_energy
 	x = -1
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_prospector_prospects
@@ -1314,7 +1548,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_rare_earths_focus
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_CONGO_gold_and_diamonds
 	x = 1
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_prospector_prospects
@@ -1358,7 +1592,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_playing_catchup
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_research
 	x = 4
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan
@@ -1394,7 +1628,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_excavation
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_generic_mineral_prospecting
 	x = -1
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_playing_catchup
@@ -1422,7 +1656,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_oiling_up
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_oil_refinery
 	x = 1
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_playing_catchup
@@ -1450,7 +1684,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_californian_tech_sector
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_phone
 	x = 0
 	y = 2
 	relative_position_id = MEWNI_SHARED_POSTUNI_playing_catchup
@@ -1476,7 +1710,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_mewman_middle_class
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_mewman_father_and_daughter
 	x = -1
 	y = 2
 	relative_position_id = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan
@@ -1502,7 +1736,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_investor_trust
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_usa_reestablish_the_gold_standard
 	x = 1
 	y = 2
 	relative_position_id = MEWNI_SHARED_POSTUNI_hyperindustrialization_plan
@@ -1523,12 +1757,15 @@ shared_focus = {
 	
 	completion_reward = {
 		add_ideas = shared_mewman_crownland_investor_trust
+		hidden_effect = {
+			news_event = mewni_warlords_news_event.29
+		}
 	}
 }
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_globalzied_economy
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_PER_invite_oil_nations
 	x = 1
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_mewman_middle_class
@@ -1553,7 +1790,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_state_and_economy
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_mewman_castle
 	x = 4
 	y = 2
 	relative_position_id = MEWNI_SHARED_POSTUNI_globalzied_economy
@@ -1578,7 +1815,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_military_industrial_complex
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_ludo_castle
 	x = 0
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_state_and_economy
@@ -1591,12 +1828,13 @@ shared_focus = {
 	}
 	
 	available = {
-		num_of_factories > 300
+		num_of_military_factories > 135
 	}
 	
 	cancel_if_invalid = yes
 	
 	completion_reward = {
+		add_ideas = cleaved_military_industrial_complex_natl_sprt
 	}
 }
 

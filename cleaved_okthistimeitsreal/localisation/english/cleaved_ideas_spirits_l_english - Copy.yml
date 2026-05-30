@@ -3,7 +3,7 @@
     shared_mewman_matriarchy_idea_desc:0 "\n\n\n£mewman_matriarchy_popup_desc_texticon \n\n\n\nThe royal lines of succession have historically prioritized women, with there only being one recorded Mewman king (Jushtin). Reflecting political power dynamics, Women have taken a more prominent role in Mewman society in all levels."
     
     shared_mewman_monster_rights_idea:0 "Neglected Monster Rights"
-    shared_mewman_monster_rights_idea_desc:0 "\n\n\n£monster_rights_popup_desc_texticon \n\n\n\nWhile there have been some attempts to reform Monster rights under Eclipsa, they were largely ineffective, contreversial, and were mostly de-facto rolled back because of the Mewman Crisis. Laws being enforced regarding monsters date back centuries, and they are largely tailored around opressing them and holding them back from developing as a group. Depsite this, there are well a few known loopholes that allow some monsters to propser."
+    shared_mewman_monster_rights_idea_desc:0 "\n\n\n£monster_rights_popup_desc_texticon \n\n\n\nWhile there have been some attempts to reform Monster rights under Eclipsa, they were largely ineffective, controversial, and were de-facto rolled back because of the Mewman Crisis. Laws being enforced regarding monsters date back centuries, and they are largely tailored around opressing them and holding them back from developing as a group. Depsite this, there are well known loopholes that allow some monsters to propser."
     
     shared_mewman_monster_rights_good_reform_idea:0 "Reforming Monster Rights"
     shared_mewman_monster_rights_good_reform_idea_desc:0 "\n\n\n£monster_rights_popup_desc_texticon \n\n\n\n[Root.GetLeader]'s government publicly intends to reform monster rights laws to uplift the monster community and break free from Mewni's hateful past. "
@@ -15,7 +15,16 @@
     shared_mewman_monster_rights_good_reform_idea_3_desc:0 "\n\n\n£monster_rights_popup_desc_texticon \n\n\n\nThe Monster Rights Act repeals numerous discriminatory laws and uplifts Monsters to have the same legal rights as Mewmans. Furthermore, it prohibits the creation of any more discriminatory laws.\n\n While it is hailed as a success for Monster rights, there are still distinct problems in the monster community due to centuries of oppression. The Association Amendment purposefully limits anti-discrimination laws to only apply in government insitutions, allowing private citizens and businesses to discriminate against Monsters freely."
     
     shared_mewman_monster_rights_good_reform_idea_4:0 "The Monster Rights Act - The Public Good Amendment"
-    shared_mewman_monster_rights_good_reform_idea_4_desc:0 "\n\n\n£monster_rights_good_popup_desc_texticon \n\n\n\nThe Monster Rights Act repeals numerous discriminatory laws and uplifts Monsters to have the same legal rights as Mewmans. Furthermore, it prohibits the creation of any more discriminatory laws.\n\n While it is hailed as a success for Monster rights, there are still distinct problems in the monster community due to centuries of oppression. The Public Good Amendment purposefully expands anti-discrimination laws to apply in both government and private institutions, prohibiting discrimination in businesses and providing the Monster community with increased oppurtunity."
+    shared_mewman_monster_rights_good_reform_idea_4_desc:0 "\n\n\n£monster_rights_good_popup_desc_texticon \n\n\n\nThe Monster Rights Act repeals numerous discriminatory laws and uplifts Monsters to have the same legal rights as Mewmans. Furthermore, it prohibits the creation of any more discriminatory laws.\n\n While it is hailed as a success for Monster rights, there are still distinct problems in the monster community due to centuries of oppression. The Public Good Amendment purposefully expands anti-discrimination laws to apply in both government and private institutions, prohibiting discrimination in businesses and providing the Monster community with increased oppourtunity."
+    
+    shared_mewman_monster_rights_bad_reform_idea:0 "Modernization of Solarian Law"
+    shared_mewman_monster_rights_bad_reform_idea_desc:0 "\n\n\n£monster_rights_popup_desc_texticon \n\n\n\nOld Solarian anti-monster laws are being reformed, further opressising the Mosnter populace. Loopholes are being closed, and the Monsters of Mewni fear the worst."
+    
+    shared_mewman_monster_rights_bad_reform_idea_2:0 "Violent Expulsion of Monsters"
+    shared_mewman_monster_rights_bad_reform_idea_2_desc:0 "The monsters of [ROOT.GetNameDef] are being exiled from the land at gunpoint. Casualty rates are high, and the hopes of reformers are vanquished. Scattered resistance fights fiercely, as a cornered animal does."
+    
+    shared_mewman_monster_rights_bad_reform_idea_3:0 "Monster Underclass"
+    shared_mewman_monster_rights_bad_reform_idea_2_desc:0 "The monsters of [ROOT.GetNameDef] are relegated to low-class jobs as economic meat. While Monsters atleast have a place in Mewman society, reformers did not hope for such an outcome. Hopes of migration or earning freedom through veterancy makes Monsters work hard, as a loyal slave does."
     
     shared_mewman_californian_resistance:0 "Californian Resistance"
     shared_mewman_californian_resistance_desc:0 "Our human population is very significant, in fact they outnumber Mewmans. These liberals do not understand the merits of the Mewman Monarchy, and they are not afraid to let that be known."
@@ -28,4 +37,11 @@
     cleaved_student_protests_natl_sprt:0 "Student Protests"
     cleaved_student_protests_natl_sprt_desc:0 "\n\n\n£student_protests_popup_desc_texticon \n\n\n\nHuman students throughout the Kingdom, mostly college and highschoolers, are taking to the streets and campuses to demonstrate their dissatisfaction with the regime. They have stopped going attending school, opting instead to disrupt classes and lectures. Some have even gone so far as to vandalize and damage school buildings."
     
-    
+     MIN_destined_to_unite_texas:0 "Destined to Unite the Frontier"
+     MIN_destined_to_unite_texas_desc:0 "Mina is destined to unite the Frontier/Texas. This is because shes just goated like that.\n\n(This buff is here because there is not much content if the other nations unite texas. it will be removed once she unites texas)"
+     
+     MON_big_business_agreements:0 "Big Business Agreements"
+     
+     MON_continuous_festivals:0 "Corn and Circuses"
+     
+     MON_economic_high_commission:0 "Economic High Commission"

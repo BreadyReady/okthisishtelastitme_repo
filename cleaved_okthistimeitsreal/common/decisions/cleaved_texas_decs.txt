@@ -1,5 +1,144 @@
 cleaved_texas_coring_cat = {
 	
+	texas_united_texas_power_base = {
+
+		icon = generic
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 124
+				state = 133
+				state = 134
+				state = 135
+				state = 147
+				state = 127
+				state = 146
+				state = 126
+				state = 139
+				state = 141
+				state = 140
+				state = 142
+				state = 144
+				state = 143
+				state = 138
+				state = 125
+				state = 145
+				state = 136
+				state = 137
+				state = 16
+			}
+		}
+
+		available = {
+			124 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			133 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			134 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			135 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			147 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			127 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			146 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			126 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			139 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			141 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			140 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			142 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			144 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			143 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			138 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			125 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			145 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			136 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			137 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			16 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+			at_peace = yes
+		}
+
+		visible = {
+			not = {
+				has_country_flag = united_texas_flag
+			}
+		}
+
+		fire_only_once = yes
+
+		cost = 150
+		days_remove = 70
+
+		ai_will_do = {
+			base = 50
+		}
+		remove_effect = {
+			set_country_flag = united_texas_flag
+			set_global_flag = texas_united_global_flag
+			set_variable = {
+				var = global.uniter_of_texas
+				value = ROOT.id
+			}
+			news_event = mewni_warlords_news_event.22
+			remove_ideas = MIN_destined_to_unite_texas
+		}
+	}
+	
 	texas_coring_dallas = {
 
 		icon = generic
@@ -230,6 +369,7 @@ cleaved_texas_coring_cat = {
 			add_state_core = 141
 			add_state_core = 142
 			add_state_core = 143
+			add_state_core = 144
 		}
 	}
 	

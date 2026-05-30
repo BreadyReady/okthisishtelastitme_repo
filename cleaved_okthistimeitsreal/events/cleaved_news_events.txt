@@ -580,3 +580,351 @@ news_event = { # star marrying tom at the direction of moon, the actual marriage
         name = mewni_warlords_news_event.21.a
     }
 }
+
+news_event = { # texas powerbase united
+    id = mewni_warlords_news_event.22
+    title = mewni_warlords_news_event.22.t
+	
+    desc = {
+        text = mewni_warlords_news_event.22.desc.a
+		trigger = {
+			FROM = {
+				tag = MIN
+			}
+		}
+	}
+	
+    desc = {
+        text = mewni_warlords_news_event.22.desc.b
+		trigger = {
+			FROM = {
+				tag = DAL
+			}
+		}
+	}
+	
+    desc = {
+        text = mewni_warlords_news_event.22.desc.c
+		trigger = {
+			FROM = {
+				tag = DTX
+			}
+		}
+	}
+	
+    desc = {
+        text = mewni_warlords_news_event.22.desc.d
+		trigger = {
+			FROM = {
+				tag = HER
+			}
+		}
+	}
+	
+    desc = {
+        text = mewni_warlords_news_event.22.desc.e
+		trigger = {
+			FROM = {
+				tag = RTX
+			}
+		}
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_warlords_news_event.22.a
+		#set_variable = {
+		#	var = global.uniter_of_texas
+		#	value = FROM.id
+		#}
+		
+    }
+}
+
+news_event = { # Moon v mina war (MON v MIN)
+    id = mewni_warlords_news_event.23
+    title = mewni_warlords_news_event.23.t
+	
+    desc = {
+        text = mewni_warlords_news_event.23.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_warlords_news_event.23.a
+		trigger = {
+			tag = MON
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.23.b
+		trigger = {
+			tag = MIN
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.23.c
+		trigger = {
+			NOT = {
+				tag = MON
+				tag = MIN
+			}
+		}
+    }
+}
+
+news_event = { # Star v mina war (STA v MIN)
+    id = mewni_warlords_news_event.24
+    title = mewni_warlords_news_event.24.t
+	
+    desc = {
+        text = mewni_warlords_news_event.24.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_warlords_news_event.24.a
+		trigger = {
+			tag = STA
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.24.b
+		trigger = {
+			tag = MIN
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.24.c
+		trigger = {
+			NOT = {
+				tag = STA
+				tag = MIN
+			}
+		}
+    }
+}
+
+news_event = { # Marco v mina war (MAR v MIN)
+    id = mewni_warlords_news_event.25
+    title = mewni_warlords_news_event.25.t
+	
+    desc = {
+        text = mewni_warlords_news_event.25.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_warlords_news_event.25.a
+		trigger = {
+			tag = MAR
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.25.b
+		trigger = {
+			tag = MIN
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.25.c
+		trigger = {
+			NOT = {
+				tag = MAR
+				tag = MIN
+			}
+		}
+    }
+}
+
+news_event = { # Higgs v mina war (HIG v MIN)
+    id = mewni_warlords_news_event.26
+    title = mewni_warlords_news_event.26.t
+	
+    desc = {
+        text = mewni_warlords_news_event.26.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_warlords_news_event.26.a
+		trigger = {
+			tag = HIG
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.26.b
+		trigger = {
+			tag = MIN
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.26.c
+		trigger = {
+			NOT = {
+				tag = HIG
+				tag = MIN
+			}
+		}
+    }
+}
+
+news_event = { # Eclipsa v mina war (MEW v MIN)
+    id = mewni_warlords_news_event.27
+    title = mewni_warlords_news_event.27.t
+	
+    desc = {
+        text = mewni_warlords_news_event.27.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_warlords_news_event.27.a
+		trigger = {
+			tag = MEW
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.27.b
+		trigger = {
+			tag = MIN
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.27.c
+		trigger = {
+			NOT = {
+				tag = MEW
+				tag = MIN
+			}
+		}
+    }
+}
+
+news_event = { # Janna v mina war (JAN v MIN)
+    id = mewni_warlords_news_event.28
+    title = mewni_warlords_news_event.28.t
+	
+    desc = {
+        text = mewni_warlords_news_event.28.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_warlords_news_event.28.a
+		trigger = {
+			tag = JAN
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.28.b
+		trigger = {
+			tag = MIN
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.28.c
+		trigger = {
+			NOT = {
+				tag = JAN
+				tag = MIN
+			}
+		}
+    }
+}
+
+news_event = { # crownlands leader kisses the wall
+    id = mewni_warlords_news_event.29
+    title = mewni_warlords_news_event.29.t
+	
+    desc = {
+        text = mewni_warlords_news_event.29.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_warlords_news_event.29.a
+    }
+}
+
+news_event = { # Mewman Restoration Realized: Moon
+    id = mewni_warlords_news_event.30
+    title = mewni_warlords_news_event.30.t
+	
+    desc = {
+        text = mewni_warlords_news_event.30.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_warlords_news_event.30.a
+		trigger = {
+			tag = MON
+		}
+    }
+    
+    option = {
+        name = mewni_warlords_news_event.30.b
+		trigger = {
+			NOT = {
+				tag = MON
+			}
+		}
+    }
+}
+
+news_event = { # jd vance writes book about what if cleaving never happened
+    id = mewni_warlords_news_event.31
+    title = mewni_warlords_news_event.31.t
+	
+    desc = {
+        text = mewni_warlords_news_event.31.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = GFX_news_event_jd_vance
+    
+    option = {
+        name = mewni_warlords_news_event.31.a
+    }
+}

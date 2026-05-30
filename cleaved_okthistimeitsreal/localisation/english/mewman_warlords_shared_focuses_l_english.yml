@@ -48,8 +48,10 @@
  MEWNI_SHARED_infrastructure_effort_3:0 "Infrastructure Effort III"
  
  MEWNI_SHARED_army_effort:0 "Army Effort"
+ MEWNI_SHARED_army_effort_desc:0 "The armed forces must be whipped into shape to withstand this vicious world of war."
  
  MEWNI_SHARED_temporary_draft:0 "Temporary Draft"
+ MEWNI_SHARED_temporary_draft_desc:0 "Manpower is a big problem for our military. An increased draft will help, with a promise to take it down later easing protests."
  MEWNI_SHARED_temporary_draft_tt:0 "In two years:"
  
  MEWNI_SHARED_mountaineers:0 "Californian Terrain Studies"
@@ -57,8 +59,10 @@
  MEWNI_SHARED_mountaineers_tt:0 "If you have researched §YMountain Infantry I§!, you will gain 2 units of the §YMountaineer-Division§! template."
  
  MEWNI_SHARED_swell_ranks:0 "Swell the Ranks"
+ MEWNI_SHARED_swell_ranks_desc:0 "The demand for manpower is great. A warm body and a weapon is all we need in the field. They will be trained with experience."
  
  MEWNI_SHARED_mercenary_contracts:0 "Mercenary Contracts"
+ MEWNI_SHARED_mercenary_contracts_desc:0 "Foreign mercenaries will supplement our army. Wagner group, Blackwater, and contracts for desperate people from around the world."
  MEWNI_SHARED_mercenary_contracts_tt:0 "Gain a Locked Template and 2 20 width veteran infantry divisions. Both the template and divisions will disband upon the end of the Mewman Crisis."
   
  MEWNI_SHARED_equipment_effort:0 "Firearms Effort"
@@ -117,16 +121,19 @@
  MEWNI_SHARED_POSTUNI_struggle_for_seattle_tt:0 "Siding with one particular faction will greatly anger the other, and compromise satisfies neither of them. Consider raising the opinion of which ever side may come out of this mediation badly to above 50, which will greatly increase the chances of them backing down."
  
  MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms:0 "Continue Monster Rights Rights Reforms"
+ MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms_desc:0 "The direction of the pre-Cleaving Eclipsan reforms was the right thing to do. Mewni must leave behind it's anti-mosnter past and embrace monsters as sister peoples of Mewni."
  
  MEWNI_SHARED_POSTUNI_political_representation:0 "Political Representation"
  MEWNI_SHARED_POSTUNI_political_representation_desc:0 "By enouraging monsters to fill positions of bureaucratic power, monster interests will be brought up to challenge old laws and ways of thinking. \n\nConveniently, this also embeds grateful loyalists in positions of power..."
  
  MEWNI_SHARED_POSTUNI_support_campaign:0 "Support Campaigns"
+ MEWNI_SHARED_POSTUNI_support_campaign_desc:0 "Not everyone is on board with Monster rights reforms. While we could just go forwards with it, it is better to make sure as many Mewmans as possible support our actions. TV and internet ads, social balls and festivals, and all available soft power shall be applied onto our subjects."
  
  MEWNI_SHARED_POSTUNI_land_reimbursment:0 "Land Reimbursements"
  MEWNI_SHARED_POSTUNI_land_reimbursment_desc:0 "Eclipsa's landback programs - forcibly taking Mewman property that was deemed orignally monster property - was extremley disastrous. By implementing buyback programs and compensating Mewman victims, we can atleast mitigate some of the damage."
  
- MEWNI_SHARED_POSTUNI_monster_rights_act:0 "Enact the Monster Right Act"
+ MEWNI_SHARED_POSTUNI_monster_rights_act:0 "The Monster Rights Act"
+ MEWNI_SHARED_POSTUNI_monster_rights_act_desc:0 "Enacting the Monster Rights Act solidifies anti-discrimination measures. This is the piece of legislation that will formally replace old Solarian Law, fully leaving behind the oppresive past. In terms of law, atleast..."
  
  MEWNI_SHARED_POSTUNI_association_amendment:0 "The Association Amendment"
  MEWNI_SHARED_POSTUNI_association_amendment_desc:0 "An amendment to the Monster Rights Act specifies that anti-discrimination laws only apply to government institutions, and private parties are free from such laws. While this limits government overreach and preserves freedom of association, it also allows private citizens and businesses to discriminate against Monsters freely."
@@ -135,13 +142,31 @@
  MEWNI_SHARED_POSTUNI_public_good_amendment_desc:0 "An amendment to the Monster Rights Act specifies that anti-discrimination laws apply to both government and private institutions. While this prohibits private citizens and businesses from discrimination and gives monsters increased oppurtunities, some call it government overreach and a violation of freedom of association."
  
  MEWNI_SHARED_POSTUNI_modernize_solarian_laws:0 "Modernize Solarian Law"
+ MEWNI_SHARED_POSTUNI_modernize_solarian_laws_desc:0 "Solarian Law has served Mewmanity well for centuries. Their age, degredation by changing times, and loopholes are what has led to the Mosnter problem to rear it's ugly head deep in the Crownlands, not the intentions of the law itself. To refurbish Solarian law for modern times is the best course of action."
  
- MEWNI_SHARED_POSTUNI_modernizing_army:0 "Modernizing The Royal Army"
+ MEWNI_SHARED_POSTUNI_monster_ghetto:0 "The Ghetto"
+ MEWNI_SHARED_POSTUNI_monster_ghetto_desc:0 "Restricting where Monsters live will help with Mewman-monster tensions, while also helping us keep an eye on Mosnter activity. It's for the best, they will see."
+ 
+ MEWNI_SHARED_POSTUNI_monster_labor_quotas:0 "Labor Quotas"
+ MEWNI_SHARED_POSTUNI_monster_labor_quotas_desc:0 "To ensure Monsterkind is atleast contributing to Mewmanity somewhat, we will guarantee certain hard labor jobs to Monsters. They will, of course, be given less pay and safety standards will be relaxed to get more productivity out of them. The fact that we will also be closing higher up jobs is only natural. They ought to be proud of humble work!"
+ 
+ MEWNI_SHARED_POSTUNI_harsh_incarceration:0 "Harsh Incarceration"
+ MEWNI_SHARED_POSTUNI_harsh_incarceration_desc:0 "We cannot tolerate Monster criminals. To ensure Mewman safety, punitive imprisonment will be utilized upon Monster populations. Arrest quotas will be employed to ensure pesky things like proof do not get in the way of safety."
+ 
+ MEWNI_SHARED_POSTUNI_monster_underclass:0 "The Underclass"
+ MEWNI_SHARED_POSTUNI_monster_underclass_desc:0 "Monsters undeniably have a place in Mewman society: As an underclass, taking on the worst jobs so that Mewmans can develop better. While Monsters will be paid less, they will also be given welfare like housing and healthcare so they dont get too uppity about their wage. This makes sure they never rise above their station."
+ 
+ MEWNI_SHARED_POSTUNI_violent_monster_expulsion:0 "Violent Expulsion"
+ MEWNI_SHARED_POSTUNI_violent_monster_expulsion_desc:0 "Monsters and Mewmans were never meant to mix. For all of Mewni to live in contentment, all peoples must live seperately. It is only fair that it is the Monsters who move, since they are outsiders in the first place. And if any monster refuses to move, well... weapons are meant to protect peace, aren't they?"
+ 
+ MEWNI_SHARED_POSTUNI_modernizing_army:0 "Modernizing The Armed Forces"
+ MEWNI_SHARED_POSTUNI_modernizing_army_desc:0 "After the desperate scramble to unite the Crownlands, we can now look outwards to combat more organized, technologically advanced foes."
  
  MEWNI_SHARED_POSTUNI_restorationist_outlook:0 "Adopt Restorationism"
  MEWNI_SHARED_POSTUNI_restorationist_outlook_desc:0 "The unification of all pre-Cleaved Mewman subjects under one state is the top priority in our foreign affairs. The growing Mewman Restoration movement, if fostered and adopted as official government rhetoric, will help us put aside half measures, caution, and pacifist laze.\n\n§R"Cry, Havoc! and let slip the dogs of war..."§!"
  
  MEWNI_SHARED_POSTUNI_crownland_economy:0 "Life in the Crownlands"
+ MEWNI_SHARED_POSTUNI_crownland_economy_desc:0 "With the reunification of the Crownlands, we can now (somewhat) function as a state and try to improve the lives of our people. Repairing the damage from the shattered crownlands is paramount."
  
  MEWNI_SHARED_POSTUNI_crownland_monument:0 "Monument to the Fallen"
  MEWNI_SHARED_POSTUNI_crownland_monument_desc:0 "The shattering of the crownlands and the vicious wars to reunite it will be seen as a dark time in Mewman history. It is fitting that it be memorialized."
@@ -153,25 +178,34 @@
  MEWNI_SHARED_POSTUNI_infrastrucure_and_utilities_desc:0 "Asphalt roads, highways, public electricity, running water, etc. These are all components vital to a modern life on Earthni that we lack. By providing them, we will reap rewards in the form of a more robust economy."
  
  MEWNI_SHARED_POSTUNI_prospector_prospects:0 "Prospector Prospects"
+ MEWNI_SHARED_POSTUNI_prospector_prospects_desc:0 "Raw Materials are required to create complex products. Boosting our ore industries will help with production."
  
  MEWNI_SHARED_POSTUNI_energy_focus:0 "Prioritize Energy"
+ MEWNI_SHARED_POSTUNI_energy_focus_desc:0 "Preserving energy use makes factories more efficient."
  
  MEWNI_SHARED_POSTUNI_rare_earths_focus:0 "Prioritize Rare Earths"
  MEWNI_SHARED_POSTUNI_rare_earths_focus_desc:0 "We must fund prospects into domestic mineral and rare resource production.\n\n§gPerhaps, they should be called rare Earthnis...?§!"
  
  MEWNI_SHARED_POSTUNI_playing_catchup:0 "Playing Catch-up"
+ MEWNI_SHARED_POSTUNI_playing_catchup_desc:0 "We are incredibly backwards technologically. Manual labor is still the primary order of the day, and the military relies on old equipment. We must catch up with the rest of the world if we ever hope to compete."
  
  MEWNI_SHARED_POSTUNI_excavation:0 "Excavation Technologies"
+ MEWNI_SHARED_POSTUNI_excavation_desc:0 "Focusing on excavation technologies helps us extract more raw ores from the ground with less labor costs."
  
  MEWNI_SHARED_POSTUNI_oiling_up:0 "Oiling Up"
+ MEWNI_SHARED_POSTUNI_oiling_up_desc:0 "Oil and fuel is vital in a modern economy. While we may find natural fuel sources, synthetics wouldn't hurt..."
  
  MEWNI_SHARED_POSTUNI_californian_tech_sector:0 "Harness the Californian Tech Sector"
+ MEWNI_SHARED_POSTUNI_californian_tech_sector_desc:0 "Before the Cleaving, California was the greatest tech sector on earth. Now that we are prosperous, we can harness that technolgoical capital again."
  
  MEWNI_SHARED_POSTUNI_mewman_middle_class:0 "Mewman Middle Class"
+ MEWNI_SHARED_POSTUNI_mewman_middle_class_desc:0 "The economy has built up the lives of the common people, contributing to political stability and support for our policies both foreign and domestic."
  
  MEWNI_SHARED_POSTUNI_investor_trust:0 "Obtain a Respectable Credit Rating"
+ MEWNI_SHARED_POSTUNI_investor_trust_desc:0 "A good national credit rating will make investors trust our nation more, in addition to helping us get better loans."
  
- MEWNI_SHARED_POSTUNI_globalzied_economy:0 "Gloablized Economy"
+ MEWNI_SHARED_POSTUNI_globalzied_economy:0 "Globalized Economy"
+ MEWNI_SHARED_POSTUNI_globalzied_economy_desc:0 "A modern economy is a globalized one, allowing us to specialize and perfect certain industries while trading for products that we dont specialize in."
  
  MEWNI_SHARED_POSTUNI_state_and_economy:0 "State and Economy"
  MEWNI_SHARED_POSTUNI_state_and_economy_desc:0 "In the modern world, the state and economy are inextricably linked. In times of prosperity, the state benefits. In times of need, the state intervenes. And in times of war, the State whips the economy into ensuring survival. Through our efforts, we have achieved this dynamic!"
@@ -181,6 +215,6 @@
  
  MEWNI_SHARED_POSTUNI_crownland_integrity:0 "Full Integrity of the Crownlands"
  MEWNI_SHARED_POSTUNI_crownland_integrity_desc:0 "While we have consolidated the most important parts of the Crownlands, it is not yet technically whole. The Outer Crownlands, a largely poor and rural area even after the Cleaving, has flown under our radar. Thankfully, it's current de-facto leader is amenable to peace and reintegration."
- MEWNI_SHARED_POSTUNI_crownland_integrity_tt:0 "The states of the Outer Crownlands can be cored with decisions.\n§gThe Outer Crownlands beign able to reject annexation is planned for a future update.§!"
+ MEWNI_SHARED_POSTUNI_crownland_integrity_tt:0 "§gThe Outer Crownlands being able to reject subjugation is planned for a future update.§!"
  
  MEWNI_SHARED_POSTUNI_to_the_frontier:0 "To The Frontier!"

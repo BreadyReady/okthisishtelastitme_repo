@@ -119,6 +119,37 @@ country_event = { #moon marrying off star to tom
 	#}
 }
 
+country_event = { #how harsh will anti rural operations be
+	id = MON_event.5
+	title = MON_event.5.t
+	desc = MON_event.5.desc
+	picture = xxx
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_event.5.a
+		add_stability = 0.05
+		custom_effect_tooltip = MON_event.5.a_tt
+		ai_chance = {
+			base = 1
+		}
+	}
+	
+	option = {
+		name = MON_event.5.b
+		swap_ideas = {
+			add_idea = MON_economic_high_commission_2
+			remove_idea = MON_economic_high_commission
+		}
+		add_stability = -0.08
+		custom_effect_tooltip = MON_event.5.b_tt
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
 country_event = {
 	id = MON_notification_event.1
 	title = MON_notification_event.1.t

@@ -62,4 +62,16 @@
  cleaved_johansen_spiderbite_mediation_cat_desc:0 "The Crown's official position is: \n\n[?global.nations_cooperating_at_congress_of_mewni]/6 are cooperating."
  
  cleaved_crown_of_mewni_cat:0 "The Mewman Crisis"
- cleaved_crown_of_mewni_cat_desc:0 "The deplorable, shattered condition of the Kingdom of Mewni following the Cleaving is referred to as §YThe Mewman Crisis.§! Only by eliminating all contenders to the throne and the foreign enemies of Mewni can Mewmanity return to normalcy.\n\n§YContenders§! to the §CMewman Throne§!: (Insert clickable flags here)\n\nThe §REnemies§! of Mewni: (Insert clickable flags here)"
+ cleaved_crown_of_mewni_cat_desc:0 "The deplorable, shattered condition of the Kingdom of Mewni following the Cleaving is referred to as §YThe Mewman Crisis.§! Only by eliminating all contenders to the throne and the foreign enemies of Mewni can Mewmanity return to normalcy.\n\n§YContenders§! to the §CMewman Throne§!:\n[MEW.GetFlag] §Y[MEW.getname]§!: [mew_crisis_status_loc]\n[MON.GetFlag] §Y[MON.getname]§!: (Status)\n[STA.GetFlag] §Y[STA.getname]§!: (Status)\n[MAR.GetFlag] §Y[MAR.getname]§!: (Status)\n[HIG.GetFlag] §Y[HIG.getname]§!: (Status)\n[JAN.GetFlag] §Y[JAN.getname]§!: (Status)\n[MIN.GetFlag] §Y[MIN.getname]§!: (Status)\n[DAL.GetFlag] §Y[DAL.getname]§!: (Status)\n\nThe §REnemies§! of Mewni:\n§YThe Septarians:§! (Status)\n§YThe Americans:§! (Status)\n\n(code note: status for enemies are a unified thing, for exampel you can say "divided" or "united under country name")"
+ mew_crisis_status_unifying_crownlands_loc:0 "Contending for the Crownlands"
+ mew_crisis_status_eliminated_loc:0 "§RELIMINATED - WIPED OFF THE FACE OF EARTHNI§!"
+ mew_crisis_status_united_crownlands_loc:0 "United the Crownlands"
+ mew_crisis_status_error_loc:0 "Status Error - CODE ERROR! - Fallback Loc!"
+ 
+ texas_united_texas_power_base:0 "Unite the Texas Powerbase"
+ texas_coring_dallas:0 "Consolidate Dallas"
+ texas_coring_23rd_dist:0 "Consolidate the 23rd District"
+ texas_coring_gop_tex:0 "Consolidate the Texan Panhandle"
+ texas_coring_austin:0 "Consolidate Austin"
+ texas_coring_houston:0 "Consolidate Houston"
+ texas_coring_waco:0 " Consolidate Waco"

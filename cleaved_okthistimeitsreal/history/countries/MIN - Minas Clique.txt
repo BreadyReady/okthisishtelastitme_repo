@@ -16,3 +16,5 @@ set_popularities = {
 load_oob = MIN
 
 recruit_character = MIN_mina_loveberry
+
+add_ideas = MIN_destined_to_unite_texas

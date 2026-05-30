@@ -1,0 +1,17 @@
+characters={
+	SPT_dragonbeard = {
+		name = SPT_dragonbeard
+		portraits={
+			civilian={
+				large = GFX_portrait_dragonbeard
+			}
+		}
+		country_leader={
+			ideology = gen_nazism
+			desc = SPT_dragonbeard_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

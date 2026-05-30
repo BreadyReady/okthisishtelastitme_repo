@@ -4,11 +4,30 @@ state={
 	history={
 		owner = OCL
 		add_core_of = OCL
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+		}
+		
+		victory_points = {
+			1564 5
+		}
+		
+		victory_points = {
+			1600 15
+		}
 	}
+	
+	resources = {
+		steel = 12
+	}
+	
 	provinces={
 		207 282 303 626 953 1152 1478 1484 1564 1594 1600 1775 1920 1958 2170 2266 2313 2450 2712 2721 2860 3186 3521 3587 3882 4647 5584 6076 8184 8284 8334 8354 8407 8436 8449 8559 8640 
 	}
-	manpower=0
+	manpower = 177500
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

@@ -1,0 +1,29 @@
+ideas = {
+	country = {
+		MIN_destined_to_unite_texas = {
+			name = MIN_destined_to_unite_texas
+			picture = xxx
+
+			allowed = {
+				#always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = 25000
+				recruitable_population = 0.15
+				army_org_factor = 1.5
+				army_org_regain = 1.5
+				army_attack_factor = 2.5
+				army_defence_factor = 2.5
+				supply_factor = 1
+				production_speed_buildings_factor = 5 
+			}
+		}
+	} # End Country Bloc
+} # End Ideas Bloc

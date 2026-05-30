@@ -1,0 +1,17 @@
+characters={
+	LUC_thomas_lucitor = {
+		name = LUC_thomas_lucitor
+		portraits={
+			civilian={
+				large = GFX_portrait_LUC_thomas_lucitor
+			}
+		}
+		country_leader={
+			ideology = oligarchism
+			desc = LUC_thomas_lucitor_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

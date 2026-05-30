@@ -1,11 +1,6 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			MAR = {
-				set_power_balance = {
-					id = SWI_centralization_bop
-				}
-			}
 			MEW = {
 				every_owned_state = {
 					add_to_array = {
@@ -13,6 +8,11 @@ on_actions = {
 						value = THIS.id
 					}
                }
+				add_to_array = {
+					array = global.contenders_to_mewman_throne
+					value = THIS.id
+				}
+				add_country_flag = mewman_crisis_status_unifying_crownlands_flag
 			}
 			MON = {
 				every_owned_state = {
@@ -24,6 +24,10 @@ on_actions = {
 				country_event = {
 					id = mewni_warlords_news_event.8
 					days = 400
+				}
+				country_event = {
+					id = mewni_warlords_news_event.31
+					days = 800
 				}
 			}
 			STA = {
@@ -120,6 +124,99 @@ on_actions = {
 					}
 				}
 				news_event = mewni_warlords_news_event.13
+			}
+			IF = {
+				limit = {
+					OR = {
+						original_tag = MON
+						original_tag = MIN
+					}
+					FROM = {
+						OR = {
+							original_tag = MON
+							original_tag = MIN
+						}
+					}
+				}
+				news_event = mewni_warlords_news_event.23
+			}
+			IF = {
+				limit = {
+					STA = {
+						is_subject = no
+					}
+					OR = {
+						original_tag = STA
+						original_tag = MIN
+					}
+					FROM = {
+						OR = {
+							original_tag = STA
+							original_tag = MIN
+						}
+					}
+				}
+				news_event = mewni_warlords_news_event.24
+			}
+			IF = {
+				limit = {
+					OR = {
+						original_tag = MAR
+						original_tag = MIN
+					}
+					FROM = {
+						OR = {
+							original_tag = MAR
+							original_tag = MIN
+						}
+					}
+				}
+				news_event = mewni_warlords_news_event.25
+			}
+			IF = {
+				limit = {
+					OR = {
+						original_tag = HIG
+						original_tag = MIN
+					}
+					FROM = {
+						OR = {
+							original_tag = HIG
+							original_tag = MIN
+						}
+					}
+				}
+				news_event = mewni_warlords_news_event.26
+			}
+			IF = {
+				limit = {
+					OR = {
+						original_tag = MEW
+						original_tag = MIN
+					}
+					FROM = {
+						OR = {
+							original_tag = MEW
+							original_tag = MIN
+						}
+					}
+				}
+				news_event = mewni_warlords_news_event.27
+			}
+			IF = {
+				limit = {
+					OR = {
+						original_tag = JAN
+						original_tag = MIN
+					}
+					FROM = {
+						OR = {
+							original_tag = JAN
+							original_tag = MIN
+						}
+					}
+				}
+				news_event = mewni_warlords_news_event.28
 			}
 		}
 	}

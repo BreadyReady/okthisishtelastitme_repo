@@ -4,11 +4,24 @@ state={
 	history = {
 		owner = LUC
 		add_core_of = LUC
+	
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			1949 10
+		}
+	}
+	resources = {
+		steel = 16
 	}
 	provinces={
 		343 950 1060 1226 1250 1295 1412 1514 1816 1949 2129 2914 2983 3038 3374 3462 4165 4166 5652 6070 6134 6539 9584 9607 9695 9731 9765 9814 9854 13066 13069 
 	}
-	manpower=0
+	manpower=440000
 	buildings_max_level_factor=1
+	state_category=town
 	local_supplies=0
 }

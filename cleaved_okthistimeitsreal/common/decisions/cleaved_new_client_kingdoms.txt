@@ -1,0 +1,54 @@
+cleaved_new_client_kingdoms_cat = {
+	
+	cleaved_new_client_kingdoms_unlock_debug = {
+
+		icon = generic
+
+		fire_only_once = yes
+		
+		visible = {
+			is_debug = yes
+		}
+		
+		available = {
+			is_debug = yes
+		}
+
+		cost = 25
+	#	days_remove = 30
+
+		remove_effect = {
+			add_country_flag = cleaved_new_client_kingdoms_decs_unlock
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+	cleaved_new_client_kingdoms_unlock_debug = {
+
+		icon = generic
+
+		fire_only_once = yes
+		
+		visible = {
+			is_debug = yes
+		}
+		
+		available = {
+			is_debug = yes
+		}
+
+		cost = 25
+	#	days_remove = 30
+
+		remove_effect = {
+			add_country_flag = cleaved_new_client_kingdoms_decs_unlock
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+	}
+}

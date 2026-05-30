@@ -4,11 +4,17 @@ state={
 	history = {
 		owner = JUA
 		add_core_of = JUA
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 	provinces={
 		182 1191 2499 3179 3263 4135 4193 4587 5598 6642 9460 9476 
 	}
-	manpower=0
+	manpower=30000
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
 }

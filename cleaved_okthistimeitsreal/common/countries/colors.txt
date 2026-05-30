@@ -19,8 +19,8 @@ MON = {
 }
 
 STA = {
-	color = rgb { 50 150 150 }
-	color_ui = rgb { 50 150 150 }
+	color = rgb { 25 210 12 }
+	color_ui = rgb { 25 210 12 }
 }
 
 #Preserved to be cosmetic

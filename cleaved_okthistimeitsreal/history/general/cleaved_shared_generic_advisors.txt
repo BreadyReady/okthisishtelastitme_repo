@@ -84,7 +84,7 @@ every_possible_country = {
 			}
 		}
 		portraits = { 
-			army = { small = GFX_idea_generic_political_advisor_europe_1 }
+			army = { small = GFX_idea_generic_political_advisor_europe_2 }
 		}
 	}
 }
@@ -115,7 +115,7 @@ every_possible_country = {
 			}
 		}
 		portraits = { 
-			army = { small = GFX_idea_generic_political_advisor_female_europe }
+			army = { small = GFX_idea_generic_political_advisor_europe_3 }
 		}
 	}
 }

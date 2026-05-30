@@ -1,0 +1,56 @@
+defined_text = {
+	name = news_crownland_frontier_war_title_loc
+	text = {
+		localization_key = news_crownland_frontier_war_title_loc_key
+	}
+}
+
+defined_text = {
+	name = news_crownland_frontier_war_desc_loc
+	text = {
+		localization_key = news_crownland_frontier_war_desc_loc_key
+	}
+}
+
+defined_text = {
+	name = news_restorationism_realized_title_loc_key
+	text = {
+		localization_key = news_restorationism_realized_title_loc_key
+	}
+}
+
+defined_text = {
+	name = news_restorationism_realized_desc_loc
+	text = {
+		localization_key = news_restorationism_realized_desc_loc_key
+	}
+}
+
+defined_text = {
+	name = mew_crisis_status_loc
+	text = {
+		trigger = {
+            MEW = {
+				has_country_flag = mewman_crisis_status_unifying_crownlands_flag
+			}
+        }
+		localization_key = mew_crisis_status_unifying_crownlands_loc
+	}
+	text = {
+		trigger = {
+            has_global_flag = mew_crisis_status_eliminated_flag
+        }
+		localization_key = mew_crisis_status_eliminated_loc
+	}
+	text = {
+		trigger = {
+			MEW = {
+				has_global_flag = uniter_of_mewman_crownlands
+			}
+        }
+		localization_key = mew_crisis_status_united_crownlands_loc
+	}
+	text = {
+		localization_key = mew_crisis_status_error_loc
+	}
+}

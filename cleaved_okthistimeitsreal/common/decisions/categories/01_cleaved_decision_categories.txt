@@ -87,3 +87,10 @@ cleaved_crown_of_mewni_cat = {
 		}
 	}
 }
+
+cleaved_new_client_kingdoms_cat = {
+	icon = generic_political_actions
+	visible = {
+		always = yes
+	}
+}

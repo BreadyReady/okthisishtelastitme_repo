@@ -1,0 +1,9 @@
+SPA = {
+	original_tag = SPR
+	OR = {
+		has_country_flag = SPR_nationalist_spain_flag
+		has_country_flag = scw_no_lar_nationalists
+	}
+}
+
+

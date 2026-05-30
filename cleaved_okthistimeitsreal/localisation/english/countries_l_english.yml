@@ -7,13 +7,17 @@
  SPI_DEF:0 "The Spiderbite Kingdom"
  SPI_ADJ:0 "Spiderbite Mewman"
  
- TST:0 "Future Content!"
- TST_DEF:0 "Future Content!"
- TST_ADJ:0 "Future Content!"
+ TST:0 "United States of America (Future Content?)"
+ TST_DEF:0 "United States of America (Future Content?)"
+ TST_ADJ:0 "United States of America (Future Content?)"
  
  MON:0 "Moon's Mewni"
  MON_DEF:0 "Moon's Mewni"
  MON_ADJ:0 "Moon's Mewni"
+ 
+ MON_STATE:0 "Mewman State"
+ MON_STATE_DEF:0 "The Mewman State"
+ MON_STATE_ADJ:0 "Mewman State"
  
  STA:0 "Star's Duchy"
  STA_DEF:0 "Star's Duchy"
@@ -24,7 +28,7 @@
  STA_REBEL_ADJ:0 "Star's Mewni"
 
  STA_COMMONWEALTH:0 "Mewman Commonwealth"
- STA_COMMONWEALTH_DEF:0 "Mewman Commonwealth"
+ STA_COMMONWEALTH_DEF:0 "the Mewman Commonwealth"
  STA_COMMONWEALTH_ADJ:0 "Mewman Commonwealth"
  
  HIG:0 "Higgs' Mewni"
@@ -59,9 +63,9 @@
  MIN_DEF:0 "Mina's Clique"
  MIN_ADJ:0 "Mina's Clique"
  
- SPT:0 "Septarsis (Dev Location Marker)"
- SPT_DEF:0 "Septarsis (Dev Location Marker)"
- SPT_ADJ:0 "Septarsis (Dev Location Marker)"
+ SPT:0 "Septarian Confederation"
+ SPT_DEF:0 "Septarsis"
+ SPT_ADJ:0 "Septarian"
  
  PIG:0 "Pigeon Kingdom"
  PIG_DEF:0 "Pigeon Kingdom"
@@ -115,7 +119,7 @@
  NTN_DEF:0 "Native Nation"
  NTN_ADJ:0 "Native Nation"
  
- CAN:0 "Canada (Dev location Marker)"
- CAN_DEF:0 "Canada (Dev location Marker)"
- CAN_ADJ:0 "Canada (Dev location Marker)"
+ CAN:0 "Canada (Future Content?)"
+ CAN_DEF:0 "Canada (Future Content?)"
+ CAN_ADJ:0 "Canada (Future Content?)"
  

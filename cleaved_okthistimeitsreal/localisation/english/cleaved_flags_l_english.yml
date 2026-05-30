@@ -1,3 +1,5 @@
 ﻿l_english:
     uniter_of_mewman_crownlands:0 "[country.GetFlag]§Y[country.getname]§! has united the Mewman Crownlands"
-    monster_rights_timer:0 "Within 70 days since completion of last Monster Rights focus"
+    monster_rights_timer:0 "Has been 70 days since completion of last Monster Rights focus"
+    united_texas_flag:0 "Nation exists that has united the Texas Powerbase"
+    texas_united_global_flag:0 "Has united the Texas Powerbase at any point"

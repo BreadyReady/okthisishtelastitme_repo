@@ -29,7 +29,42 @@
  MON_stars_education_continues:0 "Star's Education Continues"
  
  MON_centralizing_the_state:0 "State High Commission"
+ MON_centralizing_the_state_desc:0 "The High Commissions were councils occasionally called by Mewman Monarchs throughout history to address certain issues. Endowed with great powers, they will provide the legal precedent for Moon's new state authority. Under the strong hand of Moon, a new High Commission shall be called: The State High Commission, tasked with reforming Mewni's feudalism into absolute monarchy."
+ 
+ MON_big_business_is_government_business:0 "Big Business, Big Government"
+ MON_big_business_is_government_business_desc:0 "The new kind of aristocracy, the business magnates, are valuable partners to have. We must make sure that they work for the benefit of the Mewman people... through the State, of course."
+ 
+ MON_corn_and_circuses:0 "Corn and Circuses"
+ MON_corn_and_circuses_desc:0 "If a person eats their fill, parties their weekends, and can raise a family with hope in the children's eyes, then they will happily keep their heads down and keep their mouths shut about civil rights. Welfare programs, stipends, and token government policy shall be centered around this principle."
+ 
+ MON_obliteration_of_ruralism:0 "Obliteration of Ruralism"
+ MON_obliteration_of_ruralism_desc:0 "Frankly, the idyllic agricultural life has no place in the modern state. Large industrial farms are more efficient, and the more spread out a people is, the harder it is to control and surveill them. The Economic High Commission shall be established to concentrate the Mewman population into the cities, either through economic development and incentive, or through... more direct anti-rural means."
+ 
+ MON_ban_independent_organization:0 "Ban Independent Organization"
+ MON_ban_independent_organization_desc:0 "All organization must first be approved by the State. Not just political parties or local government, but everything: Companies, social clubs, hell, friend groups and family formation if it can be helped.\n\n§g"Everything in the State, nothing outside the State, nothing against the State."§!"
+ 
+ MON_queens_caretakers:0 "Queen's Caretakers"
+ MON_queens_caretakers_desc:0 "Queen's Caretakers Desc"
+ 
+ MON_ultrasurveillance:0 "Ultrasurveillance"
+ 
+ MON_state_education:0 "State Education"
+ 
+ MON_the_butterfly_web:0 "Butterfly Web"
+ MON_the_butterfly_web_desc:0 "The World Wide Web is a cesspool rife with ideas and communications that undermine state rule. The establishment of a Mewman Intranet, that is, an internet contained entirely within Mewni without outside information, will allow us to surveil and control the web easily, while still reaping the benfits of the technology."
+ 
+ MON_all_media_for_the_queen:0 "All Media for the Queen"
+ 
+ MON_fear_and_love:0 "To be Feared and Loved"
+ MON_fear_and_love_desc:0 "To fear what authority might do to you, but to love it for what it has done: that is an ideal government\n\n§g"And here comes in the question whether it is better to be loved rather than feared, or feared rather than loved. It might perhaps be answered that we should wish to be both."§!"
+ 
+ MON_everything_for_the_queen:0 "Everything for the Queen"
+ MON_everything_for_the_queen_desc:0 "\n\n§g"I am the State"§!"
+ 
+ MON_everything_for_the_state:0 "Everything for the State"
+ MON_everything_for_the_state_desc:0 "\n\n§g"I die, but the State will always remain"§!"
  
  MON_direct_rule_from_butterfly_castle:0 "Realm High Commissions"
  MON_direct_rule_from_butterfly_castle_desc:0 "The client kingdoms are an antiquated, inefficient way to govern land. Not to mention, the lower royals can get uppity with ideas of overthrowing the status quo, as we have seen after the Cleaving! With new communication methods and governing practices, we can directly govern these lands.\n§gDirect Rule From Butterfly Castle!§!"
+ MON_direct_rule_from_butterfly_castle_trigger_tt:0 "[country.GetFlag]§Y[country.getname]§! owns states outside the §YMewman Crownlands§! (all states that [MON.GetFlag]§Y[MON.getname]§!, [MEW.GetFlag]§Y[MEW.getname]§!, [STA.GetFlag]§Y[STA.getname]§!, [MAR.GetFlag]§Y[MAR.getname]§!, [JAN.GetFlag]§Y[JAN.getname]§!, and [HIG.GetFlag]§Y[HIG.getname]§! start with)"
  MON_direct_rule_from_butterfly_castle_tt:0 "Not yet implemented: Create custom 'Realm High Commissions' similar to the reichkommisariats to replace the kingdoms"

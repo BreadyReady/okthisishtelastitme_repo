@@ -197,7 +197,7 @@ ideas = {
 		}
 		
 		MON_economic_high_commission = {
-			name = MON_continuous_festivals
+			name = MON_economic_high_commission
 			picture = xxx
 
 			allowed = {
@@ -213,6 +213,26 @@ ideas = {
 			modifier = {
 				production_speed_buildings_factor = 0.1
 				political_power_gain = -0.1
+			}
+		}
+		
+		MON_economic_high_commission_2 = {
+			name = MON_economic_high_commission
+			picture = xxx
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.17
+				political_power_gain = -0.15
 			}
 		}
 		

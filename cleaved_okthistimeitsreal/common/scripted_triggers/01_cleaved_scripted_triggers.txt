@@ -1,0 +1,369 @@
+cleaved_scripted_trigger_realized_restoration = {
+		86 = {
+			owns_or_subject_of = yes 
+		}
+		39 = {
+			owns_or_subject_of = yes 
+		}
+
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_2 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_2_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 2
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_3 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_3_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 3
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_4 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_4_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 4
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_5 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_5_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 5
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_6 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_6_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 6
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_7 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_7_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 7
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_8 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_8_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 8
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_9 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_9_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 9
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_10 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_10_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 10
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_11 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_11_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 11
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_12 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_12_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 12
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_13 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_13_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 13
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_14 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_14_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 14
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_15 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_15_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 15
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_16 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_16_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 16
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_17 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_17_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 17
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_dominate_strat_reg_18 = {
+	custom_trigger_tooltip = {
+    tooltip = cleaved_scripted_trigger_dominate_strat_reg_18_tt	
+		NOT = {
+			any_state_in = {
+				strategic_region = 18
+				
+				NOT = {
+					OR = {
+						is_owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+cleaved_scripted_trigger_restorationism_realized = {
+	cleaved_scripted_trigger_dominate_strat_reg_2 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_3 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_4 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_5 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_6 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_7 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_8 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_9 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_10 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_11 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_12 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_13 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_14 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_15 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_16 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_17 = yes
+	cleaved_scripted_trigger_dominate_strat_reg_18 = yes
+}

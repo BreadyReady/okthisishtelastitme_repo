@@ -138,5 +138,9 @@ age_portraits = {
 			character = JAN_janna_ordonia
 			civilian = { large ="GFX_portrait_adult_janna" }
 		}
+		set_portraits = {
+			character = LUC_thomas_lucitor
+			civilian = { large ="GFX_portrait_adult_tom" }
+		}
 	}
 }

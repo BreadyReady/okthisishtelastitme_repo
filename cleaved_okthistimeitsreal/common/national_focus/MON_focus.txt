@@ -96,7 +96,16 @@ focus_tree = {
 		}
 		
 		available = {
-			always = no
+			custom_trigger_tooltip = {
+				tooltip = MON_direct_rule_from_butterfly_castle_trigger_tt
+				any_owned_state = {
+					NOT = {
+						is_in_array = {
+							global.mewman_crownlands_states = THIS.id
+						}
+					}
+				}
+			}
 		}
 
 		completion_reward = {
@@ -247,7 +256,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_corn_and_circuses
-		icon = GFX
+		icon = GFX_focus_mewman_father_and_daughter
 		x = -3
 		y = 1
 		relative_position_id = MON_centralizing_the_state
@@ -283,6 +292,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = MON_economic_high_commission
+			country_event = MON_event.5
 		}
 	}
 
@@ -463,11 +473,12 @@ focus_tree = {
 	focus = {
 		id = MON_everything_for_the_queen
 		icon = GFX
-		x = 2
+		x = 3
 		y = 1
 		relative_position_id = MON_fear_and_love
 		prerequisite = { focus = MON_butterfly_points_system }
 		prerequisite = { focus = MON_fear_and_love }
+		mutually_exclusive = { focus = MON_everything_for_the_state }
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -482,6 +493,36 @@ focus_tree = {
 				 ideology = oligarchism
 				 trait = cleaved_undaunted
 			}
+			add_political_power = 75
+			set_cosmetic_tag = MON_STATE
+		}
+	}
+
+	focus = {
+		id = MON_everything_for_the_state
+		icon = GFX
+		x = 1
+		y = 1
+		relative_position_id = MON_fear_and_love
+		prerequisite = { focus = MON_butterfly_points_system }
+		prerequisite = { focus = MON_fear_and_love }
+		mutually_exclusive = { focus = MON_everything_for_the_queen }
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_trait = {
+				 character = MON_moon_butterfly
+				 ideology = oligarchism
+				 trait = cleaved_undaunted
+			}
+			add_stability = 0.06
+			set_cosmetic_tag = MON_STATE
 		}
 	}
 

@@ -1,0 +1,87 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_restorationism_realized_big"
+		texturefile = "gfx/interface/goals/shared/focus_restorationism_realized_big.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_mewman_vs_monster_2"
+		texturefile = "gfx/interface/goals/shared/focus_mewman_vs_monster_2.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_mewman_middle_class"
+		texturefile = "gfx/interface/goals/shared/focus_mewman_middle_class.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_mewman_father_and_daughter"
+		texturefile = "gfx/interface/goals/shared/focus_mewman_father_and_daughter.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_happy_buff_frog"
+		texturefile = "gfx/interface/goals/shared/focus_happy_buff_frog.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_happy_mail_monster"
+		texturefile = "gfx/interface/goals/shared/focus_happy_mail_monster.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_kids_with_key"
+		texturefile = "gfx/interface/goals/shared/focus_kids_with_key.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_ghetto"
+		texturefile = "gfx/interface/goals/shared/focus_ghetto.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_arrested_monster"
+		texturefile = "gfx/interface/goals/shared/focus_arrested_monster.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_mewman_castle"
+		texturefile = "gfx/interface/goals/shared/focus_mewman_castle.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_ludo_castle"
+		texturefile = "gfx/interface/goals/shared/focus_ludo_castle.dds"
+	}
+
+}

@@ -69,6 +69,16 @@ spriteTypes = {
 		texturefile = "gfx/leaders/OCL/ocl_noble_leader.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_LUC_thomas_lucitor"
+		texturefile = "gfx/leaders/LUC/portrait_LUC_thomas_lucitor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_dragonbeard"
+		texturefile = "gfx/leaders/SPT/portrait_dragonbeard.dds"
+	}
+	
 	###############
 	#Adult version#
 	###############
@@ -91,6 +101,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_adult_janna"
 		texturefile = "gfx/leaders/adult/hoi4_portrait_adult_janna.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_adult_tom"
+		texturefile = "gfx/leaders/adult/hoi4_portrait_adult_tom.dds"
 	}
 	
 	

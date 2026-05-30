@@ -24,4 +24,9 @@ spriteTypes = {
 		name = "GFX_news_event_star_moon_river_public"
 		texturefile = "gfx/event_pictures/cleaved_unique/news_event_star_moon_river_public.dds" 
 	}
+
+	spriteType = {
+		name = "GFX_news_event_jd_vance"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_jd_vance.dds" 
+	}
 }

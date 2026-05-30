@@ -4,11 +4,17 @@ state={
 	history={
 		owner = OCL
 		add_core_of = OCL
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+		}
 	}
 	provinces={
 		618 1089 1415 1997 2083 3268 4727 4768 4988 8693 
 	}
-	manpower=0
+	manpower=223366
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

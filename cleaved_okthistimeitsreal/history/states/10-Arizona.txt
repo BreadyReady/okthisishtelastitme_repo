@@ -4,11 +4,23 @@ state={
 	history = {
 		owner = NTN
 		add_core_of = NTN
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		
+		victory_points = {
+			4981 10
+		}
 	}
 	provinces={
 		65 412 424 904 1030 1547 1835 1853 1978 2112 2121 2815 2942 3092 3184 3202 3392 3411 3733 3864 4205 4258 4496 4688 4824 4826 4981 5160 5356 5707 6111 6277 6388 6533 8953 8975 9022 9052 9131 9168 9174 9199 9311 
 	}
-	manpower=0
+	manpower=200000
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
 }
