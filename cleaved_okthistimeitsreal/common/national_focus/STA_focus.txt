@@ -21,18 +21,18 @@ focus_tree = {
 	shared_focus = MEWNI_SHARED_POSTUNI_modernize_solarian_laws
 	shared_focus = MEWNI_SHARED_POSTUNI_crownland_economy
 	shared_focus = MEWNI_SHARED_POSTUNI_modernizing_army
-	shared_focus = MEWNI_SHARED_POSTUNI_royal_politics
+	#shared_focus = MEWNI_SHARED_POSTUNI_royal_politics
 	
 	default = no # This is not a default generic tree
 	
-	continuous_focus_position = { x = 4000	y = 0 } 
+	continuous_focus_position = { x = 6000	y = 0 } 
 	# Change as needed as more focus are added - orginally {x=50 y=1000}
 
 	focus = {
 		id = STA_give_peace_a_chance
 		icon = GFX_focus_generic_diplomatic_treaty
-		x = 31
-		y = 5
+		x = 50
+		y = 0
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -1054,8 +1054,8 @@ focus_tree = {
 	focus = {
 		id = STA_maiden_of_mewni
 		icon = GFX_focus_star_armor
-		x = 40
-		y = 12
+		x = 45
+		y = 8
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_POLITICAL }

@@ -893,7 +893,7 @@ news_event = { # Mewman Restoration Realized: Moon
     
     is_triggered_only = yes
 	major = yes
-	picture = xxx
+	picture = GFX_news_event_moon_bell
     
     option = {
         name = mewni_warlords_news_event.30.a
@@ -926,5 +926,22 @@ news_event = { # jd vance writes book about what if cleaving never happened
     
     option = {
         name = mewni_warlords_news_event.31.a
+    }
+}
+
+news_event = { # knights coup thwarted
+    id = mewni_warlords_news_event.32
+    title = mewni_warlords_news_event.32.t
+	
+    desc = {
+        text = mewni_warlords_news_event.32.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_warlords_news_event.32.a
     }
 }

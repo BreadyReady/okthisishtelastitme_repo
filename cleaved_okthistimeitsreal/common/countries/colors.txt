@@ -95,8 +95,8 @@ RTX = {
 }
 
 FNT = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
 
 DTX = {
@@ -140,6 +140,6 @@ NTN = {
 }
 
 CAN = {
-	color = rgb { 190 100 100 }
-	color_ui = rgb { 190 100 100 }
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }

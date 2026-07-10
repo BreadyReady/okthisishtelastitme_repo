@@ -150,6 +150,35 @@ country_event = { #how harsh will anti rural operations be
 	}
 }
 
+country_event = { #change moon portrait
+	id = MON_event.6
+	title = MON_event.6.t
+	desc = MON_event.6.desc
+	picture = GFX_event_aloof_moon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MON_event.6.a
+		set_portraits = {
+			character = MON_moon_butterfly
+			civilian = { large ="GFX_portrait_MON_moon_butterfly_post_uni" }
+		}
+		custom_effect_tooltip = MON_event.6.a_tt
+		ai_chance = {
+			base = 1
+		}
+	}
+	
+	option = {
+		name = MON_event.6.b
+		custom_effect_tooltip = MON_event.6.b_tt
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
 country_event = {
 	id = MON_notification_event.1
 	title = MON_notification_event.1.t

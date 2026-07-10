@@ -29,4 +29,9 @@ spriteTypes = {
 		name = "GFX_news_event_jd_vance"
 		texturefile = "gfx/event_pictures/cleaved_unique/news_event_jd_vance.dds" 
 	}
+
+	spriteType = {
+		name = "GFX_news_event_moon_bell"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_moon_bell.dds" 
+	}
 }

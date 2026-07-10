@@ -28,7 +28,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_uniting_mewni_strike_MON
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_sad_moon
 	x = -1
 	y = 1
 	relative_position_id = MEWNI_SHARED_uniting_mewni_branch_start
@@ -154,7 +154,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_uniting_mewni_strike_MAR
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_shocked_marco
 	x = 1
 	y = 1
 	relative_position_id = MEWNI_SHARED_uniting_mewni_branch_start

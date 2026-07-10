@@ -150,6 +150,9 @@ ideologies = {
 
 			cle_solarianism = {
 			}
+
+			cle_mewman_corporatism = {
+			}
 		}
 
 		dynamic_faction_names = {

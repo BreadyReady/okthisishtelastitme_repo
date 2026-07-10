@@ -10,6 +10,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_portrait_MON_moon_butterfly_post_uni"
+		texturefile = "gfx/leaders/MON/MON_moon_butterfly_post_uni.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_portrait_MEW_eclipsa_butterfly"
 		texturefile = "gfx/leaders/MEW/portrait_MEW_eclipsa_butterfly.dds"
 	}

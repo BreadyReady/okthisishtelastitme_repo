@@ -1,14 +1,18 @@
 ﻿l_english:
  MON_empowering_moon:0 "Empowering Moon"
+ MON_empowering_moon_desc:0 ""
  
  MON_cult_of_personality:0 "Cult of Personality"
+ MON_cult_of_personality_desc:0 ""
  
  MON_law_enforcement_loyalty:0 "Loyalty of the Law"
  MON_law_enforcement_loyalty_desc:0 "Law enforcement must follow the Queen's will first, instead of the outdated writings called "laws" that can be decades old."
  
  MON_propaganda_efforts:0 "Propaganda Efforts"
+ MON_propaganda_efforts_desc:0 ""
  
  MON_stir_anti_monster_sentiments:0 "Stir Anti-Monster Sentiments"
+ MON_stir_anti_monster_sentiments_desc:0 ""
  
  MON_iron_fist_over_san_havensisco:0 "Iron Fist Over San Havensisco"
  
@@ -47,22 +51,28 @@
  MON_queens_caretakers_desc:0 "Queen's Caretakers Desc"
  
  MON_ultrasurveillance:0 "Ultrasurveillance"
+ MON_ultrasurveillance_desc:0 ""
  
  MON_state_education:0 "State Education"
+ MON_state_education_desc:0 ""
  
  MON_the_butterfly_web:0 "Butterfly Web"
  MON_the_butterfly_web_desc:0 "The World Wide Web is a cesspool rife with ideas and communications that undermine state rule. The establishment of a Mewman Intranet, that is, an internet contained entirely within Mewni without outside information, will allow us to surveil and control the web easily, while still reaping the benfits of the technology."
  
  MON_all_media_for_the_queen:0 "All Media for the Queen"
+ MON_all_media_for_the_queen_desc:0 ""
  
  MON_fear_and_love:0 "To be Feared and Loved"
  MON_fear_and_love_desc:0 "To fear what authority might do to you, but to love it for what it has done: that is an ideal government\n\n§g"And here comes in the question whether it is better to be loved rather than feared, or feared rather than loved. It might perhaps be answered that we should wish to be both."§!"
  
+ MON_butterfly_points_system:0 "Butterfly Points System"
+ MON_butterfly_points_system_desc:0 "The Butterfly Points System will grant a score to our subjects based on how much they contribute or detract to Mewmanity. The loyal and orderly will be rewarded and touted as examples to their community. The disloyal and disorderly... their community will not have to worry about them at all."
+ 
  MON_everything_for_the_queen:0 "Everything for the Queen"
- MON_everything_for_the_queen_desc:0 "\n\n§g"I am the State"§!"
+ MON_everything_for_the_queen_desc:0 "Moon, and only Moon, can whip Mewni into shape. For Mewmanity to arise from the ashes, every Mewman's every action, every movement, every thought both conscious and unconscious, must be made for the same endeavor: To support the Queen, and her penultimate powers.\n\n§g"I am the State"§!"
  
  MON_everything_for_the_state:0 "Everything for the State"
- MON_everything_for_the_state_desc:0 "\n\n§g"I die, but the State will always remain"§!"
+ MON_everything_for_the_state_desc:0 "The state apparatus: Faceless, unfeeling, venerable. Moon knows that not even she can be perfect, nor can she live forever. Thus, power shall be slowly put into the hands of the centralized state insitution, so that an immortal iron will can guide Mewni indefinitley.\n\n§g"I die, but the State will always remain"§!"
  
  MON_direct_rule_from_butterfly_castle:0 "Realm High Commissions"
  MON_direct_rule_from_butterfly_castle_desc:0 "The client kingdoms are an antiquated, inefficient way to govern land. Not to mention, the lower royals can get uppity with ideas of overthrowing the status quo, as we have seen after the Cleaving! With new communication methods and governing practices, we can directly govern these lands.\n§gDirect Rule From Butterfly Castle!§!"

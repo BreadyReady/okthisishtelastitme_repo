@@ -6,7 +6,7 @@ set_stability = 0.40
 set_war_support = 0.25
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 }
 set_popularities = {
 	neutrality = 65

@@ -1,12 +1,15 @@
 ﻿l_english:
  MEWNI_SHARED_uniting_mewni_branch_start:0 "Uniting the Crownlands"
+ MEWNI_SHARED_uniting_mewni_branch_start_desc:0 "The first step in reclaiming the crown of Mewni is to reassemble the Crownlands, the traditional powerbase of Mewni."
  MEWNI_SHARED_uniting_mewni_branch_start_tt:0 "Unlock decisions to core states within the Mewman Crownlands"
  MEWNI_SHARED_uniting_mewni_strike_MON:0 "Striking [MON.GetLeader]"
+ MEWNI_SHARED_uniting_mewni_strike_MON_desc:0 "[MON.GetLeader]'s ideology is one of horrific authoritarianism. Her vision for Mewni must not come to pass."
  MEWNI_SHARED_uniting_mewni_strike_STA:0 "Striking [STA.GetLeader]"
  MEWNI_SHARED_uniting_mewni_strike_HIG:0 "Striking [HIG.GetLeader]"
  MEWNI_SHARED_uniting_mewni_strike_JAN:0 "Striking [JAN.GetLeader]"
  MEWNI_SHARED_uniting_mewni_strike_MEW:0 "Striking [MEW.GetLeader]"
  MEWNI_SHARED_uniting_mewni_strike_MAR:0 "Striking [MAR.GetLeader]"
+ MEWNI_SHARED_uniting_mewni_strike_MAR_desc:0 "It is time to end the puppeted farce that is [MAR.GetLeader]'s reign. Mewni cannot prosper underneath a weak, manipulated king."
  
  MEWNI_SHARED_forward_operating_bases_san_joaquin:0 "Forward Operating Bases: San Joaquin"
  MEWNI_SHARED_forward_operating_bases_las_vegas:0 "Forward Operating Bases: Outside Las Vegas"
@@ -162,8 +165,44 @@
  MEWNI_SHARED_POSTUNI_modernizing_army:0 "Modernizing The Armed Forces"
  MEWNI_SHARED_POSTUNI_modernizing_army_desc:0 "After the desperate scramble to unite the Crownlands, we can now look outwards to combat more organized, technologically advanced foes."
  
+ MEWNI_SHARED_POSTUNI_knighthood_future:0 "Future of the Knighthood"
+ MEWNI_SHARED_POSTUNI_knighthood_future_desc:0 "The centuries old knighthood was built for a world of swords, and it cannot be the core of our army. We have to find a new place for our old warriors."
+ 
+ MEWNI_SHARED_POSTUNI_depoliticize_armed_forces:0 "Depoliticize the Armed Forces"
+ MEWNI_SHARED_POSTUNI_depoliticize_armed_forces_desc:0 "With the swelling of the Mewman ranks, the old Knighthood no longer holds as much military power. It is time to strip them of more powers so that they serve as part of a loyal, modern military."
+ 
+ MEWNI_SHARED_POSTUNI_open_up_armed_forces:0 "Open up the Armed Forces"
+ MEWNI_SHARED_POSTUNI_open_up_armed_forces_desc:0 "With the stripping of Knightly powers, their influence is no longer stopping us from fully embracing modern conscription models."
+ 
+ MEWNI_SHARED_POSTUNI_dynamic_recruitment:0 "Dynamic Recruitment"
+ MEWNI_SHARED_POSTUNI_dynamic_recruitment_desc:0 "Turns out, taking millions of people out of civilian life for miltiary purposes has a negative effect on the economy. We need to be ready to swiftly mobilize and demobilize as needed."
+ 
  MEWNI_SHARED_POSTUNI_restorationist_outlook:0 "Adopt Restorationism"
  MEWNI_SHARED_POSTUNI_restorationist_outlook_desc:0 "The unification of all pre-Cleaved Mewman subjects under one state is the top priority in our foreign affairs. The growing Mewman Restoration movement, if fostered and adopted as official government rhetoric, will help us put aside half measures, caution, and pacifist laze.\n\n§R"Cry, Havoc! and let slip the dogs of war..."§!"
+ 
+ MEWNI_SHARED_POSTUNI_restorationism_realized:0 "Restorationism Realized"
+ MEWNI_SHARED_POSTUNI_restorationism_realized_desc:0 ""
+ 
+ MEWNI_SHARED_POSTUNI_take_down_the_lucitors:0 "Take down the Lucitors"
+ MEWNI_SHARED_POSTUNI_take_down_the_lucitors_desc:0 "Take down the Lucitors"
+ 
+ MEWNI_SHARED_POSTUNI_take_down_the_pigeons:0 "Take down the Pigeons"
+ MEWNI_SHARED_POSTUNI_take_down_the_pigeons_desc:0 "Take down the Pigeons"
+ 
+ MEWNI_SHARED_POSTUNI_take_down_the_ponyheads:0 "Take down the Ponyheads"
+ MEWNI_SHARED_POSTUNI_take_down_the_ponyheads_desc:0 "Take down the Ponyheads"
+ 
+ MEWNI_SHARED_POSTUNI_complete_northern_aggression:0 "The War of Northern Aggression"
+ MEWNI_SHARED_POSTUNI_complete_northern_aggression_desc:0 "The War of Northern Aggression"
+ 
+ MEWNI_SHARED_POSTUNI_side_with_johansens:0 "Side with the Johansens"
+ MEWNI_SHARED_POSTUNI_side_with_johansens_desc:0 "Side with the Johansens"
+ 
+ MEWNI_SHARED_POSTUNI_side_with_spiderbites:0 "Side with the Spiderbites"
+ MEWNI_SHARED_POSTUNI_side_with_spiderbites_desc:0 "Side with the Spiderbites"
+ 
+ MEWNI_SHARED_POSTUNI_take_down_the_frontier:0 "Take down the Frontier"
+ MEWNI_SHARED_POSTUNI_take_down_the_frontier_desc:0 "Take down the Frontier"
  
  MEWNI_SHARED_POSTUNI_crownland_economy:0 "Life in the Crownlands"
  MEWNI_SHARED_POSTUNI_crownland_economy_desc:0 "With the reunification of the Crownlands, we can now (somewhat) function as a state and try to improve the lives of our people. Repairing the damage from the shattered crownlands is paramount."
@@ -173,6 +212,9 @@
  
  MEWNI_SHARED_POSTUNI_hyperindustrialization_plan:0 "Hyperindustrialization Plan"
  MEWNI_SHARED_POSTUNI_hyperindustrialization_plan_desc:0 "A modern nation needs a modern industry. We must transition from a agrarian, peasant economy to an industrial one."
+ 
+ MEWNI_SHARED_POSTUNI_shock_therapy:0 "Shock Therapy"
+ MEWNI_SHARED_POSTUNI_shock_therapy_desc:0 "Following the Cleaving, many economic assets were seized by the government due to the emergency situation necessitating their use in war. With stability returning to the Crownlands, our analysts see an opportunity to inject capital into the free market through privatization, fueling rapid economic growth."
  
  MEWNI_SHARED_POSTUNI_infrastrucure_and_utilities:0 "Infrastructure and Utilities"
  MEWNI_SHARED_POSTUNI_infrastrucure_and_utilities_desc:0 "Asphalt roads, highways, public electricity, running water, etc. These are all components vital to a modern life on Earthni that we lack. By providing them, we will reap rewards in the form of a more robust economy."

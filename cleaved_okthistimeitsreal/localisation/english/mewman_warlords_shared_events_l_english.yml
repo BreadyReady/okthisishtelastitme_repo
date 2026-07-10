@@ -18,6 +18,11 @@
  mewni_shared_warlord_events.5.desc:0 "Now that the Crownlands have been reunified, governance is returning to normal. We have begun rolling back some of the extreme measure we took, and nobles are now reducing their contribution efforts. Loans are now going to be put off the freeze and will have to be repaid, mercenaries will now leave, etc.\n\nThe war machine rests, for now."
  mewni_shared_warlord_events.5.a:0 "Problems at the core of our society rear their ugly heads..."
  
+ mewni_shared_warlord_events.6.t:0 "Returning Seized Factories"
+ mewni_shared_warlord_events.6.desc:0 "In an effort to promote rebuilding and goodwill, we can return the factories we seized during our reunification efforts."
+ mewni_shared_warlord_events.6.a:0 "It was an emergency measure, we need to show that we are fair."
+ mewni_shared_warlord_events.6.b:0 "This is a matter of national security!"
+ 
  mewni_shared_kingdom_diplo_events.1.t:0 "The Dark New North"
  mewni_shared_kingdom_diplo_events.1.desc:0 ""
  mewni_shared_kingdom_diplo_events.1.a:0 "Compromise"
@@ -39,3 +44,34 @@
  mewni_shared_postuni_events.2.b:0 "Put the monument near LA."
  mewni_shared_postuni_events.2.c:0 "Y'know what? Nobody gets the monument now!"
  
+ mewni_shared_postuni_events.3.t:0 "Fate of the Knighthood"
+ mewni_shared_postuni_events.3.desc:0 "The knighthood is a centuries-long institution of Mewni that holds a special place in Mewman culture. However, the realities of modern warfare have made their current model obsolete. Not to mention, their political power is obstructing other reforms. We have a few options to address this problem.\n\nOne option is to reform them to be part of the officer corps and trainers. Their expirience and cultural influence will be inspiring to young Mewman recruits.\n\nAlternativley, we could transition the knighthood into a ceremonial role, pivoting their influence to drum up support for domestic policy.\n\nLastly, a "nuclear" option is to go full throttle with new recruitment to accelerate the stripping of their powers."
+ mewni_shared_postuni_events.3.a:0 "Let them lead the next generation of warriors."
+ mewni_shared_postuni_events.3.b:0 "Let them inspire Mewmanity away from modern warfare."
+ mewni_shared_postuni_events.3.c:0 "Their way and culture should be left to the past."
+ mewni_shared_postuni_events.3.c_tt:0 "National spirit §Y$cleaved_phase_out_knights_natl_sprt$§! will be removed upon the completion of national focus §Y$MEWNI_SHARED_POSTUNI_open_up_armed_forces$§!"
+ 
+ mewni_shared_postuni_events.4.t:0 "Shock Therapy"
+ mewni_shared_postuni_events.4.desc:0 "Two schools of thought have emerged among privatization advocates:\n\nOne side wants privatization to be rapidly done in large chunks. They say that corporations are more efficient when they are large, and that time is of the essence in getting the economy up to snuff. Plus, it would provide the state with an injection of cold hard cash. However, it should be noted that most people who support this are big business owners who will likely end up with most of these assets.\n\nThe other side says that the government has to let their assets enter the economy through giving ownership to existing managers. In this way, inefficiencies will naturally expose themselves in the free market and assets will break themselves up or keep themselves big as the free market demands."
+ mewni_shared_postuni_events.4.a:0 "Swiftly sell off state assets to the highest bidder in large chunks."
+ mewni_shared_postuni_events.4.a_tt:0 "This may have adverse effects in the future..."
+ mewni_shared_postuni_events.4.b:0 "Let state assets be tested in the free market."
+ mewni_shared_postuni_events.4.c:0 "Why reduce our own control? Hold onto our assets!"
+ mewni_shared_postuni_events.4.c_tt:0 "This is an option unique to [MON.getname]"
+ 
+ mewni_shared_postuni_flavor.2.t:0 "Knight's Coup Busted!"
+ mewni_shared_postuni_flavor.2.desc:0 "A coup plot against the government was recently discovered and shut down! The perpetrators of the plot, a cabal of younger knights who had ties to the vanquished warlord Higgs, plotted to overthrow the government to restore knightly powers.\n\nThe downfall of the coup came when the close circle attempted to expand the plot to older knights. Appalled by this treachery and supporting the stripping of their own powers out of a sense of duty to Mewmanity, the older knights led an attack on the coup's headquarters and arrested all perpetrators, turning them into the Mewman government.\n\nSurprisingly, this fiasco has led to increased support for our reforms. The selfless acts of the elder Knighthood, along with their own advocacy for reform, has allowed our government to push for more controll over the knighthood."
+ mewni_shared_postuni_flavor.2.a:0 "Goodness!"
+ 
+ mewni_shared_postuni_flavor.3.t:0 "Modern Oligarchs"
+ mewni_shared_postuni_flavor.3.desc:0 "Following our decision to sell state assets to the highest bidders, certain individuals have consoldiated power through their monopolization of these assets.\n\nWhile not an immediate threat to state power, they certainly leverage their power to create a better business enviroment for themselves, which can undermine state authority. In addition, this fiasco has eroded public faith in the government."
+ mewni_shared_postuni_flavor.3.a:0 "This was completely unexpected!"
+ 
+ mewni_shared_postuni_flavor.2.t:0 "Knight's Coup Busted!"
+ mewni_shared_postuni_flavor.2.desc:0 "A coup plot against the government was recently discovered and shut down! The perpetrators of the plot, a cabal of younger knights who had ties to the vanquished warlord Higgs, plotted to overthrow the government to restore knightly powers.\n\nThe downfall of the coup came when the close circle attempted to expand the plot to older knights. Appalled by this treachery and supporting the stripping of their own powers out of a sense of duty to Mewmanity, the older knights led an attack on the coup's headquarters and arrested all perpetrators, turning them into the Mewman government.\n\nSurprisingly, this fiasco has led to increased support for our reforms. The selfless acts of the elder Knighthood, along with their own advocacy for reform, has allowed our government to push for more controll over the knighthood."
+ mewni_shared_postuni_flavor.2.a:0 "Goodness!"
+ 
+ mewni_shared_postuni_flavor.4.t:0 "Tale of Two Civilizations"
+ mewni_shared_postuni_flavor.4.desc:0 "The festivities celebrating Mewman restoration had a heavy air of anxiety snuffing the most jubilant of feelings. Mewmans knew that the destiny of Mewmanity had not yet been secured. For every ceremonial marcher adorning the streets, actual troops were being trained, excersized, and deployed. For every consumer good that a Mewman indulged in, the military procured guns, tanks, and more. For every child born in manufatured swaddle, many times more teenagers' lives were worried over by parents anticipating the coming conflict.\n\nIn the east, across the great plains and the former edge of the world (now marked by the Missisipi river,) stood the Colossus, the dragon, Goliath, the sword of Damocles: America. While a shell of it's former self, it still had decades of expirience in modern war, and a people motivated to reconquer their so-called rightful west.\n\nCan Mewmanity and Humanity be reconciled? Will a war leave one people standing who will inherit the world? Or will it be a war of total dimensional anniahlation?\n\nWho is to say? But one thing is for certain..."
+ mewni_shared_postuni_flavor.4.a:0 "Neither one will not go quietly into the night..."
+ mewni_shared_postuni_flavor.4.a_tt:0 "§CYou have reached the end of the Cleaved Demo!§!\n\nThank you for playing the mod. This mod has been worked in an on-again off-again fashion for a few years now. I am happy to see atleast a demo be released!\n\nThis was largely a one-man operation, with art... uh... "procured" online (credits on steam page)\nSpecial thanks to the Hoi4 modding den for the continuous code help and ITGuy042, a modding partner I worked with on a similar "cartoon" mod a few years back (Countdown to Weirdmaggedon.)"

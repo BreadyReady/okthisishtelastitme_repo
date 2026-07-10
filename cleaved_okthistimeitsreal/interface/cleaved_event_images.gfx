@@ -24,4 +24,14 @@ spriteTypes = {
 		name = "GFX_event_library"
 		texturefile = "gfx/event_pictures/MON/event_library.dds" 
 	}
+
+	spriteType = {
+		name = "GFX_event_aloof_moon"
+		texturefile = "gfx/event_pictures/MON/event_aloof_moon.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_event_lavabo_reverent"
+		texturefile = "gfx/event_pictures/shared/event_lavabo_reverent.dds" 
+	}
 }

@@ -2,7 +2,7 @@ shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_continue_monster_rights_reforms
 	icon = GFX_goal_generic_forceful_treaty
 	x = 2
-	y = 8
+	y = 6
 	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_modernize_solarian_laws }
 	cost = 10
 	search_filters = { FOCUS_FILTER_POLITICAL }
@@ -407,7 +407,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_monster_underclass
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_ugly_monster
 	x = -1
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_monster_ghetto
@@ -486,8 +486,8 @@ shared_focus = {
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_modernizing_army
 	icon = GFX_focus_generic_manpower
-	x = 16
-	y = 13
+	x = 28
+	y = 6
 	cost = 10
 	search_filters = {  }
 	
@@ -863,12 +863,13 @@ shared_focus = {
 	cancel_if_invalid = yes
 	
 	completion_reward = {
+		country_event = mewni_shared_postuni_events.3
 	}
 }
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_depoliticize_armed_forces
-	icon = GFX_focus_generic_total_war
+	icon = GFX_goal_generic_more_territorial_claims
 	x = 0
 	y = 3
 	relative_position_id = MEWNI_SHARED_POSTUNI_knighthood_future
@@ -881,9 +882,23 @@ shared_focus = {
 	}
 	
 	available = {
+		has_army_manpower = {
+			size > 1000000
+		}
 	}
 	
-	cancel_if_invalid = yes
+	cancel_if_invalid = no
+	
+	select_effect = {
+		hidden_effect = {
+			country_event = {
+				id = mewni_shared_postuni_flavor.2
+				days = 10
+				random_hours = 12
+				random_days = 10
+			}
+		}
+	}
 	
 	completion_reward = {
 		remove_ideas = cleaved_politicized_warrior_class_natl_sprt
@@ -892,7 +907,7 @@ shared_focus = {
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_open_up_armed_forces
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_AFG_adopt_nufus
 	x = 0
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_depoliticize_armed_forces
@@ -911,12 +926,18 @@ shared_focus = {
 	
 	completion_reward = {
 		add_ideas = volunteer_only
+		if = {
+			limit = {
+				has_idea = cleaved_phase_out_knights_natl_sprt
+			}
+			remove_ideas = cleaved_phase_out_knights_natl_sprt
+		}
 	}
 }
 
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_dynamic_recruitment
-	icon = GFX_focus_generic_total_war
+	icon = GFX_focus_knight_writing
 	x = 0
 	y = 1
 	relative_position_id = MEWNI_SHARED_POSTUNI_open_up_armed_forces
@@ -934,6 +955,7 @@ shared_focus = {
 	cancel_if_invalid = yes
 	
 	completion_reward = {
+		add_ideas = cleaved_dynamic_recruitment_natl_sprt
 	}
 }
 
@@ -990,7 +1012,20 @@ shared_focus = {
 	cancel_if_invalid = yes
 	
 	completion_reward = {
-		news_event = mewni_warlords_news_event.30
+		if = {
+			limit = {
+				tag = MON
+			}
+			news_event = mewni_warlords_news_event.30
+			country_event = {
+				id = MON_event.6
+				days = 3
+			}
+			country_event = {
+				id = mewni_shared_postuni_flavor.4
+				days = 6
+			}
+		}
 	}
 }
 
@@ -1169,7 +1204,7 @@ shared_focus = {
 	y = 2
 	relative_position_id = MEWNI_SHARED_POSTUNI_crownland_integrity
 	prerequisite = { focus = MEWNI_SHARED_POSTUNI_crownland_integrity }
-	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_side_with_johansens }
+	mutually_exclusive = { focus = MEWNI_SHARED_POSTUNI_side_with_johansens focus = MEWNI_SHARED_POSTUNI_side_with_spiderbites }
 	cost = 5
 	search_filters = {  }
 	
@@ -1343,6 +1378,20 @@ shared_focus = {
 	}
 	
 	cancel_if_invalid = yes
+	
+	bypass = {
+		AND = {
+			NTN = {
+				exists = no
+			}
+			NMX = {
+				exists = no
+			}
+			JUA = {
+				exists = no
+			}
+		}
+	}
 		
 	completion_reward = {
 		create_wargoal = {
@@ -1396,8 +1445,8 @@ shared_focus = {
 shared_focus = {
 	id = MEWNI_SHARED_POSTUNI_crownland_economy
 	icon = GFX_focus_GRE_a_land_of_mountains
-	x = 5
-	y = 13
+	x = 18
+	y = 6
 	cost = 10
 	search_filters = { FOCUS_FILTER_INDUSTRY }
 	
@@ -1467,6 +1516,33 @@ shared_focus = {
 			idea = shared_mewman_crownland_hyperindustrializtion
 			days = 730
 		}
+	}
+}
+
+shared_focus = {
+	id = MEWNI_SHARED_POSTUNI_shock_therapy
+	icon = GFX_focus_usa_reestablish_the_gold_standard
+	x = 2
+	y = 1
+	relative_position_id = MEWNI_SHARED_POSTUNI_crownland_economy
+	prerequisite = { focus = MEWNI_SHARED_POSTUNI_crownland_economy }
+	cost = 10
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	available = {
+		NOT = {
+			has_completed_focus = MON_crown_stewardship
+		}
+	}
+	
+	cancel_if_invalid = yes
+	
+	completion_reward = {
+		country_event = mewni_shared_postuni_events.4
 	}
 }
 
@@ -1697,7 +1773,7 @@ shared_focus = {
 	}
 	
 	available = {
-		num_of_factories > 225
+		num_of_factories > 300
 	}
 	
 	cancel_if_invalid = yes
@@ -1724,7 +1800,7 @@ shared_focus = {
 	}
 	
 	available = {
-		num_of_factories > 225
+		num_of_factories > 300
 	}
 	
 	cancel_if_invalid = yes
@@ -1750,7 +1826,7 @@ shared_focus = {
 	}
 	
 	available = {
-		num_of_factories > 225
+		num_of_factories > 300
 	}
 	
 	cancel_if_invalid = yes
@@ -1778,7 +1854,7 @@ shared_focus = {
 	}
 	
 	available = {
-		num_of_factories > 225
+		num_of_factories > 350
 	}
 	
 	cancel_if_invalid = yes

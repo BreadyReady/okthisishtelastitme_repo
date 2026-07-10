@@ -34,6 +34,22 @@
     
     cleaved_politicized_warrior_class_natl_sprt:0 "Politicized Warrior Class"
     
+    cleaved_knightly_military_culture_natl_sprt:0 "Knightly Military Culture"
+    
+    cleaved_retired_knights_natl_sprt:0 "Retired Knight Class"
+    
+    cleaved_phase_out_knights_natl_sprt:0 "Phasing out Knights"
+    
+    cleaved_dynamic_recruitment_natl_sprt:0 "Flexible Recruitment Policy"
+    
+    cleaved_monopolistic_privatization_natl_sprt:0 "Monopolistic Privatization"
+    
+    cleaved_free_market_privatization_natl_sprt:0 "Free Market Privatization"
+    
+    cleaved_modern_oligarchs_natl_sprt:0 "Modern Oligarchs"
+    
+    cleaved_crown_stewardship_natl_sprt:0 "Crown Stewardship"
+    
     cleaved_student_protests_natl_sprt:0 "Student Protests"
     cleaved_student_protests_natl_sprt_desc:0 "\n\n\n£student_protests_popup_desc_texticon \n\n\n\nHuman students throughout the Kingdom, mostly college and highschoolers, are taking to the streets and campuses to demonstrate their dissatisfaction with the regime. They have stopped going attending school, opting instead to disrupt classes and lectures. Some have even gone so far as to vandalize and damage school buildings."
     
@@ -45,3 +61,5 @@
      MON_continuous_festivals:0 "Corn and Circuses"
      
      MON_economic_high_commission:0 "Economic High Commission"
+     
+     

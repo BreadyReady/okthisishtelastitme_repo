@@ -85,3 +85,59 @@ spriteTypes = {
 	}
 
 }
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_ugly_monster"
+		texturefile = "gfx/interface/goals/shared/focus_ugly_monster.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_sad_moon"
+		texturefile = "gfx/interface/goals/shared/focus_sad_moon.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_shocked_marco"
+		texturefile = "gfx/interface/goals/shared/focus_shocked_marco.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_knight_writing"
+		texturefile = "gfx/interface/goals/shared/focus_knight_writing.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_camera"
+		texturefile = "gfx/interface/goals/shared/focus_camera.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_book"
+		texturefile = "gfx/interface/goals/shared/focus_book.dds"
+	}
+
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_focus_password_screen"
+		texturefile = "gfx/interface/goals/shared/focus_password_screen.dds"
+	}
+
+}

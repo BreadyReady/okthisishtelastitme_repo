@@ -4,6 +4,7 @@ tags={
 }
 replace_path="common/bookmarks"
 replace_path="events"
+replace_path="localisation"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="history/units"

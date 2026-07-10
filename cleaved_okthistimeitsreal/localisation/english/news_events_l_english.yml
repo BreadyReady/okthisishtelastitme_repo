@@ -153,10 +153,14 @@
  news_restorationism_realized_desc_loc_key:0 "Ever since the Cleaving, Mewmanity has struggled to reunite and return to their monolithic state as had been the case for centuries. Today, that has come to pass: [FROM.GetLeader] has united Mewmanity underneath [FROM.GetNameDef].\n\n"
  
  mewni_warlords_news_event.30.t:0 "[news_restorationism_realized_title_loc_key]Under an Iron Fist"
- mewni_warlords_news_event.30.desc:0 "[news_restorationism_realized_desc_loc]Moon Desc"
+ mewni_warlords_news_event.30.desc:0 "[news_restorationism_realized_desc_loc]Far from the Mewman realm of old, the Mewman State operates as a modern dictatorship. Personal freedoms are unheard of, and opposition to Moon's mandate is nonexistent. Presenting herself as the restorer of order after years of chaos and humiliation, Moon has vowed to rebuild Mewni into a strong, disciplined, and indivisible nation. It seems Mewman unity has come at the cost of freedom. For better or worse, the future of Mewni now belongs to Moon Butterfly."
  mewni_warlords_news_event.30.a:0 "Modernity, Authority, Mewmanity"
  mewni_warlords_news_event.30.b:0 "Is this what Mewmanity really wants?"
  
  mewni_warlords_news_event.31.t:0 "What if the Cleaving never happened?"
  mewni_warlords_news_event.31.desc:0 "American author and businessman J.D. Vance has published a new book, "American Mourning". In it, he explores a fictional world wherin the Cleaving never happened and America remained united under human rule.\n\nAs an anti-Trump conservative, Vance theorizes that Donald Trump would've been impeached and removed from office by late 2019 for affairs and corruption scandals. Mike Pence would step up as president, but would be beat in the Republican presidential primaries by Jeb Bush. Bush would go on to defeat the Democrat presidential candidate Bernie Sanders, leading America to what Vance called an "Orderly Golden Age.""
  mewni_warlords_news_event.31.a:0 "Fantasies of a dead world..."
+ 
+ mewni_warlords_news_event.32.t:0 "Knight's Coup against [FROM.getleader] Thwarted!"
+ mewni_warlords_news_event.32.desc:0 "Reports from [FROM.getname] confirm that a conspiracy to overthrow the government has been uncovered and decisively crushed before it could be put into action.\n\nThe plot was organized by a group of younger knights seeking to restore the traditional political privileges of the knighthood, which have been steadily curtailed by recent government reforms. The scheme unraveled due to knighthood infighting, with senior knights raiding the conspirators' headquarters and personally delivering the arrested plotters to government authorities.\n\nAdmiration for the elder knights' loyalty, combined with their open support for continued reform, has led to increased support of knighthood reform."
+ mewni_warlords_news_event.32.a:0 "Higgs' Last Gasp?"

@@ -11,6 +11,13 @@
  MON_event.5.a_tt:0 "What heartless minister could ever think of attacking our own subjects? We shouldn't have these kinds of people in government...! Best arrest all involved in the proposal, just to be safe."
  MON_event.5.b_tt:0 "What part of 'by any means necessary' do these ministers not understand? Perhaps they're trying to undermine the program...! Best arrest all involved in the proposal, just to be safe."
  
+ MON_event.6.t:0 "Royal Image"
+ MON_event.6.desc:0 "With the unification of Mewmanity, the common image of Moon as a rugged warqueen must be reevaluated. While fitting for a warlord era, perhaps the future needs a more orderly image."
+ MON_event.6.a:0 "Get new portrait."
+ MON_event.6.a_tt:0 "A new portrait, for a new era."
+ MON_event.6.b:0 "Keep old portrait"
+ MON_event.6.b_tt:0 "The image of a queen at war must not be forgotten."
+ 
  MON_notification_event.1.t:0 "Moon Cracks Down on San Havensisco"
  MON_notification_event.1.desc:0 "[MON.getleader] has moved military, police, and bureaucratic elements loyal to her into key positions in San Havensisco. This, in tandem with Moon's recent messages to Star telling her that she will need stricter obidience from the duchy, likely means that Moon is making a power play for further control over the duchy."
  MON_notification_event.1.a:0 "Rats!"

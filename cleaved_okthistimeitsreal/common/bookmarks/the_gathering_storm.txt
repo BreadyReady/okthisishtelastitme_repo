@@ -44,7 +44,7 @@ bookmarks = {
 		name = "SEPTARSIS_NAME"
 		desc = "SEPTARSIS_DESC"
 		date = 2018.1.1.12
-		picture = "GFX_select_date_1936"
+		picture = "GFX_select_date_1939"
 		default_country = "---"
 		default = yes
 		
@@ -65,7 +65,7 @@ bookmarks = {
 		name = "TEXAS_NAME"
 		desc = "TEXAS_DESC"
 		date = 2018.1.1.12
-		picture = "GFX_select_date_1936"
+		picture = "GFX_select_date_1939"
 		default_country = "---"
 		default = yes
 		

@@ -25,14 +25,14 @@ focus_tree = {
 	
 	default = no # This is not a default generic tree
 	
-	continuous_focus_position = { x = 4000	y = 0 } 
+	continuous_focus_position = { x = 6000	y = 0 } 
 	# Change as needed as more focus are added - orginally {x=50 y=1000}
 
 	focus = {
 		id = MON_empowering_moon
 		icon = GFX_focus_moon_eyes_glow
-		x = 31
-		y = 5
+		x = 45
+		y = 0
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -208,8 +208,8 @@ focus_tree = {
 
 	focus = {
 		id = MON_centralizing_the_state
-		icon = GFX
-		x = -2
+		icon = GFX_focus_mewman_castle
+		x = 0
 		y = 3
 		relative_position_id = MON_propaganda_efforts
 		#prerequisite = { focus = MON_propaganda_efforts }
@@ -232,7 +232,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_big_business_is_government_business
-		icon = GFX
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		x = -5
 		y = 1
 		relative_position_id = MON_centralizing_the_state
@@ -276,7 +276,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_obliteration_of_ruralism
-		icon = GFX
+		icon = GFX_focus_generic_total_war
 		x = -1
 		y = 1
 		relative_position_id = MON_corn_and_circuses
@@ -298,7 +298,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_ban_independent_organization
-		icon = GFX
+		icon = GFX_focus_tom_fiery_fist
 		x = -1
 		y = 1
 		relative_position_id = MON_centralizing_the_state
@@ -318,7 +318,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_queens_caretakers
-		icon = GFX
+		icon = GFX_focus_AFG_adopt_nufus
 		x = 1
 		y = 1
 		relative_position_id = MON_centralizing_the_state
@@ -339,7 +339,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_ultrasurveillance
-		icon = GFX
+		icon = GFX_focus_camera
 		x = 1
 		y = 1
 		relative_position_id = MON_ban_independent_organization
@@ -363,7 +363,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_state_education
-		icon = GFX
+		icon = GFX_focus_book
 		x = 3
 		y = 1
 		relative_position_id = MON_centralizing_the_state
@@ -389,7 +389,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_the_butterfly_web
-		icon = GFX
+		icon = GFX_focus_password_screen
 		x = 5
 		y = 1
 		relative_position_id = MON_centralizing_the_state
@@ -409,7 +409,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_all_media_for_the_queen
-		icon = GFX
+		icon = GFX_focus_phone
 		x = -1
 		y = 1
 		relative_position_id = MON_the_butterfly_web
@@ -430,7 +430,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_butterfly_points_system
-		icon = GFX
+		icon = GFX_focus_knight_writing
 		x = -2
 		y = 1
 		relative_position_id = MON_all_media_for_the_queen
@@ -451,7 +451,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_fear_and_love
-		icon = GFX
+		icon = GFX_focus_moon_poster
 		x = -2
 		y = 1
 		relative_position_id = MON_ultrasurveillance
@@ -472,7 +472,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_everything_for_the_queen
-		icon = GFX
+		icon = GFX_focus_moon_eyes_glow
 		x = 3
 		y = 1
 		relative_position_id = MON_fear_and_love
@@ -500,7 +500,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_everything_for_the_state
-		icon = GFX
+		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
 		y = 1
 		relative_position_id = MON_fear_and_love

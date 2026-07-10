@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = oligarchism
+			ideology = cle_mewman_corporatism
 			desc = MON_moon_butterfly_desc
 			traits= { }
 			expire="2040.1.1.1"
