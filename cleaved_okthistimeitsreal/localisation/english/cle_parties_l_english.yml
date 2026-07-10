@@ -1,0 +1,35 @@
+﻿l_english:
+
+ neutrality:0 "Monarchy"
+ neutrality_desc:0 "Monarchy"
+ neutrality_noun:0 "Monarchy"
+ sparkle_monarchy:0 "Sparkle Monarchy"
+ sparkle_monarchy_desc:0 "Sparkle Monarchy is the unique way of ruling of Star Butterfly. Narwhal blast!"
+ 
+ fascism:0 "Authoritarianism"
+ fascism_desc:0 "Authoritarian Regime"
+ fascism_noun:0 "Authoritarianism"
+ gen_nazism:0 "Authoritarianism is a form of government where strict obedience to a central authority is enforced at the expense of personal freedom."
+ solarianism:0 "Solarianism"
+ solarianism_desc:0 "Solarianism is the political philosophy of Queen Solaria Butterfly, the 28th Queen of Mewni who reigned 300 years ago. This involves extreme militarism, Mewman expansionism, and extreme anti-monster policies."
+ cle_knightly_supremacy:0 "Kngihtly Supremacy"
+ cle_knightly_supremacy_desc:0 "Knightly Supremacy is a form of despotism that enshrines the traditions of, and empowers, the traditional warrior-class knighthood."
+ cle_mewman_corpratism:0 "Mewman Absolutism"
+ cle_mewman_corporatism_desc:0 "Mewman Absolutism is a political philosophy that seeks to unite Mewni under the absolute authority of the Crown while organizing society through a system of state/crown-supervised institutions. Under Mewman Absolutism, every subject is duty bound to the greater nation through the Queen.\n\nAt its core stands the monarch, regarded as the living embodiment of the nation and the ultimate source of political legitimacy.\n\nIt can be described as a synthesis between Absolute Monarchy and Fascist Corporatism"
+ #modifiers:
+ fascism_drift:0 "Daily $fascism$ Support"
+ fascism_drift_tt: " $fascism_drift$: $RIGHT|+=2$"
+ neutrality_drift:0 "Daily Support for $neutrality$"
+ neutrality_drift_tt: " $neutrality_drift$: $RIGHT|+=2$"
+ fascism_acceptance:0 "Acceptance of $fascism$ Diplomacy"
+ neutrality_acceptance:0 "Acceptance of $neutrality$ Diplomacy"
+ 
+ #country specific
+ MON_communism_party: "Populist Unions"
+ MON_communism_party_long:0 "Union for the Advancement of Peasant Interests"
+ MON_neutrality_party: "Aristocrats"
+ MON_neutrality_party_long: "Conservative Aristocrats"
+ MON_democratic_party: "Democrat Remnants"
+ MON_democratic_party_long: "Democratic Party of California and Mewni"
+ MON_fascism_party: "Loyalists"
+ MON_fascism_party_long: "Moon's Ideological Loyalists"
