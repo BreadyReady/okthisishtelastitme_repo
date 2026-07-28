@@ -41,11 +41,31 @@ spriteTypes = {
 		name = "GFX_idea_burning_books"
 		texturefile = "gfx/interface/ideas/cleaved_natl_spirits/idea_burning_books.dds" 
 	}
+
+	spriteType = {
+		name = "GFX_idea_monster_not_sure"
+		texturefile = "gfx/interface/ideas/cleaved_natl_spirits/idea_monster_not_sure.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_idea_monster_happy"
+		texturefile = "gfx/interface/ideas/cleaved_natl_spirits/idea_monster_happy.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_idea_monster_angry"
+		texturefile = "gfx/interface/ideas/cleaved_natl_spirits/idea_monster_angry.dds" 
+	}
 	
 	#advisors
 
 	spriteType = {
 		name = "GFX_idea_mon_star_butterfly_royal_advisor"
-		texturefile = "gfx/interface/ideas/laws/idea_mon_star_butterfly_royal_advisor.dds" 
+		texturefile = "gfx/interface/ideas/idea_mon_star_butterfly_royal_advisor.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_idea_mon_star_butterfly_royal_adult_advisor"
+		texturefile = "gfx/interface/ideas/idea_mon_star_butterfly_royal_adult_advisor.dds" 
 	}
 }

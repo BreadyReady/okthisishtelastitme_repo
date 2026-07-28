@@ -59,6 +59,11 @@
  mewni_shared_postuni_events.4.c:0 "Why reduce our own control? Hold onto our assets!"
  mewni_shared_postuni_events.4.c_tt:0 "This is an option unique to [MON.getname]"
  
+ mewni_shared_postuni_flavor.1.t:0 "Student Protests"
+ mewni_shared_postuni_flavor.1.desc:0 "In response to our efforts to harness the Californian educational establishment, a wave of unrest has swept through the said educational institutions. Human students have deserted their studies in favor of political demonstrations. Universities, with the efforts of student bodies and even some human professors, have become centers of political organizing, while classrooms stand near empty. Several public buildings have already been defaced or damaged.\n\nThese protests are advocating for the restoration of American style freedoms, democratic government, are against newly introduced Mewman elements in the curriculum, and some are advocating for student loan forgiveness and other traditional american progressive policies.\n\nThe disturbances have become too widespread to dismiss as isolated incidents, and we must face the fact that this is a greater prolonged trend."
+ mewni_shared_postuni_flavor.1.a:0 "They could care less as long as someone'll bleed..."
+ mewni_shared_postuni_flavor.1.a_tt:0 "§YThis is part of the Californian Resistance story arc, which is not complete as of this demo.§!"
+ 
  mewni_shared_postuni_flavor.2.t:0 "Knight's Coup Busted!"
  mewni_shared_postuni_flavor.2.desc:0 "A coup plot against the government was recently discovered and shut down! The perpetrators of the plot, a cabal of younger knights who had ties to the vanquished warlord Higgs, plotted to overthrow the government to restore knightly powers.\n\nThe downfall of the coup came when the close circle attempted to expand the plot to older knights. Appalled by this treachery and supporting the stripping of their own powers out of a sense of duty to Mewmanity, the older knights led an attack on the coup's headquarters and arrested all perpetrators, turning them into the Mewman government.\n\nSurprisingly, this fiasco has led to increased support for our reforms. The selfless acts of the elder Knighthood, along with their own advocacy for reform, has allowed our government to push for more controll over the knighthood."
  mewni_shared_postuni_flavor.2.a:0 "Goodness!"

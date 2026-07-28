@@ -41,4 +41,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/texticons/monster_rights_good_popup_desc_texticon.dds"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_mewman_absolutism_desc_texticon"
+		texturefile = "gfx/interface/texticons/mewman_absolutism_desc_texticon.dds"
+		legacy_lazy_load = no
+	}
 }

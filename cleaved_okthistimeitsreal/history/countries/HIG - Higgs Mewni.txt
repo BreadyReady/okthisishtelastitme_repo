@@ -16,5 +16,6 @@ set_popularities = {
 load_oob = HIG
 
 add_ideas = shared_mewman_matriarchy_idea
+add_ideas = shared_mewman_monster_rights_idea
 
 recruit_character = HIG_higgs

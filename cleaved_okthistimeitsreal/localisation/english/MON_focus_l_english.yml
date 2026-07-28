@@ -15,6 +15,8 @@
  MON_stir_anti_monster_sentiments_desc:0 ""
  
  MON_iron_fist_over_san_havensisco:0 "Iron Fist Over San Havensisco"
+ MON_iron_fist_over_san_havensisco_desc:0 ""
+ MON_iron_fist_over_san_havensisco_tt:0 "[STA.GetFlag]§Y[STA.getname]§! will be §Runable§! to complete the focus §Y$STA_helping_out_moon$§!, which would have lead to more national focuses that grant [country.GetFlag]§Y[country.getname]§! bonuses and would have lead to [STA.GetFlag]§Y[STA.getname]§! getting annexed for free.\n\nConsider [STA.GetFlag]§Y[STA.getname]§!'s loyalty before commiting to this focus. [STA.GetFlag]§Y[STA.getname]§! may have already prevented themselves from granting you bonuses depending on other national focuses they take."
  
  MON_seize_havensisco_tech:0 "Seize San Havensisco Technology"
 
@@ -29,6 +31,8 @@
  MON_seize_greater_resources:0 "Seize Further Resources"
  
  MON_guiding_hand_over_san_havensisco:0 "Guiding Hand over San Havensisco"
+ MON_guiding_hand_over_san_havensisco_desc:0 ""
+ MON_guiding_hand_over_san_havensisco_tt:0 "[STA.GetFlag]§Y[STA.getname]§! will be §Gable§! to complete the focus §Y$STA_helping_out_moon$§!, which leads to more national focuses that grant [country.GetFlag]§Y[country.getname]§! bonuses and leads to [STA.GetFlag]§Y[STA.getname]§! getting annexed for free.\n\nConsider [STA.GetFlag]§Y[STA.getname]§!'s loyalty before commiting to this focus. [STA.GetFlag]§Y[STA.getname]§! may prevent themselves from granting you bonuses depending on other national focuses they take."
  
  MON_stars_education_continues:0 "Star's Education Continues"
  

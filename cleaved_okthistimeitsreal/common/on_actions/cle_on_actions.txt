@@ -335,6 +335,100 @@ on_actions = {
 			}
 		}
 	}
+	on_capitulation = {
+		effect = {
+			IF = {
+				limit = {
+					ROOT = {
+						tag = MON
+					}
+					any_country = {
+						not = {
+							has_country_flag = uniter_of_mewman_crownlands
+						}
+					}
+				}
+				FROM = {
+					news_event = mewni_capitulation_news_event.1
+				}
+			}
+			IF = {
+				limit = {
+					ROOT = {
+						tag = STA
+					}
+					any_country = {
+						not = {
+							has_country_flag = uniter_of_mewman_crownlands
+						}
+					}
+				}
+				FROM = {
+					news_event = mewni_capitulation_news_event.2
+				}
+			}
+			IF = {
+				limit = {
+					ROOT = {
+						tag = MAR
+					}
+					any_country = {
+						not = {
+							has_country_flag = uniter_of_mewman_crownlands
+						}
+					}
+				}
+				FROM = {
+					news_event = mewni_capitulation_news_event.3
+				}
+			}
+			IF = {
+				limit = {
+					ROOT = {
+						tag = HIG
+					}
+					any_country = {
+						not = {
+							has_country_flag = uniter_of_mewman_crownlands
+						}
+					}
+				}
+				FROM = {
+					news_event = mewni_capitulation_news_event.4
+				}
+			}
+			IF = {
+				limit = {
+					ROOT = {
+						tag = JAN
+					}
+					any_country = {
+						not = {
+							has_country_flag = uniter_of_mewman_crownlands
+						}
+					}
+				}
+				FROM = {
+					news_event = mewni_capitulation_news_event.5
+				}
+			}
+			IF = {
+				limit = {
+					ROOT = {
+						tag = MEW
+					}
+					any_country = {
+						not = {
+							has_country_flag = uniter_of_mewman_crownlands
+						}
+					}
+				}
+				FROM = {
+					news_event = mewni_capitulation_news_event.6
+				}
+			}
+		}
+	}
 	on_monthly = {
 		effect = {
 			IF = {

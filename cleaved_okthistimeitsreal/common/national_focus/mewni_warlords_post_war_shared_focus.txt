@@ -1699,6 +1699,9 @@ shared_focus = {
 			uses = 3
 			category = electronics
 		}
+		hidden_effect = {
+			country_event = mewni_shared_postuni_flavor.1
+		}
 	}
 }
 

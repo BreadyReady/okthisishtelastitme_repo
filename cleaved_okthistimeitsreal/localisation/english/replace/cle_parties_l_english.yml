@@ -15,7 +15,7 @@
  cle_knightly_supremacy:0 "Kngihtly Supremacy"
  cle_knightly_supremacy_desc:0 "Knightly Supremacy is a form of despotism that enshrines the traditions of, and empowers, the traditional warrior-class knighthood."
  cle_mewman_corpratism:0 "Mewman Absolutism"
- cle_mewman_corporatism_desc:0 "Mewman Absolutism is a political philosophy that seeks to unite Mewni under the absolute authority of the Crown while organizing society through a system of state/crown-supervised institutions. Under Mewman Absolutism, every subject is duty bound to the greater nation through the Queen.\n\nAt its core stands the monarch, regarded as the living embodiment of the nation and the ultimate source of political legitimacy.\n\nIt can be described as a synthesis between Absolute Monarchy and Fascist Corporatism"
+ cle_mewman_corporatism_desc:0 "\n\n\n£mewman_absolutism_desc_texticon \n\n\n\nMewman Absolutism is a political philosophy that seeks to unite Mewni under the absolute authority of the Crown while organizing society through a system of state/crown-supervised institutions. Under Mewman Absolutism, every subject is duty bound to the greater nation through the Queen.\n\nAt its core stands the monarch, regarded as the living embodiment of the nation and the ultimate source of political legitimacy.\n\nIt can be described as a synthesis between Absolute Monarchy and Fascist Corporatism"
  #modifiers:
  fascism_drift:0 "Daily $fascism$ Support"
  fascism_drift_tt: " $fascism_drift$: $RIGHT|+=2$"
@@ -33,3 +33,4 @@
  MON_democratic_party_long: "Democratic Party of California and Mewni"
  MON_fascism_party: "Loyalists"
  MON_fascism_party_long: "Moon's Ideological Loyalists"
+ 

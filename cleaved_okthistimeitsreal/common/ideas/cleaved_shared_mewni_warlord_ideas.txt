@@ -62,7 +62,7 @@ ideas = {
 		}
 		shared_mewman_loans_fighter_planes_idea = {
 			name = shared_mewman_loans_fighter_planes_idea
-			picture = generic_war_preparation
+			picture = generic_air_payment
 
 			allowed = {
 				always = no
@@ -78,7 +78,7 @@ ideas = {
 		}
 		shared_mewman_loans_cas_idea = {
 			name = shared_mewman_loans_cas_idea
-			picture = generic_war_preparation
+			picture = generic_air_payment
 
 			allowed = {
 				always = no
@@ -94,8 +94,8 @@ ideas = {
 		}
 		
 		shared_mewman_borrow_large_loans_idea = {
-			name = shared_mewman_loans_equipment_idea
-			picture = generic_war_preparation
+			name = shared_mewman_borrow_large_loans_idea
+			picture = NOR_printing_money
 
 			allowed = {
 				always = no
@@ -114,7 +114,7 @@ ideas = {
 		
 		shared_mewman_borrow_large_loans_payments_idea = {
 			name = shared_mewman_borrow_large_loans_payments_idea
-			picture = generic_war_preparation
+			picture = NOR_printing_money
 
 			allowed = {
 				always = no
@@ -131,9 +131,9 @@ ideas = {
 			}
 		}
 		
-		shared_mewman_borrow_large_loans_idea_2 = {
-			name = shared_mewman_loans_equipment_idea
-			picture = generic_war_preparation
+		shared_mewman_borrow_large_loans_idea_2 = { #idk where this comes into play. I assume the above one comes after you take the large loans and you unite crownlands. idk why there are two
+			name = shared_mewman_borrow_large_loans_idea_2
+			picture = NOR_printing_money
 
 			allowed = {
 				always = no
@@ -211,7 +211,7 @@ ideas = {
 		
 		shared_mewman_monster_rights_idea = {
 			name = shared_mewman_monster_rights_idea
-			picture = generic_flexible_foreign_policy2
+			picture = monster_not_sure
 
 			allowed = {
 			}
@@ -230,7 +230,7 @@ ideas = {
 		
 		shared_mewman_monster_rights_bad_reform_idea = {
 			name = shared_mewman_monster_rights_bad_reform_idea
-			picture = generic_flexible_foreign_policy2
+			picture = monster_not_sure
 
 			allowed = {
 			}
@@ -249,7 +249,7 @@ ideas = {
 		
 		shared_mewman_monster_rights_bad_reform_idea_2 = {
 			name = shared_mewman_monster_rights_bad_reform_idea_2
-			picture = generic_flexible_foreign_policy2
+			picture = monster_angry
 
 			allowed = {
 			}
@@ -266,7 +266,7 @@ ideas = {
 		
 		shared_mewman_monster_rights_bad_reform_idea_3 = {
 			name = shared_mewman_monster_rights_bad_reform_idea_3
-			picture = generic_flexible_foreign_policy2
+			picture = monster_not_sure
 
 			allowed = {
 			}
@@ -283,7 +283,7 @@ ideas = {
 		
 		shared_mewman_monster_rights_good_reform_idea = {
 			name = shared_mewman_monster_rights_good_reform_idea
-			picture = generic_flexible_foreign_policy2
+			picture = monster_not_sure
 
 			allowed = {
 			}
@@ -302,7 +302,7 @@ ideas = {
 		
 		shared_mewman_monster_rights_good_reform_idea_2 = {
 			name = shared_mewman_monster_rights_good_reform_idea_2
-			picture = generic_flexible_foreign_policy2
+			picture = monster_not_sure
 
 			allowed = {
 			}
@@ -320,7 +320,7 @@ ideas = {
 		
 		shared_mewman_monster_rights_good_reform_idea_3 = {
 			name = shared_mewman_monster_rights_good_reform_idea_3
-			picture = generic_flexible_foreign_policy2
+			picture = monster_not_sure
 
 			allowed = {
 			}
@@ -337,7 +337,7 @@ ideas = {
 		
 		shared_mewman_monster_rights_good_reform_idea_4 = {
 			name = shared_mewman_monster_rights_good_reform_idea_4
-			picture = generic_flexible_foreign_policy2
+			picture = monster_happy
 
 			allowed = {
 			}
@@ -557,8 +557,9 @@ ideas = {
 			
 			modifier = {
 				political_power_factor = -0.05
-				 stability_factor = -0.1
+				stability_factor = -0.1
 				research_speed_factor = -0.1
+				democratic_drift = 0.02
 			}
 		}
 		

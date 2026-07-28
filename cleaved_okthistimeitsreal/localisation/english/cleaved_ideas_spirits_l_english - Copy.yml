@@ -2,6 +2,42 @@
     shared_mewman_matriarchy_idea:0 "Mewman Matriarchy"
     shared_mewman_matriarchy_idea_desc:0 "\n\n\n£mewman_matriarchy_popup_desc_texticon \n\n\n\nThe royal lines of succession have historically prioritized women, with there only being one recorded Mewman king (Jushtin). Reflecting political power dynamics, Women have taken a more prominent role in Mewman society in all levels."
     
+    shared_mewman_loans_mercenary_idea:0 "Loan Payments - Mercenary Contracts"
+    shared_mewman_loans_mercenary_idea_desc:0 ""
+    
+    shared_mewman_loans_equipment_idea:0 "Loan Payments - Equipment"
+    shared_mewman_loans_equipment_idea_desc:0 ""
+    
+    shared_mewman_loans_fighter_planes_idea:0 "Loan Payments - Fighter Planes"
+    shared_mewman_loans_fighter_planes_idea_desc:0 ""
+    
+    shared_mewman_loans_cas_idea:0 "Loan Payments - CAS Planes"
+    shared_mewman_loans_cas_idea_desc:0 ""
+    
+    shared_mewman_borrow_large_loans_idea:0 "Emergency Loans"
+    shared_mewman_borrow_large_loans_idea_desc:0 ""
+    
+    shared_mewman_borrow_large_loans_payments_idea:0 "Loan Payments - Emergency Loans"
+    shared_mewman_borrow_large_loans_payments_idea_desc:0 ""
+    
+    shared_mewman_borrow_large_loans_idea_2:0 "Loan Payments - Emergency Loans"
+    shared_mewman_borrow_large_loans_idea_2_desc:0 ""
+    
+    shared_mewman_untrained_ranks_idea:0 "Untrained Ranks"
+    shared_mewman_untrained_ranks_idea_desc:0 ""
+    
+    shared_mewman_salvage_program_idea:0 "Salvage Program"
+    shared_mewman_salvage_program_idea_desc:0 ""
+    
+    shared_mewman_supply_line_exp_idea:0 "Supply Line Experience"
+    shared_mewman_supply_line_exp_idea_desc:0 ""
+    
+    shared_mewman_crisis_military_funding:0 "Streamlined Training Requirements"
+    shared_mewman_crisis_military_funding_desc:0 ""
+    
+    shared_mewman_crisis_citizen_readiness_idea:0 "Citizen Readiness"
+    shared_mewman_crisis_citizen_readiness_idea_desc:0 ""
+    
     shared_mewman_monster_rights_idea:0 "Neglected Monster Rights"
     shared_mewman_monster_rights_idea_desc:0 "\n\n\n£monster_rights_popup_desc_texticon \n\n\n\nWhile there have been some attempts to reform Monster rights under Eclipsa, they were largely ineffective, controversial, and were de-facto rolled back because of the Mewman Crisis. Laws being enforced regarding monsters date back centuries, and they are largely tailored around opressing them and holding them back from developing as a group. Depsite this, there are well known loopholes that allow some monsters to propser."
     
@@ -25,6 +61,39 @@
     
     shared_mewman_monster_rights_bad_reform_idea_3:0 "Monster Underclass"
     shared_mewman_monster_rights_bad_reform_idea_2_desc:0 "The monsters of [ROOT.GetNameDef] are relegated to low-class jobs as economic meat. While Monsters atleast have a place in Mewman society, reformers did not hope for such an outcome. Hopes of migration or earning freedom through veterancy makes Monsters work hard, as a loyal slave does."
+    
+    shared_mewman_crownland_eco_recovery:0 "Recovering Crownlands"
+    shared_mewman_crownland_eco_recovery_desc:0 ""
+    
+    shared_mewman_crownland_hyperindustrializtion:0 "Hyperindustrialization"
+    shared_mewman_crownland_hyperindustrializtion_desc:0 ""
+    
+    shared_mewman_crownland_energy:0 "Energy Efficiency Program"
+    shared_mewman_crownland_energy_desc:0 ""
+    
+    shared_mewman_crownland_prospecting:0 "Prospecting Program"
+    shared_mewman_crownland_prospecting_desc:0 ""
+    
+    shared_mewman_crownland_mewman_middle_class:0 "Mewman Economic Miracle - Stable Growth"
+    shared_mewman_crownland_mewman_middle_class_desc:0 ""
+    
+    shared_mewman_crownland_investor_trust:0 "Mewman Economic Miracle - Explosive Growth"
+    shared_mewman_crownland_investor_trust_desc:0 ""
+    
+    shared_mewman_crownland_infrastrucure:0 "Infrastructure Projects"
+    shared_mewman_crownland_infrastrucure_desc:0 ""
+    
+    shared_mewman_military_toughness:0 "Military Toughness"
+    shared_mewman_military_toughness_desc:0 ""
+    
+    shared_mewman_aerial_denial_doctrine:0 "Aerial Denial Doctrine"
+    shared_mewman_aerial_denial_doctrine_desc:0 ""
+    
+    shared_mewman_aerial_denial_doctrine:0 "Aerial Denial Doctrine"
+    shared_mewman_aerial_denial_doctrine_desc:0 ""
+    
+    cleaved_military_industrial_complex_natl_sprt:0 "Military Indsutrial Complex"
+    cleaved_military_industrial_complex_natl_sprt_desc:0 ""
     
     shared_mewman_californian_resistance:0 "Californian Resistance"
     shared_mewman_californian_resistance_desc:0 "Our human population is very significant, in fact they outnumber Mewmans. These liberals do not understand the merits of the Mewman Monarchy, and they are not afraid to let that be known."
@@ -51,10 +120,26 @@
     cleaved_crown_stewardship_natl_sprt:0 "Crown Stewardship"
     
     cleaved_student_protests_natl_sprt:0 "Student Protests"
-    cleaved_student_protests_natl_sprt_desc:0 "\n\n\n£student_protests_popup_desc_texticon \n\n\n\nHuman students throughout the Kingdom, mostly college and highschoolers, are taking to the streets and campuses to demonstrate their dissatisfaction with the regime. They have stopped going attending school, opting instead to disrupt classes and lectures. Some have even gone so far as to vandalize and damage school buildings."
+    cleaved_student_protests_natl_sprt_desc:0 "\n\n\n£student_protests_popup_desc_texticon \n\n\n\nHuman students throughout the Kingdom, mostly college and highschoolers, are taking to the streets and campuses to demonstrate their dissatisfaction with the regime. They have stopped attending school, opting instead to disrupt classes and lectures. Some have even gone so far as to vandalize and damage school and government buildings."
     
      MIN_destined_to_unite_texas:0 "Destined to Unite the Frontier"
      MIN_destined_to_unite_texas_desc:0 "Mina is destined to unite the Frontier/Texas. This is because shes just goated like that.\n\n(This buff is here because there is not much content if the other nations unite texas. it will be removed once she unites texas)"
+     
+     MON_empowering_moon:0 "Empowering Moon"
+     
+     MON_loyal_law_enforcement:0 "Loyal Law Enforcers"
+     
+     MON_anti_monster_sentiments:0 "Anti-Monster Sentiment"
+     
+     MON_havensisco_iron_fist:0 "Iron Fist Over San Havensisco"
+     
+     MON_havensisco_harsh_quotas:0 "Harsh Subject Quotas"
+     
+     MON_havensisco_tech:0 "San Havensisco Tech"
+     
+     MON_havensisco_tech_debuff:0 "Pilfered Tech Resources"
+     
+     MON_havensisco_raid:0 "Spoils of San Havensisco Raids"
      
      MON_big_business_agreements:0 "Big Business Agreements"
      
@@ -62,4 +147,12 @@
      
      MON_economic_high_commission:0 "Economic High Commission"
      
+     MON_economic_high_commission_2:0 "Economic High Commission - Urbanization by the Blade"
      
+     MON_ultra_surveillance_idea:0 "The Caring Watch"
+     
+     MON_queens_caretakers_idea:0 "Queen's Caretakers"
+     
+     MON_state_education_idea:0 "Propagandized Education"
+     
+     MON_butterfly_points_system_idea:0 "Social Credit System"

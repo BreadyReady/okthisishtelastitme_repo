@@ -1,9 +1,12 @@
 ﻿l_english:
     boring_loyalist:0 "Boring Loyalist"
     popular_figurehead2:0 "Boring Bureaucrat"
+    royal_heir:0 "Royal Heir"
     
     fabrics_innovator:0 "Fabrics Innovator"
     major_retailer:0 "Major Retailer"
     big_energy:0 "Big Energy"
     
+    cleaved_cult_of_personality:0 "Cult of Personality"
     cleaved_undaunted:0 "The Undauntable"
+    

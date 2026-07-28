@@ -126,6 +126,12 @@ age_portraits = {
 			civilian = { large ="GFX_portrait_adult_star" }
 		}
 		set_portraits = {
+			character = MON_star_butterfly_advisor
+			army={
+				small="GFX_idea_mon_star_butterfly_royal_adult_advisor"
+			}
+		}
+		set_portraits = {
 			character = MAR_marco_diaz
 			civilian = { large ="GFX_portrait_adult_marco" }
 		}

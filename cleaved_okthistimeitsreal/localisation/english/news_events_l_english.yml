@@ -1,19 +1,19 @@
 ﻿l_english:
  mewni_warlords_news_event.1.t:0 "Star Butterfly Announces the Congress of Mewni"
- mewni_warlords_news_event.1.desc:0 ""
+ mewni_warlords_news_event.1.desc:0 "Star Butterfly has called on the various leaders of the shattered Crownlands to participate in what she is calling the "Congress of Mewni" in San Havensisco, where she hopes diffrences will be hashed out and the Crownlands can unite underneath a so-called "Mewman Commonwealth."\n\nStar's proposal for a new decentralized state promises integration for existing warlords and preservation of their powers and policy visions. However, the Commonwealth can only be ratified through unanimous consensus. If even a single key warlord refuses to surrender their independence, the entire diplomatic project will collapse."
  mewni_warlords_news_event.1.a:0 "Give Peace a Chance!"
  mewni_warlords_news_event.1.b:0 "Can Peace Prevail?"
  
  mewni_warlords_news_event.2.t:0 "Congress of Mewni Begins!"
- mewni_warlords_news_event.2.desc:0 ""
+ mewni_warlords_news_event.2.desc:0 "The Congress of Mewni began today with Star Butterfly appealling to the forces of the Crownlands to end hostilities and to form a unified order. The atmosphere inside the chamber, however, remains tense.\n\n Draft documents for the new Confederation are currently circulating among the delegations, but it seems that the representatives made up their minds within their respective polities and are only treating attendance at the Congress as a formality."
  mewni_warlords_news_event.2.a:0 "We Have to Pull Mewni Back From the Brink!"
  mewni_warlords_news_event.2.b:0 "Can This Actually Work?"
  mewni_warlords_news_event_2_tt:0 "§REvents detailing the Congress of Mewni itself are not yet implemented§!"
  
- mewni_warlords_news_event.3.t:0 "Congress of Mewni Fails!"
- mewni_warlords_news_event.3.desc:0 ""
+ mewni_warlords_news_event.3.t:0 "Congress of Mewni Secures Truce!"
+ mewni_warlords_news_event.3.desc:0 "The Congress of Mewni hs failed to form the Mewman Commonwealth. While the ambitious dream of a peaceful unification has fallen apart, the summit has not been entirely in vain. Star Butterfly successfully brokered a temporary truce. Active hostilities will not erupt in the near future. For a war-weary realm, a fragile peace is better than total war."
  mewni_warlords_news_event.3.a:0 "What now?"
- mewni_warlords_news_event.3.b:0 "Dissapointing, but Expected"
+ mewni_warlords_news_event.3.b:0 "Dissapointing, but not entirely so."
  
  mewni_warlords_news_event.4.t:0 "Star Denounces Moon's Mewni"
  mewni_warlords_news_event.4.desc:0 ""
@@ -164,3 +164,27 @@
  mewni_warlords_news_event.32.t:0 "Knight's Coup against [FROM.getleader] Thwarted!"
  mewni_warlords_news_event.32.desc:0 "Reports from [FROM.getname] confirm that a conspiracy to overthrow the government has been uncovered and decisively crushed before it could be put into action.\n\nThe plot was organized by a group of younger knights seeking to restore the traditional political privileges of the knighthood, which have been steadily curtailed by recent government reforms. The scheme unraveled due to knighthood infighting, with senior knights raiding the conspirators' headquarters and personally delivering the arrested plotters to government authorities.\n\nAdmiration for the elder knights' loyalty, combined with their open support for continued reform, has led to increased support of knighthood reform."
  mewni_warlords_news_event.32.a:0 "Higgs' Last Gasp?"
+
+ mewni_capitulation_news_event.1.t:0 "Moon Butterfly Flees the Crownlands"
+ mewni_capitulation_news_event.1.desc:0 ""
+ mewni_capitulation_news_event.1.a:0 "The Crownland Struggles..."
+
+ mewni_capitulation_news_event.2.t:0 "Star Butterfly Flees the Crownlands"
+ mewni_capitulation_news_event.2.desc:0 ""
+ mewni_capitulation_news_event.2.a:0 "The Crownland Struggles..."
+
+ mewni_capitulation_news_event.3.t:0 "Marco Diaz Flees the Crownlands"
+ mewni_capitulation_news_event.3.desc:0 ""
+ mewni_capitulation_news_event.3.a:0 "The Crownland Struggles..."
+
+ mewni_capitulation_news_event.4.t:0 "Captain Higgs Flees the Crownlands"
+ mewni_capitulation_news_event.4.desc:0 ""
+ mewni_capitulation_news_event.4.a:0 "The Crownland Struggles..."
+
+ mewni_capitulation_news_event.5.t:0 "Janna Ordonia Flees the Crownlands"
+ mewni_capitulation_news_event.5.desc:0 ""
+ mewni_capitulation_news_event.5.a:0 "The Crownland Struggles..."
+
+ mewni_capitulation_news_event.6.t:0 "Eclipsa Butterfly Flees the Crownlands"
+ mewni_capitulation_news_event.6.desc:0 ""
+ mewni_capitulation_news_event.6.a:0 "The Crownland Struggles..."

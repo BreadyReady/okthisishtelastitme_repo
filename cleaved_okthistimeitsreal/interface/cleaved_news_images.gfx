@@ -34,4 +34,14 @@ spriteTypes = {
 		name = "GFX_news_event_moon_bell"
 		texturefile = "gfx/event_pictures/cleaved_unique/news_event_moon_bell.dds" 
 	}
+
+	spriteType = {
+		name = "GFX_news_event_star_angry"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_star_angry.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_news_event_knights_trumpeting"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_knights_trumpeting.dds" 
+	}
 }

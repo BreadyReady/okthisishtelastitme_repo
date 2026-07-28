@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = mewni_warlords_news_event
+add_namespace = mewni_capitulation_news_event
 
 news_event = { # Star announces congress of mewni
     id = mewni_warlords_news_event.1
@@ -65,7 +66,7 @@ news_event = { # Congress of Mewni Fails
     
     is_triggered_only = yes
 	major = yes
-	picture = GFX_my_news_event_picture
+	picture = xxx
     
     option = {
         name = mewni_warlords_news_event.3.a
@@ -310,7 +311,7 @@ news_event = { # Unification of Mewman Crownlands
     
     is_triggered_only = yes
 	major = yes
-	picture = GFX_my_news_event_picture
+	picture = GFX_news_event_knights_trumpeting
     
     option = {
         name = mewni_warlords_news_event.7.a
@@ -438,7 +439,7 @@ news_event = { # star v moon war
     
     is_triggered_only = yes
 	major = yes
-	picture = GFX_my_news_event_picture
+	picture = GFX_news_event_star_angry
     
     option = {
         name = mewni_warlords_news_event.13.a
@@ -943,5 +944,107 @@ news_event = { # knights coup thwarted
     
     option = {
         name = mewni_warlords_news_event.32.a
+    }
+}
+
+news_event = { # moon falls during crownlands unification
+    id = mewni_capitulation_news_event.1
+    title = mewni_capitulation_news_event.1.t
+	
+    desc = {
+        text = mewni_capitulation_news_event.1.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_capitulation_news_event.1.a
+    }
+}
+
+news_event = { # star falls during crownlands unification
+    id = mewni_capitulation_news_event.2
+    title = mewni_capitulation_news_event.2.t
+	
+    desc = {
+        text = mewni_capitulation_news_event.2.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_capitulation_news_event.2.a
+    }
+}
+
+news_event = { # marco falls during crownlands unification
+    id = mewni_capitulation_news_event.3
+    title = mewni_capitulation_news_event.3.t
+	
+    desc = {
+        text = mewni_capitulation_news_event.3.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_capitulation_news_event.3.a
+    }
+}
+
+news_event = { # higgs falls during crownlands unification
+    id = mewni_capitulation_news_event.4
+    title = mewni_capitulation_news_event.4.t
+	
+    desc = {
+        text = mewni_capitulation_news_event.4.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_capitulation_news_event.4.a
+    }
+}
+
+news_event = { # janna falls during crownlands unification
+    id = mewni_capitulation_news_event.5
+    title = mewni_capitulation_news_event.5.t
+	
+    desc = {
+        text = mewni_capitulation_news_event.5.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_capitulation_news_event.5.a
+    }
+}
+
+news_event = { # eclipsa falls during crownlands unification
+    id = mewni_capitulation_news_event.6
+    title = mewni_capitulation_news_event.6.t
+	
+    desc = {
+        text = mewni_capitulation_news_event.6.desc
+	}
+    
+    is_triggered_only = yes
+	major = yes
+	picture = xxx
+    
+    option = {
+        name = mewni_capitulation_news_event.6.a
     }
 }

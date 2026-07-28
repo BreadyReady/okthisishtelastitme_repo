@@ -335,6 +335,14 @@ country_event = {
 				id = mewni_warlords_news_event.21
 				days = 30
 			}
+			country_event = {
+				id = MON_flavor_event.3
+				days = 45
+			}
+			country_event = {
+				id = STA_flavor_event.2
+				days = 60
+			}
 		}
 		puppet = LUC
 		ai_chance = {

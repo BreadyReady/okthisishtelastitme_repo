@@ -38,5 +38,17 @@ characters={
 				small="GFX_idea_mon_star_butterfly_royal_advisor"
 			}
 		}
+		advisor={
+			slot = political_advisor
+			idea_token = MON_star_butterfly_advisor
+			traits  = {
+				royal_heir
+			}
+            available = {
+				STA = {
+					exists = no
+				}
+            }
+		}
 	}
 }

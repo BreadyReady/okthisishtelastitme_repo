@@ -34,4 +34,9 @@ spriteTypes = {
 		name = "GFX_event_lavabo_reverent"
 		texturefile = "gfx/event_pictures/shared/event_lavabo_reverent.dds" 
 	}
+
+	spriteType = {
+		name = "GFX_event_student_protest_alt"
+		texturefile = "gfx/event_pictures/shared/event_student_protest_alt.dds" 
+	}
 }

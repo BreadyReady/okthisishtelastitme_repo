@@ -7,29 +7,40 @@ bookmarks = {
 		default_country = "---"
 		default = yes
 		
-		"MEW"={
-			history = "MEW_CALM_BEFORE_THE_STORM_DESC"
-		}
+		#"MEW"={
+		#	history = "MEW_CALM_BEFORE_THE_STORM_DESC"
+		#}
 		
 		"MON"={
 			history = "MON_CALM_BEFORE_THE_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				shared_mewman_matriarchy_idea
+				shared_mewman_monster_rights_idea
+				MON_empowering_moon
+			}
+			focuses = {
+				MON_centralizing_the_state
+				MEWNI_SHARED_POSTUNI_restorationist_outlook
+				MON_everything_for_the_queen
+			}
 		}
 		
-		"STA"={
-			history = "STA_CALM_BEFORE_THE_STORM_DESC"
-		}
+		#"STA"={
+		#	history = "STA_CALM_BEFORE_THE_STORM_DESC"
+		#}
 		
-		"MAR"={
-			history = "MAR_CALM_BEFORE_THE_STORM_DESC"
-		}
+		#"MAR"={
+		#	history = "MAR_CALM_BEFORE_THE_STORM_DESC"
+		#}
 		
-		"HIG"={
-			history = "HIG_CALM_BEFORE_THE_STORM_DESC"
-		}
+		#"HIG"={
+		#	history = "HIG_CALM_BEFORE_THE_STORM_DESC"
+		#}
 		
-		"JAN"={
-			history = "JAN_CALM_BEFORE_THE_STORM_DESC"
-		}
+		#"JAN"={
+		#	history = "JAN_CALM_BEFORE_THE_STORM_DESC"
+		#}
 		
 		"---"={
 			history = "OTHER_CALM_BEFORE_THE_STORM_DESC"

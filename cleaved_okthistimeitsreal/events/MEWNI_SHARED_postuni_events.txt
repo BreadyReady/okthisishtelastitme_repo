@@ -156,7 +156,7 @@ country_event = {
 	id = mewni_shared_postuni_flavor.1 #californian students protest
 	title = mewni_shared_postuni_flavor.1.t
 	desc = mewni_shared_postuni_flavor.1.desc
-	picture = xxx
+	picture = GFX_event_student_protest_alt
 	
 	is_triggered_only = yes
 	
@@ -167,6 +167,7 @@ country_event = {
 			idea = cleaved_student_protests_natl_sprt
 			days = 365
 		}
+		custom_effect_tooltip = mewni_shared_postuni_flavor.1.a_tt
 		ai_chance = {
 			base = 1
 		}

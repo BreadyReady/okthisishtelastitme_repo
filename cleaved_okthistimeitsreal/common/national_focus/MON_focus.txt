@@ -52,7 +52,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_return_to_butterfly_castle
-		icon = gfx
+		icon = GFX_focus_mewman_castle
 		x = 8
 		y = 1
 		relative_position_id = MON_centralizing_the_state
@@ -554,7 +554,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_new_royal_marriage  #marry star off to tom
-		icon = GFX
+		icon = GFX_focus_star_and_tom
 		x = 1
 		y = 1
 		relative_position_id = MON_return_to_butterfly_castle
@@ -616,12 +616,13 @@ focus_tree = {
 			STA = {
 				country_event = MON_notification_event.1
 			}
+			custom_effect_tooltip = MON_iron_fist_over_san_havensisco_tt
 		}
 	}
 
 	focus = {
 		id = MON_seize_havensisco_tech
-		icon = xxx
+		icon = GFX_focus_tom_fiery_fist
 		prerequisite = { focus = MON_iron_fist_over_san_havensisco }
 		x = -2
 		y = 1
@@ -657,7 +658,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_seize_havensisco_schematics
-		icon = xxx
+		icon = GFX_focus_tom_fiery_fist
 		prerequisite = { focus = MON_seize_havensisco_tech }
 		x = 0
 		y = 1
@@ -694,7 +695,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_harsh_production_quotas
-		icon = xxx
+		icon = GFX_focus_tom_fiery_fist
 		prerequisite = { focus = MON_iron_fist_over_san_havensisco }
 		x = 0
 		y = 1
@@ -726,7 +727,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_raid_havensisco
-		icon = xxx
+		icon = GFX_focus_tom_fiery_fist
 		prerequisite = { focus = MON_harsh_production_quotas }
 		x = 0
 		y = 1
@@ -775,7 +776,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_seize_resources
-		icon = xxx
+		icon = GFX_focus_tom_fiery_fist
 		prerequisite = { focus = MON_iron_fist_over_san_havensisco }
 		x = 2
 		y = 1
@@ -818,7 +819,7 @@ focus_tree = {
 
 	focus = {
 		id = MON_seize_greater_resources
-		icon = xxx
+		icon = GFX_focus_tom_fiery_fist
 		prerequisite = { focus = MON_seize_resources }
 		x = 0
 		y = 1
@@ -865,6 +866,10 @@ focus_tree = {
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		enable = {
+			always = no #debating whether or not to include this focus
+		}
 
 		available = {
 			owns_state = 89
@@ -914,6 +919,7 @@ focus_tree = {
 			STA = {
 				country_event = MON_notification_event.8
 			}
+			custom_effect_tooltip = MON_guiding_hand_over_san_havensisco_tt
 		}
 	}
 }
