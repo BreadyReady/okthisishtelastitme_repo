@@ -11,18 +11,18 @@
  mewni_warlords_news_event_2_tt:0 "§REvents detailing the Congress of Mewni itself are not yet implemented§!"
  
  mewni_warlords_news_event.3.t:0 "Congress of Mewni Secures Truce!"
- mewni_warlords_news_event.3.desc:0 "The Congress of Mewni hs failed to form the Mewman Commonwealth. While the ambitious dream of a peaceful unification has fallen apart, the summit has not been entirely in vain. Star Butterfly successfully brokered a temporary truce. Active hostilities will not erupt in the near future. For a war-weary realm, a fragile peace is better than total war."
+ mewni_warlords_news_event.3.desc:0 "The Congress of Mewni has failed to form the Mewman Commonwealth. While the ambitious dream of a peaceful unification has fallen apart, the summit has not been entirely in vain. Star Butterfly successfully brokered a temporary truce. Active hostilities will not erupt in the near future. For a war-weary realm, a fragile peace is better than total war."
  mewni_warlords_news_event.3.a:0 "What now?"
  mewni_warlords_news_event.3.b:0 "Dissapointing, but not entirely so."
  
  mewni_warlords_news_event.4.t:0 "Star Denounces Moon's Mewni"
- mewni_warlords_news_event.4.desc:0 ""
+ mewni_warlords_news_event.4.desc:0 "Surprising News from San Havensisco: Star Butterfly has openly spoken out against her mother and sovreign, Moon!\n\nStating that Moon's vision for the future of Mewni is "horrific, oppressive, and honestly pretty lame," Star has positioned herself as powerful opposition to Moon's authoritarian ambitions. Star has clarified that she intends to preserve what little peace Mewmanity has left and does not want to fight her own mother, but that she must also defend Mewmanity's freedom and hopes she can work with Moon through these troubling times."
  mewni_warlords_news_event.4.a:0 "Moon's way is not the way forward!"
  mewni_warlords_news_event.4.b:0 "How Dare She?"
  mewni_warlords_news_event.4.c:0 "Mommy Issues..."
  
  mewni_warlords_news_event.5.t:0 "Star Breaks Away from Moon!"
- mewni_warlords_news_event.5.desc:0 ""
+ mewni_warlords_news_event.5.desc:0 "Following growing tensions between Star and Moon over the last months, relations have finally fully broken down. Star Butterfly has broken off from under the control of Moon Butterfly.\n\nThe main pain point between them is their vision for the future of Mewni. Star has repeatedly denounced Moon's authoritarian ideology and has called for moderation, while Moon seems absolute and rigid in her dogma.\n\nThis split marks a new contender for the Mewman crownlands, Star."
  mewni_warlords_news_event.5.a:0 "Glory to Star!"
  mewni_warlords_news_event.5.b:0 "Such Insolence!"
  mewni_warlords_news_event.5.c:0 "Another Contender in the Mewman Crisis..."
@@ -89,6 +89,8 @@
  mewni_warlords_news_event.18.a:0 "Girlbosses?"
  
  mewni_warlords_news_event.19.t:0 "Star to Marry Marco"
+ mewni_warlords_news_event.19.desc:0 "Star has announced plans to marry Marco Diaz, a former crownlands warlord who has since been fallen to relative obscurity.\n\nKnowing each other since childhood, and with Marco Diaz holding no significant power or prestige, the marriage seems to prioritize love over political machination."
+ mewni_warlords_news_event.19.a:0 "I always shipped it."
  
  mewni_warlords_news_event.20.t:0 "Star to Marry Tom"
  mewni_warlords_news_event.20.desc:0 "It's official: Star, daughter of Queen Moon and heir apparent to the Mewman throne, is to marry Tom of the Lucitor family!\n\nStar and Tom, who is the head of the powerful house Lucitor, have been suspected of dating each other on and off since early teen-hood. Their official union signifies political union between houses Butterfly and Lucitor, with the Lucitor Kingdom being brought back into the Crownland fold.\n\nCourt sources said that the couple is quite compatible and the two have a loving future ahead of them, though Queen Moon did announce that the spreading of slanderous rumors surrounding Star's feelings would not be tolerated..."
@@ -107,10 +109,10 @@
  mewni_warlords_news_event.22.a:0 "Ideas Never Die?"
  
  news_crownland_frontier_war_title_loc_key:0 "Crownlands-Frontier War!"
- news_crownland_frontier_war_desc_loc_key:0 "Crownlands-Frontier War desc (Intro)"
+ news_crownland_frontier_war_desc_loc_key:0 "War has erupted between the Crownlands and Texas!\n\n"
  
  mewni_warlords_news_event.23.t:0 "[news_crownland_frontier_war_title_loc]"
- mewni_warlords_news_event.23.desc:0 "[news_crownland_frontier_war_desc_loc]\n\nMoon v Mina"
+ mewni_warlords_news_event.23.desc:0 "[news_crownland_frontier_war_desc_loc]Depsite their collaboration in the past, Moon and Mina are now mortal enemies. From the Crownlands, Moon has declared a "special humanitarian mission" in Texas, saying that "banditry and lawlessness" must be rooted out. From the Texan Frontier, Mina Loveberry has denounced the Crownlands regime as weak, decadent, and monster loving.\n\nThis conflict marks another unification campaign for Moon, while Mina seems to have gotten her wish to march upon the Crownlands."
  mewni_warlords_news_event.23.a:0 "Down with the bandits, retake the frontier!"
  mewni_warlords_news_event.23.b:0 "Oh Moon, we used to work together..."
  mewni_warlords_news_event.23.c:0 "Another Mewman v Mewman Struggle..."
@@ -165,26 +167,26 @@
  mewni_warlords_news_event.32.desc:0 "Reports from [FROM.getname] confirm that a conspiracy to overthrow the government has been uncovered and decisively crushed before it could be put into action.\n\nThe plot was organized by a group of younger knights seeking to restore the traditional political privileges of the knighthood, which have been steadily curtailed by recent government reforms. The scheme unraveled due to knighthood infighting, with senior knights raiding the conspirators' headquarters and personally delivering the arrested plotters to government authorities.\n\nAdmiration for the elder knights' loyalty, combined with their open support for continued reform, has led to increased support of knighthood reform."
  mewni_warlords_news_event.32.a:0 "Higgs' Last Gasp?"
 
- mewni_capitulation_news_event.1.t:0 "Moon Butterfly Flees the Crownlands"
- mewni_capitulation_news_event.1.desc:0 ""
+ mewni_capitulation_news_event.1.t:0 "Moon Butterfly Flees the Crownlands!"
+ mewni_capitulation_news_event.1.desc:0 "A major contender for the crownlands falls: Moon Butterfly has fled the Crownlands and has declared a government-in-exile in Hawaii. This follows the rapid collapse of Moon's forces in the crownlands, and the fall of vital cities and infrastrucure.\n\nSporadic fighting continues across Moon's former territories, with fiercely loyal sabatouers still fighting in Moons name. But, despite Moon's insistence from Honolulu, analysts say her chances to return are slim to none."
  mewni_capitulation_news_event.1.a:0 "The Crownland Struggles..."
 
- mewni_capitulation_news_event.2.t:0 "Star Butterfly Flees the Crownlands"
- mewni_capitulation_news_event.2.desc:0 ""
+ mewni_capitulation_news_event.2.t:0 "Star Butterfly Falls!"
+ mewni_capitulation_news_event.2.desc:0 "A contender for the crownlands has thrown in the towel: Star Butterfly's forces, following continued failures on the battlefield, have utterly collapsed. Star butterfly has fled her seat of power and, surprisingly, returned to live beside Moon Butterfly.\n\nStar has called for peace and ceasefire, and Star's loyalists have all either laid down their arms or followed Star to Moon. Despite past greivances, it seems that the bonds of blood have prevailed."
  mewni_capitulation_news_event.2.a:0 "The Crownland Struggles..."
 
- mewni_capitulation_news_event.3.t:0 "Marco Diaz Flees the Crownlands"
- mewni_capitulation_news_event.3.desc:0 ""
+ mewni_capitulation_news_event.3.t:0 "Marco Diaz Flees the Crownlands!"
+ mewni_capitulation_news_event.3.desc:0 "The puppet King has escaped his prison: In the chaos of repeated military losses and the encroaching enemy, Marco Diaz has managed to escape the grasp of his captives.\n\nFleeing far east of the Mississipi, Marco has revealed that he had been propped up by a cabal of nobles and that they puppeted him to serve their interest. Confessing that he has never had any desire to rule the Mewman people, Marco has since denounced Monarchism in general. The forces of central California have rapidly collapsed since."
  mewni_capitulation_news_event.3.a:0 "The Crownland Struggles..."
 
- mewni_capitulation_news_event.4.t:0 "Captain Higgs Flees the Crownlands"
- mewni_capitulation_news_event.4.desc:0 ""
+ mewni_capitulation_news_event.4.t:0 "Captain Higgs Dies in Last Stand!"
+ mewni_capitulation_news_event.4.desc:0 "Following fierce fighting retreat, Captain Higgs joined her forces on the frontline and has died in what she described as a "glorious last stand."\n\nAccording to her last broadcast before her death, she aimed to "die a warrior's death" and to "inspire heroism in the dark days ahead" since it was evident that neither she nor her followers would be victorious in the current conflict.\n\nHiggs' body was found by her enemies on the battlefield and was destroyed in a mass cremation. Her former followers have largely surrendered, and most have asked to be reintegrated into normal Mewman militaries."
  mewni_capitulation_news_event.4.a:0 "The Crownland Struggles..."
 
- mewni_capitulation_news_event.5.t:0 "Janna Ordonia Flees the Crownlands"
- mewni_capitulation_news_event.5.desc:0 ""
+ mewni_capitulation_news_event.5.t:0 "Janna Ordonia Dissapears from the Crownlands!"
+ mewni_capitulation_news_event.5.desc:0 "As strangely as she comes, she goes: Janna Ordonia has dissapeared from the Crownlands.\n\nAfter it became evident that she would not unite the Crownlands, Janna Ordonia was reported to have become more and more reclusive until she was nowhere to be found upon the collapse of her forces. With the full occupation of her former lands, the search for Janna is ongoing, but so far fruitless.\n\nAs a mysterious person who was rumored to engage in occult ritual and to have criminal and cartel ties, many speculate that she may have gone to the underworld where she supposedly originated from. Though there is no evidence of this."
  mewni_capitulation_news_event.5.a:0 "The Crownland Struggles..."
 
- mewni_capitulation_news_event.6.t:0 "Eclipsa Butterfly Flees the Crownlands"
- mewni_capitulation_news_event.6.desc:0 ""
+ mewni_capitulation_news_event.6.t:0 "Eclipsa Butterfly Flees the Crownlands!"
+ mewni_capitulation_news_event.6.desc:0 "A major contender for the crownlands falls: Eclipsa Butterfly has fled the Crownlands and has declared a government-in-exile in Hawaii. This follows the rapid collapse of Moon's forces in the crownlands, and the fall of vital cities and infrastrucure.\n\nEclipsa's forces have largely laid down their arms, and Eclipsa has called for peace and ceasefire.\n\nAs the richest and most populous contender for the Crownlands before the current conflict, analysts' predictions have been broken. Eclipsa is joined in Hawaii by her husband, daughter, and particularly loyal followers, mostly monsters."
  mewni_capitulation_news_event.6.a:0 "The Crownland Struggles..."

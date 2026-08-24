@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		MON_empowering_moon = {
 			name = MON_empowering_moon
-			picture = xxx
+			picture = generic_political_support
 
 			allowed = {
 				always = no
@@ -21,7 +21,7 @@ ideas = {
 		
 		MON_loyal_law_enforcement = {
 			name = MON_loyal_law_enforcement
-			picture = xxx
+			picture = generic_secret_police
 
 			allowed = {
 				always = no

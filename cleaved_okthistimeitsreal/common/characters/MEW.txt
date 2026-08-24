@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = oligarchism
+			ideology = mewman_progressivism
 			desc = MEW_eclipsa_butterfly_desc
 			traits= { }
 			expire="2040.1.1.1"

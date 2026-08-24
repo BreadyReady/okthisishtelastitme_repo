@@ -45,7 +45,7 @@ news_event = { # Congress of Mewni Begins
 		trigger = {
 			tag = STA
 		}
-		custom_effect_tooltip = mewni_warlords_news_event_2_tt
+		#custom_effect_tooltip = mewni_warlords_news_event_2_tt
     }
     
     option = {
@@ -55,7 +55,7 @@ news_event = { # Congress of Mewni Begins
 				tag = STA
 			}
 		}
-		custom_effect_tooltip = mewni_warlords_news_event_2_tt
+		#custom_effect_tooltip = mewni_warlords_news_event_2_tt
     }
 }
 
@@ -66,14 +66,14 @@ news_event = { # Congress of Mewni Fails
     
     is_triggered_only = yes
 	major = yes
-	picture = xxx
+	picture = GFX_news_event_star_party
     
     option = {
         name = mewni_warlords_news_event.3.a
 		trigger = {
 			tag = STA
 		}
-		custom_effect_tooltip = mewni_warlords_news_event_2_tt
+		#custom_effect_tooltip = mewni_warlords_news_event_2_tt
     }
     
     option = {
@@ -83,7 +83,7 @@ news_event = { # Congress of Mewni Fails
 				tag = STA
 			}
 		}
-		custom_effect_tooltip = mewni_warlords_news_event_2_tt
+		#custom_effect_tooltip = mewni_warlords_news_event_2_tt
     }
 }
 
@@ -371,7 +371,7 @@ news_event = { # Johansen-spiderbite Alliance
     
     is_triggered_only = yes
 	major = yes
-	picture = GFX_my_news_event_picture
+	picture = GFX_news_event_spiderbites
     
     option = {
         name = mewni_warlords_news_event.9.a
@@ -388,7 +388,7 @@ news_event = { # Pacific Northwest War
     
     is_triggered_only = yes
 	major = yes
-	picture = GFX_my_news_event_picture
+	picture = GFX_news_event_spiderbites
     
     option = {
         name = mewni_warlords_news_event.10.a
@@ -405,7 +405,7 @@ news_event = { # spiderbites and johansens alliance falls
     
     is_triggered_only = yes
 	major = yes
-	picture = GFX_my_news_event_picture
+	picture = GFX_news_event_spiderbites
     
     option = {
         name = mewni_warlords_news_event.11.a
@@ -422,7 +422,7 @@ news_event = { # war of the butterflies
     
     is_triggered_only = yes
 	major = yes
-	picture = GFX_my_news_event_picture
+	picture = GFX_news_event_knights_trumpeting
     
     option = {
         name = mewni_warlords_news_event.12.a
@@ -541,7 +541,7 @@ news_event = { # star marries marco
     
     is_triggered_only = yes
 	major = yes
-	picture = xxx
+	picture = GFX_news_event_starco
     
     option = {
         name = mewni_warlords_news_event.19.a
@@ -633,7 +633,7 @@ news_event = { # texas powerbase united
     
     is_triggered_only = yes
 	major = yes
-	picture = xxx
+	picture = GFX_news_event_knights_trumpeting
     
     option = {
         name = mewni_warlords_news_event.22.a
@@ -655,7 +655,7 @@ news_event = { # Moon v mina war (MON v MIN)
     
     is_triggered_only = yes
 	major = yes
-	picture = xxx
+	picture = GFX_news_event_knights_trumpeting
     
     option = {
         name = mewni_warlords_news_event.23.a
@@ -692,7 +692,7 @@ news_event = { # Star v mina war (STA v MIN)
     
     is_triggered_only = yes
 	major = yes
-	picture = xxx
+	picture = GFX_news_event_knights_trumpeting
     
     option = {
         name = mewni_warlords_news_event.24.a
@@ -877,7 +877,7 @@ news_event = { # crownlands leader kisses the wall
     
     is_triggered_only = yes
 	major = yes
-	picture = xxx
+	picture = GFX_news_event_israel
     
     option = {
         name = mewni_warlords_news_event.29.a
@@ -940,7 +940,7 @@ news_event = { # knights coup thwarted
     
     is_triggered_only = yes
 	major = yes
-	picture = xxx
+	picture = GFX_news_event_knight_riding
     
     option = {
         name = mewni_warlords_news_event.32.a
@@ -957,7 +957,7 @@ news_event = { # moon falls during crownlands unification
     
     is_triggered_only = yes
 	major = yes
-	picture = xxx
+	picture = GFX_news_event_moon_defeat
     
     option = {
         name = mewni_capitulation_news_event.1.a
@@ -974,7 +974,7 @@ news_event = { # star falls during crownlands unification
     
     is_triggered_only = yes
 	major = yes
-	picture = xxx
+	picture = GFX_news_event_star_defeat
     
     option = {
         name = mewni_capitulation_news_event.2.a
@@ -991,7 +991,7 @@ news_event = { # marco falls during crownlands unification
     
     is_triggered_only = yes
 	major = yes
-	picture = xxx
+	picture = GFX_news_news_event_marco_defeat
     
     option = {
         name = mewni_capitulation_news_event.3.a
@@ -1008,7 +1008,7 @@ news_event = { # higgs falls during crownlands unification
     
     is_triggered_only = yes
 	major = yes
-	picture = xxx
+	picture = GFX_news_event_higgs_defeat
     
     option = {
         name = mewni_capitulation_news_event.4.a
@@ -1025,7 +1025,7 @@ news_event = { # janna falls during crownlands unification
     
     is_triggered_only = yes
 	major = yes
-	picture = xxx
+	picture = GFX_news_event_janna_defeat
     
     option = {
         name = mewni_capitulation_news_event.5.a
@@ -1042,7 +1042,7 @@ news_event = { # eclipsa falls during crownlands unification
     
     is_triggered_only = yes
 	major = yes
-	picture = xxx
+	picture = GFX_news_event_eclipsa_defeat
     
     option = {
         name = mewni_capitulation_news_event.6.a

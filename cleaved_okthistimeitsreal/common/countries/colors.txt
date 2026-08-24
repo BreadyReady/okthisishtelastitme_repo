@@ -143,3 +143,8 @@ CAN = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }
+
+#USA = {
+#	color = rgb { 20 133 237 }
+#	color_ui = rgb { 7 160 255 }
+#}

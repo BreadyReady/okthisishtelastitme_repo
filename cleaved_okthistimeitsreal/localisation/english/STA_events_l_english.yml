@@ -5,9 +5,11 @@
  STA_event.1.b:0 "Our diffrences are too great"
  
  STA_event.2.t:0 "Cooperating at the Congress of Mewni"
- STA_event.2.desc:0 ""
- STA_event.2.a:0 "We should present reasonable conditions in the pursuit of peace. (will become a cooperating nation and the congress will come closer to succeeding)"
- STA_event.2.b:0 "Send demands that the others will nto agree to. This is just a diplomatic show, after all..."
+ STA_event.2.desc:0 "With the Congress of Mewni approaching, we must determine our stance on the proposed "Mewman Commonwealth".\n\nOn one hand, such a unification will prevent much bloodshed and will help Mewni come together. On the other hand, despite Star's promises, there is no real guarantee that our own powers and policy visions will be respected, beyonf just legal guarantees."
+ STA_event.2.a:0 "We should present reasonable conditions in the pursuit of peace."
+ STA_event.2.a_tt:0 "Will become a cooperating nation and the congress will come closer to succeeding.\n\nSuccess in the Congress of Mewni will result in getting annexed by Star's Mewni"
+ STA_event.2.b:0 "Send demands that the others will not agree to. This is just a diplomatic show, after all..."
+ STA_event.2.b_tt:0 "Will become an uncooperating nation and the congress will fail."
  
  STA_event.3.t:0 "[FROM.GetLeader] will cooperate!"
  STA_event.3.desc:0 "[FROM.GetLeader] has sent us a letter stating that they intend to cooperate fully with the cognress of Mewni!"

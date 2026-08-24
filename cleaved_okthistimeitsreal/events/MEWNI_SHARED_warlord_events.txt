@@ -34,7 +34,7 @@ country_event = {
 	id = mewni_shared_warlord_events.2 #remove mercenaries
 	title = mewni_shared_warlord_events.2.t
 	desc = mewni_shared_warlord_events.2.desc
-	picture = xxx
+	picture = GFX_event_mewni_landscape
 	
 	is_triggered_only = yes
 	
@@ -58,7 +58,7 @@ country_event = {
 	id = mewni_shared_warlord_events.3 #paying large loans
 	title = mewni_shared_warlord_events.3.t
 	desc = mewni_shared_warlord_events.3.desc
-	picture = xxx
+	picture = GFX_event_cash
 	
 	is_triggered_only = yes
 	
@@ -79,7 +79,7 @@ country_event = {
 	id = mewni_shared_warlord_events.4 #returning tax payments
 	title = mewni_shared_warlord_events.4.t
 	desc = mewni_shared_warlord_events.4.desc
-	picture = xxx
+	picture = GFX_event_cash
 	
 	is_triggered_only = yes
 	
@@ -105,7 +105,7 @@ country_event = {
 	id = mewni_shared_warlord_events.5 #effects after uniting crownlands
 	title = mewni_shared_warlord_events.5.t
 	desc = mewni_shared_warlord_events.5.desc
-	picture = xxx
+	picture = GFX_event_mewni_landscape
 	
 	is_triggered_only = yes
 	
@@ -166,7 +166,7 @@ country_event = {
 	id = mewni_shared_warlord_events.6 #returning production facilities
 	title = mewni_shared_warlord_events.6.t
 	desc = mewni_shared_warlord_events.6.desc
-	picture = xxx
+	picture = GFX_event_cash
 	
 	is_triggered_only = yes
 	
@@ -188,33 +188,35 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = mewni_shared_warlord_events.7 #characters age
-	title = mewni_shared_warlord_events.7.t
-	desc = mewni_shared_warlord_events.7.desc
-	picture = xxx
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = mewni_shared_warlord_events.6.a
-		every_country = {
-			age_portraits = yes #see scripted effects
-		}
-		ai_chance = {
-			base = 1
-		}
-	}
-	
-	option = {
-		name = mewni_shared_warlord_events.6.b
-		ai_chance = {
-			base = 0
-		}
-	}
-}
+#country_event = {
+#	id = mewni_shared_warlord_events.7 #characters age #replaced with decisions
+#	title = mewni_shared_warlord_events.7.t
+#	desc = mewni_shared_warlord_events.7.desc
+#	picture = xxx
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = mewni_shared_warlord_events.7.a
+#		every_country = {
+#			age_portraits = yes #see scripted effects
+#		}
+#		ai_chance = {
+#			base = 1
+#		}
+#	}
+#	
+#	option = {
+#		name = mewni_shared_warlord_events.7.b
+#		ai_chance = {
+#			base = 0
+#		}
+#	}
+#}
 
 #MEW POST UNI KINGDOM DIPLOMACY
+
+#Below is largely unused
 
 country_event = { #mediating johansen and spiderbites
 	id = mewni_shared_kingdom_diplo_events.1

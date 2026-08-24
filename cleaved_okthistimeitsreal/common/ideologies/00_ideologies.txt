@@ -215,6 +215,12 @@ ideologies = {
 
 			sparkle_monarchy  = {
 			}
+
+			mewman_progressivism  = {
+			}
+
+			mewman_conservatism  = {
+			}
 		}
 
 		dynamic_faction_names = {

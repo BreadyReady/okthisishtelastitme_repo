@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = oligarchism
+			ideology = mewman_conservatism
 			desc = OCL_noble_leader_desc
 			traits= { }
 			expire="2040.1.1.1"

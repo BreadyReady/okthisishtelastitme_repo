@@ -44,4 +44,54 @@ spriteTypes = {
 		name = "GFX_news_event_knights_trumpeting"
 		texturefile = "gfx/event_pictures/cleaved_unique/news_event_knights_trumpeting.dds" 
 	}
+
+	spriteType = {
+		name = "GFX_news_event_israel"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_israel.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_news_event_knight_riding"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_knight_riding.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_news_event_spiderbites"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_spiderbites.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_news_event_starco"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_starco.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_news_event_moon_defeat"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_moon_defeat.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_news_event_star_defeat"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_star_defeat.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_news_news_event_marco_defeat"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_marco_defeat.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_news_event_higgs_defeat"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_higgs_defeat.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_news_event_janna_defeat"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_janna_defeat.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_news_event_eclipsa_defeat"
+		texturefile = "gfx/event_pictures/cleaved_unique/news_event_eclipsa_defeat.dds" 
+	}
 }

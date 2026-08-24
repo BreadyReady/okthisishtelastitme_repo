@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = oligarchism
+			ideology = mewman_progressivism
 			desc = LUC_thomas_lucitor_desc
 			traits= { }
 			expire="2040.1.1.1"

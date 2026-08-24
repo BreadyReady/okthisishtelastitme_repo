@@ -726,7 +726,7 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			has_autonomy_state = autonomy_dominion
+			has_autonomy_state = autonomy_satellite
 		}
 		
 		bypass = {

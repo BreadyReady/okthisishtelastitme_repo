@@ -53,7 +53,7 @@ country_event = {
 	id = STA_event.2 #Should we cooperate at the congress of mewni (For other antions)
 	title = STA_event.2.t
 	desc = STA_event.2.desc
-	picture = xxx
+	picture = GFX_event_mewni_landscape
 	
 	is_triggered_only = yes
 	
@@ -71,6 +71,7 @@ country_event = {
 			var = global.nations_cooperating_at_congress_of_mewni
 			value = 1
 		}
+		custom_effect_tooltip = STA_event.2.a_tt
 	}
 	
 	option = {
@@ -87,6 +88,7 @@ country_event = {
 			}
 		}
 		STA = { country_event = STA_event.5 }
+		custom_effect_tooltip = STA_event.2.b_tt
 	}
 }
 

@@ -4,10 +4,13 @@
  mewni_shared_warlord_events.1.a:0 "Very well, we must abide by our promises"
  mewni_shared_warlord_events.1.b:0 "Time limit? What time limit?"
  
- mewni_shared_warlord_events.1.t:0 "Draft Time Limit Reached"
- mewni_shared_warlord_events.1.desc:0 "The temporary draft has helped our manpower problems, however at the time we enacted it we did promise to stop it in two years. Well, two years have passed, and the time limit is over. People are hoping that we will roll back our mandatory recruitment efforts."
- mewni_shared_warlord_events.1.a:0 "Very well, we must abide by our promises"
- mewni_shared_warlord_events.1.b:0 "Time limit? What time limit?"
+ mewni_shared_warlord_events.2.t:0 "Disbanding of Mercenaries"
+ mewni_shared_warlord_events.2.desc:0 "With the unification of the crownlands, we have no compelling need to keep fielding the foreign mercenaries we called during our efforts. While they are experienced, we would much rather have home-grown, loyal commanders to strengthen the government and protect against foreign influence.\n\nBesides, some of them are politically dangerous. For example, a Frenchman by the callsign "Lafayette" has become somewhat of a hero among the foreign ranks and he's expressed the desire to pursue politics. We'd much rather have him pursue his ambitions elsewhere."
+ mewni_shared_warlord_events.2.a:0 "Farewell, Gentlemen."
+ 
+ mewni_shared_warlord_events.3.t:0 "Loan Payments Due"
+ mewni_shared_warlord_events.3.desc:0 "With the unification of the crownlands, the debts we took out to help with the war effort are now coming due. We now have to pay back our debtors."
+ mewni_shared_warlord_events.3.a:0 "Money, money, money..."
  
  mewni_shared_warlord_events.4.t:0 "Returning Emergency Taxes"
  mewni_shared_warlord_events.4.desc:0 "In an effort to promote rebuilding and goodwill, we can deploy a combination of tax breaks and redistribution strategies to compensate people for the emergency taxes we took during our reunification efforts."

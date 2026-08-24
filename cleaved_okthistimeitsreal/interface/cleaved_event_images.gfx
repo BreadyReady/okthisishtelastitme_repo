@@ -39,4 +39,39 @@ spriteTypes = {
 		name = "GFX_event_student_protest_alt"
 		texturefile = "gfx/event_pictures/shared/event_student_protest_alt.dds" 
 	}
+
+	spriteType = {
+		name = "GFX_event_lafayette_ai"
+		texturefile = "gfx/event_pictures/shared/event_lafayette_ai.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_event_cash"
+		texturefile = "gfx/event_pictures/shared/event_cash.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_event_mewni_landscape"
+		texturefile = "gfx/event_pictures/shared/event_mewni_landscape.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_event_knight"
+		texturefile = "gfx/event_pictures/shared/event_knight.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_event_lavabo_loyal"
+		texturefile = "gfx/event_pictures/shared/event_lavabo_loyal.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_event_gold"
+		texturefile = "gfx/event_pictures/shared/event_gold.dds" 
+	}
+	
+	spriteType = {
+		name = "GFX_event_knight_riding"
+		texturefile = "gfx/event_pictures/shared/event_knight_riding.dds" 
+	}
 }

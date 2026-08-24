@@ -47,4 +47,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/texticons/mewman_absolutism_desc_texticon.dds"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_star_nrx_desc_texticon"
+		texturefile = "gfx/interface/texticons/star_nrx_desc_texticon.dds"
+		legacy_lazy_load = no
+	}
 }
