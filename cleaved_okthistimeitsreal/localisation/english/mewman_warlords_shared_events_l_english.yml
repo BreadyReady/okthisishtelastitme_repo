@@ -50,7 +50,7 @@
  mewni_shared_postuni_events.3.t:0 "Fate of the Knighthood"
  mewni_shared_postuni_events.3.desc:0 "The knighthood is a centuries-long institution of Mewni that holds a special place in Mewman culture. However, the realities of modern warfare have made their current model obsolete. Not to mention, their political power is obstructing other reforms. We have a few options to address this problem.\n\nOne option is to reform them to be part of the officer corps and trainers. Their expirience and cultural influence will be inspiring to young Mewman recruits.\n\nAlternativley, we could transition the knighthood into a ceremonial role, pivoting their influence to drum up support for domestic policy.\n\nLastly, a "nuclear" option is to go full throttle with new recruitment to accelerate the stripping of their powers."
  mewni_shared_postuni_events.3.a:0 "Let them lead the next generation of warriors."
- mewni_shared_postuni_events.3.b:0 "Let them inspire Mewmanity away from modern warfare."
+ mewni_shared_postuni_events.3.b:0 "Let them inspire Mewmanity, but make them stay away from modern warfare."
  mewni_shared_postuni_events.3.c:0 "Their way and culture should be left to the past."
  mewni_shared_postuni_events.3.c_tt:0 "National spirit §Y$cleaved_phase_out_knights_natl_sprt$§! will be removed upon the completion of national focus §Y$MEWNI_SHARED_POSTUNI_open_up_armed_forces$§!"
  

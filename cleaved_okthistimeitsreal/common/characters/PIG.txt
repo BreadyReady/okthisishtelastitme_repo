@@ -1,0 +1,17 @@
+characters={
+	PIG_rich_pigeon = {
+		name = PIG_rich_pigeon
+		portraits={
+			civilian={
+				large = GFX_PIG_rich_pigeon
+			}
+		}
+		country_leader={
+			ideology = mewman_progressivism
+			desc = PIG_rich_pigeon_desc
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

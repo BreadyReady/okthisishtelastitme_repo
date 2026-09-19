@@ -153,6 +153,9 @@ ideologies = {
 
 			cle_mewman_corporatism = {
 			}
+
+			cle_warlordism = {
+			}
 		}
 
 		dynamic_faction_names = {

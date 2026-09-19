@@ -96,6 +96,7 @@ focus_tree = {
 		}
 		
 		available = {
+			always = no
 			custom_trigger_tooltip = {
 				tooltip = MON_direct_rule_from_butterfly_castle_trigger_tt
 				any_owned_state = {
@@ -538,9 +539,8 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		available = {
-			NOT = {
-				has_completed_focus = MEWNI_SHARED_POSTUNI_complete_northern_aggression
-				has_completed_focus = MEWNI_SHARED_POSTUNI_side_with_spiderbites
+			JOH = {
+				is_subject_of = MON
 			}
 		}
 
@@ -549,6 +549,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = MON_johansen_trade_idea
 		}
 	}
 
@@ -580,6 +581,7 @@ focus_tree = {
 			LUC = {
 				country_event = MON_event.4
 			}
+			custom_effect_tooltip = MON_new_royal_marriage_tt
 		}
 	}
 
@@ -598,7 +600,7 @@ focus_tree = {
 		available = {
 			STA= {
 				#NOT = {
-					is_puppet_of = MON
+					is_subject_of = MON
 				#} 
 			}
 		}
@@ -904,7 +906,7 @@ focus_tree = {
 		available = {
 			STA= {
 				#NOT = {
-					is_puppet_of = MON
+					is_subject_of = MON
 				#} 
 			}
 		}

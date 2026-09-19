@@ -18,6 +18,14 @@ load_oob = MON
 add_ideas = shared_mewman_matriarchy_idea
 add_ideas = shared_mewman_monster_rights_idea
 
+set_technology = {
+	infantry_weapons = 1
+	tech_trucks = 1
+	tech_support = 1
+	basic_train = 1
+	support_weapons = 1
+}
+
 recruit_character = MON_moon_butterfly
 recruit_character = MON_silent_workhorse
 recruit_character = MON_star_butterfly_advisor

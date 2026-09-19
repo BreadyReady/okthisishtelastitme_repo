@@ -84,6 +84,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SPT/portrait_dragonbeard.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_PIG_rich_pigeon"
+		texturefile = "gfx/leaders/PIG/PIG_rich_pigeon.dds"
+	}
+	
 	###############
 	#Adult version#
 	###############

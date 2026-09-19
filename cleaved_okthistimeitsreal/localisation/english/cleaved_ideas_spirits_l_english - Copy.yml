@@ -39,7 +39,7 @@
     shared_mewman_crisis_citizen_readiness_idea_desc:0 ""
     
     shared_mewman_monster_rights_idea:0 "Neglected Monster Rights"
-    shared_mewman_monster_rights_idea_desc:0 "\n\n\n£monster_rights_popup_desc_texticon \n\n\n\nWhile there have been some attempts to reform Monster rights under Eclipsa, they were largely ineffective, controversial, and were de-facto rolled back because of the Mewman Crisis. Laws being enforced regarding monsters date back centuries, and they are largely tailored around opressing them and holding them back from developing as a group. Depsite this, there are well known loopholes that allow some monsters to propser."
+    shared_mewman_monster_rights_idea_desc:0 "\n\n\n£monster_rights_popup_desc_texticon \n\n\n\nWhile there have been some attempts to reform Monster rights under Eclipsa, they were largely ineffective, controversial, and were de-facto rolled back because of the Mewman Crisis. Laws being enforced regarding monsters date back centuries, and they are largely tailored around opressing them and holding them back from developing as a group. Depsite this, there are well known loopholes that allow some monsters to prosper."
     
     shared_mewman_monster_rights_good_reform_idea:0 "Reforming Monster Rights"
     shared_mewman_monster_rights_good_reform_idea_desc:0 "\n\n\n£monster_rights_popup_desc_texticon \n\n\n\n[Root.GetLeader]'s government publicly intends to reform monster rights laws to uplift the monster community and break free from Mewni's hateful past. "
@@ -60,7 +60,7 @@
     shared_mewman_monster_rights_bad_reform_idea_2_desc:0 "The monsters of [ROOT.GetNameDef] are being exiled from the land at gunpoint. Casualty rates are high, and the hopes of reformers are vanquished. Scattered resistance fights fiercely, as a cornered animal does."
     
     shared_mewman_monster_rights_bad_reform_idea_3:0 "Monster Underclass"
-    shared_mewman_monster_rights_bad_reform_idea_2_desc:0 "The monsters of [ROOT.GetNameDef] are relegated to low-class jobs as economic meat. While Monsters atleast have a place in Mewman society, reformers did not hope for such an outcome. Hopes of migration or earning freedom through veterancy makes Monsters work hard, as a loyal slave does."
+    shared_mewman_monster_rights_bad_reform_idea_3_desc:0 "The monsters of [ROOT.GetNameDef] are relegated to low-class jobs as economic meat. While Monsters atleast have a place in Mewman society, reformers did not hope for such an outcome. Hopes of migration or earning freedom through veterancy makes Monsters work hard, as a loyal slave does."
     
     shared_mewman_crownland_eco_recovery:0 "Recovering Crownlands"
     shared_mewman_crownland_eco_recovery_desc:0 ""
@@ -156,3 +156,7 @@
      MON_state_education_idea:0 "Propagandized Education"
      
      MON_butterfly_points_system_idea:0 "Social Credit System"
+     
+     MON_everything_for_the_queen_idea:0 "Everything for the Queen"
+     
+     MON_johansen_trade_idea:0 "Johansen Trade"

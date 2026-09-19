@@ -319,7 +319,7 @@ ideas = {
 		
 		MON_everything_for_the_queen_idea = {
 			name = MON_everything_for_the_queen_idea
-			picture = xxx
+			picture = idea_generic_political_support
 
 			allowed = {
 				always = no
@@ -334,6 +334,26 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.15
 				recruitable_population  = 0.01
+			}
+		}
+		
+		MON_johansen_trade_idea = {
+			name = MON_johansen_trade_idea
+			picture = ARG_civilian_economy_boost
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.05
+				consumer_goods_factor = -0.075
 			}
 		}
 	} # End Country Bloc

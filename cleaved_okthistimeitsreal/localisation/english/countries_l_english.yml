@@ -7,9 +7,9 @@
  SPI_DEF:0 "The Spiderbite Kingdom"
  SPI_ADJ:0 "Spiderbite Mewman"
  
- TST:0 "United States of America (Future Content?)"
- TST_DEF:0 "United States of America (Future Content?)"
- TST_ADJ:0 "United States of America (Future Content?)"
+ TST:0 "United States of America"
+ TST_DEF:0 "United States of America"
+ TST_ADJ:0 "American"
  
  MON:0 "Moon's Mewni"
  MON_DEF:0 "Moon's Mewni"
@@ -123,7 +123,7 @@
  CAN_DEF:0 "Canada (Future Content?)"
  CAN_ADJ:0 "Canada (Future Content?)"
  
- USA:0 "United States of America"
- USA_DEF:0 "United States of America"
- USA_ADJ:0 "American"
+ WSA:0 "Western USA (Future Content?)"
+ WSA_DEF:0 "Western USA (Future Content?)"
+ WSA_ADJ:0 "Western American"
  

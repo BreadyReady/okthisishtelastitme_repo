@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = gen_nazism
+			ideology = cle_warlordism
 			desc = SPT_dragonbeard_desc
 			traits= { }
 			expire="2040.1.1.1"
